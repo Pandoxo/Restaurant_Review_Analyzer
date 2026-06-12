@@ -1,0 +1,8 @@
+dash>=2.14
+plotly>=5.18
+pandas>=2.1
+python-dotenv>=1.0
+googlemaps>=4.10
+outscraper>=4.0
+requests>=2.31
+google-genai>=1.0
