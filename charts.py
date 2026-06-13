@@ -56,12 +56,12 @@ def build_timeline_chart(reviews: list) -> go.Figure:
     # Weekly counts
     weekly = df.groupby("week").agg(
         total=("review_id", "count"),
-        suspicious=("suspicion_score", lambda x: (x >= 0.6).sum()),
+        suspicious=("suspicion_score", lambda x: (pd.to_numeric(x, errors="coerce").fillna(0) >= 0.6).sum()),
         with_staff=("staff_names", lambda x: sum(
             1 for s in x
             if isinstance(s, str) and s.strip() and s != "[]"
         )),
-        in_burst=("in_burst", "sum"),
+        in_burst=("in_burst", lambda x: pd.to_numeric(x, errors="coerce").fillna(0).sum()),
     ).reset_index()
 
     fig = go.Figure()

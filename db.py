@@ -38,6 +38,7 @@ def init_db():
             CREATE TABLE IF NOT EXISTS restaurants (
                 place_id       TEXT PRIMARY KEY,
                 name           TEXT NOT NULL,
+                type           TEXT,
                 address        TEXT,
                 rating         REAL,
                 total_reviews  INTEGER,
@@ -53,6 +54,7 @@ def init_db():
                 author_name         TEXT,
                 author_url          TEXT,
                 author_reviews_count INTEGER,
+                author_photos_count  INTEGER,
                 rating              INTEGER,
                 text                TEXT,
                 published_at        TEXT,
@@ -96,11 +98,12 @@ def insert_restaurant(conn, restaurant: dict):
     """Insert or update a restaurant record."""
     conn.execute("""
         INSERT OR REPLACE INTO restaurants
-            (place_id, name, address, rating, total_reviews, lat, lng)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+            (place_id, name, type, address, rating, total_reviews, lat, lng)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         restaurant["place_id"],
         restaurant["name"],
+        restaurant.get("type", ""),
         restaurant.get("address", ""),
         restaurant.get("rating"),
         restaurant.get("total_reviews"),
@@ -115,15 +118,16 @@ def insert_review(conn, review: dict):
         conn.execute("""
             INSERT OR IGNORE INTO reviews
                 (place_id, review_id, author_name, author_url,
-                 author_reviews_count, rating, text, published_at,
+                 author_reviews_count, author_photos_count, rating, text, published_at,
                  published_timestamp, language)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             review["place_id"],
             review["review_id"],
             review.get("author_name", ""),
             review.get("author_url", ""),
             review.get("author_reviews_count"),
+            review.get("author_photos_count"),
             review.get("rating"),
             review.get("text", ""),
             review.get("published_at", ""),
@@ -179,7 +183,7 @@ def get_analysis_for_restaurant(conn, place_id: str) -> list:
                a.topics, a.review_depth, a.specificity_score,
                a.fake_signals, a.suspicion_score, a.in_burst
         FROM reviews r
-        JOIN analysis a ON r.review_id = a.review_id
+        LEFT JOIN analysis a ON r.review_id = a.review_id
         WHERE r.place_id = ?
         ORDER BY r.published_timestamp
     """, (place_id,)).fetchall()
@@ -203,6 +207,7 @@ def get_dashboard_summary(conn) -> list:
         SELECT
             rest.place_id,
             rest.name,
+            rest.type,
             rest.rating,
             rest.total_reviews,
             COUNT(a.review_id) AS analyzed_count,

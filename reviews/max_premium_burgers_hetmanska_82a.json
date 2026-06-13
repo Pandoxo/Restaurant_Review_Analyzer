@@ -1,0 +1,1542 @@
+{
+  "restaurant": {
+    "name": "MAX Premium Burgers",
+    "type": "Fast Food",
+    "address": "Hetmańska 82a, 60-219 Poznań",
+    "price_range": null,
+    "total_reviews": 4411,
+    "avg_rating": 4.0
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sd1RtRkVhV0U0VlZWTmJEVnpkamhhYUdzeFIyYxAB",
+      "author_name": "Jul",
+      "author_reviews_count": 73,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jeden z najlepszych i najwyższej jakości burgerów, jakie można znaleźć. Nadzienie i kotlety są soczyste, bułki miękkie. Sałatki są pyszne i oryginalne. Nawet frytki są pyszne na swój sposób.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25neWIwMTNhWGhMVWsxeWNWVkllVGxXUXpWVWNIYxAB",
+      "author_name": "Wiktoria Berkowska",
+      "author_reviews_count": 25,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Przepyszne jedzenie. Najlepszy „fast food” 🤩 dostaliśmy po kubeczku lodów za darmo…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKV2J6VmFWa1ZVYlV4SGJHWlhkRzV1WVdSNFgwRRAB",
+      "author_name": "alimavk",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre tak samo jak pozytywna i sprawna obsługa!!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOdVdreEphamRtVWpOb2FVcE1jMUV6TVhCQ0xXYxAB",
+      "author_name": "Kamala Czekała",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie smaczne, obsługa bardzo miła i profesjonalna, a lokal zadbany.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGTFdTMDVZemhoVWpWbWIyZEhUVFk0YUdsVmVtYxAB",
+      "author_name": "Sylwia Ciemniejewska",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mega dobre i świeże jedzenie. Obsługa perfekcyjna, wszyscy mili i uprzejmi. Zawsze tutaj wrócę",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xreVRUbE9lbTVwUTFWdlVHc3djazlTVDFvMFlXYxAB",
+      "author_name": "Hubert Drzewiecki",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dawid Podsiadło zapraszając na premierę początkowo zapraszał na burgera w MAX Premium Burgers, lokal na medal, brązowy bo dziewczyny lubią brąz",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4NVEweHpTVUV3ZWpoYWN6bGZNMGxTYnpFMU5FRRAB",
+      "author_name": "Adrian Cyraniak",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam serdecznie, jestem tu prawie codziennie. Obsługa bardzo miła i jest bardzo czysto.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5NFltOWFTakZ3WTFSdE1EZDJiMUJVY1dSQ1pFRRAB",
+      "author_name": "Klaudia",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne Burgerki i przemiła obsługa:)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oME1FUnBZVzFMYUhvMFlUUldTMm95VGs5WVRHYxAB",
+      "author_name": "Tatiana",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "fajne wege i nie wege mieso tex git",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONE1IUjZiRTVRV1ZSaWVFVmFSV3hsZDNndE5GRRAB",
+      "author_name": "Maciej Wołosz",
+      "author_reviews_count": 19,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miejsce i super obsługa, bardzo często tu przychodzę!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aTFJIWnlSMjR4UWtkeU1UVkVZMDVOUjJKa1RtYxAB",
+      "author_name": "xviscm",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mega smaczne wege jedzonko polecam!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xweFpUTldjMGg0UVZjMlkyUlZWekJNTW5seVRVRRAB",
+      "author_name": "PCL 13",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre burgery, przygotowywane na świeżo. Miła obsługa. Jemy z partnerką regularnie i bardzo polecamy!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWT1ptUjRjMGQ2VldwelFUVmhjVEZCYWtONWVGRRAB",
+      "author_name": "lipqu",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko ok",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WaGN6VnlTMWhTYzBobmEzSkNhbnBwYUVvME1VRRAB",
+      "author_name": "Timur Pargalava",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obsługa jest do bani.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25BdFZUSlpRbk5oTVUxeE5HMHdWR2huV0hSYVprRRAB",
+      "author_name": "Jakub Brodowicz",
+      "author_reviews_count": 13,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Super pozytywna obsługa, pozdrawiam!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twQ1FXTmZhbEZpYlRseFIwZGxja0pYYkZGYVlsRRAB",
+      "author_name": "Elissavet Antoniadou (Ellie)",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szczerze mówiąc, miałem tu naprawdę miłe doświadczenie. Obsługa była super przyjazna, a w lokalu panowała miła atmosfera. Widać, że pracownicy starają się jak mogą, więc przykro patrzeć, jak ludzie narzekają na rzeczy, które ewidentnie nie…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKQlRWVklXbVk1T0VKcU9IRjNSa2xQYzI1a1ZFRRAB",
+      "author_name": "Arisu Swajdo",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super kurczaki i opcje wege, stale mają jakieś promocje w aplikacji czy kupony. Na plus samoobsługowa stacja z dodatkami. W restauracji jest bardzo czysto, a obsługa jest naprawdę miła i pomocna.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5aWRETTRka2h1UldaTlJXaE1TM2xGVG14dWVXYxAB",
+      "author_name": "Alex",
+      "author_reviews_count": 23,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "Nie przyjmują gotówki, nie mają reszty.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sTVFsWnBkV28zY0VzMFkzRXpabVp6V0VGbVJYYxAB",
+      "author_name": "Anastazja",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "świetna restauracja najlepszy Max w mieście",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeldGVjNPR1Z3VkVGcGFIUk5SVmxqYm5wMk5uYxAB",
+      "author_name": "MCK 1",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Jeden z lepszych fastfood'ów jakie jadłem",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkM1ZEaElOVk00VTFJMU4zcFVMVWQwV0Mxb2JWRRAB",
+      "author_name": "Andri Sauners",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszytko super, dobre jedzenie, miła obsługa.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkSmNITnhSMDlOWTFNeFVFVTRha3hxVjNacGNGRRAB",
+      "author_name": "Anna Kowalska",
+      "author_reviews_count": 23,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Najlepsze shakes. Duży plus za bułki bezglutenowe - wyjątek wśród sieciówek tego typu.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RdFVEWm5aM0pSZFdGRFNVWk5USEJRVjFSeFNtYxAB",
+      "author_name": "Кирил Романушко",
+      "author_reviews_count": 17,
+      "author_photos_count": 60,
+      "rating": 4,
+      "text": "Bardzo tłuste. Byle jak zrobione, ale za 7 zł całkiem akceptowalne.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKb1Mzb3RURk5LUmpsMlExZG5hbWxRU25wRGNHYxAB",
+      "author_name": "mihu makówa",
+      "author_reviews_count": 52,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Super",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aQmJYUjNWQzFwWDNSWmMxTnFhbFpNZG10NU1IYxAB",
+      "author_name": "Marek Jacek",
+      "author_reviews_count": 23,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "To jest jakaś kpina. Druga próba zamówienia on-line i znów porażka, to mało powiedziane. Zamówiony zestaw z burgerem.... przyjechały same frytki z napojem! Nie wiem kto tam pracuje, ale chyba się do tej pracy nie nadaje. Jak można nie…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURNNWZHUVlBEAE",
+      "author_name": "Bartosz Łabencki",
+      "author_reviews_count": 51,
+      "author_photos_count": 3,
+      "rating": 3,
+      "text": "Miejsce samo jest ok . Ale co do jedzenia jeszcze troche musza sie nauczyć za duzo soli w burgerach itp . W szwecji narazie lepiej niz u nas . Aktualizacja nic się nie zmieniło z tym ze Shake są pyszne ale zamówione frytki z serem „Duże” za…",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205emFIRmllVmhyYmxGRlEyOW5YMnhtVEV4RWExRRAB",
+      "author_name": "Андрей Хведчук",
+      "author_reviews_count": 19,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Było mega nice, dziecko było zadowolone. Wpadniemy jeszcze raz 100%\n\nZdjęcia dziecka przed i po",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWbFV6WXlTbE5LTmpOVkxXRjFlWEpKYjNwVWFIYxAB",
+      "author_name": "Krzysztof W",
+      "author_reviews_count": 5,
+      "author_photos_count": 17,
+      "rating": 5,
+      "text": "Super!! McDonald sie chowa....",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsUU0yVjJOR001Y2xkV2VXaERZemxFTW13M1dtYxAB",
+      "author_name": "Robert M",
+      "author_reviews_count": 17,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Najlepsze burgery wegetariańskie są tylko u was",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNemFuTlhXV3R5YmtSTlIwTlJZbmQyTjNsMGMyYxAB",
+      "author_name": "Алексей",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko jest wspaniale",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCVmQwMXRRMlp5TWt4bVRFVTFUVEpHY2t0eU1XYxAB",
+      "author_name": "Mateusz miler",
+      "author_reviews_count": 67,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Szybko, smacznie i dobrze.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUVVIZFNOVU5KVmtscmRXbzVlVGRJVmtadVUwRRAB",
+      "author_name": "Misha Popadic",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nie ma lepszego fast fooda niż Max Burgers, sztos totalny, oby więcej lokali było w przyszłości",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205U1RIWXhUV2g2Wm5JeFpuSmlkVk53Um1kb1NrRRAB",
+      "author_name": "Jag Dom",
+      "author_reviews_count": 257,
+      "author_photos_count": 32,
+      "rating": 4,
+      "text": "Jak na typowy fast food bardzo dobre wege pozycję jak i mięsne. O wiele lepsze niż w innych sieciówkach. Co jakiś czas wracamy.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURSXzRUemlBRRAB",
+      "author_name": "Jakub Loffler",
+      "author_reviews_count": 473,
+      "author_photos_count": 115,
+      "rating": 5,
+      "text": "Moja ulubiona sieciówka z burgerami. Zawsze mają spoko promki. Obsługa w tym lojalu jest bardzo miła i pomocna. W lokalu czysto.",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VelowRnljWHBwY2tSemNEQTVlVWt3YldwamMyYxAB",
+      "author_name": "Szymek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nigdy nie byłem w gorszym fast foodzie. Zamówiłem burgera z kurczakiem który smakował starym olejem oraz cheeseburgera który śmierdział.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0SVduVmFYek5aY1RjMFozWlZWalJ4YWpKNUxXYxAB",
+      "author_name": "John Locke (John Malucha)",
+      "author_reviews_count": 14,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Zjechaliśmy z trasy, żeby tu zjeść. Znamy sieć burgerowni Max ze Skandynawii, niestety nie ma ich w Niemczech :(…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sSlJWSlRMV1ZUTWpkMk9FRXhiRTQzVGxScFlVRRAB",
+      "author_name": "Eve Jankowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "zamówiłam burgera wege i dostałam kawałek bekonu schowany pod ser🙃…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0MlFVUmpOMjlJV1dOcFVFTkdSa2RRVm1oaGQwRRAB",
+      "author_name": "Morder",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jakość i smak jedzenia są dalekie od ideału. Frytki są przesmażone, a kotlet burgerowy wygląda, jakby był zamrożony od miesięcy. Sos serowy jest po prostu obrzydliwy, zupełnie pozbawiony smaku sera, a konsystencją przypomina ciepły majonez. Zdecydowanie nie polecam.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tobVppMW1aV1JPUnpOWmVtVk9ZM1ZFVm1GNE5XYxAB",
+      "author_name": "Adrian Karmiński",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "najlepsza lokalizacja sieciówki w Poznaniu, nigdy nie ma dużych kolejek, jedzenie niezawodne, ciekawe stoliki na ''trybunach''",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKTVoxQnpSbmRIZFdJNWVEUnNTWGxoTkhGc1dHYxAB",
+      "author_name": "Stanislav Hryshchenko",
+      "author_reviews_count": 250,
+      "author_photos_count": 216,
+      "rating": 4,
+      "text": "Burgerek dobry taki delikatny w zestawie były frytki które były trochę przysmażone i do tego sos też bardzo dobry. Klimat w restauracji jest bardzo fajny dużo miejsca i wygodne siedzenia.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCb05qSTRRbXMzVVZCNGNsOWtRbWhNYW14Qk5tYxAB",
+      "author_name": "Sassy Queen",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Wszystko byłoby super ale kolejny raz zamówiłam plant based a dostałam zwykłego burgera, mimo że w środku było mało klientów. Totalny zawód",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSbVlqaE9SM2xSWkVOblFWOXFZMUZwVVV4VWNHYxAB",
+      "author_name": "JURA FUTURA official",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 4,
+      "text": "Zawsze shake był powyżej górnego obrzeża kubka. Teraz dają coraz mniej😅. Smak też jakiś słabszy jest. Już nie to co wcześniej.☹️…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRldqSnBaRU42VmtKeFFXeDVWVVIxUlZwM1ZWRRAB",
+      "author_name": "andzior 70",
+      "author_reviews_count": 474,
+      "author_photos_count": 777,
+      "rating": 4,
+      "text": "Trochę powolna obsługa to jedyny minus tego miejsca",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWWWFXZDFObEZzUlhNME9UaFhaREI1TmpkUU5XYxAB",
+      "author_name": "Caliston Alleyne",
+      "author_reviews_count": 20,
+      "author_photos_count": 29,
+      "rating": 5,
+      "text": "Zawsze czysto i miła obsługa. Szeroki wybór dań... napojów... ojej.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQyOTk2aVF3EAE",
+      "author_name": "Alpha Type",
+      "author_reviews_count": 780,
+      "author_photos_count": 329,
+      "rating": 4,
+      "text": "Smacznie. Lepiej niż u konkutencji. Dla mnie jednak wszystkie burgery za slone.",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWaVdXRkJTMFpzYUdJM1ZWZ3ljelozV2pCS1pFRRAB",
+      "author_name": "Magdalena Chojnacka",
+      "author_reviews_count": 48,
+      "author_photos_count": 16,
+      "rating": 5,
+      "text": "Czekam od kilku lat aż otworzycie miejsce w Bydgoszczy. Macie najlepszą ofertę wege w całej Polsce. Jedzenie jest bardzo dobre, a obsługa miła i pomocna.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkNUxWUTJTVGRMT0hkVFN6bHNUVTFJVTJSMGEyYxAB",
+      "author_name": "Oleksandr Bahrytskyy",
+      "author_reviews_count": 12,
+      "author_photos_count": 2,
+      "rating": 2,
+      "text": "Najpierw trzeba poczekać kiedy pan wyda zamówienie a już potem dostaniesz GOTOWY burger jako klient.3 razy prosiłem wydać gotowe jedzenie ale słyszałem tylko że muszę czekać . Na co czekać? Nie wiem",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paV1ZVeFdWRzlqU0dsWGNtczJaVlpITFhGdmFHYxAB",
+      "author_name": "Hlynianyi Vladyslav",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Zamówiłem dostawę przez Uber Eats. Dostałem zwykłego burgera bez sosu, sałatki, pomidora, bekonu itp. Wybrałem te opcje w aplikacji, ale i tak dostałem pustego burgera. Obrzydliwe.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxb1UxZFNkSGhxTVhFNWFrbFNPR2MwWlhSNk1FRRAB",
+      "author_name": "Валерия Сушко",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Fatalna obsługa. Zamówiłem jedzenie przez kuriera, a kurier czekał 40 minut na zamówienie, mimo że restauracja oznaczyła je jako gotowe.🤯😡…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeFQySkZVWGx6WmpWa2NpMHlaV2RSU21kTE0wRRAB",
+      "author_name": "Anna Sz",
+      "author_reviews_count": 63,
+      "author_photos_count": 51,
+      "rating": 1,
+      "text": "Restauracja niepoważna. Po to zamawiam przez stronę, a nie pośredników, by mieć gwarancję, że zamówienie dotrze o podanej porze, a nie przez jakąś nieodpowiedzialną firmę, gdzie oszukują, zatrudniają jakieś przypadkowe osoby, które…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oVGMyRndWWFZvV1MxMVQzQlpTRTl0UmxWUU5YYxAB",
+      "author_name": "Карина Миронова",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie polecam zamawiania z dowozem z tego miejsca, ponieważ przygotowanie zajmuje bardzo dużo czasu. Czekałem 1,5 godziny. Jeśli chcesz zjeść, lepiej zamówić z innego miejsca, bo zgłodniejesz.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kTmJtOVdZekJIWVZCQk5VeG1iMGREU1djMVFYYxAB",
+      "author_name": "Zena Luloki",
+      "author_reviews_count": 6,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Bardzo smaczne, jedno z moich ulubionych miejsc do jedzenia burgerów",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVMlJuaGphRzA1V0dZeVlYQlFTekV6TFZGdGNXYxAB",
+      "author_name": "Kamilek Games",
+      "author_reviews_count": 68,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Nigdy nie jadłem w gorszym miejscu. Postanowiłem zrobić test tej sieci fastfoodów noi niestety w tym przypadku jest tragicznie... Czystość w środku jak i na zewnątrz przeciętna, natomiast jedzenie to po prostu dramat, coca cola rozwodniona…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMWRsQmFNVU41Y0ZsT1JURlBVM2RUZWxaRVVYYxAB",
+      "author_name": "A5R1E7",
+      "author_reviews_count": 14,
+      "author_photos_count": 13,
+      "rating": 1,
+      "text": "Zamiast burgera rywala dali jakieś pikantny syf, gdzie nie mogę jeść ostrego xD. Nadmienię, że to już druga sytuacja gdzie pomylone zostało moje zamówienie 2 razy z rzędu. Od dziś będę weryfikował swoje zamówienie z pracownikami przy kasach skoro zdarzają się takie pomyłki. Pozdrawiam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toT1VXTlVVV2R2UWpCblJpMXVTbXBWUmxsRFJIYxAB",
+      "author_name": "Александра",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Najlepsza restauracja typu fast food wszech czasów. Burgery są ogromne i zawierają mnóstwo wysokiej jakości składników. Moim ulubionym daniem są paluszki serowe; często zamawiam ich 10-15. Nie zawsze jest tłoczno, lokal jest czysty, a…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sdVlsQXhOV3hTWHpCQlVWaGhXbWwyTnpRNE5IYxAB",
+      "author_name": "Taki se koleś",
+      "author_reviews_count": 53,
+      "author_photos_count": 97,
+      "rating": 5,
+      "text": "Jedzenie dobre tak jak u innych. Różnica jest jedynie we frytkach na plus. Są cienkie bardziej chrupkie i krótko pisząc znacznie lepsze. Lekko słodkie co idealnie pasuje. Mają frytki z batatów także.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pNNGFtbERVVTlaWjBGTVpHSm5iMWMwUVc4d1QyYxAB",
+      "author_name": "Jakub Kowalski",
+      "author_reviews_count": 26,
+      "author_photos_count": 6,
+      "rating": 2,
+      "text": "Przesolony turbo cwel ..mała kanapka dla dziecka za 31 zł ... Odradzam z całego serca",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxd1NteDRlWGd0YlRKWFVWbFlZbmx0UmpVelIzYxAB",
+      "author_name": "Michal Kraczek",
+      "author_reviews_count": 21,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetne miejsce na pysznego burgera! Jedzenie pierwsza klasa – składniki świeże, a smak zdecydowanie powyżej standardu sieciówek. Klimat lokalu bardzo przyjemny, idealny na szybki, ale jakościowy posiłek. Obsługa w porządku, choć przy większym ruchu mogłoby być nieco sprawniej. Mimo to, z czystym sumieniem polecam!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0aVNHSlphRXBoVkdwWlVFWTBUakZ3TW5wRmFGRRAB",
+      "author_name": "Mikołaj Bąkiewicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Zamawiałbym częściej, ale frytki są paskudne - zawsze lądują w koszu.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205UVVXcFNkRkZFVmpGNVRVaHdVV0pFWTNaZlQzYxAB",
+      "author_name": "Kyrylo Khandohin",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Zamówiłem dwa zestawy.\nBurgery i frytki.\nLepiej było zamówić KFC.…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGSWRsUkxaV3hqZG1SVFdIaFpUVFZQVVU5VVVFRRAB",
+      "author_name": "Xelti",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Papierek w które były zawiniete burgery miały dziwny zapach. MOżna stwierdzić, że śmierdziały. Nie jestem w stanie opisać tego zapachu.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pndE5WTmpOa1kzZVdSc2EwbzBZVW8wVkdsNVlVRRAB",
+      "author_name": "Paweł Siadaczka",
+      "author_reviews_count": 175,
+      "author_photos_count": 6610,
+      "rating": 5,
+      "text": "Szybka i sprawna obsługa, dodatkowo miłą obsługa. Polecam, pewnie wrócę jeszcze.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUN5c1phWXFnRRAB",
+      "author_name": "Zbigniew Przybyła",
+      "author_reviews_count": 316,
+      "author_photos_count": 758,
+      "rating": 4,
+      "text": "Jestem pozytywnie zaskoczony jakością   burgerów,  bardzo smaczne,  frytki  ciekawie pokrojone,  nie mój klimat ale reszta spoko.  Fajna alternatywa dla \"Macka\"  jak ktoś lubi fast food  to miłe zaskoczenie  :)",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SWldIcG9Ta1o2ZGxNMVEybENNVXh5UzBVM2NrRRAB",
+      "author_name": "Adam K",
+      "author_reviews_count": 17,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Burger na miejscu zimny, frytki papierowe, coś po kosztach idzie teraz",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURVMXBfeFFREAE",
+      "author_name": "Kamil N",
+      "author_reviews_count": 63,
+      "author_photos_count": 17,
+      "rating": 1,
+      "text": "Krótko: frytki smakują jak laysy solone, nuggetsy smakują jak paluszki rybne, mięso w burgerze jalowe, a frytki z sosem serowym to juz nie ma co pisać, jeden wielki miszmasz",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tONFJGcFZlSGxwZG5ob0xYRjNVVlpoUzFoNGNYYxAB",
+      "author_name": "MATEUSZ CIEŚLEWICZ",
+      "author_reviews_count": 19,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Warto wpaść tu na chwilę choćby dla wystroju wnętrza",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWFVWQXlZa2h4V200dFRsSjVUMm8xV2t4TFRVRRAB",
+      "author_name": "Rob",
+      "author_reviews_count": 107,
+      "author_photos_count": 422,
+      "rating": 3,
+      "text": "Niestety ale to juz nie to samo mięsiwo co na start, fryty mega słabe i zimne, dziwne smakujące sosy... dora jakość tu była, dziś słabiutko :((",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsdGMyOW9VVXg1ZFV0VFpqQlBjM2hVWkRCM2RHYxAB",
+      "author_name": "Okti Cr",
+      "author_reviews_count": 15,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Nie wiem jak to moze komuś smakować. Mieso w burgerach zylowate śmierdzi nie miłosiernie gryz i do śmieci. Moze lubicie wywalic 80 zl zjesc frytki wypić napój a reszta do kosza DRAMAT!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGS1ZXSXRTRlJUYTBaaFdqWk1UbTB6TVVocWRGRRAB",
+      "author_name": "Michał G",
+      "author_reviews_count": 135,
+      "author_photos_count": 335,
+      "rating": 5,
+      "text": "Polecam miała obsluga",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWc1pEVkJhbkZqU3pKWWMzbDRaVlpWWkZseGNrRRAB",
+      "author_name": "Jerzy",
+      "author_reviews_count": 17,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Ogólnie spoko, ale mięso wołowe jest bardzo dziwne i zdecydowanie bardziej siada mi kurczak.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KbmNqUkxWRFkzYkU1MGIxaGxVVEJyWkRKa05uYxAB",
+      "author_name": "Omar",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Moje ulubione miejsce, jeśli chcesz zjeść dobre burgery.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OTGFYVmFTWE5aZFUxdlJIUm5la0pKWkhwT1NXYxAB",
+      "author_name": "Mertcan fidan",
+      "author_reviews_count": 8,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "🫶🏻🫶🏻🫶🏻🫶🏻…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkSU5XaEZOMW94ZVRnMFFuRkRNVWROUXpGTVluYxAB",
+      "author_name": "Yuxing Chen",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obsługa w tej restauracji pozostawia wiele do życzenia w porównaniu z innymi lokalami tej sieci. Posiłki podawane są bardzo długo, a mimo że nie było innych zamówień, moje zostało pominięte. Personel również wykazał się nieprofesjonalnym…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pORlUzVkJWVmx5YzNrNVUyMVFWV2RWUWpkcVFtYxAB",
+      "author_name": "Artur G.",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Stek prawie pół surowy a wielkość bułek to jakaś tragedia... cheesburger wygląda jak mini burger na 4kęsy..\nNie polecam",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OS2RtMVJXVlJsZW5wVGVVOW1kVEJ0UWxwUWNuYxAB",
+      "author_name": "Polska Agenda Srodwiskowa.",
+      "author_reviews_count": 52,
+      "author_photos_count": 10,
+      "rating": 1,
+      "text": "Tragedia  frytki zimne  ,burgerjak z lodówki katastrofa oddał bym ale jestem w pracy",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pobmJFeGFkWHBZUm1OZmFHMVVWRzF0VlhaUFIxRRAB",
+      "author_name": "Andrii Sapiton",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jeśli chodzi o dostawę, taką jak Glovo czy Uber. Czas oczekiwania na zamówienie jest okropnie długi. Zrób coś z tym; to pieniądze, których nie zarobiłeś! Sprawdź, jak działa McDonald's.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkU1pEZFBXa3RaU0VsUk1XbDZSR1UxVUdoUExYYxAB",
+      "author_name": "Richard Stoeger",
+      "author_reviews_count": 31,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Pochodzimy z USA. Jest tam kilka dobrych burgerowni. Pierwszy raz jadłem w MAX Premium Burgers. Gorące, gotowe w kilka minut. Krążki cebulowe były świetne. Frytki też. Burger Frisco dał nam 10/10!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1emNHWXRNbWxZVDBKeFFrOTVlSE4yT0dwMk1IYxAB",
+      "author_name": "Łukasz Kuki",
+      "author_reviews_count": 28,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Naprawdę robią to lepiej :) polecam :)",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wRlVEZExRbmRJYlVrMmRtZzNRakJJV2t4clRIYxAB",
+      "author_name": "Pauli R.",
+      "author_reviews_count": 44,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Fajne burgerki były i fryteczki i mała kolka. Stoliki widziałam, że profesjonalnie czyszczone płynem odkażającym. Spoko.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SM1J6QmFObUppVWxoblltbGxSRmROUW14UVprRRAB",
+      "author_name": "Dima Dmytro",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Fatalna restauracja, 30 minut oczekiwania!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taNFZUazVRbkY2ZVVSeldEUnFkbVJOY0ZOc1ZsRRAB",
+      "author_name": "Ewa Rakowska",
+      "author_reviews_count": 7,
+      "author_photos_count": 8,
+      "rating": 2,
+      "text": "Kiedyś lubiłam max burgers, niestety obecnie wege mięsko (crispy, nie plant beef) zarówno w burgerze jak i nuggetsy (bo domyślam się że jest to dokładnie to samo ale w innym kształcie), jest przesączone tłuszczem do tego stopnia, że gryząc…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWMGRFZEpWVTVUY0ZvdGVtcExlRlJKVGt0VmNtYxAB",
+      "author_name": "Natalia Bogdan",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Byliśmy w restauracji kilka razy. Jeżeliby wszystkie instrukcje były zawsze wykonane to jedzenie całkiem pyszne. Uwielbiam że mają opcję wymiany bułki na liście sałaty. Ale! Prawie każdego razu coś jest nie tak z zamówieniem! I najczęściej…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKeVVrUmFOWEZJT0ZReFNuTkZhMG94WjJocmVXYxAB",
+      "author_name": "M Z",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Tragedia.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONlNIbGpPVWRUYkdwVFRVcDVZbGRDWkZRelIyYxAB",
+      "author_name": "Rafał Duda",
+      "author_reviews_count": 15,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dużo ludzi ale frytki fantastyczne najlepsze jakie jadłem 🍔🍟…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUM2NllxRGxnRRAB",
+      "author_name": "jasioprezes",
+      "author_reviews_count": 21,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła i szybka obsługa, wszystko udało się bez problemowo zamówić, na sali było czysto, wszystkie burgery zamówione oraz dodatki bardzo dobrej jakości prawidłowo spakowane oraz podane. Serdecznie polecam",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNRbWZLVXlBRRAB",
+      "author_name": "Mateusz Miądowicz",
+      "author_reviews_count": 38,
+      "author_photos_count": 319,
+      "rating": 5,
+      "text": "Premium burgers w nazwie jak najbardziej się zgadza. Polecam",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCWmNVc3ROSFZsZFZGdlpXZERjMUptZVhWRlZIYxAB",
+      "author_name": "Paulina Łapińska",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Chciałam docenić Pana, który dzisiaj około 13.30 wydawał mi zamówienie. Spóźniłam się po nie kilka minut a Pan zadbał o to żebym dostała ciepłe zamówienie. Było to bardzo miłe. Dziękuję i doceniam ten gest!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OZmJIUnVTbkE0ZG1aU05IRm5XRlF5WVVKVlZrRRAB",
+      "author_name": "Michał Pieszczyński",
+      "author_reviews_count": 140,
+      "author_photos_count": 115,
+      "rating": 1,
+      "text": "Zamówiłem na wolcie, mieszkam 10min od lokalu. Frytki zimne, jak by stały tam długo i pojechały \"żeby nie było\", burger ciepły, ser smażony ciepły. Frytki to ewidentnie jakiś odpad. dramat",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxT2JtVldkelpyYkdwSVMxOUJOMHhJT1RkVGRWRRAB",
+      "author_name": "Rafał Staszczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jedzenie smaczne i szybko dostarczone, szkoda tylko że otrzymuje się niekompletne zamówienie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ONWEwdFljMHROUkdOVlVGaExSVFJUYzFNemFFRRAB",
+      "author_name": "Sandra",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Obsługa niestety nie przyjemna, pan opryskliwy i strzela miny gdy grzecznie zapytałam po 15 minutach stania przy kasie czy ktoś obsługuje kasy. Brak organizacji. Jestem w stanie zrozumieć wzmożony ruch, ale prychanie na klienta już nie jest fajne.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toMVgzQkRVMjlwUnpVNWFXMDNjM05zVjFoYVEzYxAB",
+      "author_name": "higher state of mind",
+      "author_reviews_count": 2,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "To co dzieje się w tej restauracji z zamówieniami z dowozem to kompletna patologia. Pracownicy kompletnie olewają osoby które składają zamówienia przez aplikacje typu Glovo/Uber/Wolt oraz kurierów, którzy czekają na odbiór wydając na…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOeVlXSjVlbEF5UlhOdlJVUnJabXhMVG1sTFVuYxAB",
+      "author_name": "Віталій",
+      "author_reviews_count": 1,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Chcę poinformować o zaniedbaniu ze strony pracowników lokalu. Przybyłem do lokalu o godzinie 19:58 16.11.2025, podałem numer zamówienia i udało mi się je odebrać za pośrednictwem obsługi klienta Volta, ponieważ pracownicy w ogóle mi nie…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4Rk5ETktRMVprY0hCaE9FMWZhVVJ1YzFOTFZsRRAB",
+      "author_name": "Pożeracz",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko na 5 gwiazdek: obsługa, jedzenie, czystość, wygląd lokalu.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WdGVrbHJNa2h0VERKWGR5MDFhbTVVUlcxdFVGRRAB",
+      "author_name": "Szymon Kruczkowski",
+      "author_reviews_count": 10,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Burgerek za 15 zł pyszny, najlepszy fast food moim zdaniem",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xveWNqRjZkRXB0YUZkWGFVUXhWSHBsYUhoRlpuYxAB",
+      "author_name": "Karol Piotr Antoniak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie.\nMiła atmosfera.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4M2RXTkNabUZpWVRObWJGbERjRkF4YTBwNmEwRRAB",
+      "author_name": "Afferka",
+      "author_reviews_count": 37,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Możliwe, że to po prostu pech, ale mój burger smakował tylko i wyłącznie pieprzem, nie było czuć żadnego innego smaku warzyw czy sera, tylko pieprz. Przykro mi bo nigdy nie oceniłam żadnego miejsca na 1 gwiazdkę, ale no wypala buzię - a nie…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxb1h6QXhhRXBmYTNCWFpHVjFXRVptWDFkZk9XYxAB",
+      "author_name": "Alina",
+      "author_reviews_count": 29,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Kocham plant burgery w maxie, najlepszy wege fast food w Pozku",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUN0eklPMWVREAE",
+      "author_name": "Maciej Kostka",
+      "author_reviews_count": 293,
+      "author_photos_count": 300,
+      "rating": 2,
+      "text": "Jedzenie z najgorszych składników. Sałatka może z 30% składała się z sałaty i warzyw, reszta to jakaś breja z kaszy i inne rzeczy konserwowe z puszki. Mięso to MOM sklejony do \"kupy\" kawał czegoś co zostało wrzucone na grilla i podane jako…",
+      "published_at": "Edytowano 7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KUlQxRkdjMkprYjJRNFpVVlRXRXAyUTFrMlRtYxAB",
+      "author_name": "socha136",
+      "author_reviews_count": 202,
+      "author_photos_count": 55,
+      "rating": 5,
+      "text": "Bardzo miła obsługa klienta 😊☺️👽😋…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psVVEzQTJjbVIwVG1sMVptbE1SM2RMTmxocVlrRRAB",
+      "author_name": "Weronika Mazurek",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jedzenie dobre, szkoda, że nigdy nie można liczyć na to, że dostaniesz to co zamówiłeś. Czy Glovo, czy pyszne.pl nigdy nie dostałam pełnego zamówienia, zawsze czegoś brakuje (już pominę sytuację, gdy czekaliśmy na dostarczenie zamówienia 3…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20wNWJrRlVlWGx6VG5kS1VqSTViblpYV2tKR09HYxAB",
+      "author_name": "Amr_ramadan18",
+      "author_reviews_count": 13,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Niesamowite\nZawsze pytaj ich o kupony",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwYWRGWnhSSEY1VVVWVmNFMVRTVTlrVEhSVmJtYxAB",
+      "author_name": "LLM",
+      "author_reviews_count": 23,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Jak zawsze kedy przychodzi do restauracji kurier po zamówienie wszyscy pracownicy robią wygląd. Że go, nie wiedzieli,zaczynają biegać gadać sobie no tu tylko nie wydawać zamówienie.…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sa1VVTkhhMkV6TVRWRWJtcG1ha3hGYWpaNWJuYxAB",
+      "author_name": "Kamil Marcinczak",
+      "author_reviews_count": 13,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Oczekiwanie na dostawę ponad 2 godziny. Zadzwoniłem do restauracji po informację co z moją dostawą. Pani na infolinii stwierdziła, że to nie ich problem, tylko pyszne.pl zawinił i nic nie może zrobić. Ewentualnie mogę czekać. Spytałem czemu…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twclEwRnJhV2RwYlhWMmNERXdhMDUyYms1TVJWRRAB",
+      "author_name": "Magdalena G.",
+      "author_reviews_count": 15,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Po prostu, za wszystko. Jedno wielkie nie, a to było moje drugie podejście do max burgers:(",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnMlkzTlpOVmRSZUhrNVJTMTViMVp4YjFkNlVVRRAB",
+      "author_name": "Piotr Radkowski",
+      "author_reviews_count": 79,
+      "author_photos_count": 9,
+      "rating": 1,
+      "text": "Mięso strasznie śmierdzi. Zamówiłem frisco burgera czy coś w tym stylu, capił tak że nie nie dało się tego zjeść. Sanepid widzisz mnie ?",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkRWFGOU9hUzAzV2xkRmRERXljMnBOUTNwNWEzYxAB",
+      "author_name": "Kamil Zacny",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre burgery w środku siedzi trochę bezdomnych ale w sumie nie przeszkadza to w jedzeniu. Jedzenie naprawdę daje radę\nNa kolacje extra!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WRlF6SlZabDlwYVhWdVFsTnNSR1owY1MxYVRGRRAB",
+      "author_name": "Patryk Dąbrowski",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "wielka miłość",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWeWRrMXRjQzAzZUV4cFpscFNSM2szYmxoaFpIYxAB",
+      "author_name": "Mika the Raccoon",
+      "author_reviews_count": 17,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Kupiłem burgera z grillowanym kurczakiem, dali mi burgera z sałatą i pikantnym panietowanym kotletem. Ok zdarza sie. Zamówiłem drugi raz tym razem sałatke z dodatkowym grillowanym. Dostałem z samym halloumi. Sorry ale macie raz dziennie grillowanego kurczaka może zamawianego i to już jest żałosne",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4bVFraFRlbWxrYkRCTmFUbFRNelEzYVc5SU9WRRAB",
+      "author_name": "Kamil",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "W aplikacji na uberze w miejscu gdzie w każdej innej restauracji znajdują się składniki do DODANIA. W MAX burgers jakaś wielka głowa dodała składniki do USUNIĘCIA XD. No i chyba regularnie już dostają zamówienia na burgery z suchą bułką i…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxaU1FbG5TbWcwTjNKWFozVnZMWFJPTmtwVUxXYxAB",
+      "author_name": "Benio Escher",
+      "author_reviews_count": 44,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Jadłem tam rok temu. Nie polecam jedzenie złej jakości",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZeWVFaEJYM0JMZEVOWlJteHlZbHBmTmpsQk4zYxAB",
+      "author_name": "Kinga Grypczyńska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówiłam wczoraj sałatkę z dodatkowym składnikiem (halloumi), który dostałam ale głównego składnika czyli kurczaka to już nie 👎🏼…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OMVJHOTVSRFIyUnpRdE1USnBjV0Z0VG14d1gyYxAB",
+      "author_name": "Marcin Nowakowski",
+      "author_reviews_count": 13,
+      "author_photos_count": 14,
+      "rating": 1,
+      "text": "Śmierdzący burger, cebula w nim zgniła . Odradzam",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMlVqZEVkVUpTYUVrMVUzRnpWelp2YTIwNFdYYxAB",
+      "author_name": "burusa",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOMFQyUkdZMjFRTVZSTGNFazFUSFJYVmt0TmIyYxAB",
+      "author_name": "Kacper Nowacki",
+      "author_reviews_count": 61,
+      "author_photos_count": 28,
+      "rating": 1,
+      "text": "Długo czekałem, obsługa bez zainteresowania. Burger średni, nic specjalnego. Reklama lepsza niż jedzenie – nie polecam.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKbVlUVTNNMjFLYlMxbE1sQlNNVWRzT0dsR1QzYxAB",
+      "author_name": "mola",
+      "author_reviews_count": 22,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "dosłownie nie ma lepszego fast fooda",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZME5FeGlSMnN3VTJ0bWMzSTNSblZ3TXpablkyYxAB",
+      "author_name": "Zuzanna G",
+      "author_reviews_count": 30,
+      "author_photos_count": 24,
+      "rating": 5,
+      "text": "najlepszy fast food z najlepszymi opcjami wege",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OWlRVUnBaa3hUYVRSaFkwZzFkbEF0VGpKUk9IYxAB",
+      "author_name": "Sławek Wieczorek",
+      "author_reviews_count": 119,
+      "author_photos_count": 36,
+      "rating": 5,
+      "text": "Smacznie i dobre jedzonko.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taaWMwWkxiRkJQUkVkM05XeEdNRTB0Tm5kemVHYxAB",
+      "author_name": "Юлия Пилипенко",
+      "author_reviews_count": 10,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Szybkie i smaczne jedzenie. Uwielbiam ziemniaki serowe z jalapeño. Polecam double frisco z ziemniakami serowymi z jalapeño!\nDużo wolnych miejsc i szybkie podanie jedzenia.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaVoyVmFaVEJ6ZVRoSWF6SjViV3RWWVV0eFZWRRAB",
+      "author_name": "Wiktoria Nowodworska",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pan o postawnej sylwetce z drive super uprzejmy! Miła obsługa, dodatkowo kupony włożył do torebki. Taka obsługa na medal🥇\nPlus frytki z max burgers są moim zdaniem pyszne, takie prawdziwe i sos blue cheese konkuruje z Mc!…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURudHVtek53EAE",
+      "author_name": "Mikołaj Nowakowski",
+      "author_reviews_count": 182,
+      "author_photos_count": 298,
+      "rating": 5,
+      "text": "GDYBYM miał stworzyć fast food z burgerami i miałby on nazywać się z uwzględnieniem maksimum smaku burgercia i maksimum małej ceny i podkreślając jak maksymalnie czysto jest w środku i jak maksymalnie ładne i miłe Panie bym zatrudniał to nazwałbym go MAX BURGERS ok",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNzaTU3bzR3RRAB",
+      "author_name": "Kasia N",
+      "author_reviews_count": 197,
+      "author_photos_count": 210,
+      "rating": 5,
+      "text": "Ostatnio ceny to kosmos.... nie adekwatne do jakości i wielkości porcji... szkoda.\nFrytki chłodne i flaki, czyli z odstawki...",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUMtZy0zM2h3RRAB",
+      "author_name": "Romаn Valerievich",
+      "author_reviews_count": 15,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Powolna, powolna realizacja zamówień, okropna obsługa",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poamR6RTVZV1p3U0cxbGNsaG9ZVmQ0ZVhoa2RYYxAB",
+      "author_name": "Kamil",
+      "author_reviews_count": 38,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "Średnie burgery w wysokiej jak na sieciówce cenie, lepiej wydać kasę w prawdziwej burgerowni.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OeVZ6SjFRVEJQZDNkaWNWWlJWMUZGUmxOUlUwRRAB",
+      "author_name": "Bartłomiej Apelan",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsRmIwMVZkbTQ1VmpVNVRucE1OVms1Y0ZwRFRFRRAB",
+      "author_name": "x",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Byłam pierwszy raz w tym fastfoodzie i już wiem, że nie wrócę. Burgery średnio smakowo, mięso w cheeseburgerze dziwnie pachniało. Frytki suche, mozarella stix też bardzo średnie, tylko sosy spoko. Dolewka płatna za każdym razem 3zl więc też…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OQlFrVlhabE5JUWxWUFdXbElVa054YmkwM2VGRRAB",
+      "author_name": "Aro 333",
+      "author_reviews_count": 62,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Czysto, mily pan wydający jedzenie.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCRGVVbE9MVlZzVkZsd2NqWkdkbFZ1U0VGWFVHYxAB",
+      "author_name": "barteek",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Mimo pustej restauracji czas oczekiwania niesamowicie długi. Jedzenie średnie",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1YU1VbEVhRmw0ZHpKaWMwZzFibmwwZHpRMGJYYxAB",
+      "author_name": "Patrycja Rzepka",
+      "author_reviews_count": 134,
+      "author_photos_count": 126,
+      "rating": 5,
+      "text": "Duży wybór menu, bez kolejek, surowy,ale klimatyczny wystrój.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxWFRYVnVOREZ2WjJ0eWFteEJNa0YzVVRoR2VIYxAB",
+      "author_name": "eugeniusz Przypadek",
+      "author_reviews_count": 67,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Miałem do wyboru Mc Donald's i Max'a, jako że mc sprawdzony to udałem się do Maxa, przynajmniej wiem że więcej niż tu nie przyjdę, frytki niby robione samemu, lecz wiórki, skrzydełka, no ok ni jest to KFC ale da się zjeść, największe…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25waVgwdFJlbGM1TlVaWVZGSkliR1ZSZEhsbE9XYxAB",
+      "author_name": "Piotr P",
+      "author_reviews_count": 26,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Zamówiłem zestaw za 42 złote frytki zimne na początku, burger letni zdecydowanie nie polecam.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psNmVVOXdaRTlMVUdNeGRsWklVV2RrV2poa1VtYxAB",
+      "author_name": "Nick Diamond",
+      "author_reviews_count": 54,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Epickie. Najlepsze burgery typu fast-food.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOVWVIWkVaWFpCYjFocFJHeHZVSFp3YW5SVFVWRRAB",
+      "author_name": "Paulina Ełcka",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam lubię jeść burgery po pracy",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aWmN6TnVhSEpYT1ZBNWJYQndXbTFHTW5jdGVWRRAB",
+      "author_name": "Luca Silvano Ermler",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obrzydliwe!",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKcVMwbG1jRkZWVXpFMk16ZERZbnBFVW1VemJrRRAB",
+      "author_name": "Marta M",
+      "author_reviews_count": 61,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Sieciówka, ale z przyjemnym klimatem, o ile w takim miejscu można o nim mówić 😉. Jedzenie znaczeń, na uwagę zasługuje możliwość wzięcia burgera w liściu sałaty, zamiast w bułce. Bardzo fajne promocje.…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZMWN6TXRXQzFqVm5OTGFFMTRjRll3WkhkUFQwRRAB",
+      "author_name": "Paweł Mikołajczak",
+      "author_reviews_count": 52,
+      "author_photos_count": 41,
+      "rating": 3,
+      "text": "Tak sobie jak dlamnie zjadłem 2 burgery krążki cebulowe picie i zapłaciłem ponad 85 zł wpaść i przekąsić to tak iść na obiad to nie dla mnie",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214TFQySldkMHRsUWxZd2NWVTBZamRoVldSTlFuYxAB",
+      "author_name": "Kinga",
+      "author_reviews_count": 145,
+      "author_photos_count": 48,
+      "rating": 5,
+      "text": "A ja tam lubię tę sieciówkę i ten konkretny lokal  i złego słowa nie powiem ;) duży plus za duży wybór wege pozycji.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRdFIzUlZiM0JJUTJ4U056RmlhMHBZWWxkUGJsRRAB",
+      "author_name": "Natasha Klyu",
+      "author_reviews_count": 38,
+      "author_photos_count": 106,
+      "rating": 3,
+      "text": "Burgery premium to nic innego jak bułka i kotlet. Małe porcje i absurdalnie wysokie ceny. Jedynym plusem były sałatki.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aS01DMUtaSGxvU0Znd01ISXhiakpPUXpjMlZHYxAB",
+      "author_name": "MICHAL ANDRZEJ STANKIEWICZ",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Przyjemna atmosfera, ale trochę głośno w godzinach szczytu.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRNVNVRllRbFl0Wms5NmR6WTNORTlXUjI5RmRWRRAB",
+      "author_name": "Julia Otocka",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "skibidi pączki",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210UVN6UnZUMDlQV25GV1RsVnRiMkV6UzFNMllXYxAB",
+      "author_name": "Adrian",
+      "author_reviews_count": 25,
+      "author_photos_count": 22,
+      "rating": 4,
+      "text": "Bardzo smaczne burgery pobiły mnie w Poznaniu",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2treVpsRlRXR1JwUzJaWFVHRk1WMkZIYjB4U1ZWRRAB",
+      "author_name": "Mariusz",
+      "author_reviews_count": 95,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "W porownaniu z Makiem kanapki sa tej sa.ej wielkosci jak w reklamach",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scmVFSnBNM2xRVVdrNU1uRkRjbVJsV0RKWFdWRRAB",
+      "author_name": "Natalia Treumann",
+      "author_reviews_count": 100,
+      "author_photos_count": 26,
+      "rating": 5,
+      "text": "Smaczne jedzenie, szybka obsługa",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxc2NYWjVaakpJV0c1VWRVSkdObTFNTlcxdVVuYxAB",
+      "author_name": "Marzena K",
+      "author_reviews_count": 52,
+      "author_photos_count": 7,
+      "rating": 2,
+      "text": "Jeśli chodzi o jedzenie to bataty przepieczone, skwarki. Wings mega cieknące olejem, a burger z bekonem śmierdział. Ogórki w nim aż białe śmierdzące, a mięso też nie pierwszej jakości. Po zjedzeniu w niespełna 30minut cała trójka biegiem do toalety. Nie polecam i nie zawitam już tam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKWlIwVlZOazlrY0c4d2VUVlJkemhqTFRkV2QzYxAB",
+      "author_name": "Arkadiusz K.",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Burgery może i ok ale robienie interesu na parkingu i wlepianie kar niedoinformowanym klientom jest poniżej pasa",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOTU4wcElZbmRRVVZZMmJYWlRZVGhHTUU5MWVtYxAB",
+      "author_name": "Sławek M.",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Ketchup z dozownika? Super, a do czego mam go nabrać? Do kieszeni? Brak pojemniczków, tacek czy czegokolwiek. Pozostaje wyłącznie serwetka. Na Głogowskiej jest w saszetkach i to sprawdza się super. Do tego słynna dolewka za 3zł przy cenie…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGcU5VZERNR1pHYjNoUWIwUjNkbEJRTjA1eFZrRRAB",
+      "author_name": "Aliaksei Astashonak",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dobrze",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GbWExbDBWRzVyVlVoZmJXVmlWR2hxY1RkUlVYYxAB",
+      "author_name": "Marcel",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fajne miejsce. Mega miła obsługa.\nSzybko i sprawnie przyotowane burgery.\nFajne ławeczki.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210WFlXRmlSRkl4ZW5KbGJWRlpTV2xLYUhaMVFsRRAB",
+      "author_name": "Krytyczny Dawid",
+      "author_reviews_count": 16,
+      "author_photos_count": 17,
+      "rating": 4,
+      "text": "Dobry fastfood z mile klimatyczną restauracją. Miło jest przyjść przy mniejszym ruchu i coś sobie zamówić i usiąść na krzesłach schodkowych, które dają ten dobry klimat. Gdyby nie fakt wysokich cen za tego typu jedzenie to może bym…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUVIyUm5PRVpMVmpoTmJIQjRZWFZ5VVdsV05WRRAB",
+      "author_name": "Ростик Кирлаш",
+      "author_reviews_count": 18,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Szukam dziewczyny z której gadaliśmy o motorach, jeżeli czytasz odpisz",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCRlRISnFkREZMYlRSMk5YVnpSMFpITjB4dlpFRRAB",
+      "author_name": "Robert Blejwas",
+      "author_reviews_count": 39,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jedzenie duzo lepsze od M jest w czym wybierać i smakuje idealnie jak na takiego zapychacza ;) polecam",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGTE9HbDZlRXQ2WWxWaWVHWnFOa0oyVDIxcU9XYxAB",
+      "author_name": "William Stewart",
+      "author_reviews_count": 690,
+      "author_photos_count": 1043,
+      "rating": 4,
+      "text": "Jedzenie o świetnym klimacie, jak na fast food, było pyszne",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURIc0xDOW53RRAB",
+      "author_name": "Dawid Watrak",
+      "author_reviews_count": 18,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jak na fast fooda naprawdę dobra jakość i smak zakupionego jedzenia! Lokal schludny i przyjazny, obsługa również chętna do pomocy jeśli trzeba.\nJeśli ktoś szuka tego typu knajp to serdecznie polecam!",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205aFZVWkhkM05xYUhScmQyTTRWVlZvUzAwMmRtYxAB",
+      "author_name": "Grac",
+      "author_reviews_count": 174,
+      "author_photos_count": 294,
+      "rating": 1,
+      "text": "Nie jestem fanem sieciówek, więc nie miałem wysokich oczekiwać, a i tak się zawiodłem. Mięso jest po prostu okropne. Zamówień dwa burgery, \"zwyklaka\" i \"premium\". Pierwszy śmierdział i był zwyczajnie niedobry, a drugi był po prostu…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

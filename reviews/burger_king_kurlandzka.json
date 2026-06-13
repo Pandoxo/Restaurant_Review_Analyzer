@@ -1,0 +1,1022 @@
+{
+  "restaurant": {
+    "name": "Burger King Kurlandzka",
+    "type": "Fast Food",
+    "address": "Kurlandzka 2, 61-285 Poznań",
+    "price_range": null,
+    "total_reviews": 1387,
+    "avg_rating": 4.1
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnNVUyVXlXaTA1U2tSRVNGaE5kRVZPWlRKek0wRRAB",
+      "author_name": "Laura",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie najlepsze, obsługa super miła, klimat taki trochę amerykański podoba mi się. Nie mam nic więcej do napisania jak tylko że tam jest pysznie",
+      "published_at": "5 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkclR6RXpjWFZNUkRob1MxcEpRVFpyVmt0TlgxRRAB",
+      "author_name": "Mateusz Gindera",
+      "author_reviews_count": 26,
+      "author_photos_count": 7,
+      "rating": 2,
+      "text": "Nie działał automat na napoje.",
+      "published_at": "19 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsSWMxUkhhRTlPYW5OUWIyWkdlbEZ6WmpGdE1sRRAB",
+      "author_name": "Kasia Werner",
+      "author_reviews_count": 14,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Jedzenie jak zawsze w Burger Kingu… Ale jaka obsługa!!! Dziękujemy Nasti i Adrianowi za człowieka w człowieku! Jesteście cudowni i firma powinna nagradzać takich jak Wy! Dziękujemy i wrócimy za rok na pewno!!!",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSTlJFVlphWGhSZEZaZlIzUkZTbFpIZEcxcVgyYxAB",
+      "author_name": "Kamil",
+      "author_reviews_count": 38,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Katastrofalna jakość posiłków, bylem dwa razy, więcej nie popełnię tego błędu.  Kompletnie bez smaku, jedno co czuć, to sól. Krążki cebulowe w burgerze miały zapach kompostownika. Smak absolutnie nie odzwierciedla ceny.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxU1UzTnNkWEJWVlhKRVJsQjNlWEZQVjFGMWRrRRAB",
+      "author_name": "Marcin Tatys",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nikt nie klepie kotleta na buregra tak jak Nastazja. Lokal schludny nawet w tolaecie nie brudny.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdWRISjZUa3BFYkZoM1QycFhhSG80ZUhoNldFRRAB",
+      "author_name": "Tymoteusz Kuklis",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "pani nastazja i pan Adrian stają na głównie żeby wszysto było najlepszej jakosci i tak szybko jak to możliwe",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOMVJUZGtla1F3Y0dwa1gzZGFXSGRXYTJ4YVJHYxAB",
+      "author_name": "Wiktoria Kelm",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Sympatyczna obsługa",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210alpUbHNNRWxFYVVwdFVsazNaRmMzTWxoblUwRRAB",
+      "author_name": "Maciej Madziński",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rNWNVWTNhRzl2UW1waWVYaEJNbkJWUmxoVE1GRRAB",
+      "author_name": "Makary Andrzejczak",
+      "author_reviews_count": 10,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Szybka obsługa i pomocni pracownicy:)",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VeGNWaEtRa0o1Wm1oUFgyVldXRGxvVVdkT2JtYxAB",
+      "author_name": "Kacper Staszak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Czysto, schludnie i bardzo miła obsługa :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toNGJWOTNSamRqVVdocFYyaExkWE4xU2paeWFIYxAB",
+      "author_name": "Bartosz Piaskowy",
+      "author_reviews_count": 14,
+      "author_photos_count": 41,
+      "rating": 5,
+      "text": "Jestem bardzo zadowolony, 3 raz byłem w Burger King i ten był najlepiej utrzymany z wszystkich. Było czysto i schludnie, a obsługa była bardzo miła. Zdecydowanie polecam!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFd1NIUTVhbUpRV1hac2RFZDZhR2hUVFVwRFVGRRAB",
+      "author_name": "Viktoriia Shyshkina",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Czy dla was jest normalnym nie przyjmować zamówienie po 45 minut ??? Zobaczymy czy w ogóle przyjmą moje zamówienie!!\nWięcej nigdy w życiu u was nie zamówię !!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GblRtY3pRMjF3Y25wWmR6WjRZMXBpUVdWYVJFRRAB",
+      "author_name": "Nastazja Lewicka",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Spokojnie i smacznie. Obsługa super, pozdrawiam!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaVmRXVk9jamR3ZW13eVRUZElka3RNVFdGbVJGRRAB",
+      "author_name": "Rafig Aliev (Anuma3)",
+      "author_reviews_count": 11,
+      "author_photos_count": 23,
+      "rating": 4,
+      "text": "Ciche, czyste miejsce. Obsługa nie zawsze jest zadowolona ze swojego życia, ale ogólnie rzecz biorąc, to dobre miejsce na przekąskę.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210NVRrbExWRWhyYVhCM1VITjNhMmhYT1dOTkxYYxAB",
+      "author_name": "Taczka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedyna wada tego miejsca to, to że należy do amrestu",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURka0wyYUFnEAE",
+      "author_name": "Adrian Janicki",
+      "author_reviews_count": 20,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jak zwykle - wszystko mega i w porządku ❤️",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURDMEtXMmpBRRAB",
+      "author_name": "Mxpro53",
+      "author_reviews_count": 144,
+      "author_photos_count": 19,
+      "rating": 1,
+      "text": "Słabe żarcie niestety, kolejny raz z rzędu i jednak do Mc się nie umywa. Klątwa miejsca",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSTmRHZE1lVEZDUTIxNmNXVmtORVJxYzJSdlJuYxAB",
+      "author_name": "Krystian",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świeże i smaczne jedzonko i super obsługa ♥️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkbk5tMVFRVUk1Um5sclMxTkJPRXcwTVhOaVVVRRAB",
+      "author_name": "Nastaska Bialecka",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetne miejsce, jak zawsze jedzenie pyszne i świeże a obsługa niezawodna i mega pozytywna! Polecam",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMU9GZ3pjbGhFVGtOWVZUUlVaa0ZaT0hGRldWRRAB",
+      "author_name": "ARENz",
+      "author_reviews_count": 27,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "frytki, dobre burgery slabe",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210NWQycDVibWxZZDJoVWNXRTFlRTU2TlVKd1gzYxAB",
+      "author_name": "Krzż",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Smakowo bez szału naprawdę. Zamówienie za 75 zł a praktycznie się nie najadłem. Burgery dla juniora. Pozdrawiam i nie polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oM05EWmlZa1ZMTTNNelJtWXhTemxFVmxZdGMzYxAB",
+      "author_name": "Wojtek Martysiak",
+      "author_reviews_count": 28,
+      "author_photos_count": 5,
+      "rating": 4,
+      "text": "Burger King niestety trochę mnie ostatnio rozczarował. Kiedyś miałem wrażenie, że jedzenie było tu zdecydowanie lepsze burgery były świeższe, wszystko smakowało bardziej „na miejscu” przygotowane.\nOstatnio mam wrażenie, że jedzenie bywa trochę stare albo po prostu długo leży przed podaniem. Bułki nie są już tak świeże, a całość nie robi tak dobrego wrażenia jak kiedyś. Szkoda, bo kiedyś naprawdę chętnie tu wpadałem i kojarzyło mi się to miejsce z solidnym fast foodem. Nadal da się tu coś zjeść i pewnie jeszcze kiedyś zajrzę, ale mam nadzieję, że wróci jakość, którą pamiętam sprzed lat.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKU2RIUlBkR3Q0ZVdweFpEUnFPWFJ5VkZSRk4yYxAB",
+      "author_name": "Julianna Lisiecka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przemiła obsługa i super jedzenie, bardzo polecam\n💕",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsQ05FNDNjbEYyV1hGdmJEZE5XVlZvYTJzemNVRRAB",
+      "author_name": "Wat Watterson",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Toaleta damska i dla nie pełnosprawnych była awaria a w męskiej w ogóle nie działa zlew przez co nie można umyć rąk po skorzystaniu z toalety.  Pracownica miała długie tipsy i dodatkowo je często gryzła lub wkładała do buzi po czym dotykała żywności. Dodatkowo ciągle zagadywała inna pracownice na kuchni i zamiast pracować to ciągle gadały przez co na zamówienie czekałem ponad 10 minut przy 3 zamówieniach w realizacji i prawie pustej restauracji. Jeszcze kanapa jedna była zamówiona z dodatkowym sosem ale nie była w żaden sposób oznaczona i nie wiem czy w końcu był dodany ten sos za który zapłaciłem. Bardzo słabo tym lokalem powinien zainteresować się sanepid....",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xobWEwOWxaeTFaWTNKeGR6Sm9jamhZZGt4RWRIYxAB",
+      "author_name": "Yenfis Velasquez",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo spokojne miejsce 💪🏽…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5R1RqWkhUalpYWkU5TFRHc3lPVlUzUjJvMWRFRRAB",
+      "author_name": "Elżbieta Kurzanowska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Genialne miejsce, bardzo polecam i napewno bede czesniej odwiedzać!!!",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKTGEzRkhjSE42U1ZSM1NYaFdaRlJrYW5saFlXYxAB",
+      "author_name": "Piotr Kurzanowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Benger restauracja!",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZNWEyVkJaR2wwY0ZCeGVIQTNiVFJKUmpScFpsRRAB",
+      "author_name": "1 1",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Nie przepadam za fastfoodem ...",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wblVqbHZYMUZLZW1GbmFUbHhiWFo1V1VaSVZuYxAB",
+      "author_name": "Natalia Natalia",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pierwszy raz wypad rodzinny do burger King.  Polecam obsługa bardzo miła ,jedzenie bardzo dobre , czysta restauracja",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SNE16UnZPVWxDYTFNM2JUSTFYMFpsUVhoSFUyYxAB",
+      "author_name": "Maciuś",
+      "author_reviews_count": 8,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "To byl pierwszy raz w życiu, kiedy odwiedziłem Burger Kinga.. i nie żałuję, że odwiedziłem własnie ten lokal. Restauracja była czysta i zadbana, co od razu buduje dobre wrażenie na nowym kliencie. Zamówienia realizowane są szybko i sprawnie, nawet w godzinach większego ruchu (swoje dostałem w zaledwie 6 min. od przyjęcia zamówienia). Obsługa była miła i profesjonalna, a szczególnie sympatyczna blondyneczka na kasie, której uprzejmość i piękny uśmiech sprawiają, że wizyta była jeszcze przyjemniejsza oraz przystojny, krótko ostrzyżony chłopak, który polecił mi swoją ulubiona kanapkę jako moją pierwszą w życiu (którą też sam dla mnie złożył). Była przepyszna...\nLokal przy Kurlandzkiej, to lokal, który spełnił moje oczekiwania w każdym aspekcie i do którego, od teraz, z pewnością będę wracał.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wMVozZG5ha2xoVFdGb1JFUTNaVnBxTTJSdVpYYxAB",
+      "author_name": "pjoter",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "W restauracji jestem stałym klientem, ponieważ stoi na trasie do mojej pracy. Kiedy już jestem w restauracji, zawsze jest czysto i schludnie, stoliki zawsze umyte a toalety jakby co 15 minut ktoś je ogarniał. Obsługa jest bardzo dobra, zawsze sprawiają wrażenie otwartości na klienta i jak w moim przypadku - za każdym razem są w stanie sprostać moim oczekiwaniom kulinarnym. Polecam",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOT1ZVUlZYMWxMUTNwUFNHNXRkRTVNUzFjMFMxRRAB",
+      "author_name": "Bartosz Święcicki",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie pierwsza klasa, wszystko świeże i smaczne. Lokal zadbany, miło się siedzi. Obsługa uśmiechnięta, widać że się starają mimo dużego ruchu. Pozdro dla ekipy, polecam! 😁Pięć gwiazdek zasłużone.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKdk9FaElXVWt0VkU4NFZqUkhSbkEyTjJ4NlZHYxAB",
+      "author_name": "Piotr Kurzanowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jestem stałym klientem BurgerKinga na Kurlandzkiej. Za każdym razem burgery są zrobione ze świeżych oraz najwyższej jakości składników. Dania przygotowywane na świeżo, zawsze ciepłe. Nigdy nie zdarzyło mi się mieć złych doświadczeń z tą restauracją. The best BurgerKing w Polsce!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KamMwOUpaekp6V1V4bk5UZFpWemwxVmxWZmVuYxAB",
+      "author_name": "Asia Konieczka",
+      "author_reviews_count": 7,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Byłam w tym Burger Kingu i serio… totalny vibe. Frytki chrupiące, jakby tańczyły vogue w tłuszczu – kocham to! Sosy? Smak jak pierwsza randka, czyli lekko ekscytująco i od razu chce się więcej 😏\nObsługa? Miła, szybka, zero dramy – czyli jak lubimy. Burger King zrobił robotę, no i tyle. Slay, króluuu!",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4MVVFUk5aVTFCZFZsYVZHeEhSRFI0U0ZSUU1FRRAB",
+      "author_name": "Marcel Piotrowicz",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Na wejściu syf i zapach jak jakiegoś pijaka. Poziom obsługi zerowy - o wszystko trzeba dopytać/wyprosić, np. przy dużych zestawach brak ketchupu oraz serwetek. Frytki przyszły zimne i gumowate. Burger był przypalony. W tle uderzała jakaś maszyna, chyba niesprawna klimatyzacja. Nie polecam.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxR1EzUndhVFJDU0V4TVREZEZkazVGU1Y5U2IyYxAB",
+      "author_name": "Bartosz Kędzierski",
+      "author_reviews_count": 483,
+      "author_photos_count": 63,
+      "rating": 5,
+      "text": "Spokojnie, szybko i smacznie.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xUWVGSjFZMnBvVTFJNWNGOURiemwzTWxsbVdrRRAB",
+      "author_name": "Natalia Różańska",
+      "author_reviews_count": 86,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszne kanapki i bardzo miła obsługa. Polecam 🙂",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oVmVDMTJUbXd6VlRrek1sOVNORlJXWlU0MU5tYxAB",
+      "author_name": "Stanislav Pietras - gastronom",
+      "author_reviews_count": 842,
+      "author_photos_count": 759,
+      "rating": 3,
+      "text": "Katastrofa, w takim miejscu nie ma frytkownicy, a trzy razy nie działa, nie mamy, odpada 🍽️ gastronomia",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RNExWaHRMVkIwUjJKNmJUUXpRV3BmVG1oSFYzYxAB",
+      "author_name": "Jasiek B",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Z Burger Kinga zazwyczaj jestem zadowolony, ale tym razem było inaczej. Lokal mały i przez to głośny pomimo małej liczby gości. W toalecie brak mydła i papieru. Burgery zimnawe i jakby nieco bardziej śmierdzące olejem niż zazwyczaj w tej sieci, po prostu to nie był to ten Whopper, jakiego zazwyczaj dostaje (choć nadal przyzwoite jak na fast food).",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wRGQzSnVPR05wT1hSRmVVcGtWVkZrYjFsRU1rRRAB",
+      "author_name": "Yaroslav Kubariev",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Skorzystaliśmy z promocji sosu serowego. W Zestavie nie ma sosu, trzeba go kupić w zawyżonej cenie i tylko przy kasie. Kioski do zamawiania są okropne, brakuje połowy produktów. Poza tym, kiedy zamówiliśmy burgera z serem, sera nie było. Musieliśmy czekać 10 minut, zwłaszcza że byliśmy sami. Ogólnie rzecz biorąc, Burger King to porażka.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taU09HWXpkbmN5WlZOdFVIcG9hbWxIV0ZKdlJtYxAB",
+      "author_name": "Darthi Dani",
+      "author_reviews_count": 84,
+      "author_photos_count": 17,
+      "rating": 1,
+      "text": "Burger wielkości kanapki z szynką i ceny zupełnie nieadekwatne do jakości jedzenia – lokalne restauracje zdecydowanie biją takie sieciówki na głowę. Pozdrawiam :)",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVeFZtbDZXbXgzTVZobmEzSTFhR1pGYlVoRmNVRRAB",
+      "author_name": "Oliwia",
+      "author_reviews_count": 15,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pysznie!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twS05qUTBPV3d3Y0VWNlZrMVRhVTVKVFdRM1NuYxAB",
+      "author_name": "Magda Filipiak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "👌🏼👌🏼👌🏼👌🏼",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTE1XWjBSeTE2TnpkMk5FZHFlVU53YTBOSVlYYxAB",
+      "author_name": "V3ZZA",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Żegnaj 👌🏼",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMldEQnZWa1pRZDFWRU5XRm1TMk5pTlRkRk0wRRAB",
+      "author_name": "Tom Cie",
+      "author_reviews_count": 11,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Obsługa nie ma łatwej pracy, ale stara się i efekt jest. Bo przecież jedzenie w takich sieciach jakie jest - wszyscy wiemy…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oQ1dWVkhhalJQTkRZeVlXZEVWVjlUYW1WMFYwRRAB",
+      "author_name": "Zachariasz Rutkowski",
+      "author_reviews_count": 19,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne jedzenie i miła obsługa!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prNVoxOVpkMFZMTlV4Uk1XUk9MWEY1VFRKNFJWRRAB",
+      "author_name": "Danila Master",
+      "author_reviews_count": 7,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Zarąbiste frytki 💪",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjdGMxaG1WbEpJZUMxS1IzVTBaME5ZTVdaU2QxRRAB",
+      "author_name": "Вадим Самсонович",
+      "author_reviews_count": 7,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jest parking, fajne promocje i pyszne jedzenie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxU1ppMXVYMFJWU2w4NFFtdEZUbmRIVWtGd1RuYxAB",
+      "author_name": "Natalia Treumann",
+      "author_reviews_count": 100,
+      "author_photos_count": 26,
+      "rating": 5,
+      "text": "Smaczne jedzenie i szybka obsługa. Polecam!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201dFRXMTZWRVpPY0hsSlpFNHdaR2t5Tm5oVGVuYxAB",
+      "author_name": "Michael Kontny",
+      "author_reviews_count": 18,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Miła obsługa",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMmFscEJVVWxaVmpNdFNWOHdaVlV5YjFaQ1VVRRAB",
+      "author_name": "Katarzyna M",
+      "author_reviews_count": 18,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Jedzenie spoko, fajny klimat, mało ludzi. No właśnie mało ludzi, a śmietnik kipi.\nAle ogólnie pozytywnie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURoazRidTVBRRAB",
+      "author_name": "Rafał Lange",
+      "author_reviews_count": 237,
+      "author_photos_count": 119,
+      "rating": 3,
+      "text": "Spokojne miejsce na zjedzenie burgera. Nigdy nie doświadczyłem dużego tłoku. Jedzenie jak to w Burger King. Obsługa mogłaby z zamówieniem przynosić słomkę do napoju a co najmniej serwetki. Kasze warto opróżnić gdy goście je zapełnia. Odejmuje 2 gwiazdki z oceny sprzed 2 lat.",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0NGJtRkVNRXBsYVRGbFVVTmplVFpoWkVzeFJuYxAB",
+      "author_name": "Максим Мальцев",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "W restauracji było brudno, obsługa ledwo się poruszała, na tablicy widniało 7 zamówień, moje było drugie, oczekiwanie trwało ponad 15 minut, a wszystko podano na zimno, cola w automacie była cieplejsza!!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SalVsaFpYMDlaTFVSYWIwWXdkV0ZhYTA1RFRYYxAB",
+      "author_name": "Oliwia Kwietniewska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła i pomocna obsługa",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxWldscERTWEJCU25aRFV6SkpVbTFRZUZGTlVIYxAB",
+      "author_name": "Hh Gg",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zdecydowanie spokojniejsza lokalizacja, za czym idzie szybki czas przygotowania zamówienia :)",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1aGJUSldhSFU0ZFZNNU5FWTJibXRKTVZoeGNsRRAB",
+      "author_name": "Kacper Grobelny",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Numer telefonu nie funkcjonuje.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taUFUwUXlNbnA1TmtGRE0yNU1aekpMYXpobVpsRRAB",
+      "author_name": "Denys Kozlovets",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne burgery!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SdFRsSndhM0Z2VEZZelUwRlBjelF4VTFwTWNrRRAB",
+      "author_name": "Vitalik iCloud",
+      "author_reviews_count": 11,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "👌💪",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkQmFVbENkVlZsTkVGUmJGQnNTVWxpVG5oSk9XYxAB",
+      "author_name": "Piotr Maciejewski",
+      "author_reviews_count": 36,
+      "author_photos_count": 103,
+      "rating": 4,
+      "text": "Dosyć długie oczekiwanie jakośc jak w każdym lokalu",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwNFNUVlVUSFowYzNZMldraHdPRFJYZGxWaU1XYxAB",
+      "author_name": "Grzegorz Sokołowski",
+      "author_reviews_count": 515,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Bardzo miła obsługa. Można szybko zjeść.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CR09WbHZWWFJDZURkT1VXNVZYMDFsY2sxd1NVRRAB",
+      "author_name": "Roztarganaaa *",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Był mały ruch więc bylo cicho i spokojnie. Jedzenie zostało szybko wydane",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xvMFVWcGFNWFJSUVRrek1VYzNTV0UwY0RGR2VYYxAB",
+      "author_name": "nie ogarniam",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miły i szybki serwis",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4SFNtNXFXWEZyWDA4MFJsTjJhVUUzZG1OV01sRRAB",
+      "author_name": "Tomasz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzonko pierwsza klasa, smaczne, estetycznie podane, obsługa super, miła i uprzejma, bardzo miło i przyjemnie spędza się czas, zapewne powrócimy na szamanko 👍😁 POLECAM !!!!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReFprbDRWMWxEWTBKRVpHZFVlbXhtVEdSVGFGRRAB",
+      "author_name": "Sabina S.",
+      "author_reviews_count": 28,
+      "author_photos_count": 40,
+      "rating": 4,
+      "text": "Miejsce podobne do tysięcy innych z sieci fast foodów. Frytki mogłyby być cieplejsze, obsługa wykazująca cień zainteresowania, a lokal mieć cokolwiek, na czym można zawiesić wzrok.  Dobre miejsce na szybki gastro stop.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMtbTkycFlBEAE",
+      "author_name": "John Kenneth Karnstuen",
+      "author_reviews_count": 287,
+      "author_photos_count": 606,
+      "rating": 4,
+      "text": "Mój lokalny Burger King.. Miła obsługa..",
+      "published_at": "Edytowano 7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sVmVWTlJUVFp4TkhOSE1rMUVTVTlqV1VjeVMyYxAB",
+      "author_name": "Robert Siwiec",
+      "author_reviews_count": 67,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "Fatalna restauracja\nŚmierdzi na zewnątrz szambem\nFrytki są chyba moczone w soli - ohyda\nCiepła cola bez możliwości dodania lodu\nA na desery w męskiej łazience prawie nie leci woda z kranu\nNie polecam - zgłoszę to do ich centrali",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KeVF6TjJNVU50WDNKSlZtRkpRbGd4TFhrMGFWRRAB",
+      "author_name": "Janina Mróz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jedzenie zamówione na wynos. Pani, która nas obsługiwała była niemiła i nawet nie próbowała być pomocna. Pomieszała nasze zamówienie przez co żadne z naszej trójki nie zjadło tego na co miało ochotę, na dodatek zapłaciliśmy więcej niż mieliśmy. Jedzenie było niesmaczne, frytki blade i miejscami surowe. Dodatkowo czuć w nich było stary olej i posmak zleżałych ziemniaków. Rzadko wybieramy Burger Kinga i dzisiejsza wizyta przypomniała mi dlaczego.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWQmVrbFRZbkJEU2pFeGREbDBNekJzUTFSV1JFRRAB",
+      "author_name": "Przemysław Bialas",
+      "author_reviews_count": 45,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "👍",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paclFrSnpVSE0zZUZoclRUbE5aWE5CV0hWRlJFRRAB",
+      "author_name": "Hubert Drapiewski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, bardzo dobre i ciepłe jedzenie. Z chęcią odwiedzę ponownie 😁",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSRFJsVnJhVVo2ZEhVMmFGQjJUMEZTV1dGcGIxRRAB",
+      "author_name": "Theo Gaillard",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa. Mówią po angielsku!",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGSVozSkZMVE5mYm05ak1XTkNkMnhLTFhaaVpsRRAB",
+      "author_name": "Anita Agnieszka",
+      "author_reviews_count": 8,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Napoje gazowane praktycznie bez gazu. Jedzenie niemilo pachnialo starym tluszczem. Napoje na wynos = 2 kubeczki w reke, bez podkladki, zeby ogarnac kubeczki i posilek. Obsluga arogancka, nieprzyjazna.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aUWVYWTBWa2RGWTB4dWRIcHNiRkZtYkY5cmJWRRAB",
+      "author_name": "Jan Paweł",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza restauracja w Poznaniu!  Super klimat, miła obsługa, mało tłumów.\nNic tylko przesiadywać tam całe dnie✨💅",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRM1RsUldaVVJ3YjBadmVIa3lOM0pqVkdzeWFuYxAB",
+      "author_name": "Bartek M",
+      "author_reviews_count": 247,
+      "author_photos_count": 995,
+      "rating": 2,
+      "text": "Nie czynna toaleta damska a w męskiej nie działający kran z bieżącom wodą,  brak możliwości umycia rąk  przed jedzeniem.\nDopiero po interwencji u pani z obsługi zaczyna coś pogmerać pod zlewem i wodą zaczęła lecieć !\nNie winie pani z obsługi bo to nie jej wina że coś się urwało czy popsuło. Winę ponosi właściciel lokalu że nie inwestuję w remonty które  są potrzebne.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2todGNpMTNaVjlMUlRCblgyTlZTRlZTT0VJMk1HYxAB",
+      "author_name": "zofia metler",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "bardzo miłe miejsce, bardzo fajnych pracowników ma ;))",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCbmNDMHdhbFZ6T1RnM1gwVXdZMGhWZUhkMGFrRRAB",
+      "author_name": "Sandra Sandra",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "super klimat i pyszne jedzonko",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psU2JFdHFaRk5NZGpVM2JWZFROMk5UVlhWWlRIYxAB",
+      "author_name": "Patryk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mega miła obsługa, wszystko ładnie i szybko podane.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSV1owbFRWMFJqWjNOM2NuazFZM2xsVURGV04yYxAB",
+      "author_name": "Jan Gwiazdowicz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniała obsługa i atmosfera",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSRFJEUkRRMFp1UkdGSWEzcGhja1Y2VDBaSWNFRRAB",
+      "author_name": "Anna Dlugiewicz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne jedzenie i uśmiechnięta obsługa, polecam🥰…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKS1dXUk5jMEpQVFdaWWJreEdSM0EyTjJkR2QxRRAB",
+      "author_name": "Norbert Wylegała",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepszy burger king :)!",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxUlZGaFBla1JGVTBFeU9GOTVSbmxCVkZSaFlWRRAB",
+      "author_name": "AMS Transport",
+      "author_reviews_count": 97,
+      "author_photos_count": 8,
+      "rating": 1,
+      "text": "Obsługa miła i wredna\nJedzenie niezbyt ciepłe\nporażka",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205QlVtNDRURjlDTWxoMllWWmZWRWxrZUhCTWRtYxAB",
+      "author_name": "Kpiga",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa, smaczne jedzenie",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFdGVHMWllbWhxZVZZdGMza3dWRGg0WVRab1NsRRAB",
+      "author_name": "Boromir",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przemiła obsługa i bardzo dobre jedzenie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wTk1uRnZaREJJZERsU01sSmtWMDFsZDJ4VFJYYxAB",
+      "author_name": "julka kulka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "10/10 obsługa sprawia że zjadłabym wszystko co się da 😇😇",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SelluTnpWV3BPVmtKM2MwUXljME53VTA1V2VFRRAB",
+      "author_name": "Dominika Drzazgowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Restauracja czysta, schludna i jedzenie pyszne!",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wUU5IWTRaM05WVjJGUU1URkdRa2hWVVRCT2NXYxAB",
+      "author_name": "Julia Zemska (Ivy)",
+      "author_reviews_count": 2,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Miła, uśmiechnięta i szybka obsługa. Zadbany lokal oraz przyjazna atmosfera.\nPolecam restauracje 😁",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taU1dVeGZMVTExY2xCVVgweEtUVGhTU0dKYVYwRRAB",
+      "author_name": "Dariusz Osztynowicz",
+      "author_reviews_count": 93,
+      "author_photos_count": 70,
+      "rating": 5,
+      "text": "Ok",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taWWJ6WmpWMEp0VVhKSWNHazJjVnBJTVZsVVgyYxAB",
+      "author_name": "Genowefa Firana",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mniam mniam kocham burgery jedzcie tu",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcFR6WjBTbDh4VEdGSk5rdGxUV1p5U1VOR09FRRAB",
+      "author_name": "Halina Kokodżambo",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Ino tylko jesc",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5SmVHUmtNV0ZvTkdKYVEwWkRRVEpqUzJONVNrRRAB",
+      "author_name": "Patrycja Adamczyk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "swietna obsluga,swieze i cieple jedzenie,krotki czas oczekiwania i brzuszek szczesliwy!!",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSRU1DMWpaRXRzZERkR1gyZGZjbWw1WHpGS1dtYxAB",
+      "author_name": "D M",
+      "author_reviews_count": 4,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Zamówienie przyszło ok 80 minutach (przewidywany czas podczas zakładania 20-40min), część zamówienia była zimna, zostaliśmy też oszukani- zapłaciliśmy za frytki xxl, a dostaliśmy porcje w średnim pudełku wypełnionym do połowy. Przestrzegam wszystkich przed tym miejscem",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNHc01PYy1nRRAB",
+      "author_name": "Wojtek Mazurek",
+      "author_reviews_count": 1234,
+      "author_photos_count": 301,
+      "rating": 3,
+      "text": "Jeden z wielu lokali tej sieci. Mnie średnio przekonuje.",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OSGNWcHVTR0pCTUMxS1RXVjBOVlJCV1dneldHYxAB",
+      "author_name": "Michał Winkel",
+      "author_reviews_count": 220,
+      "author_photos_count": 486,
+      "rating": 5,
+      "text": "Pyszny shake malinowy. Obsługa okej.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psQ1pqQmtZbGhrZDB4WWVXTkdXa3hEWVRWNVgyYxAB",
+      "author_name": "Mikołaj Kozłowski",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jeden z tych burger King-ów gdzie wraca się z przyjemnością. A burgery z sosem King to istny ideał",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoTk0yTkxhMnhqVVVaWmVsZG5hRFZvVUROeVpGRRAB",
+      "author_name": "Julia Jacu",
+      "author_reviews_count": 65,
+      "author_photos_count": 128,
+      "rating": 3,
+      "text": "Na ulice gorąco a w środku po prostu upał!!! Byłam z dziećmi, byliśmy czerwone jak buraki, prosiłam włączyć klimatyzację, po tym byli jeszcze jakiś czas ale nic się nie zmieniło, myślę że to nikt i nie zrobił. I to właśnie jedynie miejsce gdzie nam tak było gorąco za ostatni kilka lat.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NGJFOHRWVlYwUWpoQlEwRnJTekZMVVc5b05XYxAB",
+      "author_name": "Damian Piecuch",
+      "author_reviews_count": 11,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jedzenie dobre. Brak tłumów jak w mcdonald. Polecam",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jeGNVZHJRamRwVTFWRVRta3daV05xTW5GUVgwRRAB",
+      "author_name": "Jakub Miłowski",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kierownik Adrian i Kasjerka Julianna sprawiają, że chce się tu wracać. Dzięki za miłą obsługę ;)",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUMxbjRibDFRRRAB",
+      "author_name": "WotanPL",
+      "author_reviews_count": 303,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Najsłynniejsze niezdrowe żarcie  😏😏😏…",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WcFJGUXlWbGxVUXpWSGVGVkphbVEwWlRCRVNrRRAB",
+      "author_name": "Łukasz Kotlarczyk",
+      "author_reviews_count": 50,
+      "author_photos_count": 238,
+      "rating": 5,
+      "text": "Super miejsce!\nŚwieże i smaczne jedzenie oraz wyśmienita kawa.\nMuszę podkreślić, że klimat robią ludzie którzy obsługują. Zawsze życzliwi i…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURlaTQ2S19BRRAB",
+      "author_name": "Patryk Kortylewski",
+      "author_reviews_count": 181,
+      "author_photos_count": 326,
+      "rating": 2,
+      "text": "Jeśli mogę wybierać między złotymi łukami a Królem Burgerów to zawsze wolałem Kinga za to że w cenie z konkurencji mam większą bułkę  choć trzeba przyznać ze obecnie ceny poszły w górę…",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jd1RuUTRXR3cxY1RadE5VNXVTMU4yTlRKV1ZGRRAB",
+      "author_name": "Stable Seaman (CleaningliquidMK)",
+      "author_reviews_count": 36,
+      "author_photos_count": 2,
+      "rating": 4,
+      "text": "Przeciętny fastfood",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKVE5XOTFZbmhHV0Vka01IQTFaVEI1ZUVOV1QyYxAB",
+      "author_name": "Sergey Malina",
+      "author_reviews_count": 4,
+      "author_photos_count": 8,
+      "rating": 1,
+      "text": "Nie polecam tego miejsca.\nCzekałem bardzo długo na obsługę, a kasjer całkowicie mnie ignorował, jakby mnie tam w ogóle nie było. Brak profesjonalizmu i szacunku do klienta. Zdecydowanie nie wrócę.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

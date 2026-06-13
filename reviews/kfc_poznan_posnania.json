@@ -1,0 +1,2622 @@
+{
+  "restaurant": {
+    "name": "KFC Poznań Posnania",
+    "type": "Fast Food",
+    "address": "Pleszewska 1, 61-136 Poznań",
+    "price_range": null,
+    "total_reviews": 1846,
+    "avg_rating": 3.4
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25veldrdDVRbTU2U1RFdFVqaG9RamRMZURGRmJuYxAB",
+      "author_name": "Nika",
+      "author_reviews_count": 0,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie, miła obsługa",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NeFp6ZEdPVVphT1dGMmEyOVViaTFoWnpOYWFuYxAB",
+      "author_name": "Natalia Różańska",
+      "author_reviews_count": 86,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Miła obsługa oraz zawsze gorące kurczaki. Polecam",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkb1JFbHdZbEJGYzB0T1kzVTBZV3BsTUZwdlUwRRAB",
+      "author_name": "C.C P.",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa. Polecam!",
+      "published_at": "Edytowano 3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oNFgza3djMDR5YVhvME5GZzNUMjFpV1RWWlMwRRAB",
+      "author_name": "Vladislav",
+      "author_reviews_count": 35,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "Napoje wszystkie zero cukru. Dużo pieprzu we wrape i zero sosu, bardzo źle w porównaniu z innymi kfc",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSRk0yUTFaemN4TjJGeldtcEpRMWxTVTJad09FRRAB",
+      "author_name": "Viktor Svatkov",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Macdonald’s TOP",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5M1FqQmZVMEZqUm5GVVNtOXJkRWRZZHpSbmRGRRAB",
+      "author_name": "Milena Możdżeń",
+      "author_reviews_count": 67,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, obsługa zawsze bardzo miła i pomocna 🫶🏻…",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkMWVrSmlYMTlPVkU5WWEyMWpOSEJYT1habmRVRRAB",
+      "author_name": "maryja krysia",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo mocno pozdrawiam Panią Milenę bardzo miła 😊…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OcFIzcG9VVlJrTms5RmFEWXRNbFJwVTBneWRVRRAB",
+      "author_name": "Kustosz017Pl",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Obsługa fajna managerowie mili",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUN2Nl9QdlFnEAE",
+      "author_name": "Milena Bibi",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne stripsy, bardzo miła obsluga",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taSVdFWlVUMnBXUmxsRFYzTmtYM1JFVlZndGNIYxAB",
+      "author_name": "Eren Can Yıldırım",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Jako osoba, która je coś w KFC co najmniej dwa razy w tygodniu, jeśli nazywasz to „stripsami”, to albo ty jesteś ślepy, albo ja. Czekam na twoją odpowiedź.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25keU4xTkZWelJSUkRVeGMxWjRaRTVMUTNSck5sRRAB",
+      "author_name": "Milena Zuz",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam! Pyszne jedzenie",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GUlJrdDVkWFZuVlhnNGVrUldUek55YTFKTE5HYxAB",
+      "author_name": "Artur Kimel",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybko i smacznie!",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twTWVGa3RObFZ2UW1oSVlqbHJZelpvU0hjdE1sRRAB",
+      "author_name": "Ola Kunkel",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "😃…",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GTGVIWkNaa3N3VWpacU9HZExPUzFFVlRJelRFRRAB",
+      "author_name": "Karolina Pulst",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Wzięłam na wynos dwa śniadaniowe bajgle z jajkiem. Dostałam oba bez jajka i z pojedynczym małym stripsem. Mogę wybaczyć dłuższe czekanie na jedzenie (co tutaj zdarza się notorycznie), ale niekompletne zamówienie to przegięcie.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxemJUWmZRbWRUTTNoQ2F6bEliemhoWVcwMFFYYxAB",
+      "author_name": "Bartek Bartek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOelpqVk5hbWRTVmt3NFRuSTRjRWgwUzJKa09IYxAB",
+      "author_name": "Natalia Strzykała",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "miła szybka obsługa",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pacGVWRlplbkZ5VEVvelRuVmZXWFI0Y0c1WlJFRRAB",
+      "author_name": "Magda Szczap",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super restauracja, szybka i przemiła obsługa!! Zamówienie wydane sprawnie i z dbałością",
+      "published_at": "Edytowano 2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoa2Myc3RZbmxJYjB3eU0yNUZRak5FVFZkUVJtYxAB",
+      "author_name": "Artem Perevedenchuk",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Złożył zamówienie na Kubełek z 20 szt. hot Winx,\nOtrzymałem 16…\nBardzo dziękuję ekipę  KFC☝️…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMlJXZHdNR3RVVFc1c1V5MVlRWGRxWkRKVWRHYxAB",
+      "author_name": "Daniel Dudlik",
+      "author_reviews_count": 8,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Polecam :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSQ01WOTRaSFJWYTI1R1NUSTBWSFpoVDIxdlIxRRAB",
+      "author_name": "Karolina Łukass",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo smacznie , szybko",
+      "published_at": "Edytowano 3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21acVVERkdhRU5CZDAxcmRqaFdTVzVIUldVNFRuYxAB",
+      "author_name": "Kacper Jędrzejczak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre świeżenie jedzenie wydane szybko",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JNGFsOTFaMUoyUkRSek9EQXRTbVJ3Y1c1TVNYYxAB",
+      "author_name": "Dawid Lewicki",
+      "author_reviews_count": 7,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pokarm Bogów *.*",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOM2VVVkpMV3BJVVRNMllqQkxaRzE2TTBJNE1uYxAB",
+      "author_name": "Weronika Bartoszewska",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko super!",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rMGEzVkRjSE5mU1V0RU9IbFhVWEZTU1VVeFJHYxAB",
+      "author_name": "hawk 163pl (hawk163pl)",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne miejsce, polecam",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201SVRsSm1jMjVUT1haTVIxRXphbEF0WDBjeWQzYxAB",
+      "author_name": "Максим Грузин",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Czekaliśmy 25 minut po otrzymaniu zamówienia i okazało się, że nie dostaliśmy ani szklanki, ani widelca, o które prosiliśmy, a cheeseburger był zimny.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KT2EyMXFSR2xrTFc1S1RsVmpUSFJIVlRGYWEwRRAB",
+      "author_name": "Анжелика Бабина",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekaliśmy na zamówienie około 25 minut, mimo że nie było dużego ruchu",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT213MGNrVjJUMUZaYWt0WGFqRTBTV2wzYm1sS1UxRRAB",
+      "author_name": "Witold I. Nowak",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "W miarę szybko przygotowane, smaczne. Jak ktoś głodny to KFC w sam raz",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KVFVXTktkWFZuVkVsbWFtTlpiek5tY2tsRlowRRAB",
+      "author_name": "Dominika Młoda",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo smaczne polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsdk1WcHViR3hhUTA4NWJGVmhkSEk0WWxSYVlWRRAB",
+      "author_name": "kay",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fajnie, szybko, dobre jedzenie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aRWNWTndaVkJYTm5CdFRuTjZObmszUkVGMVNGRRAB",
+      "author_name": "SUPEX",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "wszystko git",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoWU5taEpOalE0VUc1UFdqWjVZa2xGYUY5a01HYxAB",
+      "author_name": "Сергeй Политучий",
+      "author_reviews_count": 205,
+      "author_photos_count": 75,
+      "rating": 5,
+      "text": "Może byc",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Q01sUlRMVWxuTFZOMll6aE9RakJYUkU5WGNtYxAB",
+      "author_name": "Zuzanna Pawlak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Długie oczekiwanie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psVWF6QnRWbW96Y2xveE9UUjVRVFU1UTJ4cmVsRRAB",
+      "author_name": "Bazyli Głowacki",
+      "author_reviews_count": 88,
+      "author_photos_count": 92,
+      "rating": 5,
+      "text": "Jestem bardzo zadowolony\nPolecam\nObsługa super miła\nGratuluje obu Paniom Olom",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kSWVUQjZVMFF3UlZoR1FsZEtiRmhsWkVoQk0zYxAB",
+      "author_name": "Ігор Бовтонюк",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nigdy nie muszą wydawać reszty.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvLThQczlBRRAB",
+      "author_name": "lukasz golasinski",
+      "author_reviews_count": 14,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Zdecydowanie polecam ❤️❤️❤️",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VKUG5oX185OU9yY1pBEAE",
+      "author_name": "Jakub Pakul",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo szybko i smacznie. Obsługa miła. Zawsze na najwyższym poziomie.",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNKckttTXdBRRAB",
+      "author_name": "Karolina Podrzycka",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo szybko wydane zamówienie, polecam!!",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTE5HMHdUR3Q1VlhaaFpuRkZVa0pMVWxwdExVRRAB",
+      "author_name": "Szemixo",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo długo się czeka, poza tym zawsze kilku kurierów stoi i czeka, bo nikt ich nie obsługuje",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMlR6QnBha0U1U2tkS1ZFaFRXbk5CYkZjeE1VRRAB",
+      "author_name": "Marcin",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "wszystko ok",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kMk0wOUlaSHBVU1cxcFZubFFjRk55V2tSblVXYxAB",
+      "author_name": "Paweł Bąkowski",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo lubię KFC ale ten punkt to tragedia. To co dzisiaj dostałem to nie nadawało się do jedzenia i musiałem wyrzucić.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZMFNVNVZja1ZtVEVGUFpFOW5XR1ZTYUhaemVYYxAB",
+      "author_name": "G G",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25FeFIybHVUMGRpUzJabE5EUXRZMUpIVjJzMk5YYxAB",
+      "author_name": "Kaudia Bielska",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przemiła obsługa, fajne promki, polecam :))",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210aWVVbDZSMlJrWWtkME5XaHdSWE5SUm0xblQxRRAB",
+      "author_name": "Zuza Powała",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "polecam! dobre jedzonko i super obsługa",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWNVRUTkJhbmt3Vlc5eFZUWnphVVJsTVdSNlNWRRAB",
+      "author_name": "Natalia Walicht",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "szybka, mila obsluga. dobre jedzenie, polecam.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kR2RXdE9XVFpxUTJ0aFVteHZMWEUzVDIxR1ZXYxAB",
+      "author_name": "Bartosz Szrama",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jek4wazFibnB2WDJka1gxaE1jM2xpVW0xWVJtYxAB",
+      "author_name": "Ola Geisler",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo sprawny punkt. Mimo że w Posnanii zazwyczaj jest tłoczno, zamówienie było gotowe w kilka minut. Jedzenie świeże, gorące i wszystko się zgadzało.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kQ1RYTklNV3M1UlVZMVdqZE5ZbEJOWm05V1QxRRAB",
+      "author_name": "Katarzyna Makuch",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, polecam!!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aM05FUjFSR1owTTJWTWQwTk1iMmR4YzJNNFYyYxAB",
+      "author_name": "Виталька",
+      "author_reviews_count": 33,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie zamawiajcie z tego śmietnika, przetworzenie zamówienia zajmuje ponad 30 minut, sprawdźcie oceny innych, oni po prostu nie dbają o swoich klientów",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGc1JVSnhORkZMZDJGMlRrUndNVEZaZWtoVE5WRRAB",
+      "author_name": "Bartłomiej Terebus",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Usuwają negatywne recenzje pozdro",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5NWFreFlhVWRRYjJaeFJYWnNhR3BRYjFkRGNWRRAB",
+      "author_name": "Aleksandra Górecka",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa, smaczne kurczaki, polecam;)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RGVrNHRSV3hOZW01SU9XSlBielZRVFhaUmJYYxAB",
+      "author_name": "Nicole Wojdak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła i pomocna obsługa, chętnie szuka najlepszej opcji, aby zadowolić klienta. Jedzenie dostałam ciepłe i smaczne, a wcale nie musiałam długo czekać. Na pewno jeszcze tu wrócę.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20wMWNHY3hiVE14UzFsaFlsTTRUVGRDWjBoUVVrRRAB",
+      "author_name": "Maja Żakieta",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam, przemiła obsługa i pyszny kurczak",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOUlVreFlZbkZYUjBWVmRWbEtRM05rVlZOU1JYYxAB",
+      "author_name": "Monika Stachowiak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa i zawsze świeże jedzonko. Jeśli lubicie California Bowl to tylko w Posnani tutaj robią ją najlepiej! Na pewno będę wracać ☺️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pNMFdIUXdkVWhzVVhaamFXOUtOR2RwWmpkb1oxRRAB",
+      "author_name": "roboskarek",
+      "author_reviews_count": 13,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "To jest jakaś tragedia, czekam już prawie godzinę na zwykły double down z mega pocketem, pracowałem w KFC jakiś czas, ale to już jest przesada, jednym zdaniem przesada… nigdy więcej w tym miejscu nie zamówię, już wolę pójść do McDonald’s obok. Nie pozdrawiam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paWGNrZGlWemhtTFVoWVVsRmlSemw2WldwTU1YYxAB",
+      "author_name": "Ciastek",
+      "author_reviews_count": 981,
+      "author_photos_count": 1355,
+      "rating": 5,
+      "text": "Coś nowego i dobrego",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sWU5GazJiRE5wZGtwRFJsWkxjRTl2YW1Sd1NsRRAB",
+      "author_name": "Magdalena Anikiej",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "super obsługa świetne jedzenie nic nie brakowało!!!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsTVIybDJkVkl4UkVsZlZ6VjJVamwwTVhrMVJHYxAB",
+      "author_name": "jan modzelewski",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "40 minut czekania w dwuosobowej kolejce aby rano mieć rozwolnienie i poparzony odbyt.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GNFpEQlRVRzlEY0VKUFdHWXdUbFZ4VUMxUk1XYxAB",
+      "author_name": "Chara Chan",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre , obsługa bardzo miła , zawsze chętnie z mężem wracamy.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkZmMyaHVWRm8wTVVOWlJHeHNjSE5YV2tFME1GRRAB",
+      "author_name": "Marek Kordylewski",
+      "author_reviews_count": 2,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Super fast food. Polecam\nObsługa uśmiechnięta",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205T2QxQllSRTF4ZWpGbWRsOXFTMVZWY0d4TmFHYxAB",
+      "author_name": "Милана",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Powiem szczere tak pracownicy największa żenada jaką ludzkość może doświadczyć jestem stałym klientem restauracji zamawiam to samo od 2 lat i nigdy ale to nigdy nie było tak że zamówiłam kubelek z ryżem i z mięsem w sosie i go nie dostałam…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkWlMyUkpSbkZpUW05b04zQlliek42VjNRMmJHYxAB",
+      "author_name": "Oliwia Stanicka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGUVJHNDVjbVZLT1RJNGNFOXhWRFJpTXpadVZFRRAB",
+      "author_name": "Bartosz Semonowicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "zwolnijcie tego michała bo psuje atmosferę i jest niemiły dla klientów co jest karygodne",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kdmEyeE5VR0ZMUlVsb1dVaHpWVVkxTTIxelptYxAB",
+      "author_name": "Radek Z",
+      "author_reviews_count": 24,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "W kubełku classic 1 paczka frytek.Nie będę się cofał bo szkoda czasu, ale liczenie do dwóch widzę leży u obsługi.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGNk5tZDJSRmxMU20xWE5reENlV3BxTjNrNU9YYxAB",
+      "author_name": "shadyreika",
+      "author_reviews_count": 23,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Trafiłam dziś na przemiłą kasjerkę (nie spojrzałam na imię, ale dzisiaj ok. 20:00 mnie obsługiwała :) ), która sprzedała mi świeżą i pyszną kolbę kukurydzy. Zostałam obsłużona w bardzo sympatyczny sposób, bardzo proszę docenić tę pracowniczkę 🩷…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WVlJUUjNObGMwU1hSVVdHZEthM042VXpSRlluYxAB",
+      "author_name": "Amos Barton",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "2 x dostaliśmy zamiast shake chłodne mleko. Nie powinni tego w ogóle sprzedawać skoro nie potrafią zmrozić.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxVVNXb3pSV3h0VTNkdVVVbG5jMU53VEdKU1dFRRAB",
+      "author_name": "Kinga Sielska",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybko i smacznie :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xka1YzSlBTbmRFZGpCaFZTMUNURE53UTNkWGNHYxAB",
+      "author_name": "Kuchcik",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza obsługa ♡  Pani Dominika bardzo sumpatyczna, uśmiechnięta - zapada pozytywnie w pamięć. Dla takich ludzi chętnie tam wrócę!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VNVIyNW1XbTFWY3pRMlgweDRMVkY0VlhaNmJGRRAB",
+      "author_name": "Angeliks",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, Pozdrawiam😊…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGdVlXTndPR0Z3UTA1aVZXbFBTMDR3ZFhGblZtYxAB",
+      "author_name": "Klaudia Kędzierska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne i świetna obsługa <3",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwMFdtVlhTR2MyZERSU1RrWTBZbG95ZEMwMWEzYxAB",
+      "author_name": "Dabi",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo bym chciał pochwalić Panią Dominikę za szybką pomoc w złożeniu zamówienia wczoraj, wytłumaczyła mi bez żadnych problemów jak obsługiwać ten ekran dotykowy gdzie zamawia się jedzenie 🫴…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjdGVERnFUVkV5TjNBM1EwaEJWeTFVWVVkd1dFRRAB",
+      "author_name": "Weronika R.",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo pomocne panie kasjerki",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJek5ISnZPRGRIVnpWNU15MU9NWGRhZVZOeFkzYxAB",
+      "author_name": "Aoi Takiru",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, miła obsługa oraz bardzo dobra herbata owocowa 😊…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Q1ZVMXNaMGcwVkZkck9FVlJZVTgwTVVVNVNXYxAB",
+      "author_name": "Natalia W",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "bardzo miła obsługa 🥰…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NFVITTVZME5qWTB4YWRHdFViblJFY1hSdFdXYxAB",
+      "author_name": "Ewelina Soltysiak",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie ☺️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twM04xVm5Rbmx3UVdGQlZuVlhkRTVRZG1jMVRGRRAB",
+      "author_name": "W U",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wyśmienite pałki z kurczaka 🐔…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWSVVFeDVRekJyYldKaVprbGlZVXhFTm1RMFYwRRAB",
+      "author_name": "Fallen Angel",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie było oczywiście smaczne 😊 ale najlepsza w tym wszystkim była obsługa młodej Kasjerki Dominiki ♥️ doradziła w wyborze i różnych dodatkach. Naprawdę super sympatyczna dziewczyna!…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25remNIZHZkSFk1Y1dGQlRESnpRbkJUYTBST1JVRRAB",
+      "author_name": "Maciej Połujański",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Klasa sama w sobie jedzonko dobre zrobione jak na ruch szybko i sprawnie",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201Rk15MUxVMVJUWWtoQ2VGZFJZakV4Ym1WRU1sRRAB",
+      "author_name": "Muhammad",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Władze powinny się martwić zachowaniem personelu. Są bardzo niegrzeczni.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsSGMybHZORUZ5VWt4bGNVUk1RVnB2WTNKRFVIYxAB",
+      "author_name": "Julian Kasprzyk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jedzienie lezy zrobione nikt nie go wydaje  czekalem 40 min na 1 shake widząc go jak stoi z tyłu juz zrobiony",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwRmNIWnllVzFoZVhVMGJHOTFVRTgyYlRKWk9FRRAB",
+      "author_name": "Valentyn",
+      "author_reviews_count": 195,
+      "author_photos_count": 61,
+      "rating": 1,
+      "text": "Jestem osobą głuchą i nie mogę mówić. Czekałem długo w kolejce na moje zamówienie. Kiedy na ekranie pojawił się mój numer, podszedłem do kasy. Na ladzie stało kilka paczek i nie było jasne, która jest moja. Pomachałem ręką, żeby zwrócić…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pabFFXbFZTREJmTjFWV2FqVXhSMU4yUldNMlpIYxAB",
+      "author_name": "Magda J",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "05.03 20:18, oczekiwanie ponad 30 min, był zamowiony twister bez pomidoru i oczewiscie dostalismy z pomidorem, obsluga nie mila, nie polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OWUxVUk9SbVpaYjFVdFlXRnNjVEpDVXpGMVRYYxAB",
+      "author_name": "Denys Dudar",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szczyt",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paTlFtOVBWR1ZmUWxadlRtdGFZVlJLUjFNMFYwRRAB",
+      "author_name": "Kaligowrrr",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "10 na 10 pyszne kurczaki szybko jakby sam królik Buga wydawał",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WMVdGWnBTMlJJYWpGb1RXZ3lOMWhJVHkxNVlsRRAB",
+      "author_name": "Priadko Danylo",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo szybko, bardzo miła obsługa, polecam!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOS1VWQm9ZMkpYVEd0S1EweHlNalZ6ZGtaU2MxRRAB",
+      "author_name": "antkowy2115",
+      "author_reviews_count": 17,
+      "author_photos_count": 8,
+      "rating": 1,
+      "text": "Obsługa bardzo nie miła wulgarna nikogo nie ma przy kasie ciągle są nie Mili osoba która kupuje w tej restauracji fastfoodowej unikajcie!!!!!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOblRHdDZNRTU1ZDJGVFdIaGtjM0JvY0ZCUlJsRRAB",
+      "author_name": "Marzena Konieczna",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa, jedzenie bardzo dobre🙂…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twSlZqSkVPVUpMY2pSWWVVbG5VSEZOVGxWcWIwRRAB",
+      "author_name": "Patryk Dusza",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekałem za zamówieniem o wartości 20 zł ponad 40 minut gdy nie było żadnej kolejki",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CYVpsRTJaVWRYTmtjMFltZHNZMDAxWVV3eVVrRRAB",
+      "author_name": "Rodzina Monet",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Za dlogo sie czeka okpa",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkV2NUWlhkbGQ2U0ZkSE1GRlFValJ4VDJvNFEyYxAB",
+      "author_name": "He He",
+      "author_reviews_count": 18,
+      "author_photos_count": 17,
+      "rating": 1,
+      "text": "Nikt nie podchodzi do kasy",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWZldWQkVaRkZxYzJscE5uUkhhRzVpUkVWc01uYxAB",
+      "author_name": "Adrian Stefaniak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam 🥰…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCa1RqaGhWRnBUVjBzNFRIZEVTa2xJVEMxbGJtYxAB",
+      "author_name": "Dawid",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybki czas oczekiwania, oraz miła obsługa",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvLV9QWm1RRRAB",
+      "author_name": "Aleksandra Bartłomiejczak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miejsce 🥰 ekipa świetnie daje radę przy dużym ruchu ❤️🥰 bardzo smacznie  i świeże jedzenie ❤️…",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvLV8yVW1RRRAB",
+      "author_name": "Szymon J.",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, smaczne jedzenie ;) przy dużym ruchu szybko wydane!!",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvLThQSi1RRRAB",
+      "author_name": "Alina Gutsal",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam👌👌👌👌…",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFd2RuSklNVjh6VW5kaWRqUlhURFp3WldoRFRtYxAB",
+      "author_name": "Stachowiak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo smacznie szybko, jedzenie ciepłe miła obsługa 🙂…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvaDVUZGh3RRAB",
+      "author_name": "AVORRR",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo szybko wydane",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTUNJMnZDUTNRRRAB",
+      "author_name": "Amelia Kapsa",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Elegancka restauracja, bardzo mila obsługa :)",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnTURvLS1PVU1REAE",
+      "author_name": "Dorota Kaczmarek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybko podane i smacznie 😁…",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvcC1IejV3RRAB",
+      "author_name": "Patryk Zalasiński",
+      "author_reviews_count": 16,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybko i smacznie :)",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214aGFrdHdWMnBDYVRkZmRXOW5jblpRWVRoU00wRRAB",
+      "author_name": "Mały Szary Człowiek",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Pomylone zamówienie, zimne, rozwalone",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUVZIcFlZVzF3VTBOc1UxVlVibUV0YWpKMVNtYxAB",
+      "author_name": "Tadeusz",
+      "author_reviews_count": 14,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Żarcie przyszło suche jak wiór raczej do świeżych nie należało, ostatni raz zamówiłem",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCUFFXTlRYMUJ2Wm1WR2RHZE5ZMDFxY0hwUGJFRRAB",
+      "author_name": "Alek Majewski",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "właśnie kończę polgodzinną przerwę w pracy głodny i poirytowany. ponad pół godziny oczekiwania na longera i frytki? komunikat o gotowym zamówieniu dostałem po godzinie rozumiem - było mnóstwo zamówień ale cała półka grzewcza była załadowana…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsYVZVZElTakJyZERoWk1GRk1SR0pGUjJKV2JuYxAB",
+      "author_name": "Kamila Okonowska",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nowy promowany burger smaczny aczkolwiek trzeba poczekać na niego pół godziny, gdzie inni dostają zamówienia w max 5min. Szkoda, że nikt nas nie uprzedził, że dodanie jednego, nowego skladnika zajmuje dodatkowe 25min. Nie polecam",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aalJFOU9XVk50ZFV3NVVWcHdOamcyU0hCWldrRRAB",
+      "author_name": "Dominik Giermański",
+      "author_reviews_count": 19,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jeszcze takiej obsługi nie doświadczyłem w KFC. Stripsy robione na opierqol i reszta dań była nie do zjedzenia! Qurrito i iTwisty, poszły do kosza. Wisienką na torcie był czas oczekiwania 30 min! Prawdziwy sloooowfood, nie polecam.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xvNVpsUlVTamw0TnpWSmNsRkViVko2TW1SaFYyYxAB",
+      "author_name": "Alan Rogowski",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybko i smacznie! Polecam!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZMU1qQTNXWEJuY2pjeGRreGFaRkoxY2pSS2RtYxAB",
+      "author_name": "Adrian Budkiewicz",
+      "author_reviews_count": 13,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Pyszny KFC, miła obsługa, szybko zrobione jedzenie",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xodU5uQjJjSGczWlZadU5qTmpOa1pNY1VscmQxRRAB",
+      "author_name": "Vitlok777",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Mam wrażenie, że kradną jedzenie w pracy, na wierzchu zwykłe kawałki mięsa, a na dole 85-90% panierki bez mięsa",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBMloxb3pjMVJmWTJGU2RrSkJTVGMzWDB0akxXYxAB",
+      "author_name": "Vilt",
+      "author_reviews_count": 9,
+      "author_photos_count": 10,
+      "rating": 1,
+      "text": "Najgorszy KFC, w jakim kiedykolwiek byłem.\nPo jedzeniu w tym miejscu dostałem zatrucia pokarmowego i musiałem zostać zabrany przez karetkę.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FeFZFRmtjR3BuWDFKM1VucG5Xbk4zZWxkWFlXYxAB",
+      "author_name": "Виталий",
+      "author_reviews_count": 64,
+      "author_photos_count": 58,
+      "rating": 1,
+      "text": "Okropne miejsce.\nZamówiliśmy z tego miejsca dostawę udka z kurczaka. Na początku byliśmy zaskoczeni, że na wierzchu znajdowały się duże kawałki mięsa. W wiaderku przeznaczonym…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKcldHeFdYMlpzWkZKTWNWaGFWMnh1VG01YVdFRRAB",
+      "author_name": "Maciej Michalak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Za każdym razem czekam po pół godziny na mini zamówienie, obsługa nie miłe jedzenie zimne a zupa za słona",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kweGJXNUpTa3hoZGt4UFluQkxNWEY2UXpCdFRYYxAB",
+      "author_name": "Ciapetto",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "To jest poważne?",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaU1FsSjBVMjVyTTJ0bWRHRlJlSHByVWpkNk4xRRAB",
+      "author_name": "Wulkar B",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Żadne mega",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GVU4xZEtVekZsVFU1cFpscHBOa0pOUm5sb2VIYxAB",
+      "author_name": "Masha None",
+      "author_reviews_count": 43,
+      "author_photos_count": 25,
+      "rating": 2,
+      "text": "\"fast food\"\nOczekiwania ponad 20 min",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3NWNGWTJSM0JFVGtwMll5MHpOMWhRUVhoTFZIYxAB",
+      "author_name": "Marana Chioma",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "To już było jakiś czas temu, ale kiedy system odmówił posłuszeństwa to miły pan nam pomógł, chociaż to było małe zamówienie i mały problem. Poczuliśmy się bardzo zaopiekowani i  jedzenie było pyszne :))",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tndFZGUkxabmx4WkVKM2FsOWhOa1JCYTJJMk1HYxAB",
+      "author_name": "Marcel",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Szczerze tragedia niedość , że zgubili nasze zamówiemnie i musieliśmy im przypomnieć to jeszcze źle je wydali kurczaków mało skrzydełek też mało trzgedia",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1YVVtSnJVakJYY0VkMVluaFZkbVJ3UkhWcVJYYxAB",
+      "author_name": "Brwa Saeed",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "We wtorek 30.12.2025 około godziny 18:00 poszedłem do KFC i okazało się, że większość ich tabletów nie działa, tylko ten przy kasie działał.\nZamówiłem małe pudełko 5 skrzydełek z uzupełnianymi napojami. Miało kosztować…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsalZuRjBiM0ZxVVZKS2FuaFJaRzgzTlZaNVNWRRAB",
+      "author_name": "Damian Zuraszek",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam to Kfc. Jedzenie smaczne jak również szybko zostałem obsłużony.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKdmRrWmZjMUpFVFVSNk1XZERTMDlIVmxSRmMyYxAB",
+      "author_name": "Nikodem B",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czas oczekiwania na zamówienie dramat… jedzenie letnie",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tnMU1rUjFUbDlIZDI1WlNVUklUMDFHTlhsWk0zYxAB",
+      "author_name": "Vika Ha",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Najgorsza obsługa, nie polecam🤮…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dlZHTnJiVTFGTFdVeVJrcGtlR0ZFU0RScU4xRRAB",
+      "author_name": "Dawid Pilarski",
+      "author_reviews_count": 2089,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Dobry punkt _ dacsuevtu dobrze zjeść. Mika obsługa i często promocje są.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SUVoxQnFjRGRKVG1ZM2NYaFRjRVoyTjJvMFkwRRAB",
+      "author_name": "Lena Stawicka",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "czas oczekiwania wynosi 40minut na male zamowienia, obsluga chamska i leniwa nic nie robi w tej kuchni a jedzenie i tak jest zimne, nie polecam przychodzic w godzinach szczytu",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5RlVtYzViMTlXZFdzNWJWVnlNVGhJUjBGdlMzYxAB",
+      "author_name": "Liwia",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "bardzo złe doświadczenie z tym miejscem. czas oczekiwania na kubelek dla jednej osoby to 50 minut. MASAKRA. obsługa stoi i nic nie robi. nie przyjdę tu drugi raz.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTE1FcGlUMDlvVEROMlduZGtUSEZFWkZKSk4yYxAB",
+      "author_name": "Adrian Blusiewicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "20 minut czekania na Grandera z frytkami.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWVGFUZzRObXRuTUdselgxOUZSbXBxZDFWVVQzYxAB",
+      "author_name": "Renat Ihnatov",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Najgorszy punkt KFC ze wszystkich, maksymalnie długi czas przygotowywania zamówień, kurierzy nie mogą pracować z powodu swojej powolności.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5MFFYazJiSFoxY2twV2JuTnhWVmRwUm5WNlRXYxAB",
+      "author_name": "Miriam Łącka",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "bardzo wolna obsługa za mało karmelu i sosu w shake nie polecam",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNMGVYQTRTemxFYzBkdFoyRjNkWFJ4WVRoUlMwRRAB",
+      "author_name": "Lena Blaszczak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Niestety moja ostatnia wizyta w KFC była rozczarowująca. Czas oczekiwania na zamówienie wyniósł aż 50 minut, co jest zdecydowanie zbyt długo, jak na restaurację typu fast food. Dodatkowo, po otrzymaniu zamówienia okazało się, że jedzenie było zimne, a ja oczekuje ciepłego jedzenia gdy zamawiam a nie zimnego.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoTE1HOXBVVU13T0hSUlZVTkxkMmhrTldodmEwRRAB",
+      "author_name": "Stanisław Kujawa",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Czekaliśmy ponad 45 minut na jeden kubełek. 2 gwiazdki delikatnego że dali zwrot pieniędzy.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toVGVYTnJha2h2WTBGeU1HVm5hbXR1ZWtvNGNrRRAB",
+      "author_name": "Bartol Szyk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo długi czas oczekiwania. Czekaliśmy ponad 40 minut na jeden kubełek kurczaka",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25seFIyaG1XRUo2VG5WRWIwcE5ibWN0VVZvNVNsRRAB",
+      "author_name": "Robiul Hossain",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zachowanie personelu nie było dobre",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUmFtdGhTbEp4U2xOTlZqRkNVMEY2TTFOblJuYxAB",
+      "author_name": "Mainuddin Munna",
+      "author_reviews_count": 7,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Zachowanie personelu jest niegrzeczne. Nie polecam.",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1NllVaG1iV2RXVWpkQldGZEJNM0ZRTUd0T01rRRAB",
+      "author_name": "Md Masum",
+      "author_reviews_count": 9,
+      "author_photos_count": 75,
+      "rating": 1,
+      "text": "są tam rzeczy, które są bardzo niegrzeczne.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZd2FGSlhYMEpyYTI5bWVISlpja3c1ZWxCck1rRRAB",
+      "author_name": "Maja Anders",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Moje doświadczenia z tym KFC są bardzo negatywne. Podczas wcześniejszej wizyty po 15 minutach oczekiwania poinformowano mnie, że zamówienie nie może zostać zrealizowane. Zaproponowany zamiennik był tańszy, przez co zostałam stratna ok. 10…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Kd2NEVTVXa1pEZGtNeWVsOWlZV3MyYTFkU1JGRRAB",
+      "author_name": "Stanisław Wiśniewski",
+      "author_reviews_count": 9,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "długi czas oczekiwania",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGT1IyWTJOMm81T1Y5WlMyNWpaM0UyVmtWamVuYxAB",
+      "author_name": "Szymon W.",
+      "author_reviews_count": 106,
+      "author_photos_count": 61,
+      "rating": 1,
+      "text": "Bardzo długi czas oczekiwania. Następnym razem pójdę do konkurencji. Bez szału.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd1kxSlhTM2hmUWpCVFdERnVla3A0WjBnelVVRRAB",
+      "author_name": "Bartłomiej",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jakość ogółem tragiczna, chyba że trafem dostaniesz coś dobrze przygotowanego.\n\nNie raz zostałem otruty przez (zakładam) źle przysmażonego kurczaka, szczególnie…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214M1EzTk9VWEprU3pnMFpWazRjRzlLU2psUFJHYxAB",
+      "author_name": "Monika Kurzawska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "35 minut czekania na 4 rzeczy (drobne) bo pomylili czyjes zamowienia to jakis niesmieszny zart. Jedzenie oczywiscie bylo w wiekszosci zimne. Dodatkowo bylam swiadkiem sytuacji, w ktorej chlopiec musial stac przy kasie 40 MINUT, zeby…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pObFMyRktPSEpvYzNKU09VSjRhVXBOYUZSMk0yYxAB",
+      "author_name": "Nicola Czerwińska",
+      "author_reviews_count": 7,
+      "author_photos_count": 4,
+      "rating": 2,
+      "text": "Niesamowicie wolno przygotowywane jest zamówienie, pomimo stosunkowo małego ruchu",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFMlJqQjVhamxoTURSV2JIbGhkVnBRV1RCUGFXYxAB",
+      "author_name": "Krzysztof Lewandowski",
+      "author_reviews_count": 14,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Tragedia",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WeVJWRkNORXRoTVUwMFRXVk1VWGhLUTJrd2JFRRAB",
+      "author_name": "Kacper",
+      "author_reviews_count": 22,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Szkoda, że nie da się dać ujemnych gwiazdek....\nZamówiony 1x cheeseburger , 1x bubble tea, 1xlipton. Zamówienie robione ponad 30MIN, 1 najprostsza kanapka i napój. OK , jest jakiś ruch , poczekam. Ale jednak…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wU1VWVkxSSGs0VTFsUk5FeFhkbGx1Y1VkamJWRRAB",
+      "author_name": "DARK ANGEL деградант",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Mięsa nigdy nie ma, trzeba czekać pół godziny.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tobWRIcHJabmxDYkZwcmNWRmFhVTFrYkdsVk9XYxAB",
+      "author_name": "Mateusz forforfor",
+      "author_reviews_count": 19,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Czekam 10 min az ktos podejdzie do opsluzenia mnie po czym jak zamowilem stripsy dowiaduje sie ze ich nie ma",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWbmEyZHBSVEJ2VlZOU1pXaG1NRGQwTmsxU1UzYxAB",
+      "author_name": "Лілія Тростенюк",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo długo czekałam na burgera , 30 min , bardzo nie zadowolona 🫤…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURmbkpYSjFRRRAB",
+      "author_name": "Patrycja Rutkowska",
+      "author_reviews_count": 18,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Za długi czas oczekiwania ponad 30 minut.",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toU1VXdHNkbWRETjA5emJHRkVSSEJ6UmpKQ1JtYxAB",
+      "author_name": "Ms. Patx",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Pracownicy mogliby streścić ruchy zamiast rozmawiać i przychodzić po napój mogliby zacząć wydawać zamówienia",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUFFVbHdYMmg0VkhSbmVGQkpRbmczTmtGUWFFRRAB",
+      "author_name": "Adam Czyżak",
+      "author_reviews_count": 26,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Zamówione krążki cebulowe, pani wydała frytki zapyta dlaczego frytki a nie krążki  powiedziała “nie mamy” i się odwróciła. Dlaczego ta informacja nie została podana przy zakupie? Frytki to nie jest to samo co krążki cebulowe",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OdmVqWjFkalJqTm5BNFMyWlpVRXBTZUUxbmQzYxAB",
+      "author_name": "Liza Notes",
+      "author_reviews_count": 36,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Surowe mięso w bites tyriaki a w drugiej no paczce był damski długi włos!!!!!!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4V09ISldTMnB1ZVZkVVUwZFBjRGhzVkRGaVVWRRAB",
+      "author_name": "Miłosz Ratajek",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zimnie czekałem 30minut",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocGVGOWFaMXBGY2s1cVMyWXpNMXBaVXpWYWRVRRAB",
+      "author_name": "Elena Pufal",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekałam na zamówienie 20 minut zamówiłam 3 itwistety i 3 sosy dostałam 1 sos i żeby pójść i poprosić o dostatnie 2 sosów które zamówiłam czekałam 15 minut aż ktoś do mnie podejdzie dramat już nie wspomnę o tym że nie usłyszałam żadnych przeprosin 😑…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wMk0xcFdaWEUwVGt4bVYzVlNTVEpXYmw5MWJGRRAB",
+      "author_name": "Karolina Podrzycka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre a obsługa bardzo miła, zawsze mogę liczyć na pomoc gdy nie wiem na co się zdecydować",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKQ2FHb3pkMkpKZVZWRVlXWmxaR3hrY0VoU2EzYxAB",
+      "author_name": "Antek Nowicki",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo nie miła obsługa, wyzywa mnie że mam się zamknąć. Podszedłem wymienić spleśniałego longera i pan powiedział że mam odejść. Na dodatek mają bułki z ochroną",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVelJWTlNiV2Q0Y1haTE9UaFVSelZwTkVGUlJVRRAB",
+      "author_name": "Krishna Pandey",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "pyszne",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tadWRubEJibTFUUm1od2FqTldOMjR6WDJnMFgwRRAB",
+      "author_name": "Anonimowy Uczestnik",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekałem 40 minut przy kasie na złożenie zamówienia, gdy zapytałem kasjerki czy mogę złożyć zamówienie, oznajmiła ze zaraz i tak było ciągle przez ten czas, nikt nie podszedł, ciągle ktoś podchodził do kasy i nie było możliwości zamówienia. Nie polecam",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkS2RrWlZWSFpRVW1walJUSlFlbGRzWTFWU2IyYxAB",
+      "author_name": "Naiser (skillo NUKE)",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Tempo zamówień to jakiś dramat za 8 kurczakami czekać 45 min żałuję że nie pojechałem do innego kfc w tym czasie bym objechał 2 inne i zjadł zamówienie",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Wa1VGSm1WVXRQTlRKbldWaGllbTVmUjFSVVVsRRAB",
+      "author_name": "Jakub Wyrzykiewicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Najgorsze KFC, czas oczekiwania ponad 30 minut a personel rusza się jakby chciał a nie mógł",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrMVJGVkpYMU5RYmw5SE9IQlRRbGh6YmxkRldVRRAB",
+      "author_name": "Monata",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo nie miła obsługa, kiosk po zapłaceniu zamówienia nie wydał mi paragonu więc poszłam do obsługi poinformować że kiosk mi nie wydał paragonu bo najprawdopodobniej skończył się papier, na co dostałam odpowiedź „zapłacone to nie jest…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214blduSXhTVUZJYjNWV1JYVmlkMGx5T1daNGVsRRAB",
+      "author_name": "M M",
+      "author_reviews_count": 55,
+      "author_photos_count": 17,
+      "rating": 4,
+      "text": "Jedzenie dobre, ale obsługa bardzo powolna w porównaniu do McDonalda obok.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUll6RTJORzVSYlhkRFkxQXlTVFJDUW1oQ2VVRRAB",
+      "author_name": "Smart Life",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Tragedia. Za każdym razem coś jest źle. Surowe mięso, twardy ryż. Raz już się zatruliśmy",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kblJTMU9PVGh1VUhsV1FVRnlVVUYxYjNkQlNWRRAB",
+      "author_name": "Karol Nowosielski",
+      "author_reviews_count": 55,
+      "author_photos_count": 12,
+      "rating": 1,
+      "text": "Jak uwielbiam Kfc tak to co tu otrzymałem to dramat. Skuszony nowością w pięknym wykonaniu wyświetlającym się monitorze zamówiłem to arcydzieło. To conotrzymalem to dramat ja rozumie że na monitorze to tylkonpropozycja podania ale to…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ONE5WTlBTVWROU1hodkxYRkJTVnBzUVZWVFRtYxAB",
+      "author_name": "Julia Górzyńska",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Świetna obsługa",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSNVpEUllkVVUyUnpsSFpsSmFURUZ3VEhRNWQyYxAB",
+      "author_name": "Xxd Ffff",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko dobrze czysto nie mam się do czego przyczepić",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMk4xaE1VRzkzUWtGVVMwbGZkblV5U1VkWVZFRRAB",
+      "author_name": "marcin",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Kasjerka Pani Ola oznajmiła, że nie ma możliwości wydania reszty, pomimo że zgodnie z przepisami Kodeksu cywilnego ma taki obowiązek. Dodatkowo czas oczekiwania na realizację zamówienia — trzech kubków — wyniósł około 20 minut. Jesteśmy zniesmaczeni zarówno podejściem obsługi, jak i organizacją pracy w tej restauracji.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xscFExbHZXVVIwYm5ZMGVGQnhZblJXT1d4NWVYYxAB",
+      "author_name": "Klaudia Kłosowska",
+      "author_reviews_count": 24,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo sympatyczny Team. Pan Artur pełen profesjonalizm. Zamówienie zrealizowane szybko. Bardzo dziękuję ❤️",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kRVozWktVMmt6VURSUGNIUlphekI0V0doT05IYxAB",
+      "author_name": "Izabela",
+      "author_reviews_count": 93,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Bardzo miła obsługa! Szczególnie dzisiaj (25.10.2025)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WU1pVdFhaRUZSV0RWZlpVeEZlVWw0TFhaVVVuYxAB",
+      "author_name": "Jan „Dzidek” Świętoń",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wspaniale! To jedyne słowo, którego mogę użyć po rozmowie z Panią Barbarą. Top tier kasjer. Kawka gorąca jak Pan kierownik w koszuli. Polecam z całego serduszka :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GMFFXOTFTSEJpY0dseWNteGthMjlwVjBWQ1gzYxAB",
+      "author_name": "Jan Kowalski",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Otrzymałem zimnego hotdoga i longera ze stara bułką.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GRllrUnZlakY1TFhwVFZYWXRhbk5RWDFkemJtYxAB",
+      "author_name": "Kinga Z",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Chciałabym jeszcze raz podziękować Pani Ewelince za stworzenie mojego wymarzonego Qurrito, oraz za przesympatyczną  obsługę. Gdyby w każdym miejscu pracowały tak miłe i uśmiechnięte osoby, świat byłby zdecydowanie pełniejszy barw! Pozdrawiam. :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNMGVFdEhPR3RVTjJWU1VUVndTR0p2WXpjMmJYYxAB",
+      "author_name": "Kasiuszka milku",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jeden z gorszych kfc, w których byłam. Nie dość że czas oczekiwania był długi - ponad 20 minut pomimo nie tak dużego ruchu to jeszcze zamówienie dostałam zimne. W longerze nie było praktycznie mięsa, sałaty i keczupu, w b-smarcie były dwa…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wWGR6ZExVa2h1UlVsUmMyVmhkbFJrVjNwcFZGRRAB",
+      "author_name": "Ania",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "pol godziny to za dlugi czas oczekiwania na prawie puste dwa itwisty bez salaty",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kamRHNWZXalJxT0ZSME9ESjBaMEpxVVdST1RIYxAB",
+      "author_name": "Artur",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Po 20 minutach oczekiwania dostaliśmy letnie jedzenie. Obsługa w tym czasie miała czas na pogawędki, żarciki i dzikie pląsy na kuchni. No ale cóż, ważne że jest wesoło, to że ktoś czeka głodny za jedzeniem to drugorzędna sprawa. Ważne, że zapłacił poczeka, dostanie zimne",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSMFVrZGFXbHB2Umpobk9FcFdXQzFMYUVsd1ZrRRAB",
+      "author_name": "Michał Grygorcewicz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kMWFHdHpURXhGVHpoQmFHeGxWVkZ6TWpKNmNXYxAB",
+      "author_name": "Kacper Janoszek",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Ogólnie posiadam szacunek do osób pracujących w gastronomii z uwagi na charakter ich pracy, natomiast to co się dzieje w tym kfc to żart tylko nie wiadomo czy człowiek ma się śmiać czy płakać z podejścia pracownikow do pracy. Zamówienie…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kRGRsUlNja3gwUzA0eGRsZEljWGRaUVZoQmQxRRAB",
+      "author_name": "James",
+      "author_reviews_count": 114,
+      "author_photos_count": 554,
+      "rating": 1,
+      "text": "Musiałem czekać 30 minut na jedzenie. Było ono zimne i zupełnie nie odpowiadało opisowi. Członkowie obsługi dotykali jedzenia gołymi rękami, zamiast używać sztućców czy rękawiczek.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GQ1lYUjJNMFZZUVZKMGNFZG5hbVpNTVVoVlJsRRAB",
+      "author_name": "Lll Toppl",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paVmNFOTRSR2RtYW5wcVRFTTJSRVZOYmtkUVgxRRAB",
+      "author_name": "ala nowak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Wtorek popołudnie i kilka zamówień na ekranie, w tym moje. Jeszcze nigdy nie czekałam 12 minut na shake w żadnej restauracji ani fast foodzie. Ekipie dziewuszek się nie spieszyło. Okropna obsługa",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUVVqQlVkRzVMVkhaNVJFVXpXVFpqTFRWdGFYYxAB",
+      "author_name": "Yehor Lobov",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Kurierzy czekają bardzo długo na swoje zamówienie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkMmNrRnVWRkprVVRkQlNpMXplakE0WXpKTmVIYxAB",
+      "author_name": "Zachariasz Łuszczyński",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Zapłaciłem 53 zł za zestaw dla dwóch osób dostałem letnie frytki letniego burgera i letnia tortille . OSTATNI RAZ tam jadłem.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTVpqUnVlSGQyWW1aRVZYaHBUV05RTFVKS1ZGRRAB",
+      "author_name": "Irena Surdyk",
+      "author_reviews_count": 9,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Dzień dobry wybrałam się dzisiaj z mężem do KFC w Posnanii . Chcieliśmy zamówić Megabox 5 w jednym  na zamówieniu samoobsługowym tego nie znalazłam podeszłam do kasy a tam pan obsługujący kazał mi czekać 10 minut bo nie ma czasu była…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OelZYSk5RMWx2ZWpOamJYVXhZVkpQYkhjdGNrRRAB",
+      "author_name": "Misha Bloom",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "30 minut dla 2 shakeów 💔…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KT1kybEVUWFJEYXpRNWJUUjZjMlZwWDBkUVltYxAB",
+      "author_name": "Лав Лавли",
+      "author_reviews_count": 18,
+      "author_photos_count": 24,
+      "rating": 1,
+      "text": "Okropna obsługa 😢.…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kSlptMUJVbWhKVW1aNU9VbElkbVJ0V1drNFgzYxAB",
+      "author_name": "Bartosz Szewczak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Ilość kurczaka w waszych kanapkach jest śmieszna . Szkoda że zdjęcia nie zrobiłem.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SRFJsVTVNbXBpU1dNelRVSkZjbk5vTWxSc1JrRRAB",
+      "author_name": "Michał",
+      "author_reviews_count": 13,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Pyszne jedzenie i super obsługa",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GSllrTlZWbTFtY2pkR1pYbENWbnBuVGxZNFVHYxAB",
+      "author_name": "Heila Heila",
+      "author_reviews_count": 8,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "We wtorek czekałem na jedzenie prawie dwadzieścia minut! Bez problemu! Musiałem prosić o wyjaśnienie wszystkiego. Jak na fast food, to koszmarna prędkość. Ale na zdjęciu widać, że zamówiłem zdecydowanie za mało, żeby mogli mi tyle przygotować.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwVVoyWmtTVGN5Vm5aWlZ6SlVNR05KWjA5MWNtYxAB",
+      "author_name": "Bartosz W",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekalem 25min na małe zamówienie",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tReFl5MWtaV2hXU1ZKSk9HTjNUME4wZEc4dE9YYxAB",
+      "author_name": "Szarona Magdziak",
+      "author_reviews_count": 8,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "roztopiony ser i wielka ilosc  boczku, gratulacje, gosc paluchami klika w ekran a potem dotyka jedzenia",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRmNuZEtkakl0TWtjM1VFNTJWRVV3UWkxcVduYxAB",
+      "author_name": "Jagoda Jagoda",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Brak ruchu ,bo rano chciałam opłacić kawę, musiałam stać 10 minut aż łaskawie ktoś do mnie podejdzie , osób około 6 pracowników , ktoś co chwilkę patrzył ale jak podejść i obsłużyć to nikt",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZNFZWOTJibHBIV25KM1ZqWkpNVXd6VkZaUVRIYxAB",
+      "author_name": "Agnieszka Boruczkowska",
+      "author_reviews_count": 96,
+      "author_photos_count": 21,
+      "rating": 1,
+      "text": "Ogólnie porażka. Stałam pierwsza w kolejce przez 10 minut aż ktoś z obsługi sie mną zainteresował, kolejne 10 minut czekałam na zimnego grandera. Nie polecam.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kZk1HVnVUWFpZVUZock5rOXBRa0ppZVc4MVRIYxAB",
+      "author_name": "Adam Czerniawski",
+      "author_reviews_count": 36,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Mało smaku w napoju, twistery puste w środku, dobre frytki i skrzydełka.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vNFpEQklVMmt0UkRCVWRWWnJTbE5LUmxBMGJHYxAB",
+      "author_name": "Oskar Nawrocik",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVdFkzTlBZV3MwVjJoVVpWQlhVbWwzTjJsdWVGRRAB",
+      "author_name": "WIQi",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KUlJsVnRTRlJDYjFaVGN6SktOa2xWWWs5U1NFRRAB",
+      "author_name": "Patryk Pajac",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "mila obsluga polecam",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWc00waDRlbWQ1YzNsclpURndabWxGZGxSVlZuYxAB",
+      "author_name": "Anhelina Tkachuk",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 2,
+      "text": "Długo trwa wydawanie jedzenia, obsługa nie jest wydajna",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tObFlXaFVXbkJOTVhjdExYaDRObTV5YmpoQmVtYxAB",
+      "author_name": "oski _Bolek",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "szybka i sprawna obsługa wszystko bardzo dobre :)",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4S01FVTJXamh2VEZGS2RGZERRbUpIZWtGd1pFRRAB",
+      "author_name": "Julia Pochylska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła, bardzo pomocna  obsługa",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xjMkxWUmtaR2xNZFVWbk4yMWljVk5tWnpSSFRXYxAB",
+      "author_name": "Szymon Konieczny",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Obsługa bardzo pomocna, krótki czas oczekiwania i świeże jedzenie.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25FdGNFVnJUVUp5TTJwWVZGQlNiVVZRZDNOaE1tYxAB",
+      "author_name": "Stanisława Podrzycka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie zawsze świeże i starannie przygotowane.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RdGJHOTZXa1JRWkRoU1RWVXhaM042WW5ZNGMyYxAB",
+      "author_name": "Tera Heavy",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nieuprzejma i lekceważąca obsługa.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tONmIzSnJYM1p6WkZobU16UkxOa2w1WVVSUWVYYxAB",
+      "author_name": "hubyć hubyć",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCeVFXcDZSbWRYWkdwb1NFVXROamRyYkV4UVNrRRAB",
+      "author_name": "Weronika Hofman",
+      "author_reviews_count": 30,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Całkiem smaczne, raz na jakiś czas można zjeść. Jedyne co to bubble tea jest niedobre",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMVRXVTRkVkU0YUZkRlkwc3RjR1JoUjFSaFZYYxAB",
+      "author_name": "Panda Krul",
+      "author_reviews_count": 53,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Mój dobry przyjaciel Kacper /Blondi Diego co poeuchal to jego/ dostał zimne jedzenie i czekał ponad 15min",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toVVVVdFRjR2hDTTNOdVlreDVNR05MVEZwaVVuYxAB",
+      "author_name": "Patryk Furmaniak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Mój dobry przyjaciel Kacper \"Blondi Blondino Latino\" Konieczny zamówił u was jedzenie i niedosyć, że czekał na jedzenie ponad 15 minut to jeszcze po dostaniu jedzenia było ono zimne i w zestawie były inne sosy niż na zamówieniu. Po upomnieniu się u kasjerki ta zignorowała go.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toMmVFcGtVMlpIV2toNlVua3dUemRzVDA5S05GRRAB",
+      "author_name": "Marcin Nowicki",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "30min czekania za kubkiem picia",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCT1lteExaV1J3UjNZNFNsOU5hemhyUkV4QlZsRRAB",
+      "author_name": "Małgorzata Wiącek",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam pyszne kurczaki",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWlpVSndZWFZtUlU5ME1UUjBOVmh4V0ROVWFrRRAB",
+      "author_name": "Natalia Kantorska",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Smaczne jedzonko, szybki czas oczekiwania. Bardzo mili pracownicy! Będę do Was wracać :)",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSU1FWQjFkMmN6ZDNSV2QxTjZkbUZhU0U0MGJuYxAB",
+      "author_name": "Zosia Maciejewska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo chciałabym pochwalić Pana Michała, profesjonalna obsługa klienta, miły, sympatyczny młody człowiek",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twVFdHOHpSR1JvU3pGSldTMTRaVlpKTkdOVFlWRRAB",
+      "author_name": "Kasia",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jak zawsze super",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twbWQzWmpSQzA0ZWxwTGJHMURaa1pxUmpadFUwRRAB",
+      "author_name": "Julita",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękuję za szybką i miłą obsługę 🥰\nKasjerka bardzo pomocna, a kurczaki pyszne\nSerdecznie polecam 🥰…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFMlkzQmhlREpIVDA0d2JEWldObkpLVVVaNVZYYxAB",
+      "author_name": "Arsenii",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Złożyłem zamówienie w którym były lody truskawkowe, przy odbiorze zamówienia pracownik powiedział że nie mają lodów truskawkowych i zaproponował mi lody czekoladowe lub waniliowe, wybrałem waniliowe a pracownik przyniósł mi carmelowe👍🏻…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xka1QwSnBTREZ4ZFRrek9HZFFNRXRNYWxkcGQwRRAB",
+      "author_name": "Ксения Сычева",
+      "author_reviews_count": 21,
+      "author_photos_count": 20,
+      "rating": 1,
+      "text": "Niesmaczne, jedno rozczarowanie. Porcje są bardzo małe, o połowę mniejsze niż powinny... w innych KFC wszystko było na Waszym poziomie, ale tutaj jestem po prostu w szoku. Nie polecam!!!!! Wydane pieniądze nie urealnią oczekiwań!!",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSRk5XUnZZMEZhWVROQ1lrcHlhR0Z2Wm1OaFFWRRAB",
+      "author_name": "Marcel Szlas",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Przyjechałem z pomorza rano chciałem zjeść cieplutkie i smaczne jedzenie ale jak zamówiłem to dostałem dosyć zimne jedzonko w dodatku  pracownicy wyglądają jak by pracowali z przymusu miłego dzionka nie polecam 😘…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OM1gzSlFWR0pUUVdKVWJWcDNiazR6ZURoZlNsRRAB",
+      "author_name": "Małgorzata Pałyzga",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Dają zimne jedzenie i obsługa wygląda jakby pracowała na siłę",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sWVYyaGFVWFYzVERSTFVqSjRiM1Z4VWkxMk5YYxAB",
+      "author_name": "Ula W",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko bylo ok\nMila obsluga",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNKckttMjlRRRAB",
+      "author_name": "Alicja Miernik",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Ala fajna",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCV00zRklXbkpsT0djNGMzbHpVMUozWlVGbWEwRRAB",
+      "author_name": "Prosto Zritel",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Złożyłem zamówienie, kolejki były naprawdę długie, a moje zamówienie po prostu zniknęło z wystawy po pewnym czasie. Kierownik powiedział mi, że nie ma zamówienia, mimo że pokazałem jej moją wpłatę bankową. To strata czasu i pieniędzy, nie polecam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ScGMwbzFTa3QxVWtjM1dUUlNTazV4YjJWMWRXYxAB",
+      "author_name": "Pituta Bilka",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Śmieją się z kurierów. Rudy facet powiedział, że poczekacie pół godziny. Kurierzy czekają na zamówienia 30-60 minut. Obsługa nie pracuje. Wszyscy chowają się w budce.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVFEyazJWbEZVYW0xT1ZYVkNiSEphVVhGb1FrRRAB",
+      "author_name": "Yohan Lobov",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Atmosfera jest okropna. Obsługa jest okropna. Czekamy na zamówienie 25-35 minut. Dziewczyna mówi, że mają pół godziny na obsługę. Są nieuprzejmi.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0U1lVSldSM1ZOTTAxaFRuWlhZbk5pTVhkWU9YYxAB",
+      "author_name": "Den Denver",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Bardzo długa służba",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tabGJGbDVXRXRRWmpaR2J6SnFXR28wVTFoQk5rRRAB",
+      "author_name": "Piotr Hołociński",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUR1Mi1HNjFnRRAB",
+      "author_name": "Dominka Marciniak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super szybko i smacznie",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUR1MjZHTDZBRRAB",
+      "author_name": "Dorota Kierzkowska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa, dobre jedzenie",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUMydm9UY0VBEAE",
+      "author_name": "Mateusz",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Najsmaczniejsze burgery i koktajle mleczne oraz niesamowicie niesamowita obsługa! 🥰 NIESAMOWITE!…",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20wMlJIRkJSRWhLU0dwUVNIa3pVRmt3YVdKU1NtYxAB",
+      "author_name": "Emilia Siedlar",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne jedzenia jak zawsze, serwis szybki też jak zawsze i miła obsługa. Podziwiam pracowników jak szybko się uwijają z zamówieniami w dużym ruchu . Na pewno wrócę",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201VlJrMVdWMU15TFVsUU5ESnZaSE5DTnpKemVHYxAB",
+      "author_name": "Яна Марініна",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Zamówiłem tylko kawę, poczekałem 10 minut, aż pracownicy ze sobą porozmawiają, a kiedy już zrobili kawę, włożyli szklankę do ekspresu i zapomnieli o niej na kolejne 5 minut 👍🏻 Dla kontekstu: nie przyjmowali też innych zamówień, próbowali po prostu wykonać swoją pracę.…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xV1JXOU5VMVZ6U0ZCbFRtWjJaR1ZsZVMwNVZXYxAB",
+      "author_name": "Zelga Football Academy",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo miłe miejsce a Pani Ewelina Bardzo pomoc i zna sie na robicie",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taTWJuUnNiMlZ2Y0hsYVZIbHJWMFl3YUZRMGNYYxAB",
+      "author_name": "Anna Zelga",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie takie sobie, ale przynajmniej obsługa miła. Pani Ewelina była bardzo pomocna i cierpliwa, kiedy wpadłam do kfc z gromadka dzieci.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBMVpqSmhRMkZhZWxKSVdVOTJibGcxY0ZSVWVFRRAB",
+      "author_name": "Eva",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie i obsługa fantastyczne",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twV1pVOXNlVUprV1RKeU5UZFFSVk5OYWtKaFYxRRAB",
+      "author_name": "Rajkhumar Culloorie",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Odwiedziłem KFC w Posnanii i jestem bardzo zadowolony z wizyty. Obsługa była szybka i uprzejma, a jedzenie świeże i smaczne. Kurczak był chrupiący, dobrze przyprawiony i podany szybko mimo dużego ruchu. Restauracja była czysta i dobrze zorganizowana. Zdecydowanie polecam to miejsce na szybki i smaczny posiłek.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRd2NtUTRWRkpuYVMxclVGOHhiWFpYY2xKVWMzYxAB",
+      "author_name": "rk culloorie",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "KFC w Posnanii oferuje smacznego, gorącego smażonego kurczaka i doskonale nadaje się na szybki, nieformalny posiłek – zwłaszcza poza godzinami szczytu. Jednak jakość i szybkość obsługi mogą się różnić w zależności od zmiany personelu i pory…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zd1ZHTkpibGd3YkRsUVJHeFFVMVZHU0RobVFXYxAB",
+      "author_name": "Maria Zmyślona",
+      "author_reviews_count": 107,
+      "author_photos_count": 108,
+      "rating": 5,
+      "text": "👍…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Vek9WQkZjbmxhZDNFM01FWm1hR3RqU3pacWJuYxAB",
+      "author_name": "Przemysław Wujkowski",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Super obsługa ! zamówienie expresowo zrealizowane :)",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wRldFUXhaRlJQWlVOWFNtUkxjRWhJYUZSNGVsRRAB",
+      "author_name": "Hanna Zmyślona",
+      "author_reviews_count": 19,
+      "author_photos_count": 23,
+      "rating": 5,
+      "text": "super miejsce super jedzenie kocham ryż z kurczakiem!! ❤️‍🔥…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxVU9UTTFPWGhQZUdjMGIweDZkWGRKWkVWdFNrRRAB",
+      "author_name": "Beataa Zmyślona",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce często odwiedzam podczas wizyty w Posnanii, bo mogę tu liczyć na szybką obsługę i chrupiące kawałki.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tORU9VRjRXa1psU0ZWM2VFdEtZbGhOVlRjMmJtYxAB",
+      "author_name": "Mateusz Rumin",
+      "author_reviews_count": 55,
+      "author_photos_count": 18,
+      "rating": 1,
+      "text": "25 minut czekania na jedną kawę, obsługa robi zamówienia losowo, żenada",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoamVHaEdXR2h2V2xGUmIwSnZXVFpZY2taZmNIYxAB",
+      "author_name": "Iwu :3",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Super obsługa !!",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paTVZUWmZPRGxWVjFwT0xYcGFhMUJOVTI0MmFVRRAB",
+      "author_name": "Tosia Fraszczak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "czekałam pół godziny na qurrito i shake’a.\na połowa pracowników stoi i patrzy gdzie na tablicy było ponad 20 osób oczekujących. Masakra",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSV056VklVbTUyVlV4a2JrUXhSR3cxYjNoVlFYYxAB",
+      "author_name": "4Shinka4",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekałam na zamówienie ponad 20minut. Shake był pływający i pod żadnym wzglęzem nie przypominał Shake! Pani z obsługi skłamała, że wszystkie są takie roztopione! Żenada nie polecam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Sd2IzUkRiazU1UWtGVVpFRnZjSFJDYlVWSVFtYxAB",
+      "author_name": "natalia hurysz",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Na swoje zamówienie czekałam 30 minut, może zamiast ploteczkami warto zająć się swoją pracą?",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbE5XTnNiMHRLU2w5VFRGSklUWFIyYWtsb1drRRAB",
+      "author_name": "Lunaro",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czas oczekiwania na jedną pozycję, w dodatku w ciągu tygodnia wynosił prawie 20 minut, porażka",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tONlducFJiWEJHVVVGWFVVRXlOalJyYkZoTWFIYxAB",
+      "author_name": "Rafał Paszkowski",
+      "author_reviews_count": 14,
+      "author_photos_count": 8,
+      "rating": 2,
+      "text": "zamówienie niepełne (brak połowy kubełka), po zgłoszeniu tego faktu obsługa jakby nic się nie stało (widać nie pierwszy przypadek) po prostu poinformowała że udka będą ale za 5 minut. Ruch nie był duży, max 4 zamówienia na wyświetlaczu.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxMVFYRktPRWhVUjFWVU9HZExaMk10UkdsalpsRRAB",
+      "author_name": "Dominik Ławniczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 6,
+      "rating": 1,
+      "text": "Długi czas oczekiwania, brak chusteczek w zestawie jak i przy ladzie. W skrócie bardzo słaba obsługa klienta.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGNGRVcHpkREJNUVc1SWIycHNVVTlETTFkTlJrRRAB",
+      "author_name": "Marlena Rejmak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówiłam churros oraz shake czekałam na te dwie rzeczy pół godziny, gdzie wychodziły późniejsze numerki z większymi zamówieniami. Nie rozumiem tej polityki, bo w maku jak zamówisz coś małego to czekasz max 5 min przy dużej ilości ludzi. Nie polecam.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jNFMyZFFTWHBUVWxOelozSnZkM05XU0ZWSE5IYxAB",
+      "author_name": "Wojtek Bróździak",
+      "author_reviews_count": 29,
+      "author_photos_count": 14,
+      "rating": 1,
+      "text": "Niestety moja najgorsza wizyta w KFC kiedykolwiek. Cheeseburger tak bardzo wyschnięty (w szczególności bułka) jakby był odgrzewany w mikrofali conajmniej 15 razy. Za to hot wingsy niemalże ociekają tłuszczem. Bardzo słabo",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGU1VYbG9PRU5LUjI5bVFYZGpUelZ0TUZSbFpWRRAB",
+      "author_name": "Anna Wojdyła",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Smacznie szybko\nDobra restauracja",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUlFqRTJSSEI0ZFRGeWRVOUpkREpQUzNGcGNXYxAB",
+      "author_name": "Kuba polasik",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Czas oczekiwania na zamówienie to zwykła kpina. Czekaliśmy na jedzenie ponad pół godziny gdzie zazwyczaj czeka sie 15 minut.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JdFJISnVSRVJYYmxoVGJrNUNZbDh4UkhNNE9XYxAB",
+      "author_name": "Bartosz K",
+      "author_reviews_count": 3,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Byłem mega głodny ,zamówiłem twistera i frytki za 17 zł ,dostałem promocję 5 zł na szejka które wykorzystałem, szejk sam w sobie był dobry wlecz otwieram twistera którego nie mogłem się doczekać a tu sama spalenizna psujecie apetyt i zostawiam u was same stracone pieniądze oddajcie je!!!!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0WFdsTm1aRTFyY0ZsNU56ZEpia1pZZEdNNVRVRRAB",
+      "author_name": "Iwona Justyna Wojdyla",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo smaczne, świeże. Bardzo duży ruch ale pracownicy uwijają się sprawnie i nie czekaliśmy długo mimo wielu klientów przed nami.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xU1VFWmxWWFV6ZEhkelRESTJXWE4xZUhWMVdtYxAB",
+      "author_name": "weronika",
+      "author_reviews_count": 3,
+      "author_photos_count": 6,
+      "rating": 2,
+      "text": "w twisterze byl pomidor........ jedyny plus ze dali za darmo drugiego twistera👍…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCNWNEUmpPSEpKTUMxVVIwcDJaR1Z0UjJsU1VuYxAB",
+      "author_name": "Edyta Łukomska",
+      "author_reviews_count": 90,
+      "author_photos_count": 59,
+      "rating": 1,
+      "text": "SLOW FOOD. 20 minut od złożenia zamówienia otrzymałam letnie jedzenie gdzie w tortilli był kurczak i namiastka sałaty.\nObsługa zamówień to jakaś kpina. Klientka przede Mną czekała na lemoniadę tyle co ja na Boxa. Za długo, za mało i za drogo by tu wrócić.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdFgyWnFORXR0WDJaeWNHazRZbmswTmtsS2VGRRAB",
+      "author_name": "fruzia0107",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa, nie czekałam długo na jedzonko. Polecam",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURRby1XYW5BRRAB",
+      "author_name": "Gabriela Janiszewska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa i bardzo dobre jedzenie",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tvNWMyMXZOa0UzTUhGQk5XSmpWRXA0VUhwMmFsRRAB",
+      "author_name": "Iwo",
+      "author_reviews_count": 7,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "wspaniała obsługa i bardzo dobry kurczak",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOUGRFZHViRUpIVWxKRlN6VjZWMWMwZGpOd1JYYxAB",
+      "author_name": "Makaron&Klopsiki Company",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Sytuacja jest przykra i to, że muszę wystawić opinie negatywną. Byłam z kolegą na wyjeździe służbowym i nie otrzymałam paragonu przez zepsutą kasę (potrzebny do rozliczenia z firmą) o kwocie 70 zł. Nie jest to majątek, ale skoro to wyjazd…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVNVFXeDNVMnN3VmpSNE1ISlRiVWhCWTBSSlQzYxAB",
+      "author_name": "Oliwier Kaczmarek",
+      "author_reviews_count": 35,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Miła obsługa,  zamówienie wydane szybko. Świeże ciepłe i schludnie podane",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVMmF6WnVZakIxZUd4YVJuRXRaazlOWjBaWkxVRRAB",
+      "author_name": "Jakub Hryniewicz",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byłem pod wrażeniem bardzo szybkiej obsługi, pomimo dużego ruchu w galerii. Pani, która przyjmowała była bardzo uprzejma i okazała dużo zrozumienia, przy moim niezdecydowaniu. Hot Wingsy były świeże i gorące, a grander został przygotowany z największą starannością.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSFdWcGxRbEJpT1hFM1YwMWlXVFo2VVdKdk9IYxAB",
+      "author_name": "Wiktoria M",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzonko, krótki czas oczekiwania oraz przemiła obsługa ☺️",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tORFkwaFFTMlkzWHpGR1kydzVTRGhZTlV4aFRVRRAB",
+      "author_name": "Klaudiusz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Uwielbiam KFC! Jedzenie zawsze świeże, chrupiące i pełne smaku. Kurczaki są idealnie przyprawione, a frytki zawsze gorące i chrupiące. Obsługa miła i szybka, nawet w godzinach szczytu. Lokal czysty i przyjemny, a atmosfera świetna na szybki lunch",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taRFdESkdOM290Y0c5aFFWZ3hTbWhWWWs1MmVrRRAB",
+      "author_name": "miluska weronika",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poTmJtRlVjV3hoY0dKRE9HcE9WRkkxUlRabGMwRRAB",
+      "author_name": "Gryndera",
+      "author_reviews_count": 16,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "Na jedzenie dla 2 osób czekaliśmy 40 minut.   Pracownicy woleli wydawać w pierwszej kolejności mniejsze zamówienia z przed 2 minut niż nasze na które czekaliśmy zdecydowanie za długo.…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCelJqUTBjbTlHY0U5dVNYZHpTRlYxYm01UWJHYxAB",
+      "author_name": "Patrycja Bałażyk",
+      "author_reviews_count": 20,
+      "author_photos_count": 52,
+      "rating": 1,
+      "text": "Najgorszy kfc jaki może być. Mnostwo zamowien a tam 4 osoby ktore w powolnym tępie chodzą i od niechcenia realizują zamowienia! Czekasz 20min za jednym zamówieniem. Porażka. Nie polecam.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTGFEUldWaTFWWWpsbFJWZGlSVmhvVEhkMGEzYxAB",
+      "author_name": "Patryk Drj",
+      "author_reviews_count": 45,
+      "author_photos_count": 14,
+      "rating": 1,
+      "text": "Cała tablica zamówień a Ci ludzie na kuchni oparci o blaty i sie śmieją.\nBaba z kotletem kręciła się w kółko i zrobila 720' szukając niewiadomo czego.\nCzekałem za posiłkiem 35 minut.\nŻałosne",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VLcjUzZXlrdk52QkRREAE",
+      "author_name": "Nikodem Prusak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "20 minut czekania i okazuje sie ze „zapomnieli” o tym zamowieniu.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VLT0U4S3JsOUptNjR3RRAB",
+      "author_name": "galina Babikina",
+      "author_reviews_count": 3,
+      "author_photos_count": 24,
+      "rating": 1,
+      "text": "Oszustwo przy kasie. Zapłaciłam gotówką przy kasie, kasjer przy kasie jakoś podarł banknot rękoma, a na koniec powiedział, że nie przyjmuje płatności. Oszustwo, jestem zdenerwowana, mój nastrój zepsuty. Nie polecam wizyty!!!!!!! Szkoda, że ​​minimalna ocena to 1, gdyby była taka możliwość dałabym -10",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

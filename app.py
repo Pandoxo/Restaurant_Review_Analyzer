@@ -44,8 +44,8 @@ def get_restaurant_options():
     """Build dropdown options from DB."""
     data = get_summary_data()
     return [
-        {"label": f"{r['name']}  ⭐{r['rating'] or '?'}  "
-                  f"({r['analyzed_count'] or 0} analyzed)",
+        {"label": f"{r['name']} ({r['type']}) ⭐{r['rating'] or '?'}  "
+                  f"({r['total_reviews'] or 0} reviews)",
          "value": r["place_id"]}
         for r in data
     ]
@@ -204,7 +204,7 @@ def render_tab(tab, place_id):
                 html.Div(r["name"], className="restaurant-name"),
                 html.Div([
                     html.Span(f"⭐ {r['rating'] or '?'}  |  "
-                              f"{r['analyzed_count'] or 0} reviews"),
+                              f"{r['total_reviews'] or 0} reviews"),
                     html.Span(badge_text(pct), className=badge_class(pct)),
                 ], className="restaurant-meta"),
             ], className="restaurant-card"))
@@ -291,7 +291,7 @@ def build_review_table(reviews: list):
 
     # Format columns for display
     display_cols = [
-        "published_at", "rating", "author_name", "text",
+        "published_at", "rating", "author_name", "author_reviews_count", "author_photos_count", "text",
         "sentiment", "staff_names", "dishes_mentioned",
         "review_depth", "suspicion_score", "in_burst",
     ]

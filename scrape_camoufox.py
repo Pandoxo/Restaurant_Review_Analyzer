@@ -321,43 +321,50 @@ def scrape_place(page, url: str, limit: int, language: str, max_months: int = No
         return {"restaurant": info, "reviews": []}
 
     # 6. Scroll to load reviews
-    review_ids_seen = set()
     consecutive_no_new = 0
+    previous_count = 0
 
-    while len(review_ids_seen) < limit and consecutive_no_new < 5:
-        review_elements = page.locator('div[data-review-id]').element_handles()
+    while previous_count < limit and consecutive_no_new < 5:
+        # Get count and time of last review directly via JS (lightning fast)
+        scroll_status = page.evaluate('''() => {
+            const elements = document.querySelectorAll('div[data-review-id]');
+            if (elements.length === 0) return { count: 0, last_time: null };
+            
+            const lastElem = elements[elements.length - 1];
+            const timeElem = lastElem.querySelector('.rsqaWe');
+            
+            // Scroll the last element into view to trigger the next network request
+            lastElem.scrollIntoView();
+            
+            return {
+                count: elements.length,
+                last_time: timeElem ? timeElem.innerText : null
+            };
+        }''')
+        
+        current_count = scroll_status["count"]
+        last_time_str = scroll_status["last_time"]
 
-        new_found = 0
-        for element in review_elements:
-            rid = element.get_attribute("data-review-id")
-            if rid and rid not in review_ids_seen:
-                review_ids_seen.add(rid)
-                new_found += 1
-
-        if new_found == 0:
+        if current_count == previous_count:
             consecutive_no_new += 1
         else:
             consecutive_no_new = 0
-            print(f"  Loaded {len(review_ids_seen)} unique reviews...")
+            print(f"  Loaded {current_count} reviews...")
+            previous_count = current_count
 
-        if len(review_ids_seen) >= limit:
+        if current_count >= limit:
             break
 
-        if review_elements:
-            try:
-                if max_months is not None:
-                    last_time_elem = review_elements[-1].query_selector('.rsqaWe')
-                    if last_time_elem:
-                        last_time_str = last_time_elem.inner_text()
-                        if parse_months_old(last_time_str) > max_months:
-                            print(f"🛑 Found reviews older than {max_months} months. Stopping scroll.")
-                            break
-                            
-                review_elements[-1].scroll_into_view_if_needed()
-                page.mouse.wheel(0, 1000)
-                time.sleep(0.5)
-            except Exception:
-                pass
+        if max_months is not None and last_time_str:
+            if parse_months_old(last_time_str) > max_months:
+                print(f"🛑 Found reviews older than {max_months} months. Stopping scroll.")
+                break
+
+        try:
+            page.mouse.wheel(0, 1000)
+            time.sleep(0.8) # Allow network to fetch the next batch
+        except Exception:
+            pass
 
     # 7. Expand long reviews
     # 7. Expand long reviews (lightning fast via JS)
@@ -444,7 +451,7 @@ def scrape_place(page, url: str, limit: int, language: str, max_months: int = No
             "language": language,
         })
 
-    print(f"✅ Extracted {len(reviews_data)} reviews with text (from {len(seen_ids)} total).")
+    print(f"✅ Extracted {len(reviews_data)} reviews with text (out of {len(raw_reviews)} loaded).")
     return {"restaurant": info, "reviews": reviews_data}
 
 
@@ -515,6 +522,22 @@ def main():
             name = restaurant.get("name") or "unknown"
             filename = f"{slugify(name)}.json"
             output_path = output_dir / filename
+
+            # If conflict, append the street name
+            if output_path.exists() and restaurant.get("address"):
+                street = restaurant["address"].split(",")[0]
+                name = f"{name} {street}"
+                filename = f"{slugify(name)}.json"
+                output_path = output_dir / filename
+
+            # If still conflict, append a number
+            counter = 2
+            original_name = name
+            while output_path.exists():
+                name = f"{original_name} {counter}"
+                filename = f"{slugify(name)}.json"
+                output_path = output_dir / filename
+                counter += 1
 
             # Build the output JSON with restaurant info + reviews
             output_data = {

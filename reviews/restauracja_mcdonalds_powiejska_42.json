@@ -1,0 +1,312 @@
+{
+  "restaurant": {
+    "name": "Restauracja McDonald's",
+    "type": "Fast Food",
+    "address": "Półwiejska 42, 61-888 Poznań",
+    "price_range": null,
+    "total_reviews": 588,
+    "avg_rating": 3.6
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5MWFWOVBiR2huV0VwVlRqUXdUbFp1UVY5c2FuYxAB",
+      "author_name": "Harry FCB",
+      "author_reviews_count": 8,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "Czy przestaniecie w końcu dawać końcówki pomidora? To już trzeci raz. Dlaczego mam jeść samą skórę pomidora? Wiem, że w standardzie McDonald's jest aby to wyrzucać.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tJMlZHZ3RhbUZhTFdaV1YxQlVTWFJFVVRsWGNWRRAB",
+      "author_name": "Kacper",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam Panią w okularach i krótkich włosach. Pomocna, uśmiechnięta i z chęcią i spokojem tłumacząca klientom zasady zamówień :)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pabWFrdE9jRFIyZUV4TVNHODRSSFpVTFV4eVYzYxAB",
+      "author_name": "Eryka",
+      "author_reviews_count": 38,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Notorycznie mylą zamówienia na dowóz 🫠…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGVWFVUkJlV3BmYkRJNU1VTnRSR1YzYms1UmNXYxAB",
+      "author_name": "Tymoteusz",
+      "author_reviews_count": 24,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Przy kasie śmierdzi uryną jak pod dworcem jakimś.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkallrTkhVR2REUjNGck1WWklaV3BmTUdSb2IzYxAB",
+      "author_name": "Piotr",
+      "author_reviews_count": 39,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Zamówienie poprawne, wszystko się zgadzało. Smak w porządku, chociaż trochę brakowało wyrazistości. Ogólnie pozytywnie, ale bez zachwytu.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxRmNIcG9NV3RrYUhCc1JrOU9VMFZyVTI1bFdsRRAB",
+      "author_name": "Jarek Iskierski",
+      "author_reviews_count": 8,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Obsługa nie skompletowala całego zamówienia na wynos, o czym przekonaliśmy się w aucie po otwarciu torby.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KSldXMVBhRGh3WjFaYVYzaEhaalJwTlhFNU1WRRAB",
+      "author_name": "Karina Urban",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "obsluga mila, troche niektorzy nie ogarniaja za to jedzenie dostalam obrzydliwe, nie wiem kto robil to zamowienie ale ewidentnie cos zostalo zmienione w moim wrappie i dostałam jakiś dziwny przeterminowany sos (16.12.25)",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjeVlucFZlVzgxZUhGYVZucHpiVkZwVWtGeFQxRRAB",
+      "author_name": "Adam Czerniawski",
+      "author_reviews_count": 36,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Jedzenie ok, ale bardzo długi czas oczekiwania na zamówienie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsSFQzZDJlbmM0WVZoa1NrNTVRVVZZUmt0UU1sRRAB",
+      "author_name": "Oliwier Glanc",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Pomimo małego ruchu przy którym obsługa miała do zrobienia 3 zamówienia i tak byli w stanie pomylić zamówienie, dodatkowo długi czas oczekiwania. Lepiej iść kawałek dalej do Avenidy w której to pomimo ogromnego ruchu potrafia zadbać o klienta i wykonać swoją prace poprawnie oraz w szybkim tempie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKc1Qyc3lhemgxU0VwTU5GcFphMnRCTWxWQ2QzYxAB",
+      "author_name": "Артем Исаев",
+      "author_reviews_count": 9,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Przyjechałem jako kurier i poprosiłem o wodę do picia, ale odmówili. Powiedzieli, że jeśli nie masz zamówienia do odebrania, nie dadzą ci wody.\n\nПеревести",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GaFUxSkpNWE40VEZSVWVtWnVPVWhPYTFRNExVRRAB",
+      "author_name": "Marcin Koba",
+      "author_reviews_count": 133,
+      "author_photos_count": 127,
+      "rating": 3,
+      "text": "Jedzenie ok ale woda niegazowana na wynos do zestawu w kubku i do tego prawdopodobnie kranowa zapach i kolor ( zdjecia )🤮 i to za jedyne 9,10 zł to porazka i masakra jakas 🙆‍♂️",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25reGRWQkpTMlEwYUdab2RqQklRM0V4UlZsTU1IYxAB",
+      "author_name": "Yana Pikalova",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obsługa nie umie czytać, zamówienia składają ot tak. Zjesz więc półzimne zamówienie, a potem, jeśli będziesz miał szczęście, dostaniesz pełne. Najgorszy Mac ze wszystkich w poznańskim centrum handlowym.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WRU9FRnRTVmgyVlhWQlZWaFhaamhCTFhOaE4zYxAB",
+      "author_name": "bufi",
+      "author_reviews_count": 2,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Mcflurry porażka, najgorsze jakie kiedykolwiek miałem. Porcja jedna od drugiej się różni i na dodatek cały lód roztopiony. Najgorsza restauracja, nie polecam",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205dlRGbGlVUzAyYmt0SGRUUm1NVWxPYTJkVlgzYxAB",
+      "author_name": "Julka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Kupując mcflura Lion z polewą karmelową DWA RAZY POLEWĄ KARMELOWĄ dostałam lody praktycznie bez polewy to już nie pierwsza sytuacja tak oszukiwana jestem aż od lipca skandal ten McDonald's powowinien zostać zamknięty",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWdFdGQm1XSGxwVkRGeGMwZ3ROMjFuWWtSQk1YYxAB",
+      "author_name": "dietolog",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Długo czekałem, burger był źle zrobiony",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psS1VGZHRiWFptZW5Sc1JrUjVObXc0ZUhoTVYyYxAB",
+      "author_name": "Wiktoria Pawłowska",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Ciepłe jedzenie, pyszna kawka! Dziękuję Pani Natalii za bardzo miłą obsługę i pomoc w podjęciu decyzji<3 na pewno wrócę jeszcze nie raz:)",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSdlpqVnhWREZXVDJOUlgyOUtOR2Q0T0VRMGFuYxAB",
+      "author_name": "Agata Anioła",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zapłaciłam za podwójnego Mcroyala, którego nie dostałam, więc zostałam oszukana na 20PLN, dzięki.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWWmIzQjJlR3RJVERaQ2VGOWlVVkpOTkhVeU1HYxAB",
+      "author_name": "Liana",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Kupuję lody pistacjowe za 13zł i kilka groszy dostajesz połowę kubka już 5 raz tak jest",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aclZVVkhNMUowY1Y5SGVHSk1Za2RDTVRGbk5GRRAB",
+      "author_name": "Inka Inka",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "W zamówieniu ktore zamówiłam na dowóz brakowało produktów, polecam sprawdzać czy wszystko wam dają",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5U2RFdFNaMEpqY0cxSFF6VkdkV05WZEV4UlYzYxAB",
+      "author_name": "Viktoriia Shkoliar",
+      "author_reviews_count": 28,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Pół porcji 👎",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kU2JGQXhhMG80UlhsV1ltbERaRzB3YkhSQmQzYxAB",
+      "author_name": "Sebastian",
+      "author_reviews_count": 8,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "Porcja mcflurry pistacjowych dwukrotnie mniejsza niż w innych restauracjach McDonald. Po zwróceniu uwagi obsłudze dostaliśmy informacje, że takie są wytyczne i wszystkie porcje są ważone. Nie polecam tego miejsca. Po komentarzach w google (niestety przeczytanych dopiero po fakcie) widzimy, że nasza sytuacja nie była pierwsza w tym miejscu.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JNU9VSm1Uek5NU2pRd2VGTm1aVGxyTFV0RlVFRRAB",
+      "author_name": "Dawid",
+      "author_reviews_count": 83,
+      "author_photos_count": 2,
+      "rating": 3,
+      "text": "Bardzo miła obsługa, super balkon, ale frytki ledwo co ciepłe i zwisy, bylo czuć że zrobione ,,na zapas’’",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkb1JtZ3hkMDl1WjNGVk1ubHRaVEJPTVRSNlVXYxAB",
+      "author_name": "Kamil Tarnowski",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Dają ci połowę kubeczka lodów i wciskają kit że to normalna gramatura, w każdym innym mc podają lody normalnie a tu kradną",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOWmRUVmFVbk5aWkcxbFFWTjRMVmxKU3kxMFMzYxAB",
+      "author_name": "Kefir",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOSFJXaDVXVzFXV2tkSGJVVnFReTFuTFROTFltYxAB",
+      "author_name": "Zbyszko Halasz",
+      "author_reviews_count": 17,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Niestety obsługi klienta była nie miła i jedzenia zimne",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxa2VGZDBjV0ZMZWpSMWQyZHVXV290VG1reWVsRRAB",
+      "author_name": "Oksana L",
+      "author_reviews_count": 36,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Bardzo mało miejsca",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twWWVYVkliSGM1VmtObU5FUjBMVWxpWHpZMU9WRRAB",
+      "author_name": "SofiaKhablenko",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówiłem McFlurry Pistacio i dostałem prawie zero lodów w kubku, podczas gdy mój przyjaciel, który zamówił to samo, dostał DUŻO więcej.\nKiedy podszedłem, żeby poprosić kobietę, która nalewała lody, żeby !proszę! dodała więcej, ponieważ ilość, którą dostałem, była śmieszna, była dość niegrzeczna i powiedziała mi, że każdy dostaje taką samą ilość lodów, podczas gdy kasjer wyraźnie zauważył, że to zdecydowanie za mało lodów. Jestem zły, ponieważ zapłaciłem tyle samo pieniędzy, co mój przyjaciel, a dostałem prawie nic. Po prostu śmieszne.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wM04zTnRlV0prU1dFeFRIUklMVGQzYWt0eWFXYxAB",
+      "author_name": "Cristiano De Scisciolo",
+      "author_reviews_count": 860,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Ta, podobnie jak ta na drugim końcu ulicy, to typowa restauracja McDonald's. Czasami są kolejki, ale mniej niż w poprzedniej. Obsługa jest uprzejma, a atmosfera bywa nieco chaotyczna. Jakość jedzenia jest standardowa, jak w innych restauracjach typu fast food.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poc2NtaENTR1UwTlZOQ1dUVkljRnBKYjI5S1UwRRAB",
+      "author_name": "Дмитрий Мазур",
+      "author_reviews_count": 375,
+      "author_photos_count": 2129,
+      "rating": 1,
+      "text": "Jedliśmy razem. Potem dwoje z nas miało bóle brzucha, a dziecko miało mdłości. To pierwszy raz, kiedy jedliśmy w McDonald's (",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25BNU1tVTFZMVZRWVZFMGNHaFlWa3R6YjBOSGQxRRAB",
+      "author_name": "Adrianna Cieślik",
+      "author_reviews_count": 35,
+      "author_photos_count": 39,
+      "rating": 1,
+      "text": "Zamówiłam mcflury pistacjowe, już na pierwszy rzut oka było widać iż kremu jest mało po pierwszych dwóch łyżeczkach krem się skończył. W związku z czym udałam się do obsługi ponieważ wiem ile tego powinno być. Obsługa powiedziała, iż nic z tym nie zrobią bo były 2pompki a teraz jest 1. Zrezygnowałam z dalszego jedzenia w tym miejscu. Po udaniu się do innego McDonalda otrzymałam loda z normalną ilością sosu k po zapytaniu czy zmieniły się wytyczne odnośnie ilości powiedzieli, iż nic takiego nie miało miejsca. Także lodów w tym miejscu NIE POLECAM",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

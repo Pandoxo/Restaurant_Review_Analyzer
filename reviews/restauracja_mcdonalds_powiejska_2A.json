@@ -1,0 +1,1572 @@
+{
+  "restaurant": {
+    "name": "Restauracja McDonald's",
+    "type": "Fast Food",
+    "address": "Półwiejska 2A, 61-887 Poznań",
+    "price_range": null,
+    "total_reviews": 6719,
+    "avg_rating": 4.0
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkU1NsWXpZak5FVUhsT2EyMUVVRE5WY2xsVFRFRRAB",
+      "author_name": "Cameron Jack",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szybka obsługa i wysokiej jakości jedzenie",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201UlJVRk1OREZ6TUhKMlJsY3hNa2xwYVVobFptYxAB",
+      "author_name": "Marta Lach",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Juz któryś raz wieksze zamowienie nie zostało zrealizowane całkowicie, ostatnim razem nie dali nuggets, dzis frytek do zestawu. A cena zapłacona za zestawy.",
+      "published_at": "3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OMFh6SlZaVFJUWjJveWJWOXJWRUV6YWsxRGMyYxAB",
+      "author_name": "Віталік Мінкевич",
+      "author_reviews_count": 4,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Zamówienie przygotowywano około 10 minut, cola sprawiała wrażenie, jakby była po prostu nieświeża, bez gazu, smak był taki, jakby dodano do niej kilka torebek cukru, kelner przy wydawaniu zamówienia wydawał się ze mnie kpić, chytry uśmiech, a zamówienie zostało opóźnione, po zapytaniu czy to moje",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GSFExUm1TVWhTY0hRNVRFdEpSM2xEUjBnemRIYxAB",
+      "author_name": "Eray KESAT",
+      "author_reviews_count": 47,
+      "author_photos_count": 29,
+      "rating": 5,
+      "text": "Tłoczno, ale nieźle.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKelprMVJObmxGZEVKT1NEWTVlWEIyTjFVMVlsRRAB",
+      "author_name": "Zjebosz Seszi",
+      "author_reviews_count": 40,
+      "author_photos_count": 142,
+      "rating": 1,
+      "text": "Niestety Hamburger z dzisiejszego zamówienia (01.06) w okolicach godziny 13. Nie komentuje więcej, sami sobie odpowiedzcie. Ważne że hajs się zgadza, przykre",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pabFkxTTNlVkUxTTJKdmNFaGpaMXB6Y0hGQ1ZVRRAB",
+      "author_name": "Anna Ww",
+      "author_reviews_count": 16,
+      "author_photos_count": 23,
+      "rating": 5,
+      "text": "najlepszy mak w poznaniu",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUlRURjVlSEJEVmtSblJHcG1TbXN0WDFGMFIyYxAB",
+      "author_name": "Marta",
+      "author_reviews_count": 8,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "jedzenie drogie, jakieś takie małe, shake tez jakiś inny smak niż kiedyś. Ogólnie lepiej iść na pierogi.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZM2JXOXBNVVJCWjFOVk9GcHphRmhHYmpWaVZGRRAB",
+      "author_name": "Piotr",
+      "author_reviews_count": 68,
+      "author_photos_count": 8,
+      "rating": 2,
+      "text": "Dotychczas bylem zadowolony z wizyt w tej restuaracji lecz dzisiaj jak bylem to niestety miala miejsce nieprzyjemna sytuacja zamowilem cocacole i cheeseburgery i niestety zamiast cocacoli dostalem liptona oraz spalonego kotleta",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5YWJsUXhTbkZxU2pkdFZrUXRTakp5VTNZMWRuYxAB",
+      "author_name": "Urbex Military Hunters",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Starali się dobrze obsłużyć kibiców, szczególnie miły i profesjonalny pan Emil",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poaVdIWnFVMVJYYm1WT05IaE1abVp1VUcxVFptYxAB",
+      "author_name": "David w grach",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Na stronie pisze zamknięcie o 04:00 o 22 41 byliśmy zamknięte",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5cFpIbExSMEZLUzA5UVpEbEJZa2RqTjI4dGVsRRAB",
+      "author_name": "Ewa Iwona Skiba",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Restauracja czynna według google do 4 a jest zamknięta",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKS2FYWlRWVVZzU0d0alpuYzFaMVZ4VTNCR2VuYxAB",
+      "author_name": "Alex Michalski",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zamowienia robione szybko i smacznie",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNMlZtMWZXR3BuVWpGQ2MzWm9Ramx3Tm1SSVNsRRAB",
+      "author_name": "Ola Matuszak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Czysto, miła obsługa a jedzonko szybko przyszło ( zamówienie było małe ale było dużo ludzi ) ;)",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMmFuWm9WRFpPT1RSMWVURlhlV0pIYkZaYVNsRRAB",
+      "author_name": "Bagira 1313",
+      "author_reviews_count": 19,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Polecam)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xQlkwWTFhamhOYnkxNlJtTjZhaTFmVmpKUVVVRRAB",
+      "author_name": "mizu",
+      "author_reviews_count": 10,
+      "author_photos_count": 8,
+      "rating": 4,
+      "text": "Chyba moj ulubiony mcdonald w polsce, zawsze jak jestem to tam wpadam chociazby dla widoku. Jednakze lokalizacja jest tez minusem poniewaz zazwyczaj jest zapelniony szczegolnie po godzinach lekcyjnych. Na duzy plus ze na gorze duzo stolow ma gniazdka elektryczne.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KNlJHNVBWa0l0V2s5cVVXNU1lWFZrYzNaSFdsRRAB",
+      "author_name": "Valentyn",
+      "author_reviews_count": 195,
+      "author_photos_count": 61,
+      "rating": 5,
+      "text": "Czasami tu zaglądam na kawę i coś małego do jedzenia. Obsługa jest szybka, lokal czysty, a atmosfera spokojna. Dobra opcja na krótki odpoczynek w centrum.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1dU1YbFdNMWhWYkMxRFltZEZOa1JJVWtwWVkwRRAB",
+      "author_name": "Marek „Masyer”",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Sympatyczna obsługa na sali.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSMVgwMUpTRjlYUldSWU0yMUdPV1kyWjFWUWMxRRAB",
+      "author_name": "Sevastsian Kryzhanouski",
+      "author_reviews_count": 31,
+      "author_photos_count": 42,
+      "rating": 5,
+      "text": "Polecamy\nLike!!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOaVN6TklZalE0Y1RobVJtcERNa3cwVURsMGNGRRAB",
+      "author_name": "Erwin Michalski",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Obsługa działa sprawnie i widać że stara się zadbać o czystość mimo dużego ruchu. Niestety przy zamówieniu na wynos zamówienie było niekompletne więc polecam sprawdzać.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5U2F6aGxhbmhpZGs0d1NXdzBjV2hxUVVoMlVXYxAB",
+      "author_name": "Weronika Walkowiak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówiłam dwa McFlurry Jaden Lion z polewą czekoladową a drugi pistacjowy, pistacjowy był pełny a Lionowego była tylko połowa. Gdy podeszłam do kasy i poinformowałam pracownika spotkałam się z odpowiedzią że teraz ważą lody, i ja tego nie rozumiem skoro ważą i musi się waga zgadzać to jakim cudem jednego jest o połowę mniej.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210bGIyNXJTV2xUTW5CaU16QnVTR0pKTUdORWRYYxAB",
+      "author_name": "Dominik Wochlik",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Miało być czynne do 00:00, a zostało zamknięte o godzinie 23:00, a na domiar tego wszystkiego nie było Arka..",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOU2VFa3pUVVYxV0RKRFlrMDNkWGM0WDJvdGNIYxAB",
+      "author_name": "Сергeй Политучий",
+      "author_reviews_count": 205,
+      "author_photos_count": 75,
+      "rating": 5,
+      "text": "Zawsze jest szybko i smacznie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0elNsZG1NVE42Wm5ZNFRrRlRNV1V0VTJOVE5IYxAB",
+      "author_name": "mish masz mowisz i masz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nigdy wcześniej w żadnej restauracji nie spotkalem sie z tak miłą obsługą. Pracownicy na bieżąco przecierali stoliki i myli podłogi. Jedzenie ok jak w kazdym maku. 10/10",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Sb1pGQmxYemd4Yms5U1JGVkRiM0JYVUcxRmNsRRAB",
+      "author_name": "Karol Matczynski",
+      "author_reviews_count": 10,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Burger lekko suchy ale smaczny",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNoOUkyRFBREAE",
+      "author_name": "Paweł Betliński",
+      "author_reviews_count": 173,
+      "author_photos_count": 71,
+      "rating": 5,
+      "text": "Ok",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRMWJtRmpYM294YUU1dVdqQTRhbTVxVm1oTmJsRRAB",
+      "author_name": "Patrick Wennekes",
+      "author_reviews_count": 73,
+      "author_photos_count": 61,
+      "rating": 4,
+      "text": "Burgery nie mają smaku. Jest na nich zdecydowanie za mało sosu.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCNGNWUTVSVmw2VVZCUmJsTjZTVjlVTkhsbGNrRRAB",
+      "author_name": "Mariia",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Ogólnie ten McDonald’s jest całkiem dobry. Czasami zdarzają się sytuacje, że czegoś brakuje w zamówieniu, na przykład sosu, ale to nie jest problem — podchodzę z paragonem i wszystko bez problemu uzupełniają. Zwykle jest tam bardzo duży…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taZk9YcGZZWE5tWkRKMFQwNXdOelpGZDFSRlNIYxAB",
+      "author_name": "Bart Simson",
+      "author_reviews_count": 315,
+      "author_photos_count": 61,
+      "rating": 5,
+      "text": "Szybko, sprawnie, ogólnie ok",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMk5sWmFaSHA0TkZsaE5HRk9lbWhQUTFoMFkzYxAB",
+      "author_name": "genioo 2006",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Obsługa miła ale jedzenie tragiczne, kanapka smakowała jakby zamiast \"podgrzana\" została wysuszona.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWWllubFJhR0U1TFhCVFdWaHZjRXBWYm5GTE9WRRAB",
+      "author_name": "Aqua Mala",
+      "author_reviews_count": 13,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Dostaliśmy frytki za 1zl z okazji starego dobrego numeru reprezentacji",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVlV6ZE9iVVJVZEZwa1UwUkZZekl4YWpSMlFXYxAB",
+      "author_name": "VORVE",
+      "author_reviews_count": 17,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Jeden z najlepszych w Poznaniu",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25nMWJsZEViVFF5UkZodVNUaEthbFV3UVU5WE9YYxAB",
+      "author_name": "Olga Ivashina",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Odradzam to miejsce. W moim jedzeniu znalazłam plastikowy woreczek. To niedopuszczalne i niebezpieczne dla zdrowia.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTU9UYzJhRkZrT0ZOdWRrVktTMTkyYUZKdGQwRRAB",
+      "author_name": "Aleksandra Czerwińska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "nie polecam obsługa niekulturalna jedzenie  rozwalone i niedobre",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURrX3JQcHBRRRAB",
+      "author_name": "Marcin Kościelski",
+      "author_reviews_count": 98,
+      "author_photos_count": 101,
+      "rating": 5,
+      "text": "Fantastycznie jest, można sobie nawet windą pojeździć.",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTFVXbGpZbFZFWTJ4clltRmpRVjlQWVVGT1dsRRAB",
+      "author_name": "Denis Solodkiy",
+      "author_reviews_count": 9,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Super",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5T1N6QnRTR1pYVGxBd1pVZFhOa2xYY25VNE5GRRAB",
+      "author_name": "Car Spoting",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie dostałem Pepsi dostałem sok jabłkowy bez kostek lodu a za nie dopłaciłem",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taM1ZURllSMUZxTFVsZllVUktlR3R0UjJzNU1VRRAB",
+      "author_name": "Damian Frontkiewicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Czysto, miła obsługa. Będę wracał.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sT1lrVk5UWE5JWXpoNk5WQmhVemxtWkRWaVEwRRAB",
+      "author_name": "Jiaxin He",
+      "author_reviews_count": 7,
+      "author_photos_count": 2,
+      "rating": 2,
+      "text": "Zamówiłem w tym lokalu burgera. Zawsze wybieram ten sam, więc dobrze go znam. Zwykle ma dwie plastry sera, ale tym razem był tylko jeden. Dodatkowo mięso było zbyt mocno posolone i przez to burger był bardzo słony.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210TFRWUmtVell6TUhGaVdXVTFVR3hwU25ST1NIYxAB",
+      "author_name": "Dimitri's Channel",
+      "author_reviews_count": 48,
+      "author_photos_count": 30,
+      "rating": 5,
+      "text": "dobre miejsce",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poTE5IRldNRkI2ZGtKMVlWTXRNbWRZZWw4MVZIYxAB",
+      "author_name": "Filip Szymanek",
+      "author_reviews_count": 316,
+      "author_photos_count": 2345,
+      "rating": 4,
+      "text": "Przeciętny, typowy Maczek. Jest w porządku, nie mam żadnych zastrzeżeń.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0V1UxTmlUa2hFWlVvNWJYUndhalpRVTFSMVgwRRAB",
+      "author_name": "Polina Lozun",
+      "author_reviews_count": 59,
+      "author_photos_count": 24,
+      "rating": 5,
+      "text": "Nie wiem, co ludziom się tu nie podoba. Dobry McDonald's, w samym centrum. Owszem, czasami bywa brudno, ale to nie wina pracowników, a ludzi, którzy zachowują się, powiedzmy, niezbyt kulturalnie. Dania są przygotowywane równie szybko, jak w…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5TVpGWjJha2w0YVc5c1lsQm1UR28wWkVsa1oyYxAB",
+      "author_name": "Superpekka",
+      "author_reviews_count": 13,
+      "author_photos_count": 7,
+      "rating": 1,
+      "text": "Szkoda pisać opinie.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSTlRYQjFZemhWU2xOT2IzcEVRVWw2ZUVGVmJtYxAB",
+      "author_name": "Ola Jędrzejek",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam Pana Dominika! Niesamowicie miła obsługa, pierwsza klasa!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WNFpXWklUbFY2VGpRMVprY3lObUZwUzNSTVVsRRAB",
+      "author_name": "Marcela Parzonka",
+      "author_reviews_count": 12,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Polecam, miła obsługa. Pan Dominik był bardzo profesjonalny i przyjazny :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5YWRsOWlkbkIyU2tKMFFrMW5YMHcwVUZCcGNWRRAB",
+      "author_name": "Magda",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KNlIwNWFSMjFSVDJ4aGVteDNXVVZLWjB0UmFVRRAB",
+      "author_name": "cqape snapchat",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Juz raz wystawialam tu opinie, nie wiem\nco musi sie stac zeby doszlo wam to do rozumu. Kolejny raz dostalam nie w pełni skompletowane zamowienie, zamowilam…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsWU5VeFFTVEpYZDFFMlZ6VlRNV3RsZVdwMFNsRRAB",
+      "author_name": "Alisa& Dee",
+      "author_reviews_count": 18,
+      "author_photos_count": 12,
+      "rating": 2,
+      "text": "Najgorsza obsługa która mnie spotkała w Mc!!! Bardzo często przychodziliśmy z chłopakiem akurat tu, ale tym razem pani która pomagała osobie za ekspresem się uczyć, była bardzo chamska, proszę zwrócić na tą uwagę!!!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SSU1tdHRjalJTVmt4WGFHTm9WREo0UzBrNVpXYxAB",
+      "author_name": "Kamil Karmelita",
+      "author_reviews_count": 117,
+      "author_photos_count": 305,
+      "rating": 5,
+      "text": "szybka obsługa, fajny kącik zabaw",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VemExOWhSalo2ZGxnd2J6UkdMV1JEVHpVelFrRRAB",
+      "author_name": "Szymon Skowroński",
+      "author_reviews_count": 216,
+      "author_photos_count": 46,
+      "rating": 5,
+      "text": "Czysto, szybko",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25nNGJXSTRiVGs0Y0dzeVJHRnFVMjVrTkdacWJrRRAB",
+      "author_name": "Michal Henicz lerke",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie dobre było i miałem 39 stopni goraczki",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrMWJIQndURkp4VW1RME5UTk1hMHQwYW01UWJrRRAB",
+      "author_name": "Sebastian Walczak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Miejsce warte polecenia ale często wydają niekompletne zamówienia. Warto sprawdzać zapakowane zamówienia na miejscu przy obsłudze. Nie jestem w stanie policzyć ile razy spieszyłem sie i nie sprawdziłem zapakowanego zamówienia a po…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkcFJUQnBNMk4xYjNSS1dqSkZiRkZ6VW10aFpIYxAB",
+      "author_name": "Agnieszka Figler",
+      "author_reviews_count": 146,
+      "author_photos_count": 43,
+      "rating": 5,
+      "text": "Da się zjeść 😁…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GaVpuUnZka28zYVRWUFdXZGxlVzh0VFdJM2JsRRAB",
+      "author_name": "Anna Pasitchnik",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Po prostu nas wyrzucili, krzyczeli na nas: „włosy w ziemniaku”, okropni ludzie",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KclpsSlRURGx4VkZKWWNHSlJSVlptTjJsYWJHYxAB",
+      "author_name": "Roman",
+      "author_reviews_count": 124,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Czystość i miła obsługa 👍…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OZldGTjNYM3BvTFhWcmNHZEdRWFppTFdaWGRGRRAB",
+      "author_name": "SSS NEO",
+      "author_reviews_count": 393,
+      "author_photos_count": 1244,
+      "rating": 4,
+      "text": "Standardowy McDonald's, szybka obsługa.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOUmRVMUxSMEV3YVZkMk5sWmliMmx6T1dsS1lrRRAB",
+      "author_name": "Ania Rejdut",
+      "author_reviews_count": 17,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Ogolnie jestem tu czesto, duzo zamawiam zawsze jest okej, zamowienia raczej szybkie i dobre wszystko. Jedyne co jest nie dobre to kobieta ktora pracuje bez stanika z przodu i wszystko jej widac, to malo smaczne",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2podVpIWkpaM1Z3V1c5d1pUSnlTbTgyVnpsdVdFRRAB",
+      "author_name": "Alexander Shaliuta",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Już nie pierwszy raz otrzymuje nieprawidłowo skompletowane zamówienie. Dość często mogą zapomnieć coś włożyć (od sosów do nagetsów)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twSk9FdFpkWFkwWldsYVUxRnVNMWx3WmtSRFVsRRAB",
+      "author_name": "Кирилл Тетеря",
+      "author_reviews_count": 7,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Nie otrzymałem zabawki w zestawie FRIENDS",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxaGQyRmZTREI0Y0UxVlZYVktabHBsYW1aelNrRRAB",
+      "author_name": "Alicja Jagodzińska",
+      "author_reviews_count": 18,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Nie dostalam zamowionego chickera, zauwazone dopiero w domu.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wdlpsOXFNRFU1YUZRdE15MVlaMnRuWVMxcWMyYxAB",
+      "author_name": "Natalia Kuśmierek",
+      "author_reviews_count": 8,
+      "author_photos_count": 5,
+      "rating": 1,
+      "text": "obsługa tragiczna, trzymali moje podstawowe zamówienie czyli dwa cheeseburgery i colę, bo nikomu sie nie chciało nalać napoju do opakowania",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oUVRXcHRZM0ZMVERoWGRHdzRNblpYZGpWeFkxRRAB",
+      "author_name": "Joanne White",
+      "author_reviews_count": 25,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie podobało mi się jedzenie, miałam muffinkę, smakowała sucho",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGZlVEVmxVMnhVYUZjemJHOUdOblJwYkV4dFMzYxAB",
+      "author_name": "ma we",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Nieee ...",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20weFJITjZkMXBaTlY5UU9FZ3hWRlZsYWxsdE4wRRAB",
+      "author_name": "Elinot",
+      "author_reviews_count": 2,
+      "author_photos_count": 2,
+      "rating": 2,
+      "text": "Nie rozumiem, na czym polega problem, żeby normalnie pokroić warzywa. Tego dosłownie nie da się jeść. Mam nadzieję, że ta opinia jakoś wpłynie na sposób przygotowania, na razie nie polecam Maestro Classic.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOdlRuQnplbmwyWnpablR6VmFUVGRNWjJWcmJWRRAB",
+      "author_name": "Marcin Krzystolik",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Ekipa jest najlepsza! Super sprawni! Polecam tego Maczka!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4U1ZrcHhjRTFGWmpCaWJTMHdWVk5pVVZCemQyYxAB",
+      "author_name": "Marta Lel",
+      "author_reviews_count": 243,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Wyjątkowo pyszna kawa. Nie ma porównania do innych mc. Donald.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rMUxWQnZkRFpPWTBkSWRYSXpVMkpJU0ZKNFlVRRAB",
+      "author_name": "SEA-PORT Resort",
+      "author_reviews_count": 44,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Wyciąć",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURxaXMtd0h3EAE",
+      "author_name": "Michał Sajak",
+      "author_reviews_count": 118,
+      "author_photos_count": 87,
+      "rating": 5,
+      "text": "Miałem okazję spróbować nowych lodów malinowych- były bardzo dobre oraz podane w odpowiedniej formie. Miejsce bardzo ładne  oraz zadbane. Przemiła obsługa i klimatyczne piętro, gdzie można w spokoju coś zjeść. Jestem pod wrażeniem- polecam serdecznie- Michał",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NeWFrNWhkbEpRWVVSNFNESlFkVTV1VkVsdFJIYxAB",
+      "author_name": "Jose h. Polindara",
+      "author_reviews_count": 85,
+      "author_photos_count": 87,
+      "rating": 5,
+      "text": "Uwielbiam, kiedy mogę, zatrzymuję się i coś jem.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SRWNHUmhja2RETkZwNmRHOW9OR05mVW1wcU1tYxAB",
+      "author_name": "Illia Kirichenko",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Wszystko jest w porządku, ale frytki nie zostały umieszczone w zamówieniu, mimo że zostały opłacone\nZamówienie 3191",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NMlRUZE1ZMHR0VVdaNWVWWkpabUZNTjBoMFJtYxAB",
+      "author_name": "Monika Musielak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Dobra restauracja",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tseVYxbENiRkp1VFhwWVJGbHpPWFY2VlVONVNuYxAB",
+      "author_name": "Алексей Гомолюк",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Podróżujemy z kotem w plecaku. Nigdzie nie było problemów z tym, żeby kot spokojnie siedział obok w plecaku, ale właśnie w tym miejscu przeszkadzaliśmy i poproszono nas, żebyśmy wyszli. Dziękujemy za „obsługę”.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsTllXOXdXRzh4U2tKV05teEpWamwyYUVKblJIYxAB",
+      "author_name": "Klein Wit Visje",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie polecam. Zamówienie złożone przez Pyszne.pl, restauracja nie wie, gdzie ono utknęło i nie poczuwa się do odpowiedzialności, żeby je znaleźć lub anulować. Nawet odmawiają kontaktu z pyszne.pl mimo że ewidentnie coś nie działa. Zamówienie opłacone a klienta mają głęboko.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocFpraERMV2g1VkVGNE1qVkRSWGxCWVZSclpGRRAB",
+      "author_name": "Melania Świerc",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Kupiliśmy jedzenie z dostawą do stolika, poszliśmy do góry, po czym czekaliśmy 25 minut na jedzenie (nie było tego dużo i zazwyczaj czekamy na nie maksymalnie 10 minut). Gdy zszedłem, żeby zapytać się grzecznie o zamówienie, na pytanie, co…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OQlFYQXdOMUIyU0ZGWWVGYzRlRWN6VVVSaU5tYxAB",
+      "author_name": "Andrew Elias",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Miejsce, w którym warto być po północy! To prawdziwy ratunek, jeśli masz ochotę na coś po 23:00-0:00. Czas oczekiwania może czasem wynieść ponad 10 minut, bo jest tu dość tłoczno.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMlRUUTVNMGcyV25OcGNWbzVSMjU2YzA0MFMyYxAB",
+      "author_name": "Adam Konieczny",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zastanawiam się dlaczego to ja mam reklamować do Mcdonalds że restauracja ma bliżej nieokreślony problem z systemem…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OUFNXRmFZVzFWTkdwQlJGcFdTbGxrTVV0NGVuYxAB",
+      "author_name": "Anna Brzozowska-Gierak",
+      "author_reviews_count": 35,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce uwielbiane przez dzieci. Łatwo dostępne i brakowało takiego miejsca w pobliżu Rynku. Super, że jest duża przestrzeń do siedzenia na piętrze. A szczególnie stoliki przy szybie, gdzie można podziwiać co się dzieje za oknem i na pasażu…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocExXZHBVemcwTVVWMk4yUnJkeTFYUVdoUVFtYxAB",
+      "author_name": "Wiktor Nowak",
+      "author_reviews_count": 14,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Nigdy nie widziałem wolniejszej obsługi, są godziny szczytu (godzina 17:00), jedyne 5 zamowien w kolejce, a ja na swoje czekam 20 minut. Dostałem dopiero po upomnieniu się",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21waVJWOU1SalJTTFRCeWJFd3lUR0oyT1ZGVE9HYxAB",
+      "author_name": "Lost",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Uwielbiam McDonald's w Polsce, jest o wiele lepszy niż w Wielkiej Brytanii, śniadania i wybór napojów w szczególności są o wiele lepsze, większy wybór i nigdy nic nie jest niedostępne.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnTURvenFQT1JREAE",
+      "author_name": "Stanislau Miramanau",
+      "author_reviews_count": 52,
+      "author_photos_count": 9,
+      "rating": 1,
+      "text": "Zmienię swoją opinię, bo tak, rozumiem, że była 23:35, ale zamówiłem z dostawą do stolika. Ostatecznie musiałem odebrać zamówienie osobiście i nigdzie nie było napisane, że ta funkcja nie działa. Kiedy zszedłem na dół, po prostu podano mi numer zamówienia i tyle. 1 gwiazdka.",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxMGRuRmlablZmYVVSV1NVSm1Za05zTFZoYU1IYxAB",
+      "author_name": "Łukasz Pr",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mega miła obsługa!!!! Pomocna i bezproblemowa! Dziękuję za spersonalizowane zamówienie raz jeszcze!!! Top🥰❤️…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4VWMwMTBSelIyU0Vab1VFWlBlRzB0V0V4UVQwRRAB",
+      "author_name": "Mariusz Chudy",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Już tu nigdy nie wrócę najgorszy mc Donald w jakim byłem dostałem rozwalonego drwala i jedną kręconą frytkę i jedną nie kręconą ogólnie brak mi słów",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKMmVtSmplRVpNVGpSaGJrMDJOR2xvYmtobFJsRRAB",
+      "author_name": "Skype User",
+      "author_reviews_count": 23,
+      "author_photos_count": 4,
+      "rating": 4,
+      "text": "Bardzo tłoczno i ​​tłoczno.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMWNraHNabVp6U21sdk56TXllR1JZYkhkUVZsRRAB",
+      "author_name": "Monique Dean",
+      "author_reviews_count": 31,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Łatwe zamawianie, lepsze menu niż w Wielkiej Brytanii!!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prd01uUnNWbXQ1YVdsdlMydDZNMGxMVWxkWFJIYxAB",
+      "author_name": "Виталий Ковтун",
+      "author_reviews_count": 30,
+      "author_photos_count": 153,
+      "rating": 5,
+      "text": "Wszystko jest w porządku.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wR09ISnBaVEZDU0VGd0xVd3RSV0U0T1hSRWRXYxAB",
+      "author_name": "Justi Polo",
+      "author_reviews_count": 211,
+      "author_photos_count": 1269,
+      "rating": 4,
+      "text": "Ogólnie spoko, jak to w McDonald's. Zamówienie skompletowane szybko. Za mało toalet jak na taką ilość ludzi.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOSVVIcGhVM0U1VldsdlMxSlphMFpsY0VOVFdIYxAB",
+      "author_name": "Monika _",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "frytki gumowate i nieposolone. nie polecam",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsa1gwUlpNWGRtTFZGcU5sSnpTMHRKTURBelMwRRAB",
+      "author_name": "Katarzyna Ziętara",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dzisiejsza wizyta w McDonald's Półwiejska była bardzo przyjemna. Odbierałam dwa zestawy z drwalem. Pani Menager bardzo szybko zrealizowała zamówienie z uśmiechem na twarzy. Widać, że podczas zmiany panowała dobra organizacja pracy.\nBardzo polecam bo mimo dużej ilości gości w środku zamówienie dostałam od razu.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pab1pGbEJjMGRqWjNsT2JIWmZaMUZpZEZCblFsRRAB",
+      "author_name": "Juziørex",
+      "author_reviews_count": 17,
+      "author_photos_count": 27,
+      "rating": 1,
+      "text": "Najgorszy McDonald w Poznaniu! Pełno dziwnych typów którzy się kręcą i proszą o różne rzeczy, od pieniędzy po jedzenie, ochrona chyba jest tutaj dla ozdoby. Toaleta okupowana przez bezdomnych, standy do zamawiania nienaprawiane od dwóch lat przynajmniej. Tragedia, lepiej iść do browaru.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oQmRYSnhUa3QxYzJzeFdsbEhiVTV0V1dveVpuYxAB",
+      "author_name": "Kristina Freeman",
+      "author_reviews_count": 55,
+      "author_photos_count": 47,
+      "rating": 3,
+      "text": "Mój McFlurry był praktycznie roztopiony, zanim go dostałem. Mam wrażenie, że za bardzo mieszają sos z lodami. Chciałbym poczuć smak lodów waniliowych, a potem sosu. Ale tego było tak dużo, że lody smakowały jak karmel. A roztopienie go było… meh.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKNmFtVnFUbkYwZFRCdVlqVklSMnQxZVc5NFNVRRAB",
+      "author_name": "Alicja",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0cmMyYzRPR3R3ZUc1eFFXNVJXVVY2WnpoclduYxAB",
+      "author_name": "Jakub Kurek",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Zamowilem 2 herbaty zimowe z jablkami, bez syropu cukrowego, niestety, jedna herbata, czysty earl gray bez jablek, druga, z syropem cukrowym",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGWFVFaENNRUZ6Y0ZwT2NubFpaRk5zUjBvemFHYxAB",
+      "author_name": "Pan Maciek",
+      "author_reviews_count": 410,
+      "author_photos_count": 161,
+      "rating": 4,
+      "text": "Współczuję ludziom co tu pracują, straszny chaos przy zamawianiu i odbieraniu zamówień ale jedzenie normalne tak w każdym McDonald’s",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNelRtNVlRa1l6VWw5UVVEbFRjbEV4YVdSMVNIYxAB",
+      "author_name": "Andrii Chornyi",
+      "author_reviews_count": 33,
+      "author_photos_count": 19,
+      "rating": 1,
+      "text": "Nie miła obsługa. Rozumiem że niedziela i nie chce się pracować. Ale nie powinien odczuwać klient.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4VFZFSndRbVpmUzFsVlRHdFRVamxwU1daNFdIYxAB",
+      "author_name": "Андрій Чорний",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Wrapy zimne. Przerobili. Dostałem znowu zimne i przyklejone do opakowania. Mam wrażenie że podgrzane w mikrofali",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaSVdHdHJWMmx6YW5CM1VqUnFRWGgzZWtGa1pHYxAB",
+      "author_name": "Mike Sandlerman",
+      "author_reviews_count": 297,
+      "author_photos_count": 83,
+      "rating": 1,
+      "text": "Jedyny McDonald's, w którym nie chcieli mi dać kawy! Jestem kurierem Glovo. W każdym McDonald's mogę poprosić o napój, a oni mi go dadzą. Ale nie tutaj! Przez twoją chciwość!…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd1RGRnRTbGxDT0ZOR1V6TTVZMVJNY2psNVNIYxAB",
+      "author_name": "sacenice",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówiłem jedzenie z McDonald’s przez aplikację Glovo i niestety jestem bardzo rozczarowany obsługą. Zamówienie, które otrzymałem, nie było kompletne, brakowało części produktów, za które oczywiście zapłaciłem.…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnd1ZFUmhPRTQ1WTB3MFZXaEpORGhtYTJ0MVYwRRAB",
+      "author_name": "Arek",
+      "author_reviews_count": 38,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Przychodzę tutaj raz na jakiś czas i jeszcze nigdy wasza restauracja mnie nie zawiodła, dzisiaj daje 5 gwiazdek. Zamówienie bardzo dobrze przygotowane, wszystko jak najbardziej ciepłe oraz świeże. Zdecydowanie polecam, niczego nie brakuje.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKWmRtdGZjWHB5TVZnNE1VMDRSMFZ1ZGxobFRtYxAB",
+      "author_name": "BORYS",
+      "author_reviews_count": 1584,
+      "author_photos_count": 1063,
+      "rating": 5,
+      "text": "Jak zwykły McDonald's",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkVVdXcG1hMm8xTVhScVkyWk1OVXBGWkhKcExXYxAB",
+      "author_name": "Nikolas Kozera",
+      "author_reviews_count": 6,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Najadłem sie ale nie polecam bo jedzienie było zatrute",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tacFZEQnJTWHBHVlZCaU9XcHNjMEZLZDNCR1pFRRAB",
+      "author_name": "Patrycja Szymańska",
+      "author_reviews_count": 10,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Dziękuję bardzo dziewczynie, która była dzisiaj na popołudniowej zmianie ( kolo 18/19). Jesteś mega kochana i bardzo poprawiłaś mi nastrój. Poczułam się trochę mniej anonimowa i że nie pracują tam same roboty. Niestety miałaś zakrytą…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wM1psZHNTaTFYU0hGclpHWlRUMUl0WVUxUVNGRRAB",
+      "author_name": "Natalka Kwiatkowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Wedlug mnie gorzej niz w innych Makach. Srednio...",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oVFZVODViRVZ1TFRZelQxbE5UMmRuVVdwUWEyYxAB",
+      "author_name": "Ava Zienkiewicz",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Sympatyczna atmosfera i przemiła obsługa, jedzonko mogłoby być ciutke lepsze ale nie da sie na nie jakoś bardzo narzekać",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsTGNXMUxkVTlKUmpFNFFXNXNZMUZsVjFoUWFVRRAB",
+      "author_name": "Alex Widerowski",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Naprawdę fajny lokal ciepłe jedzenie miła obsługa",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNMMkk3X05REAE",
+      "author_name": "Viktoriia Yezghor",
+      "author_reviews_count": 55,
+      "author_photos_count": 120,
+      "rating": 1,
+      "text": "Proszę administrację tego McDonalda o zwrócenie uwagi na pana, który dzisiaj czyścił toaletę dla kobiet. 🤯\nOpowiem, jak wyglądała sytuacja.…",
+      "published_at": "Edytowano 7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUM3d082bVVREAE",
+      "author_name": "Michał Winkel",
+      "author_reviews_count": 220,
+      "author_photos_count": 486,
+      "rating": 5,
+      "text": "Zdecydowanie Mistrzowie w robieniu cappuccino.\nMożecie myśleć i mówić co chcecie, w żadnym innym MCD, cappuccino nie smakuje tak jak tutaj.",
+      "published_at": "Edytowano 7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sVVZVdDZWSGRmTWpsNUxWUkpWbkp0UTFGTmMwRRAB",
+      "author_name": "Arkadiusz Dobrzyński",
+      "author_reviews_count": 52,
+      "author_photos_count": 12,
+      "rating": 3,
+      "text": "Ohydna kawa, żarcie wiadomo-wiem dlaczego nie jadam w tych przybytkach, ale klimat i obsługa bez zastrzeżeń",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSbFZGUkJNamg1V205SU9DMXBkSEZ6UkV4U1JYYxAB",
+      "author_name": "Monika Lodzinska",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polceam bezkofeinową kawę na owsianym. Miodzio.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OSU1ETjBaV05xVWs1eWVrSlpaVGc1Vm14c1FWRRAB",
+      "author_name": "Tomek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzonko",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OWFJVaGlXRWs1TURaV1MzSmhOSFJOUm5wYU5WRRAB",
+      "author_name": "PsiKuta To Wszystko",
+      "author_reviews_count": 40,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Gro, dobre takie amerykańskie",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKRk5rUjNWV0p5WWpkWWNWSTFiM0JqVkRsek5VRRAB",
+      "author_name": "Mary Konopia",
+      "author_reviews_count": 17,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Zuzia zapewniła mi najlepszą możliwą obsługę, nigdy wczesniej nie spotkałam się z tak miłą obsługą w restauracji McDonalds, a odwiedzałam je nie tylko w innych miastach, ale również w innych krajach. Polecam serdecznie",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toaWVuSjFTME00TVZSSWR6VnZhWGRNTTNReVpHYxAB",
+      "author_name": "Svitlana Tymchenko",
+      "author_reviews_count": 72,
+      "author_photos_count": 127,
+      "rating": 3,
+      "text": "Uwielbiam to miejsce ze względu na panoramiczny widok 🙂…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SblNXTTNaSHBRT1ZoNVJGUmpSVTk0TFdKS1YyYxAB",
+      "author_name": "Małgorzata Stanecka",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Te lampy są tu super. Pewnie już na halloween stroją w pajęczyny ten  McDonald's. I będzie jako pierwszy wystrojony.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paNE5WOUhlVEZ5ZUdKRlFuUXdTM2RWWVZWWFQwRRAB",
+      "author_name": "Oliwia Degórska",
+      "author_reviews_count": 32,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Nigdy się nie zawiodłam. Szybko wydawane zamówienia mimo dużej ilości klientów.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tveWQxOWhSRk5GWlZWak5EbFVUM2t0UVdSUU5uYxAB",
+      "author_name": "Rameez Anjum",
+      "author_reviews_count": 26,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "To było mniej więcej wtedy, kiedy byłem tam po raz pierwszy. Wydawało się, że to miłe miejsce, dużo klientów. Musiałem czekać około 30 minut na zamówienie. Kiedy poszedłem odebrać zamówienie, poproszono mnie o dowód zakupu, który pokazałem…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTVgxcE1UMHN5UWxsTGNHcG9OMk5VVjBacVpHYxAB",
+      "author_name": "Rostyslav Borysenko",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nieuprzejmi pracownicy, długi czas oczekiwania na zamówienie, jeśli był jakiś problem, odsyłali mnie i kazali pisać do banku.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxR1lreDJSR3cyWjB4RFFrUTVja1JyYmpKblRsRRAB",
+      "author_name": "Marysia Złota",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obsługa fatalna, nieuprzejmi dla gości. W zamówieniach ciągle czegoś brakuje, dużo osób bezdomnych, pracownicy nie są w stanie ich wygonić śmierdzi \"menelem\" za przeproszeniem.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOQ1ZuZzVjR1pvVGxScFUzWXhSWHB4VFRaeFEyYxAB",
+      "author_name": "Astroop Astroop",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne i pełne",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0VlNIQmZUVkp2UzA5U1VuYzNiRzlxTFRWMFRXYxAB",
+      "author_name": "Magdalena P.",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Pan menadżer bardzo nieuprzejmy\nJedzenia nie mogę ocenić bo nie miałam szansy nic zamówić",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGSFFVZGtlVlpXTW5RNGJYZDNZM0ZwVFV4elIxRRAB",
+      "author_name": "Emilka Jasińska",
+      "author_reviews_count": 131,
+      "author_photos_count": 31,
+      "rating": 4,
+      "text": "Mc Donald dobrze wyposażony ma windę\nWszystko ciepłe jedynie cola zero była pomylona na z cukrem co jest dla mnie jako osoba z cukrzyca ważne jak i odgazowana",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGQ2FXdEhOamRJV0RJNGRYRjBVbkpJZEdJMGNYYxAB",
+      "author_name": "Albert Hajer",
+      "author_reviews_count": 570,
+      "author_photos_count": 1259,
+      "rating": 5,
+      "text": "Świetna restauracja",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5TFdIbENPVU5wWkRkcE5YTTNSemx5ZVY5Nk9VRRAB",
+      "author_name": "To_jaNadia",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Dzien dobry, z wielkim smutkiem oraz zazenowaniem pisze ta opinie poniewaz nastala bardzo nieprzyjemna sytuacja wzgedem mnie oraz moich kolezanek peacownik w tym lokalu zachowal sie w naszym stosunku karygodnie po odebraniu naszych zamowien…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwSGVrbEJUVlZhYjFRM00xSXhRVXhzVlhCNFNVRRAB",
+      "author_name": "patrycja",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "strasznie niemily facet w obsludze, na samym poczatku po odebraniu zamowienia nakrzyczal na nas ze mamy sie pospieszyc jak normalnie szlysmy sobie na miejsce, przechodzac co chwile zagladal nam ofensywnie na stolik po czym przy wyrzucaniu…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4SVdsTm5URWhMV0VoMVIzUnRURTQyTFROV1MzYxAB",
+      "author_name": "Zuzaa K",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Od samego początku wiedziałam że coś jest nie tak weszłam do góry już z odebranym jedzeniem i odrazu zostałam zmieżona wzrokiem i została zwrócona do mnie uwaga bardzo nie Kulturalne tonem abym znalazła sobie miejsce i to nie koniec gdy…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5TVpGaFJjSE4zUmxkc1IxOWpXSFJmYkRCT1RVRRAB",
+      "author_name": "Piotr Po",
+      "author_reviews_count": 244,
+      "author_photos_count": 224,
+      "rating": 3,
+      "text": "Jak na wiele takich miejsc bardzo szybka obsługa.  A wręcz ekspresowa.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwMWNEVkZZMDFLTjBoYU9XVlZRbkF5VGt3eWFWRRAB",
+      "author_name": "anonim 04",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "zamówiłam loda w wafelku z polewą karmelową. dostałam loda nie gramowego (już samym okiem było widać że loda było za mało ponieważ nie był on na całej powierzchni wafelka tylko było jedne pociągnięcie maszyny z lewej strony) odrazu jak…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGNmIxaFJNRGhDY0cwdE16bHRVVE5sWkhjeFEwRRAB",
+      "author_name": "Светлана Николишена",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zamówienie nie zostało dostarczone, numer, który mieliśmy, i opłacony czek nie były dla nich wystarczającym dowodem😡…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSYVJHTmhWbFZPVmw5UFYyNW1aekEwVDFCaWFHYxAB",
+      "author_name": "Саша Ніколішен",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Czekałem na zamówienie 20 minut, mimo że nie było wielu ludzi, a moje siostry w ogóle nie przyniosły zamówienia, mówiąc, że nie mogą mi pomóc, bo nie mają paragonu, kupiłem lody, a one wyglądały, jakby już je zjadły.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWbU1raElaRmRxVjFSVmNVNXNUMjVrVjFvMk5tYxAB",
+      "author_name": "kk ktlvm",
+      "author_reviews_count": 6,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Zamówiłem 2 lody z dostawą do stolika, czekałem bardzo długo. Nikt ich nie przyniósł, zeszliśmy na dół, żeby zapytać kierownika, gdzie jest zamówienie, a on odpowiedział, że nie ma go do tego zamówienia (i wyrzuciliśmy czek). Transakcja z…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tselZ6bEhXRTh6VmsxblRFaFViM0YyY2pJd2VVRRAB",
+      "author_name": "Magda",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Uwielbiam roladkę z kurczaka u was",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aYWMxcGFTRXB4Y1ZwQmNsSnpORmhEYmpGUVUzYxAB",
+      "author_name": "Jacek",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Aplikacja w restauracji nie zawsze działa",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaGJUSnFOVFUyU2xSelpWZGpWRzFDYWxVeVJFRRAB",
+      "author_name": "Igor Nawrot",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Na początku dostałem zimnego wrapa na szczęście naprawili swój błąd i dostałem drugiego tym razem ciepłego wrapa",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVd2FUZFlPVlZJWjJwZlRYcDBNRkpHZFdaQ1VVRRAB",
+      "author_name": "Ege Sağlıker",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zawsze jest tu sporo ludzi, ale obsługa jest szybka i miła, mój ulubiony McDonald's",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CME1tMWxhbGhMTFdscGJqZzNOelZsVW5odWVIYxAB",
+      "author_name": "Kamil Wikiera",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Porażka jeśli chodzi o wydawanie dla kurierów, spóźnienia po 15min, być może brak personelu, menager powinien coś zrobić",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4d04wZGFlbmt3VldsRWNuaE9ibEZGV2pKcWEyYxAB",
+      "author_name": "Marcin Osuch",
+      "author_reviews_count": 48,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Tak brudnych toalet jak tutaj nie ma na żadnym dworcu na świecie. W życiu czegoś takiego nie widziałem. Ściany i sprzęty nie myte od wielu dni. Dno, zero, dramat.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SNGRubzJlbUp0UmtKUWFFTlVPWE5KV1hwUllWRRAB",
+      "author_name": "Marian Menda",
+      "author_reviews_count": 168,
+      "author_photos_count": 90,
+      "rating": 5,
+      "text": "Bardzo szybka obsługa I ładne widoki z za okna na miasto",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBMVJFVlZObHB0YkVGUFZUazFWMDFsZG5kRFVtYxAB",
+      "author_name": "marti me",
+      "author_reviews_count": 74,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Mimo tłumów obsługa daje radę, duży plus.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCU1gyaElkamR5Y21acldqbFNlR2t5YmtWRFdXYxAB",
+      "author_name": "redsee",
+      "author_reviews_count": 5,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "ładny widok z okna na drugim piętrze :) miła obsługa, ale rzadko można znaleźć czysty stolik",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kVVkwRnBWV3hQY0ROMGNXaGZTemh0Um5SdmVrRRAB",
+      "author_name": "Aleksandra Batura-Mańka",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Błędy w zamówieniu - trzeba było pójść wyjaśnić sytuacje. Osoby żebrzące w lokalu. Stoliki brudne, trzeba samemu wycierać stolik. Podloga lepi się od brudu. Toalety - szok. Dawno nie widziałam tak brudnej toalety: papier na podłodze, mocz, kał, krew, zużyta prezerwatywa. Nigdy nie wrócę.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWVVpWTkhaWEEzY0daaGJXaGlUbWxhYWxOeVFtYxAB",
+      "author_name": "Марта Колач",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Przyjemne miejsce oraz atmosfera, jedzenie smaczne i szybko podawane, lecz obsługa na średnim poziomie. Osoby przy kasie bardzo miłe, jednak pan sprzątający nie zbyt. Podczas tego jak z koleżanką byliśmy w toalecie żeby umyć ręce to wszedł…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oMVlraE9ZbFE0UzB4U1psUndTSGhVTWxsR2NWRRAB",
+      "author_name": "Lena",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "jedzenie bardxo dobre klimat rowniez jednak mialam wypadek zwiazany z moimi problemami z kolanami obsluga na kasie bardxo milo zareagowala poniewaz podali mi odrazu wode jednak pan sprzątający bardzo niemilo nie zwracając uwagii na moj stan…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taWFF6QlFNRkJDV1hoaGRIaDFlazEyVjNwTU5VRRAB",
+      "author_name": "Hryhorii Hryhorii",
+      "author_reviews_count": 37,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Stoły są brudne, obsługa fatalna, poprosiliśmy o wytarcie stołu, ale wytarli go tak brudną szmatą, że lepiej się nie dało! Nie polecam tego miejsca!!!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoRGNFdExUblUwVG1reE1DMUxNWGxZU2xGRlJtYxAB",
+      "author_name": "Aleksandra Fab",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byłam w tym Mcdonalds już kilka razy, czasem w weekend czasem w tygodniu. Za każdym razem dostałam poprawnie zamówienie. Ostatnio byłam o godzinie 22 a wszystko było świeżutkie i ciepłe, super. Obsługa uprzejma. Mają bardzo dobre Shake",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkSVZuRmxjbWszUVZsNlNXeHJlREJOUVc1TFRHYxAB",
+      "author_name": "Zuzanna Pawlak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Podczas jedzenia cały czas personel traskał drzwiami i nie dało się jeść jakby robili to specjalnie i pomieszali nasze zamówienie",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poZmNrZEZYMk5mWmtnNVFqSTVTWEkxUm1OWWIzYxAB",
+      "author_name": "Фоури Фо",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Okazało się, że ziemniaki były albo surowe, albo podgrzane; w ogóle nie były chrupiące.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxbmFtaG5XbDlGTmxCSWJqSk5iR0p2VVV0TFpIYxAB",
+      "author_name": "Magda",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "wszystko było pyszne, przyjdźmy jeszcze raz",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKek0xZGFSVmRMWkV0Q2NWaExValZ3YTJRM05IYxAB",
+      "author_name": "Patryk Łukomski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Fajne\nMiejsce",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4T1puaGZiVUpvWDIxS1VHNXFVSGxSUWs1cWQxRRAB",
+      "author_name": "Bartosz Kamiński",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "w restauracji smierdzi bezdomnym, tak nie powinno byc w miejscu gdzie sie spozywa posilki!!!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMlNVUTRWM3BrVlhaSGRFNWZaRk00YjNOaFRHYxAB",
+      "author_name": "G G",
+      "author_reviews_count": 659,
+      "author_photos_count": 1327,
+      "rating": 5,
+      "text": "Brak zastrzeżeń. Pomimo sporej frekwencji klientów, zamówienie prędko zrealizowane, gorący świeży produkt. Wszystko tak jak być powinno.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GVE9IbFhUa3RDYjB0aGFuUTFhWGM1UlhWU1dXYxAB",
+      "author_name": "j.szvrkowskaa",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Przed chwila bylam i zamawialam mc chicken + frytki i inne zestawy. Wszystko zostalo dobrze spakowane oprocz mc chickena, opakowanie dostalam po tym burgerze a w srodku dostalam innego burgera🤡🤡…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOQlJ6UlVkRmhyTjFkZlZuaFJja3hOWDJseFpsRRAB",
+      "author_name": "Vin Chenzo",
+      "author_reviews_count": 2144,
+      "author_photos_count": 665,
+      "rating": 5,
+      "text": "Sprawny McDonald's. Jedzenie dobrej jakości. Obsługa była miła. Polecam.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paZmVGQjVaMlprUWtoUGVGUnFVbHB1WW5ab2NFRRAB",
+      "author_name": "AnastaSiZ Krasul",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 1,
+      "text": "Bardzo mało lodu to nie jest normalne",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25FMVRtOURWRkV3WVdkVFJFOUtjVU0zTTFwME4zYxAB",
+      "author_name": "Maksymilian Sokółka",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Pani w prostych brwiach po raz kolejny odpowiada że maszyna do lodów nie działa. Jest to czyste zaniedbanie klienta. Nie polecam lodów w tym lokalu, od tej pani też …",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aM2JXRllTVjlqVjNwTWFXRk5URzk1TjFZNFRGRRAB",
+      "author_name": "Cristiano De Scisciolo",
+      "author_reviews_count": 860,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Klasyczna restauracja McDonald's. Często jest bardzo zatłoczona i trzeba odstać w kolejce nawet do kiosku. Jedzenie jest typowe dla tej sieci. Obsługa jest bardzo miła. Szkoda, że ​​często jest tłoczno, przez co panuje chaos, a nawet trochę hałasu.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxdmVFTlZhbkJwUm5odWFEZzRZbEZ4V1U1MWFFRRAB",
+      "author_name": "Kim Sasha",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "19.06.2025 robiłam zamówienie , big mak , małe frytki , durze frytki , sos barbecue i kawę z karmelem. Big mąk  wygląda tak jak na zdjęciu :( sos barbecue nie dostałam i małe frytki też . Jestem pierwszy raz nie zadowolona zamówieniem :( 🥲🥲🥲…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOaFRWTTRNR1ZYZVV0amRXOU9aVkU0YmtOQmRFRRAB",
+      "author_name": "Kiril Vlasenko",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła atmosfera, ciepłe jedzenie",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VLdU91SXVkeG9tSTdRRRAB",
+      "author_name": "Snowy",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "To nie lody to pacia",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}
