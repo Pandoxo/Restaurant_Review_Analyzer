@@ -98,6 +98,7 @@ def fetch_reviews_for_restaurant(client: ApiClient, place_id: str,
             limit=limit,
             language="pl",
             sort="newest",
+            ignore_empty=True,
         )
     except Exception as e:
         print(f"  ❌ Outscraper error for {place_id}: {e}")
