@@ -3,6 +3,7 @@ Dashboard chart builders — all Plotly figure constructors used by app.py.
 """
 
 import json
+import random
 from collections import Counter, defaultdict
 from datetime import datetime
 
@@ -336,94 +337,85 @@ def build_depth_chart(reviews: list) -> go.Figure:
 
     return fig
 
+def build_trust_scatter_chart(reviews: list) -> go.Figure:
+    """Scatter plot of reviewer experience vs star rating."""
+    if not reviews:
+        return go.Figure(layout=_base_layout("No trust data"))
 
-def build_topic_sentiments_chart(reviews: list) -> go.Figure:
-    """Grouped bar chart for topic sentiments (positive vs negative)."""
-    topic_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0, "mixed": 0})
+    # Extract x and y
+    data = []
     for r in reviews:
-        ts = r.get("topic_sentiments", "{}")
-        if not ts:
+        try:
+            rev_count = int(r.get("author_reviews_count") or 0)
+        except ValueError:
+            rev_count = 0
+            
+        try:
+            photo_count = int(r.get("author_photos_count") or 0)
+        except ValueError:
+            photo_count = 0
+            
+        try:
+            rating = float(r.get("rating") or 0)
+        except ValueError:
+            rating = 0
+            
+        if rating == 0:
             continue
-        if isinstance(ts, str):
-            try:
-                ts = json.loads(ts)
-            except json.JSONDecodeError:
-                ts = {}
-        for topic, sentiment in ts.items():
-            if isinstance(sentiment, str):
-                s = sentiment.lower()
-                if s in ["positive", "negative", "neutral", "mixed"]:
-                    topic_counts[topic][s] += 1
-                else:
-                    topic_counts[topic]["neutral"] += 1
 
-    if not topic_counts:
-        return go.Figure(layout=_base_layout("No topic sentiments detected"))
+        try:
+            suspicion = float(r.get("suspicion_score") or 0)
+        except ValueError:
+            suspicion = 0
+        
+        is_suspicious = suspicion >= 0.6
+        
+        # We add 1 to trust score for log scale so 0 becomes 1 (log(1) = 0)
+        data.append({
+            "trust_score": rev_count + photo_count,
+            "log_trust_score": max(rev_count + photo_count, 0.5), # avoid 0 for log axis
+            "rating": rating,
+            "jittered_rating": rating + random.uniform(-0.2, 0.2),
+            "is_suspicious": is_suspicious
+        })
 
-    # Sort topics by total mentions
-    sorted_topics = sorted(topic_counts.keys(), key=lambda t: sum(topic_counts[t].values()), reverse=True)[:15]
-    
-    positives = [topic_counts[t].get("positive", 0) for t in sorted_topics]
-    negatives = [topic_counts[t].get("negative", 0) for t in sorted_topics]
-    
+    if not data:
+        return go.Figure(layout=_base_layout("No trust data"))
+        
+    df = pd.DataFrame(data)
+
     fig = go.Figure()
-    fig.add_trace(go.Bar(
-        x=sorted_topics, y=positives,
-        name="Positive Comments", marker_color=GREEN,
-    ))
-    fig.add_trace(go.Bar(
-        x=sorted_topics, y=negatives,
-        name="Complaints", marker_color=RED,
-    ))
     
-    layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
-    layout["barmode"] = "group"
-    layout["height"] = 380
-    layout["xaxis"]["title"] = "Topic"
-    layout["yaxis"]["title"] = "Number of Mentions"
-    fig.update_layout(**layout)
-    return fig
-
-
-def build_dishes_chart(reviews: list) -> go.Figure:
-    """Horizontal bar chart for most mentioned dishes."""
-    dish_counts = Counter()
-    for r in reviews:
-        dishes = r.get("dishes_mentioned", "[]")
-        if not dishes:
-            continue
-        if isinstance(dishes, str):
-            try:
-                dishes = json.loads(dishes)
-            except json.JSONDecodeError:
-                dishes = []
-        if isinstance(dishes, list):
-            for dish in dishes:
-                if isinstance(dish, str) and dish.strip():
-                    dish_counts[dish.strip().capitalize()] += 1
-
-    if not dish_counts:
-        return go.Figure(layout=_base_layout("No dishes mentioned"))
-
-    # Top 15 dishes
-    top = dish_counts.most_common(15)
-    dishes, counts = zip(*top)
-
-    fig = go.Figure(go.Bar(
-        x=list(counts), y=list(dishes),
-        orientation="h",
-        marker=dict(
-            color=list(counts),
-            colorscale="Teal",
-            line=dict(width=0)
-        ),
-        hovertemplate="%{y}: %{x} mentions<extra></extra>",
+    clean_df = df[~df["is_suspicious"]]
+    fig.add_trace(go.Scatter(
+        x=clean_df["log_trust_score"],
+        y=clean_df["jittered_rating"],
+        mode="markers",
+        name="Clean",
+        marker=dict(color=ACCENT, size=6, opacity=0.5, line=dict(width=0)),
+        hovertemplate="Trust (Reviews+Photos): %{customdata[0]}<br>Rating: %{customdata[1]}<extra></extra>",
+        customdata=clean_df[["trust_score", "rating"]]
     ))
 
-    layout = _base_layout("🍔 Most Mentioned Dishes")
-    layout["height"] = max(300, len(top) * 32 + 80)
-    layout["yaxis"]["autorange"] = "reversed"
-    layout["xaxis"]["title"] = "Mentions"
+    sus_df = df[df["is_suspicious"]]
+    if not sus_df.empty:
+        fig.add_trace(go.Scatter(
+            x=sus_df["log_trust_score"],
+            y=sus_df["jittered_rating"],
+            mode="markers",
+            name="Suspicious",
+            marker=dict(color=RED, size=8, opacity=0.8, line=dict(width=1, color=CARD_BG)),
+            hovertemplate="Trust (Reviews+Photos): %{customdata[0]}<br>Rating: %{customdata[1]}<extra></extra>",
+            customdata=sus_df[["trust_score", "rating"]]
+        ))
+        
+    layout = _base_layout("⚖️ Reviewer Trust vs. Rating")
+    layout["xaxis"]["title"] = "Reviewer Experience (Reviews + Photos) [Log Scale]"
+    layout["xaxis"]["type"] = "log"
+    layout["yaxis"]["title"] = "Star Rating"
+    layout["yaxis"]["tickvals"] = [1, 2, 3, 4, 5]
+    layout["yaxis"]["range"] = [0.5, 5.5]
+    layout["height"] = 320
     fig.update_layout(**layout)
 
     return fig

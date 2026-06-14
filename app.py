@@ -23,6 +23,7 @@ from charts import (
     build_depth_chart,
     build_topic_sentiments_chart,
     build_dishes_chart,
+    build_trust_scatter_chart,
 )
 import dash_leaflet as dl
 from dash import ALL
@@ -140,19 +141,19 @@ def serve_layout():
                 ], className="map-card")
             ], className="top-layout"),
 
-            # TABS
-            dcc.Tabs(id="main-tabs", value="tab-overview", children=[
-                dcc.Tab(label="📊 Overview", value="tab-overview",
-                        className="custom-tab", selected_className="custom-tab--selected"),
-                dcc.Tab(label="🍔 Insights", value="tab-insights",
-                        className="custom-tab", selected_className="custom-tab--selected"),
-                dcc.Tab(label="📅 Timeline", value="tab-timeline",
-                        className="custom-tab", selected_className="custom-tab--selected"),
-                dcc.Tab(label="👤 Staff Names", value="tab-names",
-                        className="custom-tab", selected_className="custom-tab--selected"),
-                dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
-                        className="custom-tab", selected_className="custom-tab--selected"),
-            ], className="custom-tabs"),
+    # Tabs
+    dcc.Tabs(id="main-tabs", value="tab-overview", children=[
+        dcc.Tab(label="📊 Overview", value="tab-overview",
+                className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="📅 Timeline", value="tab-timeline",
+                className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="👤 Staff Names", value="tab-names",
+                className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
+                className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="About / Help", value="tab-help",
+                className="custom-tab", selected_className="custom-tab--selected"),
+    ], className="custom-tabs"),
 
             # Tab Content
             html.Div(id="tab-content"),
@@ -275,6 +276,21 @@ def update_stats(place_id):
 def render_tab(tab, place_id):
     """Render the selected tab content."""
 
+    if tab == "tab-help":
+        return html.Div([
+            html.H3("About this dashboard"),
+            html.P("This tool analyzes restaurant reviews to detect potentially fake or suspicious activity.", style={"marginBottom": "16px"}),
+            html.H4("Main features:"),
+            html.Ul([
+                html.Li([html.B("Overview: "), "Shows general sentiment, suspicion scores, and author trust."]),
+                html.Li([html.B("Timeline: "), "Displays review trends over time to identify sudden bursts."]),
+                html.Li([html.B("Staff Names: "), "Highlights specific names frequently mentioned in reviews."]),
+                html.Li([html.B("Review Explorer: "), "A searchable table to read and filter individual reviews."])
+            ], style={"marginBottom": "24px"}),
+            html.H4("How to use:"),
+            html.P("Select a restaurant from the dropdown at the top to begin exploring its data.")
+        ], className="card", style={"padding": "32px", "maxWidth": "800px", "margin": "0 auto"})
+
     if not place_id:
         return html.Div([
             html.Div("📍", className="icon"),
@@ -314,6 +330,10 @@ def render_tab(tab, place_id):
                               config={"displayModeBar": False}),
                 ], className="card"),
             ], className="charts-grid"),
+            html.Div([
+                dcc.Graph(figure=build_trust_scatter_chart(reviews),
+                          config={"displayModeBar": False}),
+            ], className="card chart-full", style={"marginTop": "24px"}),
         ])
 
     elif tab == "tab-timeline":
