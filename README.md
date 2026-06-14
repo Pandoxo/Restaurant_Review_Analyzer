@@ -1,6 +1,16 @@
 # Google Maps Review Scraper & Analyzer
 
-A high-performance, stealthy pipeline for extracting, analyzing, and visualizing Google Maps restaurant reviews. This toolkit helps you discover patterns, extract rich metadata (like reviewer history), run NLP analysis via Large Language Models (LLMs), and detect suspicious "fake review" bursts.
+![App Screenshot](screenshots/Pasted%20image.png)
+
+A high-performance, stealthy pipeline for extracting, analyzing, and visualizing Google Maps restaurant reviews. This toolkit helps you discover patterns, extract rich metadata (like reviewer history), run NLP analysis via Large Language Models (LLMs), and detect suspicious "fake review" bursts using a beautiful, interactive dashboard.
+
+## ✨ Features
+
+- **Stealth Data Extraction:** A Playwright and Camoufox-powered scraper that injects JS directly into the browser to extract reviews at high speeds without triggering bot detection.
+- **LLM-Powered NLP Analysis:** Utilizes Google Gemini or local Ollama models to perform Aspect-Based Sentiment Analysis, identify mentioned staff members, extract dishes, and detect suspicious fake review signals.
+- **Dynamic Dark/Light Mode Dashboard:** A stunning, responsive interface built with Plotly Dash featuring a premium UI, interactive dark mode toggle, and responsive Leaflet map integration.
+- **Global & Local Analytics:** Compare aggregate statistics across all scraped restaurants, or drill down into specific locations to analyze review depth, reviewer trust, and topic-based sentiment.
+- **Review Explorer:** Search, filter, and inspect individual reviews, with automatic highlighting of suspicious entries and integrated anomaly detection.
 
 ## 🚀 How the Scraping Algorithm Works
 
@@ -17,7 +27,13 @@ It saves each restaurant's data into intelligent, conflict-free `.json` files in
 
 ## 🛠️ How to Use the System
 
-### 1. Scraping the Reviews
+### 1. Installation
+Clone the repository and install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Scraping the Reviews
 1. Create a `restaurants.txt` (or any `.txt` file) and paste Google Maps URLs or Place IDs, one per line.
 2. Run the scraper:
    ```bash
@@ -25,51 +41,29 @@ It saves each restaurant's data into intelligent, conflict-free `.json` files in
    ```
    *This extracts reviews up to 12 months old and saves them into the `reviews/` directory.*
 
-### 2. Preparing the Database
+### 3. Preparing the Database
 Once you have your JSON files, import them into the SQLite database so the dashboard and analysis tools can read them:
 ```bash
 python import_reviews.py --clean
 ```
 *(The `--clean` flag wipes the old database to prevent duplication of previous runs).*
 
-### 3. (Optional) AI Analysis & Burst Detection
+### 4. AI Analysis & Burst Detection
 To enrich your data with LLM analysis (extracting sentiment, staff names, dishes, and fake review signals):
 ```bash
 python analyze.py --all
-python detect.py
 ```
-*(Note: Ensure you have `GEMINI_API_KEY` set in your `.env` file, or configure Ollama for local processing).*
+*(Note: Ensure you have `GEMINI_API_KEY` set in your `.env` file, or configure Ollama for local processing in `config.py`).*
 
-### 4. Running the Dashboard
+### 5. Running the Dashboard
 Start the interactive Plotly Dash application:
 ```bash
 python app.py
 ```
-Open your browser to `http://localhost:8050` to explore the data.
+Open your browser to `http://localhost:8050` to explore the data!
 
 ---
 
-## 💡 Ideas for Future Visualizations
+## ☁️ Deployment
 
-Our enriched dataset opens up several advanced data visualization possibilities. Here are some ideas you could build next:
-
-1. **Reviewer Trust vs. Rating Scatter Plot:**
-   - **X-axis:** `author_reviews_count` + `author_photos_count`
-   - **Y-axis:** Star Rating
-   - **Insight:** Do experienced "Local Guides" rate restaurants more harshly than one-off reviewers? Do 5-star ratings disproportionately come from accounts with 0 photos?
-
-2. **NLP-Driven Word Clouds & Topic Clusters:**
-   - Create dynamic word clouds based on the `dishes_mentioned` array.
-   - Cross-reference topics (e.g., "service", "food_quality", "price") with sentiment to create a **Strengths & Weaknesses Radar Chart** for each restaurant.
-
-3. **Geospatial Heatmaps:**
-   - Map restaurants by their coordinates and use a heatmap overlay to show average `suspicion_score`.
-   - **Insight:** Are fake review campaigns geographically clustered around specific districts?
-
-4. **Network Graph of Staff Mentions:**
-   - Connect reviewers to the `staff_names` they mention.
-   - **Insight:** Detect if a specific subset of low-trust reviewers exclusively praises one specific waiter, highlighting a targeted incentive campaign.
-
-5. **Sentiment Trajectory Timeline:**
-   - A smoothed moving-average line chart of review sentiment over the last 12 months.
-   - Annotate the chart with points where `in_burst` is True to see if a sudden influx of 5-star reviews artificially propped up a declining sentiment trend.
+This app is production-ready and configured to run on cloud hosting platforms (like Render or Heroku) using `gunicorn`. Simply specify the entry point as `app:server` in your deployment settings.
