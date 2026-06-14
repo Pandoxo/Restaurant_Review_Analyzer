@@ -691,12 +691,12 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
     filtered_reviews = []
     for r in reviews:
         if filter_type == "topic":
-            topics_str = r.get("topics", "[]")
+            topics_str = r.get("topics", "{}")
             try:
                 topics = json.loads(topics_str) if isinstance(topics_str, str) else topics_str
-                if isinstance(topics, list):
-                    for t in topics:
-                        if isinstance(t, dict) and t.get("topic", "").strip().capitalize() == clicked_label:
+                if isinstance(topics, dict):
+                    for topic_name in topics.keys():
+                        if isinstance(topic_name, str) and topic_name.strip().capitalize() == clicked_label:
                             filtered_reviews.append(r)
                             break
             except Exception:
