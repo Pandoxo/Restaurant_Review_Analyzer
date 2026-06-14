@@ -511,3 +511,116 @@ def build_dishes_chart(reviews: list) -> go.Figure:
     fig.update_layout(**layout)
 
     return fig
+
+
+def build_customer_reviews_histogram(reviews: list) -> go.Figure:
+    """Histogram of author_reviews_count for all customers."""
+    if not reviews:
+        return go.Figure(layout=_base_layout("No customer data"))
+
+    data = []
+    seen_authors = set()
+    for r in reviews:
+        name = r.get("author_name")
+        if not name or name in seen_authors:
+            continue
+        seen_authors.add(name)
+        
+        try:
+            rev_count = int(r.get("author_reviews_count") or 0)
+        except ValueError:
+            rev_count = 0
+            
+        data.append(rev_count)
+
+    if not data:
+        return go.Figure(layout=_base_layout("No customer data"))
+
+    fig = go.Figure(go.Histogram(
+        x=data,
+        nbinsx=50,
+        marker_color=ACCENT,
+        opacity=0.75,
+        hovertemplate="Review Count: %{x}<br>Users: %{y}<extra></extra>"
+    ))
+
+    layout = _base_layout("📊 Distribution of User Review Counts")
+    layout["xaxis"]["title"] = "Number of Reviews Written by User"
+    layout["yaxis"]["title"] = "Number of Users"
+    layout["xaxis"]["type"] = "log"
+    fig.update_layout(**layout)
+    return fig
+
+
+def build_customer_scatter_chart(reviews: list) -> go.Figure:
+    """Scatter plot of author_reviews_count vs author_photos_count."""
+    if not reviews:
+        return go.Figure(layout=_base_layout("No customer data"))
+
+    data = []
+    seen_authors = set()
+    for r in reviews:
+        name = r.get("author_name")
+        if not name or name in seen_authors:
+            continue
+        seen_authors.add(name)
+        
+        try:
+            rev_count = max(int(r.get("author_reviews_count") or 0), 1)  # minimum 1 for log scale
+        except ValueError:
+            rev_count = 1
+            
+        try:
+            photo_count = max(int(r.get("author_photos_count") or 0), 1) # minimum 1 for log scale
+        except ValueError:
+            photo_count = 1
+            
+        try:
+            suspicion = float(r.get("suspicion_score") or 0)
+        except ValueError:
+            suspicion = 0
+            
+        data.append({
+            "name": name,
+            "rev_count": rev_count,
+            "photo_count": photo_count,
+            "is_suspicious": suspicion >= 0.6
+        })
+
+    if not data:
+        return go.Figure(layout=_base_layout("No customer data"))
+
+    df = pd.DataFrame(data)
+    fig = go.Figure()
+
+    clean_df = df[~df["is_suspicious"]]
+    fig.add_trace(go.Scatter(
+        x=clean_df["rev_count"],
+        y=clean_df["photo_count"],
+        mode="markers",
+        name="Clean",
+        text=clean_df["name"],
+        marker=dict(color=ACCENT, size=6, opacity=0.4, line=dict(width=0)),
+        hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
+    ))
+
+    sus_df = df[df["is_suspicious"]]
+    if not sus_df.empty:
+        fig.add_trace(go.Scatter(
+            x=sus_df["rev_count"],
+            y=sus_df["photo_count"],
+            mode="markers",
+            name="Suspicious Reviewer",
+            text=sus_df["name"],
+            marker=dict(color=RED, size=8, opacity=0.8, line=dict(width=1, color=CARD_BG)),
+            hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
+        ))
+
+    layout = _base_layout("📸 Review Count vs Photo Count")
+    layout["xaxis"]["title"] = "Total Reviews (Log Scale)"
+    layout["xaxis"]["type"] = "log"
+    layout["yaxis"]["title"] = "Total Photos (Log Scale)"
+    layout["yaxis"]["type"] = "log"
+    layout["height"] = 400
+    fig.update_layout(**layout)
+    return fig

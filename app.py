@@ -24,6 +24,12 @@ from charts import (
     build_topic_sentiments_chart,
     build_dishes_chart,
     build_trust_scatter_chart,
+    build_customer_reviews_histogram,
+    build_customer_scatter_chart,
+)
+from db import (
+    get_db, init_db, get_dashboard_summary, get_analysis_for_restaurant,
+    get_all_reviews_with_analysis
 )
 import dash_leaflet as dl
 from dash import ALL
@@ -97,74 +103,125 @@ def serve_layout():
             ]),
             
             html.Div([
-                html.Div("📢 Campaign", className="nav-item active"),
-                
+                html.Div("📢 Campaign", id="nav-campaign", className="nav-item active", n_clicks=0),
+                html.Div("👥 All Customers", id="nav-customers", className="nav-item", n_clicks=0),
             ], className="nav-menu"),
         ], className="sidebar"),
 
         # MAIN CONTENT
         html.Div([
-            # HEADER
-            html.Div([
-                html.Div([
-                    html.Div("Click a restaurant on the map to view detailed analytics",
-                             className="subtitle", style={"fontSize": "1.05rem"}),
-                ]),
-                html.Div([
-                    html.Div("Status: Active", className="badge badge-clean"),
-                ]),
-            ], className="app-header"),
-
-            # SEARCH BAR
-            html.Div([
-                html.Span("🔍", style={"position": "absolute", "left": "16px", "top": "12px", "color": "var(--text-secondary)", "fontSize": "1.2rem", "zIndex": "1"}),
-                dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar", style={"paddingLeft": "44px", "width": "100%"})
-            ], style={"position": "relative", "marginBottom": "24px", "maxWidth": "500px"}),
-
-            # TOP LAYOUT: KPIs + MAP
-            html.Div([
-                html.Div(id="kpi-cards", className="kpi-grid"),
-                html.Div([
-                    dl.Map(
-                        [
-                            dl.TileLayer(
-                                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-                            ),
-                            dl.LayerGroup(id="map-markers")
-                        ],
-                        id="restaurant-map",
-                        center=[52.4064, 16.9252],
-                        zoom=12,
-                        style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
-                    )
-                ], className="map-card")
-            ], className="top-layout"),
-
-    # Tabs
-    dcc.Tabs(id="main-tabs", value="tab-overview", children=[
-        dcc.Tab(label="📊 Overview", value="tab-overview",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="🍔 Insights", value="tab-insights",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="📅 Timeline", value="tab-timeline",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="👤 Staff Names", value="tab-names",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="About / Help", value="tab-help",
-                className="custom-tab", selected_className="custom-tab--selected"),
-    ], className="custom-tabs"),
-
-            # Tab Content
-            html.Div(id="tab-content"),
+            html.Div(id="page-content"),
             
             # Store for map selection
             dcc.Store(id="selected-place-id"),
             
         ], className="main-content")
     ], className="app-wrapper")
+
+def serve_campaign_view():
+    return html.Div([
+        # HEADER
+        html.Div([
+            html.Div([
+                html.Div("Click a restaurant on the map to view detailed analytics",
+                         className="subtitle", style={"fontSize": "1.05rem"}),
+            ]),
+            html.Div([
+                html.Div("Status: Active", className="badge badge-clean"),
+            ]),
+        ], className="app-header"),
+
+        # SEARCH BAR
+        html.Div([
+            html.Span("🔍", style={"position": "absolute", "left": "16px", "top": "12px", "color": "var(--text-secondary)", "fontSize": "1.2rem", "zIndex": "1"}),
+            dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar", style={"paddingLeft": "44px", "width": "100%"})
+        ], style={"position": "relative", "marginBottom": "24px", "maxWidth": "500px"}),
+
+        # TOP LAYOUT: KPIs + MAP
+        html.Div([
+            html.Div(id="kpi-cards", className="kpi-grid"),
+            html.Div([
+                dl.Map(
+                    [
+                        dl.TileLayer(
+                            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                        ),
+                        dl.LayerGroup(id="map-markers")
+                    ],
+                    id="restaurant-map",
+                    center=[52.4064, 16.9252],
+                    zoom=12,
+                    style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
+                )
+            ], className="map-card")
+        ], className="top-layout"),
+
+        # Tabs
+        dcc.Tabs(id="main-tabs", value="tab-overview", children=[
+            dcc.Tab(label="📊 Overview", value="tab-overview",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+            dcc.Tab(label="🍔 Insights", value="tab-insights",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+            dcc.Tab(label="📅 Timeline", value="tab-timeline",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+            dcc.Tab(label="👤 Staff Names", value="tab-names",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+            dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+            dcc.Tab(label="About / Help", value="tab-help",
+                    className="custom-tab", selected_className="custom-tab--selected"),
+        ], className="custom-tabs"),
+
+        # Tab Content
+        html.Div(id="tab-content"),
+    ])
+
+def serve_customers_view():
+    with get_db() as conn:
+        all_reviews = get_all_reviews_with_analysis(conn)
+        
+    unique_authors = len(set(r.get("author_name") for r in all_reviews if r.get("author_name")))
+    avg_reviews = round(sum(max(int(r.get("author_reviews_count") or 0), 1) for r in all_reviews) / max(len(all_reviews), 1), 1)
+    
+    return html.Div([
+        # HEADER
+        html.Div([
+            html.Div([
+                html.H2("Global Customer Analytics", style={"margin": "0", "fontSize": "1.5rem"}),
+                html.Div("Aggregated data across all users in the database",
+                         className="subtitle", style={"fontSize": "1.05rem", "marginTop": "4px"}),
+            ]),
+        ], className="app-header"),
+        
+        # STATS
+        html.Div([
+            html.Div([
+                html.Div(f"{unique_authors:,}", className="stat-value", style={"color": "#8b5cf6"}),
+                html.Div("👥", style={"fontSize": "1.75rem", "opacity": "0.3"}),
+            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
+            html.Div("Unique Customers", className="stat-label"),
+        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginRight": "16px", "marginBottom": "24px"}),
+        
+        html.Div([
+            html.Div([
+                html.Div(f"{avg_reviews}", className="stat-value", style={"color": "#10b981"}),
+                html.Div("📊", style={"fontSize": "1.75rem", "opacity": "0.3"}),
+            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
+            html.Div("Avg Total Reviews / User", className="stat-label"),
+        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginBottom": "24px"}),
+
+        # CHARTS GRID
+        html.Div([
+            html.Div(dcc.Graph(figure=build_customer_reviews_histogram(all_reviews), config={"displayModeBar": False}), className="card"),
+            html.Div(dcc.Graph(figure=build_customer_scatter_chart(all_reviews), config={"displayModeBar": False}), className="card"),
+        ], className="charts-grid"),
+        
+        html.Div([
+            html.Div(dcc.Graph(figure=build_topic_sentiments_chart(all_reviews), config={"displayModeBar": False}), className="card"),
+        ], className="charts-grid", style={"marginTop": "24px"}),
+
+    ])
 
 app.layout = serve_layout
 
@@ -430,6 +487,28 @@ def build_review_table(reviews: list):
         ),
     ], className="card")
 
+
+# ═══════════════════════════════════════════════════════════════
+# Page Navigation
+# ═══════════════════════════════════════════════════════════════
+
+@app.callback(
+    Output("page-content", "children"),
+    Output("nav-campaign", "className"),
+    Output("nav-customers", "className"),
+    Input("nav-campaign", "n_clicks"),
+    Input("nav-customers", "n_clicks")
+)
+def update_page_view(n_campaign, n_customers):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        return serve_campaign_view(), "nav-item active", "nav-item"
+
+    prop_id = ctx.triggered[0]["prop_id"].split(".")[0]
+    if prop_id == "nav-customers":
+        return serve_customers_view(), "nav-item", "nav-item active"
+    else:
+        return serve_campaign_view(), "nav-item active", "nav-item"
 
 # ═══════════════════════════════════════════════════════════════
 # Run

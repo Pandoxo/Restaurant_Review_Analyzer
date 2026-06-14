@@ -243,5 +243,18 @@ def get_customers_for_restaurant(conn, place_id: str) -> list:
     return [dict(r) for r in rows]
 
 
+def get_all_reviews_with_analysis(conn) -> list:
+    """Return analysis results joined with review data for ALL restaurants globally."""
+    rows = conn.execute("""
+        SELECT r.*, a.overall_sentiment, a.staff_names, a.dishes_mentioned,
+               a.topic_sentiments, a.review_depth, a.specificity_score,
+               a.fake_signals, a.suspicion_score, a.in_burst
+        FROM reviews r
+        LEFT JOIN analysis a ON r.review_id = a.review_id
+        ORDER BY r.published_timestamp DESC
+    """).fetchall()
+    return [dict(r) for r in rows]
+
+
 if __name__ == "__main__":
     init_db()
