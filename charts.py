@@ -24,7 +24,7 @@ YELLOW = "#eab308"
 ORANGE = "#f97316"
 
 
-def _base_layout(title=""):
+def _base_layout(title="", theme=theme):
     """Shared layout settings for all charts."""
     return dict(
         paper_bgcolor="rgba(0,0,0,0)",
@@ -42,16 +42,16 @@ def _base_layout(title=""):
 
 import plotly.express as px
 
-def build_restaurant_map(summary: list) -> go.Figure:
+def build_restaurant_map(summary: list, theme: str = "light") -> go.Figure:
     """Build a Mapbox scatter plot of restaurants."""
     if not summary:
-        return go.Figure(layout=_base_layout("No Map Data"))
+        return go.Figure(layout=_base_layout("No Map Data", theme=theme))
 
     df = pd.DataFrame(summary)
     
     # Check if lat/lng are missing
     if "lat" not in df.columns or "lng" not in df.columns or df["lat"].isnull().all():
-        return go.Figure(layout=_base_layout("No Coordinates Available"))
+        return go.Figure(layout=_base_layout("No Coordinates Available", theme=theme))
         
     df = df.dropna(subset=["lat", "lng"])
     
@@ -85,13 +85,13 @@ def build_restaurant_map(summary: list) -> go.Figure:
     return fig
 
 
-def build_timeline_chart(reviews: list) -> go.Figure:
+def build_timeline_chart(reviews: list, theme: str = "light") -> go.Figure:
     """
     Timeline chart showing review volume over time with burst windows
     and staff-name mentions highlighted.
     """
     if not reviews:
-        return go.Figure(layout=_base_layout("No review data available"))
+        return go.Figure(layout=_base_layout("No review data available", theme=theme))
 
     df = pd.DataFrame(reviews)
     df["date"] = pd.to_datetime(df["published_timestamp"], unit="s", errors="coerce")
@@ -142,7 +142,7 @@ def build_timeline_chart(reviews: list) -> go.Figure:
             hovertemplate="%{x|%B %Y}<br>Burst detected<extra></extra>",
         ))
 
-    layout = _base_layout("📅 Review Timeline — Volume & Suspicious Activity")
+    layout = _base_layout("📅 Review Timeline — Volume & Suspicious Activity", theme=theme)
     layout["barmode"] = "overlay"
     layout["xaxis"]["title"] = ""
     layout["yaxis"]["title"] = "Reviews per Month"
@@ -152,7 +152,7 @@ def build_timeline_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_staff_name_chart(reviews: list) -> go.Figure:
+def build_staff_name_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Bar chart of staff name mention frequency."""
     name_counts = Counter()
     for r in reviews:
@@ -166,7 +166,7 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
             name_counts[name] += 1
 
     if not name_counts:
-        return go.Figure(layout=_base_layout("No staff names detected"))
+        return go.Figure(layout=_base_layout("No staff names detected", theme=theme))
 
     # Top 15 names
     top = name_counts.most_common(15)
@@ -183,7 +183,7 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
         hovertemplate="%{y}: %{x} mentions<extra></extra>",
     ))
 
-    layout = _base_layout("👤 Staff Name Frequency")
+    layout = _base_layout("👤 Staff Name Frequency", theme=theme)
     layout["yaxis"]["autorange"] = "reversed"
     layout["xaxis"]["title"] = "Mentions"
     fig.update_layout(**layout)
@@ -192,7 +192,7 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
 
 
 
-def build_sentiment_chart(reviews: list) -> go.Figure:
+def build_sentiment_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Donut chart of sentiment distribution."""
     sentiments = Counter()
     for r in reviews:
@@ -201,7 +201,7 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
             sentiments[s] += 1
 
     if not sentiments:
-        return go.Figure(layout=_base_layout("No sentiment data"))
+        return go.Figure(layout=_base_layout("No sentiment data", theme=theme))
 
     labels = list(sentiments.keys())
     values = list(sentiments.values())
@@ -221,7 +221,7 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
         hovertemplate="%{label}: %{value} reviews (%{percent})<extra></extra>",
     ))
 
-    layout = _base_layout("💬 Sentiment Distribution")
+    layout = _base_layout("💬 Sentiment Distribution", theme=theme)
     layout["showlegend"] = True
     layout["legend"] = dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=0.9)
     fig.update_layout(**layout)
@@ -229,12 +229,12 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_suspicion_histogram(reviews: list) -> go.Figure:
+def build_suspicion_histogram(reviews: list, theme: str = "light") -> go.Figure:
     """Histogram of suspicion scores across all reviews."""
     scores = [r.get("suspicion_score", 0) for r in reviews if r.get("suspicion_score") is not None]
 
     if not scores:
-        return go.Figure(layout=_base_layout("No suspicion scores"))
+        return go.Figure(layout=_base_layout("No suspicion scores", theme=theme))
 
     fig = go.Figure(go.Histogram(
         x=scores,
@@ -248,7 +248,7 @@ def build_suspicion_histogram(reviews: list) -> go.Figure:
     fig.add_vline(x=0.6, line_dash="dash", line_color=RED, line_width=2,
                   annotation_text="Threshold", annotation_font_color=RED)
 
-    layout = _base_layout("🎯 Suspicion Score Distribution")
+    layout = _base_layout("🎯 Suspicion Score Distribution", theme=theme)
     layout["xaxis"]["title"] = "Suspicion Score"
     layout["xaxis"]["showgrid"] = False
     layout["yaxis"]["title"] = "Number of Reviews"
@@ -257,7 +257,7 @@ def build_suspicion_histogram(reviews: list) -> go.Figure:
     return fig
 
 
-def build_depth_chart(reviews: list) -> go.Figure:
+def build_depth_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Bar chart comparing review depth for suspicious vs clean reviews."""
     depths = {"shallow": 0, "moderate": 0, "detailed": 0}
     depths_sus = {"shallow": 0, "moderate": 0, "detailed": 0}
@@ -280,16 +280,16 @@ def build_depth_chart(reviews: list) -> go.Figure:
         name="Suspicious", marker_color="rgba(239,68,68,0.7)",
     ))
 
-    layout = _base_layout("📝 Review Depth: All vs Suspicious")
+    layout = _base_layout("📝 Review Depth: All vs Suspicious", theme=theme)
     layout["barmode"] = "group"
     fig.update_layout(**layout)
 
     return fig
 
-def build_trust_scatter_chart(reviews: list) -> go.Figure:
+def build_trust_scatter_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Scatter plot of reviewer experience vs star rating."""
     if not reviews:
-        return go.Figure(layout=_base_layout("No trust data"))
+        return go.Figure(layout=_base_layout("No trust data", theme=theme))
 
     # Extract x and y
     data = []
@@ -329,7 +329,7 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
         })
 
     if not data:
-        return go.Figure(layout=_base_layout("No trust data"))
+        return go.Figure(layout=_base_layout("No trust data", theme=theme))
         
     df = pd.DataFrame(data)
 
@@ -358,7 +358,7 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
             customdata=sus_df[["trust_score", "rating"]]
         ))
         
-    layout = _base_layout("⚖️ Reviewer Trust vs. Rating")
+    layout = _base_layout("⚖️ Reviewer Trust vs. Rating", theme=theme)
     layout["xaxis"]["title"] = "Reviewer Experience (Reviews + Photos) [Log Scale]"
     layout["xaxis"]["type"] = "log"
     layout["yaxis"]["title"] = "Star Rating"
@@ -369,7 +369,7 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_topic_sentiments_chart(reviews: list) -> go.Figure:
+def build_topic_sentiments_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Grouped bar chart for topic sentiments (positive vs negative)."""
     topic_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0, "mixed": 0})
     for r in reviews:
@@ -390,7 +390,7 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
                     topic_counts[topic]["neutral"] += 1
 
     if not topic_counts:
-        return go.Figure(layout=_base_layout("No topic sentiments detected"))
+        return go.Figure(layout=_base_layout("No topic sentiments detected", theme=theme))
 
     # Sort topics by total mentions
     sorted_topics = sorted(topic_counts.keys(), key=lambda t: sum(topic_counts[t].values()), reverse=True)[:15]
@@ -416,7 +416,7 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
         name="Negative", marker_color=RED,
     ))
     
-    layout = _base_layout("🗣️ Topic Sentiments (100% Stacked)")
+    layout = _base_layout("🗣️ Topic Sentiments (100% Stacked, theme=theme)")
     layout["barmode"] = "stack"
     layout["barnorm"] = "percent"
     layout["xaxis"]["title"] = "Percentage (%)"
@@ -428,7 +428,7 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_dishes_chart(reviews: list) -> go.Figure:
+def build_dishes_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Horizontal bar chart for most mentioned dishes with sentiment."""
     dish_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0})
     for r in reviews:
@@ -450,7 +450,7 @@ def build_dishes_chart(reviews: list) -> go.Figure:
                     dish_counts[dish.strip().capitalize()][sentiment] += 1
 
     if not dish_counts:
-        return go.Figure(layout=_base_layout("No dishes mentioned"))
+        return go.Figure(layout=_base_layout("No dishes mentioned", theme=theme))
 
     # Top 10 dishes
     sorted_dishes = sorted(dish_counts.keys(), key=lambda d: sum(dish_counts[d].values()), reverse=True)[:10]
@@ -476,7 +476,7 @@ def build_dishes_chart(reviews: list) -> go.Figure:
         name="Negative", marker_color=RED,
     ))
 
-    layout = _base_layout("🍔 Most Mentioned Dishes by Sentiment (100% Stacked)")
+    layout = _base_layout("🍔 Most Mentioned Dishes by Sentiment (100% Stacked, theme=theme)")
     layout["barmode"] = "stack"
     layout["barnorm"] = "percent"
     layout["yaxis"]["autorange"] = "reversed"
@@ -489,10 +489,10 @@ def build_dishes_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_customer_reviews_histogram(reviews: list) -> go.Figure:
+def build_customer_reviews_histogram(reviews: list, theme: str = "light") -> go.Figure:
     """Histogram of author_reviews_count for all customers."""
     if not reviews:
-        return go.Figure(layout=_base_layout("No customer data"))
+        return go.Figure(layout=_base_layout("No customer data", theme=theme))
 
     data = []
     seen_authors = set()
@@ -511,7 +511,7 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
         data.append(rev_count)
 
     if not data:
-        return go.Figure(layout=_base_layout("No customer data"))
+        return go.Figure(layout=_base_layout("No customer data", theme=theme))
 
     bins = {"1-5": 0, "6-15": 0, "16-50": 0, "51-100": 0, "101-500": 0, "501-1000": 0, "1000+": 0}
     for count in data:
@@ -538,7 +538,7 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
         hovertemplate="Review Count: %{x}<br>Users: %{y}<extra></extra>"
     ))
 
-    layout = _base_layout("📊 Distribution of User Review Counts")
+    layout = _base_layout("📊 Distribution of User Review Counts", theme=theme)
     layout["xaxis"]["title"] = "Number of Reviews Written by User"
     layout["yaxis"]["title"] = "Number of Users (Log Scale)"
     layout["yaxis"]["type"] = "log"
@@ -547,10 +547,10 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
     return fig
 
 
-def build_customer_scatter_chart(reviews: list) -> go.Figure:
+def build_customer_scatter_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Scatter plot of author_reviews_count vs author_photos_count."""
     if not reviews:
-        return go.Figure(layout=_base_layout("No customer data"))
+        return go.Figure(layout=_base_layout("No customer data", theme=theme))
 
     import random
     data = []
@@ -587,7 +587,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
         })
 
     if not data:
-        return go.Figure(layout=_base_layout("No customer data"))
+        return go.Figure(layout=_base_layout("No customer data", theme=theme))
 
     df = pd.DataFrame(data)
     fig = go.Figure()
@@ -615,7 +615,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
             hovertemplate="%{text}<br>Reviews: %{x:.0f}<br>Photos: %{y:.0f}<extra></extra>"
         ))
 
-    layout = _base_layout("📸 Review Count vs Photo Count")
+    layout = _base_layout("📸 Review Count vs Photo Count", theme=theme)
     layout["xaxis"]["title"] = "Total Reviews (Log Scale)"
     layout["xaxis"]["type"] = "log"
     layout["yaxis"]["title"] = "Total Photos (Log Scale)"
@@ -624,14 +624,14 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     fig.update_layout(**layout)
     return fig
 
-def build_rating_distribution_chart(reviews: list) -> go.Figure:
+def build_rating_distribution_chart(reviews: list, theme: str = "light") -> go.Figure:
     """Show the distribution of 1 to 5 star ratings."""
     if not reviews:
-        return go.Figure(layout=_base_layout("⭐ Rating Distribution"))
+        return go.Figure(layout=_base_layout("⭐ Rating Distribution", theme=theme))
         
     ratings = [r.get("rating") for r in reviews if r.get("rating")]
     if not ratings:
-        return go.Figure(layout=_base_layout("⭐ Rating Distribution"))
+        return go.Figure(layout=_base_layout("⭐ Rating Distribution", theme=theme))
         
     counts = pd.Series(ratings).value_counts().reindex([1, 2, 3, 4, 5], fill_value=0)
     
@@ -643,7 +643,7 @@ def build_rating_distribution_chart(reviews: list) -> go.Figure:
         )
     ])
     
-    layout = _base_layout("⭐ Rating Distribution")
+    layout = _base_layout("⭐ Rating Distribution", theme=theme)
     layout["yaxis"]["title"] = "Count"
     layout["xaxis"]["showgrid"] = False
     fig.update_layout(**layout)

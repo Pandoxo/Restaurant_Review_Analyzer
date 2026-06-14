@@ -97,7 +97,8 @@ def badge_text(pct):
 # ═══════════════════════════════════════════════════════════════
 
 def serve_layout():
-    return html.Div([
+    return html.Div(id="app-container", children=[
+        dcc.Store(id="theme-store", data="light", storage_type="local"),
         # SIDEBAR
         html.Div([
             html.Div([
@@ -113,6 +114,19 @@ def serve_layout():
             ], className="nav-menu"),
             
             html.Div([
+                html.Div([
+                    html.Button(
+                        "🌙 Dark Mode", 
+                        id="theme-toggle", 
+                        n_clicks=0,
+                        style={
+                            "width": "100%", "padding": "10px", "borderRadius": "8px", 
+                            "border": "1px solid var(--border)", "background": "var(--bg-card)",
+                            "color": "var(--text-primary)", "cursor": "pointer", "textAlign": "left",
+                            "display": "flex", "alignItems": "center", "gap": "10px", "fontWeight": "500"
+                        }
+                    )
+                ], style={"marginBottom": "16px"}),
                 html.Div("❓ About / Help", id="nav-help", className="nav-item", n_clicks=0),
             ], style={"marginTop": "auto", "paddingTop": "16px", "borderTop": "1px solid var(--border)"}),
         ], className="sidebar", style={"display": "flex", "flexDirection": "column"}),
@@ -177,6 +191,7 @@ def serve_campaign_view():
                     dl.Map(
                         [
                             dl.TileLayer(
+                                id="map-tiles",
                                 url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                             ),
@@ -405,8 +420,9 @@ def toggle_map_visibility(tab):
     Output("tab-content", "children"),
     Input("main-tabs", "value"),
     Input("selected-place-id", "data"),
+    Input("theme-store", "data"),
 )
-def render_tab(tab, place_id):
+def render_tab(tab, place_id, theme):
     """Render the selected tab content."""
 
 
@@ -431,30 +447,30 @@ def render_tab(tab, place_id):
         return html.Div([
             html.Div([
                 html.Div([
-                    dcc.Graph(figure=build_sentiment_chart(reviews),
+                    dcc.Graph(figure=build_sentiment_chart(reviews, theme),
                               config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
-                    dcc.Graph(figure=build_suspicion_histogram(reviews),
+                    dcc.Graph(figure=build_suspicion_histogram(reviews, theme),
                               config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
-                    dcc.Graph(figure=build_rating_distribution_chart(reviews),
+                    dcc.Graph(figure=build_rating_distribution_chart(reviews, theme),
                               config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
-                    dcc.Graph(figure=build_trust_scatter_chart(reviews),
+                    dcc.Graph(figure=build_trust_scatter_chart(reviews, theme),
                               config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
             ], className="charts-grid", style={"gap": "12px", "marginBottom": "12px"}),
-            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}, style={"height": "20vh"}), className="card")
+            html.Div(dcc.Graph(figure=build_timeline_chart(reviews, theme), config={"displayModeBar": False}, style={"height": "20vh"}), className="card")
         ], className="tab-pane")
 
     elif tab == "tab-insights":
         return html.Div([
             html.Div([
-                html.Div(dcc.Graph(id="insights-topic-chart", figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
-                html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
+                html.Div(dcc.Graph(id="insights-topic-chart", figure=build_topic_sentiments_chart(reviews, theme), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
+                html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews, theme), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
             ], className="charts-grid", style={"marginBottom": "24px"}),
             html.Div([
                 html.Div(id="insights-review-table-container", className="card", style={"flex": "1", "minWidth": "0"}),
@@ -465,13 +481,13 @@ def render_tab(tab, place_id):
     elif tab == "tab-names":
         return html.Div([
             html.Div([
-                dcc.Graph(figure=build_staff_name_chart(reviews),
+                dcc.Graph(figure=build_staff_name_chart(reviews, theme),
                           config={"displayModeBar": False}, style={"height": "65vh"}),
             ], className="card"),
         ], className="tab-pane")
 
     elif tab == "tab-explorer":
-        return build_review_table(reviews)
+        return build_review_table(reviews, theme)
 
     return html.Div("Select a tab")
 
@@ -523,7 +539,7 @@ def build_review_table(reviews: list):
                         {
                             "if": {"filter_query": "{suspicion_score} >= 0.6"},
                             "backgroundColor": "rgba(239,68,68,0.1)",
-                            "color": "#fca5a5",
+                            "color": "var(--red)",
                         },
                         {
                             "if": {"filter_query": "{in_burst} = 1"},
@@ -562,7 +578,7 @@ def display_review_details(active_cell, table_data):
         {
             "if": {"filter_query": "{suspicion_score} >= 0.6"},
             "backgroundColor": "rgba(239,68,68,0.1)",
-            "color": "#fca5a5",
+            "color": "var(--red)",
         },
         {
             "if": {"filter_query": "{in_burst} = 1"},
@@ -671,9 +687,9 @@ def update_global_charts(min_suspicion, depth):
     
     return (
         stats,
-        build_customer_reviews_histogram(filtered),
-        build_customer_scatter_chart(filtered),
-        build_topic_sentiments_chart(filtered)
+        build_customer_reviews_histogram(filtered, theme),
+        build_customer_scatter_chart(filtered, theme),
+        build_topic_sentiments_chart(filtered, theme)
     )
 
 # ═══════════════════════════════════════════════════════════════
@@ -854,6 +870,48 @@ def display_insights_review_details(active_cell, table_data):
         html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6","fontSize": "1.6rem"}),
         html.Div(f"Sentiment: {row.get('Sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)", "fontSize": "1rem"}),
     ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"}), new_style
+
+# ═══════════════════════════════════════════════════════════════
+# Theme Callbacks
+# ═══════════════════════════════════════════════════════════════
+
+app.clientside_callback(
+    """
+    function(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        return window.dash_clientside.no_update;
+    }
+    """,
+    Output("app-container", "data-theme"), # Dummy output
+    Input("theme-store", "data")
+)
+
+@app.callback(
+    [Output("theme-store", "data"),
+     Output("theme-toggle", "children")],
+    Input("theme-toggle", "n_clicks"),
+    State("theme-store", "data"),
+)
+def toggle_theme(n_clicks, current_theme):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        # Initial call
+        if current_theme == "dark":
+            return "dark", "☀️ Light Mode"
+        return "light", "🌙 Dark Mode"
+        
+    if current_theme == "light":
+        return "dark", "☀️ Light Mode"
+    return "light", "🌙 Dark Mode"
+
+@app.callback(
+    Output("map-tiles", "url"),
+    Input("theme-store", "data")
+)
+def update_map_tiles(theme):
+    if theme == "dark":
+        return "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+    return "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
 
 # ═══════════════════════════════════════════════════════════════
 # Run
