@@ -492,7 +492,7 @@ def render_tab(tab, place_id, theme):
     return html.Div("Select a tab")
 
 
-def build_review_table(reviews: list):
+def build_review_table(reviews: list, theme="light"):
     """Build the review explorer DataTable."""
     df = pd.DataFrame(reviews)
 
@@ -644,9 +644,10 @@ def update_page_view(n_campaign, n_customers, n_help):
     Output("global-scatter", "figure"),
     Output("global-topics-chart", "figure"),
     Input("global-suspicion-slider", "value"),
-    Input("global-depth-dropdown", "value")
+    Input("global-depth-dropdown", "value"),
+    Input("theme-store", "data")
 )
-def update_global_charts(min_suspicion, depth):
+def update_global_charts(min_suspicion, depth, theme):
     with get_db() as conn:
         all_reviews = get_all_reviews_with_analysis(conn)
         
