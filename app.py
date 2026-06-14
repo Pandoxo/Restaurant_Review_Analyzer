@@ -444,18 +444,10 @@ def render_tab(tab, place_id):
                               config={"displayModeBar": False}),
                 ], className="card"),
                 html.Div([
-                    dcc.Graph(figure=build_depth_chart(reviews),
-                              config={"displayModeBar": False}),
-                ], className="card"),
-                html.Div([
-                    dcc.Graph(figure=build_staff_name_chart(reviews),
-                              config={"displayModeBar": False}),
-                ], className="card"),
-                html.Div([
                     dcc.Graph(figure=build_trust_scatter_chart(reviews),
                               config={"displayModeBar": False}),
                 ], className="card"),
-            ], className="charts-grid-3"),
+            ], className="charts-grid"),
         ])
 
     elif tab == "tab-timeline":
