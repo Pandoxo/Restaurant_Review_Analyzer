@@ -21,6 +21,7 @@ from charts import (
     build_sentiment_chart,
     build_suspicion_histogram,
     build_depth_chart,
+    build_trust_scatter_chart,
 )
 
 app = dash.Dash(
@@ -248,6 +249,10 @@ def render_tab(tab, place_id):
                               config={"displayModeBar": False}),
                 ], className="card"),
             ], className="charts-grid"),
+            html.Div([
+                dcc.Graph(figure=build_trust_scatter_chart(reviews),
+                          config={"displayModeBar": False}),
+            ], className="card chart-full", style={"marginTop": "24px"}),
         ])
 
     elif tab == "tab-timeline":

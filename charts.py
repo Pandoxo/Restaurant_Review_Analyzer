@@ -3,6 +3,7 @@ Dashboard chart builders — all Plotly figure constructors used by app.py.
 """
 
 import json
+import random
 from collections import Counter, defaultdict
 from datetime import datetime
 
@@ -284,6 +285,89 @@ def build_depth_chart(reviews: list) -> go.Figure:
 
     layout = _base_layout("📝 Review Depth: All vs Suspicious")
     layout["barmode"] = "group"
+    layout["height"] = 320
+    fig.update_layout(**layout)
+
+    return fig
+
+def build_trust_scatter_chart(reviews: list) -> go.Figure:
+    """Scatter plot of reviewer experience vs star rating."""
+    if not reviews:
+        return go.Figure(layout=_base_layout("No trust data"))
+
+    # Extract x and y
+    data = []
+    for r in reviews:
+        try:
+            rev_count = int(r.get("author_reviews_count") or 0)
+        except ValueError:
+            rev_count = 0
+            
+        try:
+            photo_count = int(r.get("author_photos_count") or 0)
+        except ValueError:
+            photo_count = 0
+            
+        try:
+            rating = float(r.get("rating") or 0)
+        except ValueError:
+            rating = 0
+            
+        if rating == 0:
+            continue
+
+        try:
+            suspicion = float(r.get("suspicion_score") or 0)
+        except ValueError:
+            suspicion = 0
+        
+        is_suspicious = suspicion >= 0.6
+        
+        # We add 1 to trust score for log scale so 0 becomes 1 (log(1) = 0)
+        data.append({
+            "trust_score": rev_count + photo_count,
+            "log_trust_score": max(rev_count + photo_count, 0.5), # avoid 0 for log axis
+            "rating": rating,
+            "jittered_rating": rating + random.uniform(-0.15, 0.15),
+            "is_suspicious": is_suspicious
+        })
+
+    if not data:
+        return go.Figure(layout=_base_layout("No trust data"))
+        
+    df = pd.DataFrame(data)
+
+    fig = go.Figure()
+    
+    clean_df = df[~df["is_suspicious"]]
+    fig.add_trace(go.Scatter(
+        x=clean_df["log_trust_score"],
+        y=clean_df["jittered_rating"],
+        mode="markers",
+        name="Clean",
+        marker=dict(color=ACCENT, size=6, opacity=0.5, line=dict(width=0)),
+        hovertemplate="Trust (Reviews+Photos): %{customdata[0]}<br>Rating: %{customdata[1]}<extra></extra>",
+        customdata=clean_df[["trust_score", "rating"]]
+    ))
+
+    sus_df = df[df["is_suspicious"]]
+    if not sus_df.empty:
+        fig.add_trace(go.Scatter(
+            x=sus_df["log_trust_score"],
+            y=sus_df["jittered_rating"],
+            mode="markers",
+            name="Suspicious",
+            marker=dict(color=RED, size=8, opacity=0.8, line=dict(width=1, color=CARD_BG)),
+            hovertemplate="Trust (Reviews+Photos): %{customdata[0]}<br>Rating: %{customdata[1]}<extra></extra>",
+            customdata=sus_df[["trust_score", "rating"]]
+        ))
+        
+    layout = _base_layout("⚖️ Reviewer Trust vs. Rating")
+    layout["xaxis"]["title"] = "Reviewer Experience (Reviews + Photos) [Log Scale]"
+    layout["xaxis"]["type"] = "log"
+    layout["yaxis"]["title"] = "Star Rating"
+    layout["yaxis"]["tickvals"] = [1, 2, 3, 4, 5]
+    layout["yaxis"]["range"] = [0.5, 5.5]
     layout["height"] = 320
     fig.update_layout(**layout)
 
