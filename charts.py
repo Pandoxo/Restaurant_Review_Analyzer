@@ -452,19 +452,22 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
     
     fig = go.Figure()
     fig.add_trace(go.Bar(
-        x=sorted_topics, y=positives,
+        y=sorted_topics, x=positives,
+        orientation="h",
         name="Positive Comments", marker_color=GREEN,
     ))
     fig.add_trace(go.Bar(
-        x=sorted_topics, y=negatives,
+        y=sorted_topics, x=negatives,
+        orientation="h",
         name="Complaints", marker_color=RED,
     ))
     
     layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
-    layout["barmode"] = "group"
+    layout["barmode"] = "stack"
     layout["height"] = 380
-    layout["xaxis"]["title"] = "Topic"
-    layout["yaxis"]["title"] = "Number of Mentions"
+    layout["xaxis"]["title"] = "Number of Mentions"
+    layout["yaxis"]["title"] = "Topic"
+    layout["yaxis"]["autorange"] = "reversed"
     fig.update_layout(**layout)
     return fig
 
@@ -489,8 +492,8 @@ def build_dishes_chart(reviews: list) -> go.Figure:
     if not dish_counts:
         return go.Figure(layout=_base_layout("No dishes mentioned"))
 
-    # Top 15 dishes
-    top = dish_counts.most_common(15)
+    # Top 10 dishes
+    top = dish_counts.most_common(10)
     dishes, counts = zip(*top)
 
     fig = go.Figure(go.Bar(
@@ -644,11 +647,9 @@ def build_rating_distribution_chart(reviews: list) -> go.Figure:
     
     fig = go.Figure(data=[
         go.Bar(
-            x=[f"{i} Star" for i in range(1, 6)],
+            x=[f"{i}" for i in range(1, 6)],
             y=counts.values,
-            marker_color=[RED, ORANGE, YELLOW, GREEN, GREEN],
-            text=counts.values,
-            textposition='auto',
+            marker_color=[RED, ORANGE, YELLOW, GREEN, GREEN]
         )
     ])
     

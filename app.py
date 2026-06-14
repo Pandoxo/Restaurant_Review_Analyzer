@@ -290,7 +290,7 @@ app.layout = serve_layout
 def update_map(search_query, selected_place_id, zoom):
     """Filter map based on search query and return markers."""
     zoom_level = zoom if zoom is not None else 12
-    show_labels = (zoom_level >= 12)
+    show_labels = (zoom_level >= 13)
     summary = get_summary_data()
     if search_query:
         query = search_query.lower()
@@ -341,7 +341,8 @@ def update_selected_place(n_clicks, dropdown_val):
         return dropdown_val
         
     # If map marker was clicked
-    if not prop_id or prop_id == ".":
+    val = ctx.triggered[0].get("value")
+    if not val: # Ignore initialization or redraw events where value is None or 0
         return dash.no_update
         
     try:
@@ -396,7 +397,7 @@ def update_stats(place_id):
     Input("main-tabs", "value")
 )
 def toggle_map_visibility(tab):
-    if tab in ["tab-timeline", "tab-names", "tab-explorer"]:
+    if tab in ["tab-insights", "tab-timeline", "tab-names", "tab-explorer"]:
         return {"display": "none"}
     return {"flex": "4", "minWidth": "0"}
 
