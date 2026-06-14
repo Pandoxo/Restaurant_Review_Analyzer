@@ -496,9 +496,7 @@ def build_review_table(reviews: list):
 
     return html.Div([
         html.Div("Select a row in the table below to read the full review.", className="subtitle", style={"marginBottom": "16px"}),
-        html.Div([
-            html.Div(
-                dash_table.DataTable(
+        dash_table.DataTable(
                     id="explorer-table",
                     data=display_df.to_dict("records"),
                     columns=[{"name": c.replace("_", " ").title(), "id": c}
@@ -533,10 +531,7 @@ def build_review_table(reviews: list):
                     ],
                     tooltip_duration=None,
                 ),
-                style={"flex": "1", "minWidth": "0"}
-            ),
-            html.Div(id="review-details-card", style={"flex": "1", "minWidth": "0"})
-        ], style={"display": "flex", "flexDirection": "row", "gap": "24px", "alignItems": "flex-start"})
+        html.Div(id="review-details-card", style={"marginTop": "24px"})
     ], className="card")
 
 # ═══════════════════════════════════════════════════════════════
