@@ -73,6 +73,7 @@ def import_json_files(directory="reviews", clean=False):
                     "author_name": rev.get("author_name"),
                     "author_url": "",
                     "author_reviews_count": rev.get("author_reviews_count"),
+                    "author_photos_count": rev.get("author_photos_count"),
                     "rating": rev.get("rating"),
                     "text": rev.get("text", ""),
                     "published_at": rev.get("published_at", ""),
