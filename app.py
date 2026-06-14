@@ -289,7 +289,8 @@ app.layout = serve_layout
 )
 def update_map(search_query, selected_place_id, zoom):
     """Filter map based on search query and return markers."""
-    show_labels = (zoom and zoom >= 14)
+    zoom_level = zoom if zoom is not None else 12
+    show_labels = (zoom_level >= 12)
     summary = get_summary_data()
     if search_query:
         query = search_query.lower()
@@ -391,6 +392,16 @@ def update_stats(place_id):
 
 
 @app.callback(
+    Output("map-container", "style"),
+    Input("main-tabs", "value")
+)
+def toggle_map_visibility(tab):
+    if tab in ["tab-timeline", "tab-names", "tab-explorer"]:
+        return {"display": "none"}
+    return {"flex": "4", "minWidth": "0"}
+
+
+@app.callback(
     Output("tab-content", "children"),
     Input("main-tabs", "value"),
     Input("selected-place-id", "data"),
@@ -415,17 +426,6 @@ def render_tab(tab, place_id):
             html.Div("📭", className="icon"),
             html.P("No analyzed reviews for this restaurant yet."),
         ], className="empty-state")
-
-
-@app.callback(
-    Output("map-container", "style"),
-    Input("main-tabs", "value")
-)
-def toggle_map_visibility(tab):
-    if tab in ["tab-timeline", "tab-names", "tab-explorer"]:
-        return {"display": "none"}
-    return {"flex": "4", "minWidth": "0"}
-
 
     if tab == "tab-overview":
         return html.Div([
