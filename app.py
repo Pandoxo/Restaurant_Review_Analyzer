@@ -137,7 +137,7 @@ def serve_campaign_view():
         # SEARCH BAR
         html.Div([
             html.Span("🔍", style={"position": "absolute", "left": "16px", "top": "12px", "color": "var(--text-secondary)", "fontSize": "1.2rem", "zIndex": "1"}),
-            dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar", style={"paddingLeft": "44px", "width": "100%"})
+            dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar")
         ], style={"position": "relative", "marginBottom": "24px", "maxWidth": "500px"}),
 
         # TOP LAYOUT: KPIs + MAP
