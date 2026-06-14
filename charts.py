@@ -527,9 +527,10 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
         seen_authors.add(name)
         
         try:
-            rev_count = int(r.get("author_reviews_count") or 0)
+            val = int(r.get("author_reviews_count") or 0)
+            rev_count = max(val, 1) # Prevent log(0)
         except ValueError:
-            rev_count = 0
+            rev_count = 1
             
         data.append(rev_count)
 
@@ -545,9 +546,10 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
     ))
 
     layout = _base_layout("📊 Distribution of User Review Counts")
-    layout["xaxis"]["title"] = "Number of Reviews Written by User"
-    layout["yaxis"]["title"] = "Number of Users"
+    layout["xaxis"]["title"] = "Number of Reviews Written by User (Log Scale)"
+    layout["yaxis"]["title"] = "Number of Users (Log Scale)"
     layout["xaxis"]["type"] = "log"
+    layout["yaxis"]["type"] = "log"
     fig.update_layout(**layout)
     return fig
 
@@ -557,6 +559,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     if not reviews:
         return go.Figure(layout=_base_layout("No customer data"))
 
+    import random
     data = []
     seen_authors = set()
     for r in reviews:
@@ -566,12 +569,15 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
         seen_authors.add(name)
         
         try:
-            rev_count = max(int(r.get("author_reviews_count") or 0), 1)  # minimum 1 for log scale
+            # Jitter the integers slightly so points don't perfectly overlap
+            base_rev = max(int(r.get("author_reviews_count") or 0), 1)
+            rev_count = base_rev * random.uniform(0.95, 1.05)
         except ValueError:
             rev_count = 1
             
         try:
-            photo_count = max(int(r.get("author_photos_count") or 0), 1) # minimum 1 for log scale
+            base_photo = max(int(r.get("author_photos_count") or 0), 1)
+            photo_count = base_photo * random.uniform(0.95, 1.05)
         except ValueError:
             photo_count = 1
             
@@ -600,8 +606,8 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
         mode="markers",
         name="Clean",
         text=clean_df["name"],
-        marker=dict(color=ACCENT, size=6, opacity=0.4, line=dict(width=0)),
-        hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
+        marker=dict(color=ACCENT, size=6, opacity=0.3, line=dict(width=0)),
+        hovertemplate="%{text}<br>Reviews: %{x:.0f}<br>Photos: %{y:.0f}<extra></extra>"
     ))
 
     sus_df = df[df["is_suspicious"]]
@@ -613,7 +619,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
             name="Suspicious Reviewer",
             text=sus_df["name"],
             marker=dict(color=RED, size=8, opacity=0.8, line=dict(width=1, color=CARD_BG)),
-            hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
+            hovertemplate="%{text}<br>Reviews: %{x:.0f}<br>Photos: %{y:.0f}<extra></extra>"
         ))
 
     layout = _base_layout("📸 Review Count vs Photo Count")
