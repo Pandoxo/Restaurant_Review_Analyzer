@@ -559,7 +559,6 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     if not reviews:
         return go.Figure(layout=_base_layout("No customer data"))
 
-    import random
     data = []
     seen_authors = set()
     for r in reviews:
@@ -569,17 +568,14 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
         seen_authors.add(name)
         
         try:
-            # Jitter the integers slightly so points don't perfectly overlap
-            base_rev = max(int(r.get("author_reviews_count") or 0), 1)
-            rev_count = base_rev * random.uniform(0.95, 1.05)
+            rev_count = int(r.get("author_reviews_count") or 0)
         except ValueError:
-            rev_count = 1
+            rev_count = 0
             
         try:
-            base_photo = max(int(r.get("author_photos_count") or 0), 1)
-            photo_count = base_photo * random.uniform(0.95, 1.05)
+            photo_count = int(r.get("author_photos_count") or 0)
         except ValueError:
-            photo_count = 1
+            photo_count = 0
             
         try:
             suspicion = float(r.get("suspicion_score") or 0)
@@ -607,7 +603,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
         name="Clean",
         text=clean_df["name"],
         marker=dict(color=ACCENT, size=6, opacity=0.3, line=dict(width=0)),
-        hovertemplate="%{text}<br>Reviews: %{x:.0f}<br>Photos: %{y:.0f}<extra></extra>"
+        hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
     ))
 
     sus_df = df[df["is_suspicious"]]
@@ -619,14 +615,12 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
             name="Suspicious Reviewer",
             text=sus_df["name"],
             marker=dict(color=RED, size=8, opacity=0.8, line=dict(width=1, color=CARD_BG)),
-            hovertemplate="%{text}<br>Reviews: %{x:.0f}<br>Photos: %{y:.0f}<extra></extra>"
+            hovertemplate="%{text}<br>Reviews: %{x}<br>Photos: %{y}<extra></extra>"
         ))
 
     layout = _base_layout("📸 Review Count vs Photo Count")
-    layout["xaxis"]["title"] = "Total Reviews (Log Scale)"
-    layout["xaxis"]["type"] = "log"
-    layout["yaxis"]["title"] = "Total Photos (Log Scale)"
-    layout["yaxis"]["type"] = "log"
+    layout["xaxis"]["title"] = "Total Reviews"
+    layout["yaxis"]["title"] = "Total Photos"
     layout["height"] = 400
     fig.update_layout(**layout)
     return fig
