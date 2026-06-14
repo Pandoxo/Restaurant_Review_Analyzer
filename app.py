@@ -189,7 +189,7 @@ def serve_campaign_view():
                         style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
                     )
                 ], className="map-card", style={"height": "100%", "minHeight": "600px", "margin": "0"})
-            ], style={"flex": "4", "minWidth": "0"})
+            ], id="map-container", style={"flex": "4", "minWidth": "0"})
             
         ], style={"display": "flex", "gap": "24px", "alignItems": "stretch"}),
     ])
@@ -284,10 +284,12 @@ app.layout = serve_layout
 @app.callback(
     Output("map-markers", "children"),
     Input("search-dropdown", "search_value"),
-    Input("selected-place-id", "data")
+    Input("selected-place-id", "data"),
+    Input("restaurant-map", "zoom")
 )
-def update_map(search_query, selected_place_id):
+def update_map(search_query, selected_place_id, zoom):
     """Filter map based on search query and return markers."""
+    show_labels = (zoom and zoom >= 14)
     summary = get_summary_data()
     if search_query:
         query = search_query.lower()
@@ -313,7 +315,7 @@ def update_map(search_query, selected_place_id):
                 ),
                 id={"type": "map-marker", "place_id": r["place_id"]},
                 children=[
-                    dl.Tooltip(r["name"])
+                    dl.Tooltip(r["name"], permanent=show_labels, direction="right", className="custom-map-label")
                 ]
             )
         )
@@ -413,6 +415,17 @@ def render_tab(tab, place_id):
             html.Div("📭", className="icon"),
             html.P("No analyzed reviews for this restaurant yet."),
         ], className="empty-state")
+
+
+@app.callback(
+    Output("map-container", "style"),
+    Input("main-tabs", "value")
+)
+def toggle_map_visibility(tab):
+    if tab in ["tab-timeline", "tab-names", "tab-explorer"]:
+        return {"display": "none"}
+    return {"flex": "4", "minWidth": "0"}
+
 
     if tab == "tab-overview":
         return html.Div([
