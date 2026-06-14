@@ -105,6 +105,18 @@ def serve_layout():
                 ], style={"marginBottom": "32px"}),
             ]),
             
+            # SIDEBAR SEARCH BAR
+            html.Div([
+                dcc.Dropdown(
+                    id="search-dropdown",
+                    options=[{"label": r["name"], "value": r["place_id"]} for r in get_summary_data()],
+                    placeholder="Search restaurants...",
+                    searchable=True,
+                    clearable=True,
+                    className="sidebar-search"
+                )
+            ], style={"marginBottom": "32px"}),
+            
             html.Div([
                 html.Div("📢 Campaign", id="nav-campaign", className="nav-item active", n_clicks=0),
                 html.Div("👥 All Customers", id="nav-customers", className="nav-item", n_clicks=0),
@@ -133,12 +145,6 @@ def serve_campaign_view():
                 html.Div("Status: Active", className="badge badge-clean"),
             ]),
         ], className="app-header"),
-
-        # SEARCH BAR
-        html.Div([
-            html.Span("🔍", style={"position": "absolute", "left": "16px", "top": "12px", "color": "var(--text-secondary)", "fontSize": "1.2rem", "zIndex": "1"}),
-            dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar")
-        ], style={"position": "relative", "marginBottom": "24px", "maxWidth": "500px"}),
 
         # TOP LAYOUT: KPIs + MAP
         html.Div([
@@ -244,7 +250,7 @@ app.layout = serve_layout
 
 @app.callback(
     Output("map-markers", "children"),
-    Input("search-input", "value"),
+    Input("search-dropdown", "search_value"),
     Input("selected-place-id", "data")
 )
 def update_map(search_query, selected_place_id):
@@ -284,15 +290,21 @@ def update_map(search_query, selected_place_id):
 @app.callback(
     Output("selected-place-id", "data"),
     Input({"type": "map-marker", "place_id": ALL}, "n_clicks"),
-    State({"type": "map-marker", "place_id": ALL}, "id"),
+    Input("search-dropdown", "value"),
     prevent_initial_call=True
 )
-def update_selected_place(n_clicks, marker_ids):
+def update_selected_place(n_clicks, dropdown_val):
     ctx = dash.callback_context
     if not ctx.triggered:
         return dash.no_update
         
     prop_id = ctx.triggered[0]["prop_id"]
+    
+    # If dropdown was used
+    if "search-dropdown" in prop_id:
+        return dropdown_val
+        
+    # If map marker was clicked
     if not prop_id or prop_id == ".":
         return dash.no_update
         

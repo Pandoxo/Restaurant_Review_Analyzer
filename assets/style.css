@@ -376,3 +376,32 @@ body {
 }
 .empty-state .icon { font-size: 3rem; margin-bottom: 16px; }
 
+
+/* ── Sidebar Dropdown ───────────────────────────────────────── */
+.sidebar-search .Select-control {
+    background-color: var(--bg-input);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    border-radius: var(--radius-sm);
+}
+
+.sidebar-search .Select-menu-outer {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    z-index: 1000;
+}
+
+.sidebar-search .Select-value-label, .sidebar-search .Select-placeholder {
+    color: var(--text-primary) !important;
+}
+
+.sidebar-search .Select-option {
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+}
+
+.sidebar-search .Select-option.is-focused, .sidebar-search .Select-option.is-selected {
+    background-color: rgba(139, 92, 246, 0.2);
+    color: var(--accent);
+}
