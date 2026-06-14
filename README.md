@@ -66,4 +66,6 @@ Open your browser to `http://localhost:8050` to explore the data!
 
 ## ☁️ Deployment
 
+**Live Demo:** [https://restaurantreviewanalyzer.onrender.com/](https://restaurantreviewanalyzer.onrender.com/)
+
 This app is production-ready and configured to run on cloud hosting platforms (like Render or Heroku) using `gunicorn`. Simply specify the entry point as `app:server` in your deployment settings.
