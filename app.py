@@ -455,8 +455,10 @@ def render_tab(tab, place_id):
                 html.Div(dcc.Graph(id="insights-topic-chart", figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
                 html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
             ], className="charts-grid", style={"marginBottom": "24px"}),
-            html.Div(id="insights-review-table-container", className="card"),
-            html.Div(id="insights-review-details-card", style={"marginTop": "24px"})
+            html.Div([
+                html.Div(id="insights-review-table-container", className="card", style={"flex": "2", "minWidth": "0"}),
+                html.Div(id="insights-review-details-card", style={"flex": "1", "minWidth": "0"})
+            ], style={"display": "flex", "flexDirection": "row", "gap": "24px", "alignItems": "flex-start"})
         ], className="tab-pane")
 
     elif tab == "tab-names":
@@ -494,37 +496,42 @@ def build_review_table(reviews: list):
 
     return html.Div([
         html.Div("Select a row in the table below to read the full review.", className="subtitle", style={"marginBottom": "16px"}),
-        dash_table.DataTable(
-            id="explorer-table",
-            data=display_df.to_dict("records"),
-            columns=[{"name": c.replace("_", " ").title(), "id": c}
-                     for c in available],
-            sort_action="native",
-            filter_action="native",
-            page_size=15,
-            style_table={"overflowX": "auto"},
-            style_cell={
-                "textAlign": "left",
-                "maxWidth": "300px",
-                "padding": "12px",
-                "whiteSpace": "normal",
-                "height": "auto",
-                "lineHeight": "1.5"
-            },
-            style_data_conditional=[
-                {
-                    "if": {"filter_query": "{suspicion_score} >= 0.6"},
-                    "backgroundColor": "rgba(239,68,68,0.1)",
-                    "color": "#fca5a5",
-                },
-                {
-                    "if": {"filter_query": "{in_burst} = 1"},
-                    "borderLeft": "3px solid #f97316",
-                },
-            ],
-            tooltip_duration=None,
-        ),
-        html.Div(id="review-details-card", style={"marginTop": "24px"})
+        html.Div([
+            html.Div(
+                dash_table.DataTable(
+                    id="explorer-table",
+                    data=display_df.to_dict("records"),
+                    columns=[{"name": c.replace("_", " ").title(), "id": c}
+                             for c in available],
+                    sort_action="native",
+                    filter_action="native",
+                    page_size=15,
+                    style_table={"overflowX": "auto"},
+                    style_cell={
+                        "textAlign": "left",
+                        "maxWidth": "300px",
+                        "padding": "12px",
+                        "whiteSpace": "normal",
+                        "height": "auto",
+                        "lineHeight": "1.5"
+                    },
+                    style_data_conditional=[
+                        {
+                            "if": {"filter_query": "{suspicion_score} >= 0.6"},
+                            "backgroundColor": "rgba(239,68,68,0.1)",
+                            "color": "#fca5a5",
+                        },
+                        {
+                            "if": {"filter_query": "{in_burst} = 1"},
+                            "borderLeft": "3px solid #f97316",
+                        },
+                    ],
+                    tooltip_duration=None,
+                ),
+                style={"flex": "2", "minWidth": "0"}
+            ),
+            html.Div(id="review-details-card", style={"flex": "1", "minWidth": "0"})
+        ], style={"display": "flex", "flexDirection": "row", "gap": "24px", "alignItems": "flex-start"})
     ], className="card")
 
 # ═══════════════════════════════════════════════════════════════
@@ -727,7 +734,6 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
         "author_name": "Author",
         "rating": "Rating",
         "overall_sentiment": "Sentiment",
-        "text": "Review Text"
     }
     
     available_cols = [c for c in display_cols.keys() if c in df.columns]
