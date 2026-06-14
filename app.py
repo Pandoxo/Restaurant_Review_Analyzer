@@ -185,7 +185,7 @@ def serve_campaign_view():
                         zoom=12,
                         style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
                     )
-                ], className="map-card", style={"height": "100%", "minHeight": "600px", "margin": "0"})
+                ], className="map-card", style={"height": "calc(100vh - 120px)", "position": "sticky", "top": "24px", "margin": "0"})
             ], id="map-container", style={"flex": "4", "minWidth": "0"})
             
         ], style={"display": "flex", "gap": "24px", "alignItems": "stretch"}),
@@ -444,7 +444,7 @@ def render_tab(tab, place_id):
                     dcc.Graph(figure=build_trust_scatter_chart(reviews),
                               config={"displayModeBar": False}),
                 ], className="card"),
-            ], className="charts-grid", style={"marginBottom": "24px"}),
+            ], className="charts-grid", style={"gap": "12px", "marginBottom": "12px"}),
             html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}), className="card")
         ], className="tab-pane")
 
