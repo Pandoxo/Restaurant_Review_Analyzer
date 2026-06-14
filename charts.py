@@ -11,11 +11,11 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # ── Color Constants ────────────────────────────────────────
-BG = "#0a0e17"
-CARD_BG = "#1a1f2e"
-GRID_COLOR = "#1e2538"
-TEXT_COLOR = "#8892a8"
-TEXT_PRIMARY = "#e8ecf4"
+BG = "#f8f9fa"
+CARD_BG = "#ffffff"
+GRID_COLOR = "#f1f3f5"
+TEXT_COLOR = "#64748b"
+TEXT_PRIMARY = "#1e293b"
 ACCENT = "#6366f1"
 RED = "#ef4444"
 GREEN = "#22c55e"
@@ -39,6 +39,50 @@ def _base_layout(title=""):
                         font_family="Inter, sans-serif"),
     )
 
+import plotly.express as px
+
+def build_restaurant_map(summary: list) -> go.Figure:
+    """Build a Mapbox scatter plot of restaurants."""
+    if not summary:
+        return go.Figure(layout=_base_layout("No Map Data"))
+
+    df = pd.DataFrame(summary)
+    
+    # Check if lat/lng are missing
+    if "lat" not in df.columns or "lng" not in df.columns or df["lat"].isnull().all():
+        return go.Figure(layout=_base_layout("No Coordinates Available"))
+        
+    df = df.dropna(subset=["lat", "lng"])
+    
+    def get_color(p):
+        if pd.isna(p): return GREEN
+        if p > 10: return RED
+        if p > 5: return YELLOW
+        return GREEN
+        
+    df["color"] = df["flagged_pct"].apply(get_color)
+    df["size"] = 12
+    
+    fig = px.scatter_mapbox(
+        df, lat="lat", lon="lng", hover_name="name",
+        hover_data={"place_id": False, "lat": False, "lng": False, "flagged_pct": True, "analyzed_count": True, "color": False, "size": False},
+        color="color", color_discrete_map="identity",
+        size="size", size_max=12, zoom=11.5,
+        center=dict(lat=df["lat"].mean(), lon=df["lng"].mean())
+    )
+    
+    fig.update_layout(
+        mapbox_style="carto-positron",
+        margin={"r":0,"t":0,"l":0,"b":0},
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        clickmode="event+select"
+    )
+    
+    # Add customdata to trace so we can grab place_id on click
+    fig.update_traces(customdata=df[["place_id"]])
+    return fig
+
 
 def build_timeline_chart(reviews: list) -> go.Figure:
     """
@@ -51,10 +95,10 @@ def build_timeline_chart(reviews: list) -> go.Figure:
     df = pd.DataFrame(reviews)
     df["date"] = pd.to_datetime(df["published_timestamp"], unit="s", errors="coerce")
     df = df.dropna(subset=["date"])
-    df["week"] = df["date"].dt.to_period("W").dt.start_time
+    df["month"] = df["date"].dt.to_period("M").dt.start_time
 
-    # Weekly counts
-    weekly = df.groupby("week").agg(
+    # Monthly counts
+    monthly = df.groupby("month").agg(
         total=("review_id", "count"),
         suspicious=("suspicion_score", lambda x: (pd.to_numeric(x, errors="coerce").fillna(0) >= 0.6).sum()),
         with_staff=("staff_names", lambda x: sum(
@@ -68,39 +112,39 @@ def build_timeline_chart(reviews: list) -> go.Figure:
 
     # Normal reviews (background)
     fig.add_trace(go.Bar(
-        x=weekly["week"], y=weekly["total"],
+        x=monthly["month"], y=monthly["total"],
         name="All Reviews",
         marker_color="rgba(99, 102, 241, 0.25)",
         marker_line=dict(width=0),
-        hovertemplate="%{x|%b %d, %Y}<br>%{y} reviews<extra></extra>",
+        hovertemplate="%{x|%B %Y}<br>%{y} reviews<extra></extra>",
     ))
 
     # Suspicious reviews overlay
     fig.add_trace(go.Bar(
-        x=weekly["week"], y=weekly["suspicious"],
+        x=monthly["month"], y=monthly["suspicious"],
         name="Suspicious",
         marker_color="rgba(239, 68, 68, 0.7)",
         marker_line=dict(width=0),
-        hovertemplate="%{x|%b %d, %Y}<br>%{y} suspicious<extra></extra>",
+        hovertemplate="%{x|%B %Y}<br>%{y} suspicious<extra></extra>",
     ))
 
     # Burst markers
-    burst_weeks = weekly[weekly["in_burst"] > 0]
-    if not burst_weeks.empty:
+    burst_months = monthly[monthly["in_burst"] > 0]
+    if not burst_months.empty:
         fig.add_trace(go.Scatter(
-            x=burst_weeks["week"],
-            y=burst_weeks["total"] + 1,
+            x=burst_months["month"],
+            y=burst_months["total"] + 1,
             mode="markers",
             name="Burst Window",
             marker=dict(size=10, color=ORANGE, symbol="triangle-down",
                         line=dict(width=1, color="#fff")),
-            hovertemplate="%{x|%b %d, %Y}<br>Burst detected<extra></extra>",
+            hovertemplate="%{x|%B %Y}<br>Burst detected<extra></extra>",
         ))
 
     layout = _base_layout("📅 Review Timeline — Volume & Suspicious Activity")
     layout["barmode"] = "overlay"
     layout["xaxis"]["title"] = ""
-    layout["yaxis"]["title"] = "Reviews per Week"
+    layout["yaxis"]["title"] = "Reviews per Month"
     layout["height"] = 380
     fig.update_layout(**layout)
 
@@ -127,13 +171,14 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
     top = name_counts.most_common(15)
     names, counts = zip(*top)
 
-    colors = [RED if c >= 5 else YELLOW if c >= 3 else ACCENT for c in counts]
-
     fig = go.Figure(go.Bar(
         x=list(counts), y=list(names),
         orientation="h",
-        marker_color=colors,
-        marker_line=dict(width=0),
+        marker=dict(
+            color=list(counts),
+            colorscale="Sunset",
+            line=dict(width=0)
+        ),
         hovertemplate="%{y}: %{x} mentions<extra></extra>",
     ))
 
@@ -218,14 +263,16 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
         labels=labels, values=values,
         hole=0.55,
         marker=dict(colors=colors, line=dict(color=BG, width=2)),
-        textinfo="label+percent",
-        textfont=dict(size=12, color=TEXT_PRIMARY),
+        textinfo="percent",
+        textposition="inside",
+        textfont=dict(size=12, color="white"),
         hovertemplate="%{label}: %{value} reviews (%{percent})<extra></extra>",
     ))
 
     layout = _base_layout("💬 Sentiment Distribution")
     layout["height"] = 320
-    layout["showlegend"] = False
+    layout["showlegend"] = True
+    layout["legend"] = dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=0.9)
     fig.update_layout(**layout)
 
     return fig
@@ -285,6 +332,98 @@ def build_depth_chart(reviews: list) -> go.Figure:
     layout = _base_layout("📝 Review Depth: All vs Suspicious")
     layout["barmode"] = "group"
     layout["height"] = 320
+    fig.update_layout(**layout)
+
+    return fig
+
+
+def build_topic_sentiments_chart(reviews: list) -> go.Figure:
+    """Grouped bar chart for topic sentiments (positive vs negative)."""
+    topic_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0, "mixed": 0})
+    for r in reviews:
+        ts = r.get("topic_sentiments", "{}")
+        if not ts:
+            continue
+        if isinstance(ts, str):
+            try:
+                ts = json.loads(ts)
+            except json.JSONDecodeError:
+                ts = {}
+        for topic, sentiment in ts.items():
+            if isinstance(sentiment, str):
+                s = sentiment.lower()
+                if s in ["positive", "negative", "neutral", "mixed"]:
+                    topic_counts[topic][s] += 1
+                else:
+                    topic_counts[topic]["neutral"] += 1
+
+    if not topic_counts:
+        return go.Figure(layout=_base_layout("No topic sentiments detected"))
+
+    # Sort topics by total mentions
+    sorted_topics = sorted(topic_counts.keys(), key=lambda t: sum(topic_counts[t].values()), reverse=True)[:15]
+    
+    positives = [topic_counts[t].get("positive", 0) for t in sorted_topics]
+    negatives = [topic_counts[t].get("negative", 0) for t in sorted_topics]
+    
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=sorted_topics, y=positives,
+        name="Positive Comments", marker_color=GREEN,
+    ))
+    fig.add_trace(go.Bar(
+        x=sorted_topics, y=negatives,
+        name="Complaints", marker_color=RED,
+    ))
+    
+    layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
+    layout["barmode"] = "group"
+    layout["height"] = 380
+    layout["xaxis"]["title"] = "Topic"
+    layout["yaxis"]["title"] = "Number of Mentions"
+    fig.update_layout(**layout)
+    return fig
+
+
+def build_dishes_chart(reviews: list) -> go.Figure:
+    """Horizontal bar chart for most mentioned dishes."""
+    dish_counts = Counter()
+    for r in reviews:
+        dishes = r.get("dishes_mentioned", "[]")
+        if not dishes:
+            continue
+        if isinstance(dishes, str):
+            try:
+                dishes = json.loads(dishes)
+            except json.JSONDecodeError:
+                dishes = []
+        if isinstance(dishes, list):
+            for dish in dishes:
+                if isinstance(dish, str) and dish.strip():
+                    dish_counts[dish.strip().capitalize()] += 1
+
+    if not dish_counts:
+        return go.Figure(layout=_base_layout("No dishes mentioned"))
+
+    # Top 15 dishes
+    top = dish_counts.most_common(15)
+    dishes, counts = zip(*top)
+
+    fig = go.Figure(go.Bar(
+        x=list(counts), y=list(dishes),
+        orientation="h",
+        marker=dict(
+            color=list(counts),
+            colorscale="Teal",
+            line=dict(width=0)
+        ),
+        hovertemplate="%{y}: %{x} mentions<extra></extra>",
+    ))
+
+    layout = _base_layout("🍔 Most Mentioned Dishes")
+    layout["height"] = max(300, len(top) * 32 + 80)
+    layout["yaxis"]["autorange"] = "reversed"
+    layout["xaxis"]["title"] = "Mentions"
     fig.update_layout(**layout)
 
     return fig

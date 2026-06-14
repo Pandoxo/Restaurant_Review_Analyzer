@@ -1,40 +1,42 @@
 /* ═══════════════════════════════════════════════════════════
-   ReviewScraper Dashboard — Premium Dark Theme
+   ReviewScraper Dashboard — Light Premium Theme
    ═══════════════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-    --bg-primary: #0a0e17;
-    --bg-secondary: #111827;
-    --bg-card: #1a1f2e;
-    --bg-card-hover: #222840;
-    --bg-input: #0f1420;
+    --bg-primary: #f8f9fa;
+    --bg-secondary: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f8fafc;
+    --bg-input: #ffffff;
 
-    --border: #2a3148;
-    --border-hover: #3d4a6a;
+    --border: #e2e8f0;
+    --border-hover: #cbd5e1;
 
-    --text-primary: #e8ecf4;
-    --text-secondary: #8892a8;
-    --text-muted: #5a6478;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
 
-    --accent: #6366f1;
-    --accent-hover: #818cf8;
-    --accent-glow: rgba(99, 102, 241, 0.15);
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-glow: rgba(37, 99, 235, 0.15);
 
-    --green: #22c55e;
-    --green-bg: rgba(34, 197, 94, 0.1);
-    --yellow: #eab308;
-    --yellow-bg: rgba(234, 179, 8, 0.1);
+    --green: #10b981;
+    --green-bg: rgba(16, 185, 129, 0.1);
+    --yellow: #f59e0b;
+    --yellow-bg: rgba(245, 158, 11, 0.1);
     --red: #ef4444;
     --red-bg: rgba(239, 68, 68, 0.1);
     --orange: #f97316;
 
-    --radius: 12px;
+    --radius: 16px;
     --radius-sm: 8px;
-    --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-    --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.4);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
     --transition: all 0.2s ease;
+    
+    --sidebar-width: 260px;
 }
 
 * {
@@ -45,7 +47,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: var(--bg-primary);
+    background: var(--bg-secondary);
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
@@ -53,10 +55,112 @@ body {
 
 /* ── Layout ─────────────────────────────────────────────── */
 
-.app-container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 24px 32px;
+.app-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    background: var(--bg-card);
+    border-right: 1px solid var(--border);
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #2563eb, #8b5cf6);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.user-info h4 {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.user-info p {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-item {
+    padding: 10px 16px;
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.nav-item.active, .nav-item:hover {
+    background: var(--accent-glow);
+    color: var(--accent);
+}
+
+.pro-banner {
+    margin-top: auto;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    border-radius: var(--radius);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pro-banner h4 {
+    margin-bottom: 8px;
+}
+
+.pro-banner p {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+.btn-pro {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    padding: 32px 40px;
+    background: var(--bg-primary);
+    min-height: 100vh;
 }
 
 .app-header {
@@ -64,24 +168,77 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 32px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid var(--border);
 }
 
 .app-header h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .app-header .subtitle {
     color: var(--text-secondary);
     font-size: 0.875rem;
     margin-top: 4px;
+}
+
+.top-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-content: start;
+}
+
+.map-card {
+    height: auto;
+    min-height: 300px;
+    padding: 16px;
+    border-radius: var(--radius);
+    background: var(--bg-card);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+.search-bar:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+
+@media (max-width: 1024px) {
+    .app-wrapper { flex-direction: column; }
+    .sidebar { 
+        width: 100%; 
+        position: relative; 
+        border-right: none; 
+        border-bottom: 1px solid var(--border); 
+        padding: 16px; 
+    }
+    .main-content { margin-left: 0; padding: 16px; }
+    .top-layout { grid-template-columns: 1fr; }
 }
 
 /* ── Cards ──────────────────────────────────────────────── */
@@ -97,132 +254,31 @@ body {
 }
 
 .card:hover {
-    border-color: var(--border-hover);
-}
-
-.card-title {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.card-title .icon {
-    font-size: 1.1rem;
-}
-
-/* ── Stat Cards (top row) ──────────────────────────────── */
-
-.stats-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
-    margin-bottom: 28px;
+    box-shadow: var(--shadow-lg);
 }
 
 .stat-card {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 20px 24px;
-    text-align: center;
-    transition: var(--transition);
-    position: relative;
-    overflow: hidden;
-}
-
-.stat-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--accent), #a855f7);
-    opacity: 0;
-    transition: var(--transition);
-}
-
-.stat-card:hover::before {
-    opacity: 1;
-}
-
-.stat-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--border-hover);
-}
-
-.stat-value {
-    font-size: 2rem;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1.2;
+    padding: 20px;
+    text-align: left;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .stat-label {
     font-size: 0.8rem;
     color: var(--text-secondary);
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-top: 4px;
 }
 
-/* ── Restaurant Selector ───────────────────────────────── */
-
-.selector-container {
-    margin-bottom: 28px;
-}
-
-.selector-container label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    margin-bottom: 8px;
-    display: block;
-}
-
-/* Style Dash dropdown */
-.Select-control {
-    background: var(--bg-input) !important;
-    border: 1px solid var(--border) !important;
-    border-radius: var(--radius-sm) !important;
-    color: var(--text-primary) !important;
-    min-height: 44px !important;
-}
-
-.Select-menu-outer {
-    background: var(--bg-card) !important;
-    border: 1px solid var(--border) !important;
-    border-radius: var(--radius-sm) !important;
-    margin-top: 4px !important;
-}
-
-.Select-option {
-    background: transparent !important;
-    color: var(--text-primary) !important;
-}
-
-.Select-option.is-focused {
-    background: var(--accent-glow) !important;
-}
-
-.VirtualizedSelectOption {
-    color: var(--text-primary) !important;
-}
-
-.Select-value-label {
-    color: var(--text-primary) !important;
-}
-
-.Select-placeholder {
-    color: var(--text-muted) !important;
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--text-primary);
 }
 
 /* ── Chart containers ──────────────────────────────────── */
@@ -238,57 +294,6 @@ body {
     grid-column: 1 / -1;
 }
 
-@media (max-width: 1100px) {
-    .charts-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* ── Restaurant Cards Grid ─────────────────────────────── */
-
-.restaurant-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 16px;
-    margin-bottom: 28px;
-}
-
-.restaurant-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 20px;
-    cursor: pointer;
-    transition: var(--transition);
-    position: relative;
-}
-
-.restaurant-card:hover {
-    border-color: var(--accent);
-    box-shadow: 0 0 20px var(--accent-glow);
-    transform: translateY(-2px);
-}
-
-.restaurant-card.selected {
-    border-color: var(--accent);
-    background: var(--bg-card-hover);
-    box-shadow: 0 0 24px var(--accent-glow);
-}
-
-.restaurant-name {
-    font-weight: 600;
-    font-size: 1.05rem;
-    margin-bottom: 8px;
-}
-
-.restaurant-meta {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* ── Badges ─────────────────────────────────────────────── */
 
 .badge {
@@ -302,29 +307,16 @@ body {
     letter-spacing: 0.02em;
 }
 
-.badge-clean {
-    background: var(--green-bg);
-    color: var(--green);
-    border: 1px solid rgba(34, 197, 94, 0.2);
-}
-
-.badge-moderate {
-    background: var(--yellow-bg);
-    color: var(--yellow);
-    border: 1px solid rgba(234, 179, 8, 0.2);
-}
-
-.badge-suspicious {
-    background: var(--red-bg);
-    color: var(--red);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-}
+.badge-clean { background: var(--green-bg); color: var(--green); }
+.badge-moderate { background: var(--yellow-bg); color: var(--yellow); }
+.badge-suspicious { background: var(--red-bg); color: var(--red); }
 
 /* ── Data Table ─────────────────────────────────────────── */
 
 .dash-table-container {
     border-radius: var(--radius) !important;
     overflow: hidden;
+    border: 1px solid var(--border);
 }
 
 .dash-spreadsheet-container .dash-spreadsheet-inner th {
@@ -333,7 +325,6 @@ body {
     font-weight: 600 !important;
     font-size: 0.8rem !important;
     text-transform: uppercase !important;
-    letter-spacing: 0.04em !important;
     border: none !important;
     border-bottom: 1px solid var(--border) !important;
     padding: 12px 16px !important;
@@ -348,86 +339,38 @@ body {
     font-size: 0.85rem !important;
 }
 
-.dash-spreadsheet-container .dash-spreadsheet-inner tr:hover td {
-    background: var(--bg-card-hover) !important;
-}
-
-/* ── Scrollbar ──────────────────────────────────────────── */
-
-::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--bg-primary);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--border);
-    border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--border-hover);
-}
-
-/* ── Animations ─────────────────────────────────────────── */
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.card, .stat-card, .restaurant-card {
-    animation: fadeIn 0.4s ease forwards;
-}
-
 /* ── Tab styling ────────────────────────────────────────── */
 
 .custom-tabs {
     margin-bottom: 24px;
+    display: flex;
+    border-bottom: 1px solid var(--border);
 }
 
 .custom-tab {
     background: transparent !important;
-    border: 1px solid var(--border) !important;
-    border-radius: var(--radius-sm) !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
     color: var(--text-secondary) !important;
     font-weight: 500 !important;
-    padding: 10px 20px !important;
-    margin-right: 8px !important;
+    padding: 12px 24px !important;
     transition: var(--transition);
     font-family: 'Inter', sans-serif !important;
 }
 
 .custom-tab:hover {
-    border-color: var(--border-hover) !important;
     color: var(--text-primary) !important;
 }
 
 .custom-tab--selected {
-    background: var(--accent-glow) !important;
-    border-color: var(--accent) !important;
-    color: var(--accent-hover) !important;
+    border-bottom: 2px solid var(--accent) !important;
+    color: var(--accent) !important;
 }
-
-/* ── No Data State ──────────────────────────────────────── */
 
 .empty-state {
     text-align: center;
     padding: 60px 20px;
     color: var(--text-muted);
 }
+.empty-state .icon { font-size: 3rem; margin-bottom: 16px; }
 
-.empty-state .icon {
-    font-size: 3rem;
-    margin-bottom: 16px;
-}
-
-.empty-state p {
-    font-size: 1rem;
-    max-width: 400px;
-    margin: 0 auto;
-    line-height: 1.7;
-}

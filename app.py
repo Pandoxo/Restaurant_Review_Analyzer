@@ -21,7 +21,11 @@ from charts import (
     build_sentiment_chart,
     build_suspicion_histogram,
     build_depth_chart,
+    build_topic_sentiments_chart,
+    build_dishes_chart,
 )
+import dash_leaflet as dl
+from dash import ALL
 
 app = dash.Dash(
     __name__,
@@ -51,11 +55,13 @@ def get_restaurant_options():
     ]
 
 
-def make_stat_card(value, label, color="#6366f1"):
+def make_stat_card(value, label, color="#2563eb", icon=""):
     """Create a stat card HTML element."""
     return html.Div([
-        html.Div(str(value), className="stat-value",
-                 style={"color": color}),
+        html.Div([
+            html.Div(str(value), className="stat-value", style={"color": color}),
+            html.Div(icon, style={"fontSize": "1.75rem", "opacity": "0.3"}),
+        ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
         html.Div(label, className="stat-label"),
     ], className="stat-card")
 
@@ -81,59 +87,153 @@ def badge_text(pct):
 # Layout
 # ═══════════════════════════════════════════════════════════════
 
-app.layout = html.Div([
-    # Header
-    html.Div([
+def serve_layout():
+    return html.Div([
+        # SIDEBAR
         html.Div([
-            html.H1("🍽️ Poznań Review Analyzer"),
-            html.Div("Detect fake review patterns in restaurant reviews",
-                     className="subtitle"),
-        ]),
+            html.Div([
+                html.H2("Restaurant Dashboard", style={"fontSize": "1.25rem", "fontWeight": "700", "marginBottom": "32px", "color": "var(--text-primary)"}),
+            ]),
+            
+            html.Div([
+                html.Div("📢 Campaign", className="nav-item active"),
+                
+            ], className="nav-menu"),
+        ], className="sidebar"),
+
+        # MAIN CONTENT
         html.Div([
-            html.Div("Proof of Concept", className="badge badge-moderate"),
-        ]),
-    ], className="app-header"),
+            # HEADER
+            html.Div([
+                html.Div([
+                    html.Div("Click a restaurant on the map to view detailed analytics",
+                             className="subtitle", style={"fontSize": "1.05rem"}),
+                ]),
+                html.Div([
+                    html.Div("Status: Active", className="badge badge-clean"),
+                ]),
+            ], className="app-header"),
 
-    # Stats Row
-    html.Div(id="stats-row", className="stats-row"),
+            # SEARCH BAR
+            html.Div([
+                html.Span("🔍", style={"position": "absolute", "left": "16px", "top": "12px", "color": "var(--text-secondary)", "fontSize": "1.2rem", "zIndex": "1"}),
+                dcc.Input(id="search-input", type="text", placeholder="Search restaurants...", className="search-bar", style={"paddingLeft": "44px", "width": "100%"})
+            ], style={"position": "relative", "marginBottom": "24px", "maxWidth": "500px"}),
 
-    # Restaurant Selector
-    html.Div([
-        html.Label("Select Restaurant"),
-        dcc.Dropdown(
-            id="restaurant-selector",
-            options=get_restaurant_options(),
-            placeholder="Choose a restaurant to analyze...",
-            clearable=False,
-            className="restaurant-dropdown",
-        ),
-    ], className="selector-container"),
+            # TOP LAYOUT: KPIs + MAP
+            html.Div([
+                html.Div(id="kpi-cards", className="kpi-grid"),
+                html.Div([
+                    dl.Map(
+                        [
+                            dl.TileLayer(
+                                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                            ),
+                            dl.LayerGroup(id="map-markers")
+                        ],
+                        id="restaurant-map",
+                        center=[52.4064, 16.9252],
+                        zoom=12,
+                        style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
+                    )
+                ], className="map-card")
+            ], className="top-layout"),
 
-    # Tabs
-    dcc.Tabs(id="main-tabs", value="tab-overview", children=[
-        dcc.Tab(label="📊 Overview", value="tab-overview",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="📅 Timeline", value="tab-timeline",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="👤 Staff Names", value="tab-names",
-                className="custom-tab", selected_className="custom-tab--selected"),
-        dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
-                className="custom-tab", selected_className="custom-tab--selected"),
-    ], className="custom-tabs"),
+            # TABS
+            dcc.Tabs(id="main-tabs", value="tab-overview", children=[
+                dcc.Tab(label="📊 Overview", value="tab-overview",
+                        className="custom-tab", selected_className="custom-tab--selected"),
+                dcc.Tab(label="🍔 Insights", value="tab-insights",
+                        className="custom-tab", selected_className="custom-tab--selected"),
+                dcc.Tab(label="📅 Timeline", value="tab-timeline",
+                        className="custom-tab", selected_className="custom-tab--selected"),
+                dcc.Tab(label="👤 Staff Names", value="tab-names",
+                        className="custom-tab", selected_className="custom-tab--selected"),
+                dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
+                        className="custom-tab", selected_className="custom-tab--selected"),
+            ], className="custom-tabs"),
 
-    # Tab Content
-    html.Div(id="tab-content"),
+            # Tab Content
+            html.Div(id="tab-content"),
+            
+            # Store for map selection
+            dcc.Store(id="selected-place-id"),
+            
+        ], className="main-content")
+    ], className="app-wrapper")
 
-], className="app-container")
-
+app.layout = serve_layout
 
 # ═══════════════════════════════════════════════════════════════
 # Callbacks
 # ═══════════════════════════════════════════════════════════════
 
 @app.callback(
-    Output("stats-row", "children"),
-    Input("restaurant-selector", "value"),
+    Output("map-markers", "children"),
+    Input("search-input", "value"),
+    Input("selected-place-id", "data")
+)
+def update_map(search_query, selected_place_id):
+    """Filter map based on search query and return markers."""
+    summary = get_summary_data()
+    if search_query:
+        query = search_query.lower()
+        summary = [r for r in summary if query in r["name"].lower() or (r["type"] and query in r["type"].lower())]
+    
+    markers = []
+    for r in summary:
+        if not r.get("lat") or not r.get("lng"):
+            continue
+        is_selected = r["place_id"] == selected_place_id
+        icon_size = [48, 56] if is_selected else [24, 28]
+        icon_anchor = [24, 56] if is_selected else [12, 28]
+        
+        icon_url = "/assets/location-pin.png"
+        markers.append(
+            dl.Marker(
+                position=[r["lat"], r["lng"]],
+                icon=dict(
+                    iconUrl=icon_url,
+                    iconSize=icon_size,
+                    iconAnchor=icon_anchor,
+                    className="active-pin" if is_selected else ""
+                ),
+                id={"type": "map-marker", "place_id": r["place_id"]},
+                children=[
+                    dl.Tooltip(r["name"])
+                ]
+            )
+        )
+    return markers
+
+
+@app.callback(
+    Output("selected-place-id", "data"),
+    Input({"type": "map-marker", "place_id": ALL}, "n_clicks"),
+    State({"type": "map-marker", "place_id": ALL}, "id"),
+    prevent_initial_call=True
+)
+def update_selected_place(n_clicks, marker_ids):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        return dash.no_update
+        
+    prop_id = ctx.triggered[0]["prop_id"]
+    if not prop_id or prop_id == ".":
+        return dash.no_update
+        
+    try:
+        id_str = prop_id.split(".")[0]
+        id_dict = json.loads(id_str)
+        return id_dict.get("place_id")
+    except Exception:
+        return dash.no_update
+
+
+@app.callback(
+    Output("kpi-cards", "children"),
+    Input("selected-place-id", "data"),
 )
 def update_stats(place_id):
     """Update the top stats row."""
@@ -148,73 +248,39 @@ def update_stats(place_id):
         if rest:
             pct = rest["flagged_pct"] or 0
             return [
-                make_stat_card(rest["analyzed_count"] or 0, "Reviews Analyzed",
-                               "#6366f1"),
-                make_stat_card(rest["flagged_count"] or 0, "Flagged Reviews",
-                               "#ef4444" if rest["flagged_count"] else "#22c55e"),
-                make_stat_card(f"{pct}%", "Flagged Rate",
-                               "#ef4444" if pct > 10 else "#eab308" if pct > 5
-                               else "#22c55e"),
-                make_stat_card(rest["burst_count"] or 0, "In Burst Windows",
-                               "#f97316" if rest["burst_count"] else "#64748b"),
-                make_stat_card(f"⭐ {rest['rating'] or '?'}", "Google Rating",
-                               "#eab308"),
+                make_stat_card(rest["name"], "Selected Restaurant", "#2563eb", "📍"),
+                make_stat_card(rest["analyzed_count"] or 0, "Reviews Analyzed", "#10b981", "📊"),
+                make_stat_card(f"{pct}%", "Flagged Rate", "#ef4444" if pct > 10 else "#f59e0b" if pct > 5 else "#10b981", "🚩"),
+                make_stat_card(f"⭐ {rest['rating'] or '?'}", "Google Rating", "#f59e0b", "⭐"),
             ]
 
     # Global stats
     total_analyzed = sum(r["analyzed_count"] or 0 for r in summary)
     total_flagged = sum(r["flagged_count"] or 0 for r in summary)
-    total_bursts = sum(r["burst_count"] or 0 for r in summary)
     pct = round(100 * total_flagged / max(total_analyzed, 1), 1)
 
     return [
-        make_stat_card(len(summary), "Restaurants", "#6366f1"),
-        make_stat_card(total_analyzed, "Reviews Analyzed", "#a855f7"),
-        make_stat_card(total_flagged, "Flagged Reviews",
-                       "#ef4444" if total_flagged else "#22c55e"),
-        make_stat_card(f"{pct}%", "Overall Flag Rate",
-                       "#ef4444" if pct > 10 else "#22c55e"),
-        make_stat_card(total_bursts, "Burst Reviews", "#f97316"),
+        make_stat_card(len(summary), "Total Restaurants", "#2563eb", "📍"),
+        make_stat_card(total_analyzed, "Total Reviews Analyzed", "#8b5cf6", "📊"),
+        make_stat_card(total_flagged, "Flagged Reviews", "#ef4444" if total_flagged else "#10b981", "🚩"),
+        make_stat_card(f"{pct}%", "Overall Flag Rate", "#ef4444" if pct > 10 else "#10b981", "📈"),
     ]
 
 
 @app.callback(
     Output("tab-content", "children"),
     Input("main-tabs", "value"),
-    Input("restaurant-selector", "value"),
+    Input("selected-place-id", "data"),
 )
 def render_tab(tab, place_id):
     """Render the selected tab content."""
 
     if not place_id:
-        # Show restaurant grid for selection
-        summary = get_summary_data()
-        if not summary:
-            return html.Div([
-                html.Div("📭", className="icon"),
-                html.P("No data yet. Run the pipeline first:"),
-                html.Pre("python collect.py\npython analyze.py --all\npython detect.py",
-                         style={"color": "#6366f1", "marginTop": "12px"}),
-            ], className="empty-state")
-
-        cards = []
-        for r in summary:
-            pct = r["flagged_pct"] or 0
-            cards.append(html.Div([
-                html.Div(r["name"], className="restaurant-name"),
-                html.Div([
-                    html.Span(f"⭐ {r['rating'] or '?'}  |  "
-                              f"{r['total_reviews'] or 0} reviews"),
-                    html.Span(badge_text(pct), className=badge_class(pct)),
-                ], className="restaurant-meta"),
-            ], className="restaurant-card"))
-
         return html.Div([
-            html.Div("Select a restaurant above to see detailed analysis",
-                     style={"color": "#8892a8", "marginBottom": "16px",
-                            "fontSize": "0.9rem"}),
-            html.Div(cards, className="restaurant-grid"),
-        ])
+            html.Div("📍", className="icon"),
+            html.H3("Select a Restaurant"),
+            html.P("Click a marker on the map to view detailed analytics for a specific restaurant.", style={"marginTop": "8px"}),
+        ], className="empty-state")
 
     # Load data for selected restaurant
     with get_db() as conn:
@@ -252,15 +318,17 @@ def render_tab(tab, place_id):
 
     elif tab == "tab-timeline":
         return html.Div([
+            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}), className="card", style={"marginBottom": "24px"}),
+            html.Div(dcc.Graph(figure=build_name_timeline(reviews), config={"displayModeBar": False}), className="card")
+        ], className="tab-pane")
+
+    elif tab == "tab-insights":
+        return html.Div([
             html.Div([
-                dcc.Graph(figure=build_timeline_chart(reviews),
-                          config={"displayModeBar": False}),
-            ], className="card chart-full"),
-            html.Div([
-                dcc.Graph(figure=build_name_timeline(reviews),
-                          config={"displayModeBar": False}),
-            ], className="card chart-full"),
-        ])
+                html.Div(dcc.Graph(figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}), className="card"),
+                html.Div(dcc.Graph(figure=build_dishes_chart(reviews), config={"displayModeBar": False}), className="card"),
+            ], className="charts-grid")
+        ], className="tab-pane")
 
     elif tab == "tab-names":
         return html.Div([

@@ -21,7 +21,7 @@ It saves each restaurant's data into intelligent, conflict-free `.json` files in
 1. Create a `restaurants.txt` (or any `.txt` file) and paste Google Maps URLs or Place IDs, one per line.
 2. Run the scraper:
    ```bash
-   python scrape_camoufox.py restaurants.txt --max-months 12
+   python scrape_camoufox.py --file restaurants.txt --limit 1000 --max-months 12
    ```
    *This extracts reviews up to 12 months old and saves them into the `reviews/` directory.*
 

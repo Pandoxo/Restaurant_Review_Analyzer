@@ -210,6 +210,8 @@ def get_dashboard_summary(conn) -> list:
             rest.type,
             rest.rating,
             rest.total_reviews,
+            rest.lat,
+            rest.lng,
             COUNT(a.review_id) AS analyzed_count,
             SUM(CASE WHEN a.suspicion_score >= 0.6 THEN 1 ELSE 0 END) AS flagged_count,
             ROUND(
