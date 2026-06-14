@@ -459,8 +459,8 @@ def render_tab(tab, place_id):
     elif tab == "tab-insights":
         return html.Div([
             html.Div([
-                html.Div(dcc.Graph(figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}), className="card"),
-                html.Div(dcc.Graph(figure=build_dishes_chart(reviews), config={"displayModeBar": False}), className="card"),
+                html.Div(dcc.Graph(figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "65vh"}), className="card"),
+                html.Div(dcc.Graph(figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "65vh"}), className="card"),
             ], className="charts-grid")
         ], className="tab-pane")
 

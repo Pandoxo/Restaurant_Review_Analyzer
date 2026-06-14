@@ -448,24 +448,30 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
     sorted_topics = sorted(topic_counts.keys(), key=lambda t: sum(topic_counts[t].values()), reverse=True)[:15]
     
     positives = [topic_counts[t].get("positive", 0) for t in sorted_topics]
+    neutrals = [topic_counts[t].get("neutral", 0) for t in sorted_topics]
     negatives = [topic_counts[t].get("negative", 0) for t in sorted_topics]
     
     fig = go.Figure()
     fig.add_trace(go.Bar(
         y=sorted_topics, x=positives,
         orientation="h",
-        name="Positive Comments", marker_color=GREEN,
+        name="Positive", marker_color=GREEN,
+    ))
+    fig.add_trace(go.Bar(
+        y=sorted_topics, x=neutrals,
+        orientation="h",
+        name="Neutral", marker_color="#94a3b8",
     ))
     fig.add_trace(go.Bar(
         y=sorted_topics, x=negatives,
         orientation="h",
-        name="Complaints", marker_color=RED,
+        name="Negative", marker_color=RED,
     ))
     
-    layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
-    layout["barmode"] = "group"
-    layout["height"] = 380
-    layout["xaxis"]["title"] = "Number of Mentions"
+    layout = _base_layout("🗣️ Topic Sentiments (100% Stacked)")
+    layout["barmode"] = "stack"
+    layout["barnorm"] = "percent"
+    layout["xaxis"]["title"] = "Percentage (%)"
     layout["yaxis"]["title"] = "Topic"
     layout["yaxis"]["autorange"] = "reversed"
     fig.update_layout(**layout)
@@ -500,25 +506,31 @@ def build_dishes_chart(reviews: list) -> go.Figure:
     sorted_dishes = sorted(dish_counts.keys(), key=lambda d: sum(dish_counts[d].values()), reverse=True)[:10]
     
     positives = [dish_counts[d]["positive"] for d in sorted_dishes]
+    neutrals = [dish_counts[d]["neutral"] for d in sorted_dishes]
     negatives = [dish_counts[d]["negative"] for d in sorted_dishes]
 
     fig = go.Figure()
     fig.add_trace(go.Bar(
         y=sorted_dishes, x=positives,
         orientation="h",
-        name="Positive Reviews", marker_color=GREEN,
+        name="Positive", marker_color=GREEN,
+    ))
+    fig.add_trace(go.Bar(
+        y=sorted_dishes, x=neutrals,
+        orientation="h",
+        name="Neutral", marker_color="#94a3b8",
     ))
     fig.add_trace(go.Bar(
         y=sorted_dishes, x=negatives,
         orientation="h",
-        name="Negative Reviews", marker_color=RED,
+        name="Negative", marker_color=RED,
     ))
 
-    layout = _base_layout("🍔 Most Mentioned Dishes by Sentiment")
-    layout["barmode"] = "group"
-    layout["height"] = 380
+    layout = _base_layout("🍔 Most Mentioned Dishes by Sentiment (100% Stacked)")
+    layout["barmode"] = "stack"
+    layout["barnorm"] = "percent"
     layout["yaxis"]["autorange"] = "reversed"
-    layout["xaxis"]["title"] = "Number of Mentions"
+    layout["xaxis"]["title"] = "Percentage (%)"
     layout["yaxis"]["title"] = "Dish"
     fig.update_layout(**layout)
 
