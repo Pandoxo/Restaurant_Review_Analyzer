@@ -110,7 +110,11 @@ def serve_layout():
                 html.Div("📢 Campaign", id="nav-campaign", className="nav-item active", n_clicks=0),
                 html.Div("👥 All Customers", id="nav-customers", className="nav-item", n_clicks=0),
             ], className="nav-menu"),
-        ], className="sidebar"),
+            
+            html.Div([
+                html.Div("❓ About / Help", id="nav-help", className="nav-item", n_clicks=0),
+            ], style={"marginTop": "auto", "paddingTop": "16px", "borderTop": "1px solid var(--border)"}),
+        ], className="sidebar", style={"display": "flex", "flexDirection": "column"}),
 
         # MAIN CONTENT
         html.Div([
@@ -162,8 +166,6 @@ def serve_campaign_view():
                     dcc.Tab(label="👤 Staff Names", value="tab-names",
                             className="custom-tab", selected_className="custom-tab--selected"),
                     dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
-                            className="custom-tab", selected_className="custom-tab--selected"),
-                    dcc.Tab(label="About / Help", value="tab-help",
                             className="custom-tab", selected_className="custom-tab--selected"),
                 ], className="custom-tabs"),
                 
@@ -246,6 +248,31 @@ def serve_customers_view():
             html.Div(dcc.Graph(id="global-topics-chart", config={"displayModeBar": False}), className="card"),
         ], className="charts-grid", style={"marginTop": "24px"}),
 
+    ])
+
+def serve_help_view():
+    return html.Div([
+        # HEADER
+        html.Div([
+            html.Div([
+                html.H2("About / Help", style={"margin": "0", "fontSize": "1.5rem"}),
+                html.Div("How to use the PRR dashboard", className="subtitle", style={"fontSize": "1.05rem"}),
+            ]),
+        ], className="app-header", style={"marginBottom": "24px"}),
+
+        html.Div([
+            html.H3("About this dashboard"),
+            html.P("This tool analyzes restaurant reviews to detect potentially fake or suspicious activity.", style={"marginBottom": "16px"}),
+            html.H4("Main features:"),
+            html.Ul([
+                html.Li([html.B("Overview: "), "Shows general sentiment, suspicion scores, and author trust."]),
+                html.Li([html.B("Timeline: "), "Displays review trends over time to identify sudden bursts."]),
+                html.Li([html.B("Staff: "), "Highlights specific names frequently mentioned in reviews."]),
+                html.Li([html.B("Review Explorer: "), "A searchable table to read and filter individual reviews."])
+            ], style={"marginBottom": "24px"}),
+            html.H4("How to use:"),
+            html.P("Navigate to the Campaign view and select a restaurant from the dropdown to begin exploring its data.")
+        ], className="card", style={"padding": "32px", "maxWidth": "800px", "margin": "0 auto"})
     ])
 
 app.layout = serve_layout
@@ -369,20 +396,6 @@ def update_stats(place_id):
 def render_tab(tab, place_id):
     """Render the selected tab content."""
 
-    if tab == "tab-help":
-        return html.Div([
-            html.H3("About this dashboard"),
-            html.P("This tool analyzes restaurant reviews to detect potentially fake or suspicious activity.", style={"marginBottom": "16px"}),
-            html.H4("Main features:"),
-            html.Ul([
-                html.Li([html.B("Overview: "), "Shows general sentiment, suspicion scores, and author trust."]),
-                html.Li([html.B("Timeline: "), "Displays review trends over time to identify sudden bursts."]),
-                html.Li([html.B("Staff Names: "), "Highlights specific names frequently mentioned in reviews."]),
-                html.Li([html.B("Review Explorer: "), "A searchable table to read and filter individual reviews."])
-            ], style={"marginBottom": "24px"}),
-            html.H4("How to use:"),
-            html.P("Select a restaurant from the dropdown at the top to begin exploring its data.")
-        ], className="card", style={"padding": "32px", "maxWidth": "800px", "margin": "0 auto"})
 
     if not place_id:
         return html.Div([
@@ -565,19 +578,23 @@ def display_review_details(active_cell, table_data):
     Output("page-content", "children"),
     Output("nav-campaign", "className"),
     Output("nav-customers", "className"),
+    Output("nav-help", "className"),
     Input("nav-campaign", "n_clicks"),
-    Input("nav-customers", "n_clicks")
+    Input("nav-customers", "n_clicks"),
+    Input("nav-help", "n_clicks")
 )
-def update_page_view(n_campaign, n_customers):
+def update_page_view(n_campaign, n_customers, n_help):
     ctx = dash.callback_context
     if not ctx.triggered:
-        return serve_campaign_view(), "nav-item active", "nav-item"
+        return serve_campaign_view(), "nav-item active", "nav-item", "nav-item"
 
     prop_id = ctx.triggered[0]["prop_id"].split(".")[0]
     if prop_id == "nav-customers":
-        return serve_customers_view(), "nav-item", "nav-item active"
+        return serve_customers_view(), "nav-item", "nav-item active", "nav-item"
+    elif prop_id == "nav-help":
+        return serve_help_view(), "nav-item", "nav-item", "nav-item active"
     else:
-        return serve_campaign_view(), "nav-item active", "nav-item"
+        return serve_campaign_view(), "nav-item active", "nav-item", "nav-item"
 
 # ═══════════════════════════════════════════════════════════════
 # Global Analytics Callbacks
