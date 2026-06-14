@@ -691,7 +691,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
     filtered_reviews = []
     for r in reviews:
         if filter_type == "topic":
-            topics_str = r.get("topics", "{}")
+            topics_str = r.get("topic_sentiments", "{}")
             try:
                 topics = json.loads(topics_str) if isinstance(topics_str, str) else topics_str
                 if isinstance(topics, dict):
