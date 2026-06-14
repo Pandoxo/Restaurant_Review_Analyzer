@@ -304,7 +304,7 @@ app.layout = serve_layout
 def update_map(search_query, selected_place_id, zoom):
     """Filter map based on search query and return markers."""
     zoom_level = zoom if zoom is not None else 12
-    show_labels = (zoom_level >= 13)
+    show_labels = (zoom_level >= 14)
     summary = get_summary_data()
     if search_query:
         query = search_query.lower()
