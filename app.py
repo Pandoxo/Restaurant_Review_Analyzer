@@ -503,7 +503,7 @@ def build_review_table(reviews: list):
 @app.callback(
     Output("review-details-card", "children"),
     Input("explorer-table", "active_cell"),
-    State("explorer-table", "data"),
+    State("explorer-table", "derived_virtual_data"),
     prevent_initial_call=True
 )
 def display_review_details(active_cell, table_data):
