@@ -146,7 +146,6 @@ def build_timeline_chart(reviews: list) -> go.Figure:
     layout["barmode"] = "overlay"
     layout["xaxis"]["title"] = ""
     layout["yaxis"]["title"] = "Reviews per Month"
-    layout["height"] = 220
     fig.update_layout(**layout)
 
     return fig
@@ -184,7 +183,6 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
     ))
 
     layout = _base_layout("👤 Staff Name Frequency")
-    layout["height"] = max(300, len(top) * 32 + 80)
     layout["yaxis"]["autorange"] = "reversed"
     layout["xaxis"]["title"] = "Mentions"
     fig.update_layout(**layout)
@@ -223,7 +221,6 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
     ))
 
     layout = _base_layout("💬 Sentiment Distribution")
-    layout["height"] = 220
     layout["showlegend"] = True
     layout["legend"] = dict(orientation="v", yanchor="middle", y=0.5, xanchor="left", x=0.9)
     fig.update_layout(**layout)
@@ -253,7 +250,6 @@ def build_suspicion_histogram(reviews: list) -> go.Figure:
     layout = _base_layout("🎯 Suspicion Score Distribution")
     layout["xaxis"]["title"] = "Suspicion Score"
     layout["yaxis"]["title"] = "Number of Reviews"
-    layout["height"] = 220
     fig.update_layout(**layout)
 
     return fig
@@ -284,7 +280,6 @@ def build_depth_chart(reviews: list) -> go.Figure:
 
     layout = _base_layout("📝 Review Depth: All vs Suspicious")
     layout["barmode"] = "group"
-    layout["height"] = 320
     fig.update_layout(**layout)
 
     return fig
@@ -367,7 +362,6 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
     layout["yaxis"]["title"] = "Star Rating"
     layout["yaxis"]["tickvals"] = [1, 2, 3, 4, 5]
     layout["yaxis"]["range"] = [0.5, 5.5]
-    layout["height"] = 220
     fig.update_layout(**layout)
 
     return fig
@@ -603,7 +597,6 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     layout["xaxis"]["type"] = "log"
     layout["yaxis"]["title"] = "Total Photos (Log Scale)"
     layout["yaxis"]["type"] = "log"
-    layout["height"] = 400
     fig.update_layout(**layout)
     return fig
 
@@ -628,7 +621,6 @@ def build_rating_distribution_chart(reviews: list) -> go.Figure:
     
     layout = _base_layout("⭐ Rating Distribution")
     layout["yaxis"]["title"] = "Count"
-    layout["height"] = 220
     fig.update_layout(**layout)
     
     return fig
