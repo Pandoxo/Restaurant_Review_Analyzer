@@ -292,6 +292,13 @@ body {
     margin-bottom: 24px;
 }
 
+.charts-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
 .chart-full {
     grid-column: 1 / -1;
 }

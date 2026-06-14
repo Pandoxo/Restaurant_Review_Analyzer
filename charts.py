@@ -630,3 +630,31 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     layout["height"] = 400
     fig.update_layout(**layout)
     return fig
+
+def build_rating_distribution_chart(reviews: list) -> go.Figure:
+    """Show the distribution of 1 to 5 star ratings."""
+    if not reviews:
+        return go.Figure(layout=_base_layout("⭐ Rating Distribution"))
+        
+    ratings = [r.get("rating") for r in reviews if r.get("rating")]
+    if not ratings:
+        return go.Figure(layout=_base_layout("⭐ Rating Distribution"))
+        
+    counts = pd.Series(ratings).value_counts().reindex([1, 2, 3, 4, 5], fill_value=0)
+    
+    fig = go.Figure(data=[
+        go.Bar(
+            x=[f"{i} Star" for i in range(1, 6)],
+            y=counts.values,
+            marker_color=[RED, ORANGE, YELLOW, GREEN, GREEN],
+            text=counts.values,
+            textposition='auto',
+        )
+    ])
+    
+    layout = _base_layout("⭐ Rating Distribution")
+    layout["yaxis"]["title"] = "Count"
+    layout["height"] = 300
+    fig.update_layout(**layout)
+    
+    return fig

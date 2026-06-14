@@ -26,6 +26,7 @@ from charts import (
     build_trust_scatter_chart,
     build_customer_reviews_histogram,
     build_customer_scatter_chart,
+    build_rating_distribution_chart,
 )
 from db import (
     get_db, init_db, get_dashboard_summary, get_analysis_for_restaurant,
@@ -403,8 +404,10 @@ def render_tab(tab, place_id):
                     dcc.Graph(figure=build_suspicion_histogram(reviews),
                               config={"displayModeBar": False}),
                 ], className="card"),
-            ], className="charts-grid"),
-            html.Div([
+                html.Div([
+                    dcc.Graph(figure=build_rating_distribution_chart(reviews),
+                              config={"displayModeBar": False}),
+                ], className="card"),
                 html.Div([
                     dcc.Graph(figure=build_depth_chart(reviews),
                               config={"displayModeBar": False}),
@@ -413,11 +416,11 @@ def render_tab(tab, place_id):
                     dcc.Graph(figure=build_staff_name_chart(reviews),
                               config={"displayModeBar": False}),
                 ], className="card"),
-            ], className="charts-grid"),
-            html.Div([
-                dcc.Graph(figure=build_trust_scatter_chart(reviews),
-                          config={"displayModeBar": False}),
-            ], className="card chart-full", style={"marginTop": "24px"}),
+                html.Div([
+                    dcc.Graph(figure=build_trust_scatter_chart(reviews),
+                              config={"displayModeBar": False}),
+                ], className="card"),
+            ], className="charts-grid-3"),
         ])
 
     elif tab == "tab-timeline":
