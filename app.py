@@ -120,6 +120,8 @@ app.layout = html.Div([
                 className="custom-tab", selected_className="custom-tab--selected"),
         dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
                 className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="About / Help", value="tab-help",
+                className="custom-tab", selected_className="custom-tab--selected"),
     ], className="custom-tabs"),
 
     # Tab Content
@@ -186,6 +188,21 @@ def update_stats(place_id):
 )
 def render_tab(tab, place_id):
     """Render the selected tab content."""
+
+    if tab == "tab-help":
+        return html.Div([
+            html.H3("About this dashboard"),
+            html.P("This tool analyzes restaurant reviews to detect potentially fake or suspicious activity.", style={"marginBottom": "16px"}),
+            html.H4("Main features:"),
+            html.Ul([
+                html.Li([html.B("Overview: "), "Shows general sentiment, suspicion scores, and author trust."]),
+                html.Li([html.B("Timeline: "), "Displays review trends over time to identify sudden bursts."]),
+                html.Li([html.B("Staff Names: "), "Highlights specific names frequently mentioned in reviews."]),
+                html.Li([html.B("Review Explorer: "), "A searchable table to read and filter individual reviews."])
+            ], style={"marginBottom": "24px"}),
+            html.H4("How to use:"),
+            html.P("Select a restaurant from the dropdown at the top to begin exploring its data.")
+        ], className="card", style={"padding": "32px", "maxWidth": "800px", "margin": "0 auto"})
 
     if not place_id:
         # Show restaurant grid for selection
