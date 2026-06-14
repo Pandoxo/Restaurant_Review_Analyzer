@@ -656,26 +656,27 @@ def update_global_charts(min_suspicion, depth):
     Output("insights-review-table-container", "children"),
     Input("insights-topic-chart", "clickData"),
     Input("insights-dish-chart", "clickData"),
-    Input("restaurant-dropdown", "value"),
+    Input("search-dropdown", "value"),
     prevent_initial_call=True
 )
 def update_insights_table(topic_click, dish_click, restaurant_id):
+    print(f"DEBUG: topic_click={topic_click}, dish_click={dish_click}")
     ctx = dash.callback_context
     if not ctx.triggered:
         raise dash.exceptions.PreventUpdate
 
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
     
-    if trigger_id == "restaurant-dropdown":
+    if trigger_id == "search-dropdown":
         return html.Div("Click a bar on the charts above to view associated reviews.", style={"color": "var(--text-secondary)", "padding": "20px", "textAlign": "center"})
     
     clicked_label = None
     filter_type = None
     if trigger_id == "insights-topic-chart" and topic_click:
-        clicked_label = topic_click["points"][0]["y"]
+        clicked_label = topic_click["points"][0].get("y", topic_click["points"][0].get("label"))
         filter_type = "topic"
     elif trigger_id == "insights-dish-chart" and dish_click:
-        clicked_label = dish_click["points"][0]["y"]
+        clicked_label = dish_click["points"][0].get("y", dish_click["points"][0].get("label"))
         filter_type = "dish"
     else:
         raise dash.exceptions.PreventUpdate
