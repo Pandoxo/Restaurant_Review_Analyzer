@@ -419,3 +419,95 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
     fig.update_layout(**layout)
 
     return fig
+
+
+def build_topic_sentiments_chart(reviews: list) -> go.Figure:
+    """Grouped bar chart for topic sentiments (positive vs negative)."""
+    topic_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0, "mixed": 0})
+    for r in reviews:
+        ts = r.get("topic_sentiments", "{}")
+        if not ts:
+            continue
+        if isinstance(ts, str):
+            try:
+                ts = json.loads(ts)
+            except json.JSONDecodeError:
+                ts = {}
+        for topic, sentiment in ts.items():
+            if isinstance(sentiment, str):
+                s = sentiment.lower()
+                if s in ["positive", "negative", "neutral", "mixed"]:
+                    topic_counts[topic][s] += 1
+                else:
+                    topic_counts[topic]["neutral"] += 1
+
+    if not topic_counts:
+        return go.Figure(layout=_base_layout("No topic sentiments detected"))
+
+    # Sort topics by total mentions
+    sorted_topics = sorted(topic_counts.keys(), key=lambda t: sum(topic_counts[t].values()), reverse=True)[:15]
+    
+    positives = [topic_counts[t].get("positive", 0) for t in sorted_topics]
+    negatives = [topic_counts[t].get("negative", 0) for t in sorted_topics]
+    
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        x=sorted_topics, y=positives,
+        name="Positive Comments", marker_color=GREEN,
+    ))
+    fig.add_trace(go.Bar(
+        x=sorted_topics, y=negatives,
+        name="Complaints", marker_color=RED,
+    ))
+    
+    layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
+    layout["barmode"] = "group"
+    layout["height"] = 380
+    layout["xaxis"]["title"] = "Topic"
+    layout["yaxis"]["title"] = "Number of Mentions"
+    fig.update_layout(**layout)
+    return fig
+
+
+def build_dishes_chart(reviews: list) -> go.Figure:
+    """Horizontal bar chart for most mentioned dishes."""
+    dish_counts = Counter()
+    for r in reviews:
+        dishes = r.get("dishes_mentioned", "[]")
+        if not dishes:
+            continue
+        if isinstance(dishes, str):
+            try:
+                dishes = json.loads(dishes)
+            except json.JSONDecodeError:
+                dishes = []
+        if isinstance(dishes, list):
+            for dish in dishes:
+                if isinstance(dish, str) and dish.strip():
+                    dish_counts[dish.strip().capitalize()] += 1
+
+    if not dish_counts:
+        return go.Figure(layout=_base_layout("No dishes mentioned"))
+
+    # Top 15 dishes
+    top = dish_counts.most_common(15)
+    dishes, counts = zip(*top)
+
+    fig = go.Figure(go.Bar(
+        x=list(counts), y=list(dishes),
+        orientation="h",
+        marker=dict(
+            color=list(counts),
+            colorscale="Teal",
+            line=dict(width=0)
+        ),
+        hovertemplate="%{y}: %{x} mentions<extra></extra>",
+    ))
+
+    layout = _base_layout("🍔 Most Mentioned Dishes")
+    layout["height"] = max(300, len(top) * 32 + 80)
+    layout["yaxis"]["autorange"] = "reversed"
+    layout["xaxis"]["title"] = "Mentions"
+    fig.update_layout(**layout)
+
+    return fig
