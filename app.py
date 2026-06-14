@@ -44,6 +44,7 @@ app = dash.Dash(
     ],
     suppress_callback_exceptions=True
 )
+server = app.server
 
 
 def get_summary_data():
@@ -484,9 +485,9 @@ def build_review_table(reviews: list):
 
     # Format columns for display
     display_cols = [
-        "published_at", "rating", "author_name", "author_reviews_count", "author_photos_count", "text",
+        "published_at", "rating", "author_name", "author_reviews_count", "author_photos_count",
         "overall_sentiment", "staff_names", "dishes_mentioned",
-        "review_depth", "suspicion_score", "in_burst",
+        "review_depth", "suspicion_score"
     ]
     available = [c for c in display_cols if c in df.columns]
     display_df = df[available].copy()
