@@ -696,7 +696,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
                 topics = json.loads(topics_str) if isinstance(topics_str, str) else topics_str
                 if isinstance(topics, dict):
                     for topic_name in topics.keys():
-                        if isinstance(topic_name, str) and topic_name.strip().capitalize() == clicked_label:
+                        if isinstance(topic_name, str) and topic_name.strip().lower() == clicked_label.strip().lower():
                             filtered_reviews.append(r)
                             break
             except Exception:
@@ -707,7 +707,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
                 dishes = json.loads(dishes_str) if isinstance(dishes_str, str) else dishes_str
                 if isinstance(dishes, list):
                     for d in dishes:
-                        if isinstance(d, str) and d.strip().capitalize() == clicked_label:
+                        if isinstance(d, str) and d.strip().lower() == clicked_label.strip().lower():
                             filtered_reviews.append(r)
                             break
             except Exception:
