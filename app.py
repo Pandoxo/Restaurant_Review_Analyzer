@@ -42,6 +42,7 @@ app = dash.Dash(
         {"name": "description",
          "content": "Analyze restaurant reviews in Poznań for patterns and anomalies"},
     ],
+    suppress_callback_exceptions=True
 )
 
 
