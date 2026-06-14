@@ -146,6 +146,7 @@ def build_timeline_chart(reviews: list) -> go.Figure:
     layout["barmode"] = "overlay"
     layout["xaxis"]["title"] = ""
     layout["yaxis"]["title"] = "Reviews per Month"
+    layout["xaxis"]["showgrid"] = False
     fig.update_layout(**layout)
 
     return fig
@@ -249,6 +250,7 @@ def build_suspicion_histogram(reviews: list) -> go.Figure:
 
     layout = _base_layout("🎯 Suspicion Score Distribution")
     layout["xaxis"]["title"] = "Suspicion Score"
+    layout["xaxis"]["showgrid"] = False
     layout["yaxis"]["title"] = "Number of Reviews"
     fig.update_layout(**layout)
 
@@ -507,18 +509,34 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
     if not data:
         return go.Figure(layout=_base_layout("No customer data"))
 
-    fig = go.Figure(go.Histogram(
-        x=data,
-        nbinsx=50,
+    bins = {"1-5": 0, "6-15": 0, "16-50": 0, "51-100": 0, "101-500": 0, "501-1000": 0, "1000+": 0}
+    for count in data:
+        if count <= 5:
+            bins["1-5"] += 1
+        elif count <= 15:
+            bins["6-15"] += 1
+        elif count <= 50:
+            bins["16-50"] += 1
+        elif count <= 100:
+            bins["51-100"] += 1
+        elif count <= 500:
+            bins["101-500"] += 1
+        elif count <= 1000:
+            bins["501-1000"] += 1
+        else:
+            bins["1000+"] += 1
+
+    fig = go.Figure(go.Bar(
+        x=list(bins.keys()),
+        y=list(bins.values()),
         marker_color=ACCENT,
-        opacity=0.75,
+        opacity=0.85,
         hovertemplate="Review Count: %{x}<br>Users: %{y}<extra></extra>"
     ))
 
     layout = _base_layout("📊 Distribution of User Review Counts")
-    layout["xaxis"]["title"] = "Number of Reviews Written by User (Log Scale)"
+    layout["xaxis"]["title"] = "Number of Reviews Written by User"
     layout["yaxis"]["title"] = "Number of Users (Log Scale)"
-    layout["xaxis"]["type"] = "log"
     layout["yaxis"]["type"] = "log"
     fig.update_layout(**layout)
     return fig
@@ -621,6 +639,7 @@ def build_rating_distribution_chart(reviews: list) -> go.Figure:
     
     layout = _base_layout("⭐ Rating Distribution")
     layout["yaxis"]["title"] = "Count"
+    layout["xaxis"]["showgrid"] = False
     fig.update_layout(**layout)
     
     return fig
