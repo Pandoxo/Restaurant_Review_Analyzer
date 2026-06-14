@@ -503,7 +503,7 @@ def build_review_table(reviews: list):
                              for c in available],
                     sort_action="native",
                     filter_action="native",
-                    page_size=15,
+                    page_size=10,
                     style_table={"overflowX": "auto"},
                     style_cell={
                         "textAlign": "left",
