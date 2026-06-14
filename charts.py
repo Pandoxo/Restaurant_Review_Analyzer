@@ -24,19 +24,30 @@ YELLOW = "#eab308"
 ORANGE = "#f97316"
 
 
-def _base_layout(title="", theme=theme):
+def _base_layout(title="", theme="light"):
     """Shared layout settings for all charts."""
+    if theme == "dark":
+        text_color = "#94a3b8"
+        text_primary = "#f8fafc"
+        grid_color = "#334155"
+        card_bg = "#1e293b"
+    else:
+        text_color = TEXT_COLOR
+        text_primary = TEXT_PRIMARY
+        grid_color = GRID_COLOR
+        card_bg = CARD_BG
+
     return dict(
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Inter, sans-serif", color=TEXT_COLOR, size=12),
-        title=dict(text=title, font=dict(size=14, color=TEXT_PRIMARY),
+        font=dict(family="Inter, sans-serif", color=text_color, size=12),
+        title=dict(text=title, font=dict(size=14, color=text_primary),
                    x=0, xanchor="left", pad=dict(l=8)),
         margin=dict(l=48, r=24, t=48, b=40),
-        xaxis=dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR),
-        yaxis=dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR),
+        xaxis=dict(gridcolor=grid_color, zerolinecolor=grid_color),
+        yaxis=dict(gridcolor=grid_color, zerolinecolor=grid_color),
         legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(size=11)),
-        hoverlabel=dict(bgcolor=CARD_BG, font_size=12,
+        hoverlabel=dict(bgcolor=card_bg, font_size=12,
                         font_family="Inter, sans-serif"),
     )
 
