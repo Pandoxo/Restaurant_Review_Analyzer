@@ -491,8 +491,6 @@ def build_review_table(reviews: list):
 
     if "suspicion_score" in display_df.columns:
         display_df["suspicion_score"] = pd.to_numeric(display_df["suspicion_score"], errors="coerce").round(2)
-    if "text" in display_df.columns:
-        display_df["text"] = display_df["text"].str[:200]
 
     return html.Div([
         html.Div("Select a row in the table below to read the full review.", className="subtitle", style={"marginBottom": "16px"}),
@@ -508,9 +506,10 @@ def build_review_table(reviews: list):
             style_cell={
                 "textAlign": "left",
                 "maxWidth": "300px",
-                "overflow": "hidden",
-                "textOverflow": "ellipsis",
-                "whiteSpace": "nowrap",
+                "padding": "12px",
+                "whiteSpace": "normal",
+                "height": "auto",
+                "lineHeight": "1.5"
             },
             style_data_conditional=[
                 {
@@ -728,7 +727,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
         "author_name": "Author",
         "rating": "Rating",
         "overall_sentiment": "Sentiment",
-        "text_original": "Review Text"
+        "text": "Review Text"
     }
     
     available_cols = [c for c in display_cols.keys() if c in df.columns]
@@ -747,23 +746,21 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
             page_size=10,
             style_table={"overflowX": "auto"},
             style_cell={
-                "textAlign": "left",
-                "padding": "12px",
-                "backgroundColor": "var(--surface)",
-                "color": "var(--text)",
+                "textAlign": "left", 
+                "padding": "12px", 
+                "backgroundColor": "var(--surface)", 
+                "color": "var(--text)", 
                 "borderBottom": "1px solid rgba(255,255,255,0.1)",
-                "fontFamily": "inherit"
-            },
-            style_header={
-                "backgroundColor": "var(--bg)",
-                "fontWeight": "bold",
-                "color": "var(--text-secondary)",
-                "borderBottom": "2px solid rgba(255,255,255,0.1)"
-            },
-            style_data={
+                "fontFamily": "inherit",
                 "whiteSpace": "normal",
                 "height": "auto",
                 "lineHeight": "1.5"
+            },
+            style_header={
+                "backgroundColor": "var(--bg)", 
+                "fontWeight": "bold", 
+                "color": "var(--text-secondary)",
+                "borderBottom": "2px solid rgba(255,255,255,0.1)"
             },
             filter_action="native",
             sort_action="native",
