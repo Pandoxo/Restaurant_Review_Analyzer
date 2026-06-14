@@ -463,7 +463,7 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
     ))
     
     layout = _base_layout("🗣️ Topic Sentiments (Complaints & Praises)")
-    layout["barmode"] = "stack"
+    layout["barmode"] = "group"
     layout["height"] = 380
     layout["xaxis"]["title"] = "Number of Mentions"
     layout["yaxis"]["title"] = "Topic"
@@ -473,12 +473,16 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
 
 
 def build_dishes_chart(reviews: list) -> go.Figure:
-    """Horizontal bar chart for most mentioned dishes."""
-    dish_counts = Counter()
+    """Horizontal bar chart for most mentioned dishes with sentiment."""
+    dish_counts = defaultdict(lambda: {"positive": 0, "negative": 0, "neutral": 0})
     for r in reviews:
         dishes = r.get("dishes_mentioned", "[]")
         if not dishes:
             continue
+        sentiment = r.get("overall_sentiment", "neutral")
+        if sentiment not in ["positive", "negative", "neutral"]:
+            sentiment = "neutral"
+            
         if isinstance(dishes, str):
             try:
                 dishes = json.loads(dishes)
@@ -487,30 +491,35 @@ def build_dishes_chart(reviews: list) -> go.Figure:
         if isinstance(dishes, list):
             for dish in dishes:
                 if isinstance(dish, str) and dish.strip():
-                    dish_counts[dish.strip().capitalize()] += 1
+                    dish_counts[dish.strip().capitalize()][sentiment] += 1
 
     if not dish_counts:
         return go.Figure(layout=_base_layout("No dishes mentioned"))
 
     # Top 10 dishes
-    top = dish_counts.most_common(10)
-    dishes, counts = zip(*top)
+    sorted_dishes = sorted(dish_counts.keys(), key=lambda d: sum(dish_counts[d].values()), reverse=True)[:10]
+    
+    positives = [dish_counts[d]["positive"] for d in sorted_dishes]
+    negatives = [dish_counts[d]["negative"] for d in sorted_dishes]
 
-    fig = go.Figure(go.Bar(
-        x=list(counts), y=list(dishes),
+    fig = go.Figure()
+    fig.add_trace(go.Bar(
+        y=sorted_dishes, x=positives,
         orientation="h",
-        marker=dict(
-            color=list(counts),
-            colorscale="Teal",
-            line=dict(width=0)
-        ),
-        hovertemplate="%{y}: %{x} mentions<extra></extra>",
+        name="Positive Reviews", marker_color=GREEN,
+    ))
+    fig.add_trace(go.Bar(
+        y=sorted_dishes, x=negatives,
+        orientation="h",
+        name="Negative Reviews", marker_color=RED,
     ))
 
-    layout = _base_layout("🍔 Most Mentioned Dishes")
-    layout["height"] = max(300, len(top) * 32 + 80)
+    layout = _base_layout("🍔 Most Mentioned Dishes by Sentiment")
+    layout["barmode"] = "group"
+    layout["height"] = 380
     layout["yaxis"]["autorange"] = "reversed"
-    layout["xaxis"]["title"] = "Mentions"
+    layout["xaxis"]["title"] = "Number of Mentions"
+    layout["yaxis"]["title"] = "Dish"
     fig.update_layout(**layout)
 
     return fig
