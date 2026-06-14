@@ -106,18 +106,6 @@ def serve_layout():
                 ], style={"marginBottom": "32px"}),
             ]),
             
-            # SIDEBAR SEARCH BAR
-            html.Div([
-                dcc.Dropdown(
-                    id="search-dropdown",
-                    options=[{"label": r["name"], "value": r["place_id"]} for r in get_summary_data()],
-                    placeholder="Search restaurants...",
-                    searchable=True,
-                    clearable=True,
-                    className="sidebar-search"
-                )
-            ], style={"marginBottom": "32px"}),
-            
             html.Div([
                 html.Div("📢 Campaign", id="nav-campaign", className="nav-item active", n_clicks=0),
                 html.Div("👥 All Customers", id="nav-customers", className="nav-item", n_clicks=0),
@@ -139,52 +127,69 @@ def serve_campaign_view():
         # HEADER
         html.Div([
             html.Div([
-                html.Div("Click a restaurant on the map to view detailed analytics",
-                         className="subtitle", style={"fontSize": "1.05rem"}),
-            ]),
-            html.Div([
-                html.Div("Status: Active", className="badge badge-clean"),
-            ]),
-        ], className="app-header"),
-
-        # TOP LAYOUT: KPIs + MAP
-        html.Div([
-            html.Div(id="kpi-cards", className="kpi-grid"),
-            html.Div([
-                dl.Map(
-                    [
-                        dl.TileLayer(
-                            url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-                        ),
-                        dl.LayerGroup(id="map-markers")
-                    ],
-                    id="restaurant-map",
-                    center=[52.4064, 16.9252],
-                    zoom=12,
-                    style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
+                dcc.Dropdown(
+                    id="search-dropdown",
+                    options=[{"label": r["name"], "value": r["place_id"]} for r in get_summary_data()],
+                    placeholder="Search restaurants...",
+                    searchable=True,
+                    clearable=True,
+                    className="top-search",
                 )
-            ], className="map-card")
-        ], className="top-layout"),
+            ], style={"width": "300px", "flex": "0 0 auto", "marginRight": "24px"}),
+            html.Div([
+                html.Div("Select a restaurant", id="header-restaurant-name",
+                         className="subtitle", style={"fontSize": "1.1rem", "margin": "0", "color": "var(--text-primary)"}),
+            ], style={"flex": "1"}),
+            html.Div([
+                html.Div("Status: Active", className="badge badge-clean", style={"margin": "0"}),
+            ], style={"flex": "0 0 auto"}),
+        ], className="app-header", style={"display": "flex", "alignItems": "center", "marginBottom": "24px"}),
 
-        # Tabs
-        dcc.Tabs(id="main-tabs", value="tab-overview", children=[
-            dcc.Tab(label="📊 Overview", value="tab-overview",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-            dcc.Tab(label="🍔 Insights", value="tab-insights",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-            dcc.Tab(label="📅 Timeline", value="tab-timeline",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-            dcc.Tab(label="👤 Staff Names", value="tab-names",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-            dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-            dcc.Tab(label="About / Help", value="tab-help",
-                    className="custom-tab", selected_className="custom-tab--selected"),
-        ], className="custom-tabs"),
+        # KPIs
+        html.Div(id="kpi-cards", className="kpi-grid-4", style={"marginBottom": "24px"}),
 
-        # Tab Content
-        html.Div(id="tab-content"),
+        # SPLIT LAYOUT (Left: Tabs/Charts, Right: Map)
+        html.Div([
+            # LEFT: TABS & CONTENT
+            html.Div([
+                dcc.Tabs(id="main-tabs", value="tab-overview", children=[
+                    dcc.Tab(label="📊 Overview", value="tab-overview",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                    dcc.Tab(label="🍔 Insights", value="tab-insights",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                    dcc.Tab(label="📅 Timeline", value="tab-timeline",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                    dcc.Tab(label="👤 Staff Names", value="tab-names",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                    dcc.Tab(label="🔍 Review Explorer", value="tab-explorer",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                    dcc.Tab(label="About / Help", value="tab-help",
+                            className="custom-tab", selected_className="custom-tab--selected"),
+                ], className="custom-tabs"),
+                
+                html.Div(id="tab-content"),
+            ], style={"flex": "6", "minWidth": "0"}),
+
+            # RIGHT: MAP
+            html.Div([
+                html.Div([
+                    dl.Map(
+                        [
+                            dl.TileLayer(
+                                url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                            ),
+                            dl.LayerGroup(id="map-markers")
+                        ],
+                        id="restaurant-map",
+                        center=[52.4064, 16.9252],
+                        zoom=12,
+                        style={'width': '100%', 'height': '100%', 'flex': '1', 'borderRadius': '8px', 'zIndex': '0'}
+                    )
+                ], className="map-card", style={"height": "100%", "minHeight": "600px", "margin": "0"})
+            ], style={"flex": "4", "minWidth": "0"})
+            
+        ], style={"display": "flex", "gap": "24px", "alignItems": "stretch"}),
     ])
 
 def serve_customers_view():
@@ -319,38 +324,41 @@ def update_selected_place(n_clicks, dropdown_val):
 
 @app.callback(
     Output("kpi-cards", "children"),
+    Output("header-restaurant-name", "children"),
     Input("selected-place-id", "data"),
 )
 def update_stats(place_id):
-    """Update the top stats row."""
+    """Update the top stats row and header title."""
     summary = get_summary_data()
 
     if not summary:
-        return [make_stat_card("—", "No Data")]
+        return [make_stat_card("—", "No Data")], "Select a restaurant"
 
     if place_id:
         # Show stats for selected restaurant
         rest = next((r for r in summary if r["place_id"] == place_id), None)
         if rest:
             pct = rest["flagged_pct"] or 0
-            return [
+            cards = [
                 make_stat_card(rest["name"], "Selected Restaurant", "#2563eb", "📍"),
                 make_stat_card(rest["analyzed_count"] or 0, "Reviews Analyzed", "#10b981", "📊"),
                 make_stat_card(f"{pct}%", "Flagged Rate", "#ef4444" if pct > 10 else "#f59e0b" if pct > 5 else "#10b981", "🚩"),
                 make_stat_card(f"⭐ {rest['rating'] or '?'}", "Google Rating", "#f59e0b", "⭐"),
             ]
+            return cards, rest["name"]
 
     # Global stats
     total_analyzed = sum(r["analyzed_count"] or 0 for r in summary)
     total_flagged = sum(r["flagged_count"] or 0 for r in summary)
     pct = round(100 * total_flagged / max(total_analyzed, 1), 1)
 
-    return [
+    cards = [
         make_stat_card(len(summary), "Total Restaurants", "#2563eb", "📍"),
         make_stat_card(total_analyzed, "Total Reviews Analyzed", "#8b5cf6", "📊"),
         make_stat_card(total_flagged, "Flagged Reviews", "#ef4444" if total_flagged else "#10b981", "🚩"),
         make_stat_card(f"{pct}%", "Overall Flag Rate", "#ef4444" if pct > 10 else "#10b981", "📈"),
     ]
+    return cards, "Global Overview"
 
 
 @app.callback(

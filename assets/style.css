@@ -199,6 +199,12 @@ body {
     align-content: start;
 }
 
+.kpi-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
 .map-card {
     height: auto;
     min-height: 450px;
@@ -384,31 +390,31 @@ body {
 .empty-state .icon { font-size: 3rem; margin-bottom: 16px; }
 
 
-/* ── Sidebar Dropdown ───────────────────────────────────────── */
-.sidebar-search .Select-control {
+/* ── Dropdown Search ───────────────────────────────────────── */
+.top-search .Select-control {
     background-color: var(--bg-input);
     border: 1px solid var(--border);
     color: var(--text-primary);
     border-radius: var(--radius-sm);
 }
 
-.sidebar-search .Select-menu-outer {
+.top-search .Select-menu-outer {
     background-color: var(--bg-card);
     border: 1px solid var(--border);
     color: var(--text-primary);
     z-index: 1000;
 }
 
-.sidebar-search .Select-value-label, .sidebar-search .Select-placeholder {
+.top-search .Select-value-label, .top-search .Select-placeholder {
     color: var(--text-primary) !important;
 }
 
-.sidebar-search .Select-option {
+.top-search .Select-option {
     background-color: var(--bg-card);
     color: var(--text-primary);
 }
 
-.sidebar-search .Select-option.is-focused, .sidebar-search .Select-option.is-selected {
+.top-search .Select-option.is-focused, .top-search .Select-option.is-selected {
     background-color: rgba(139, 92, 246, 0.2);
     color: var(--accent);
 }
