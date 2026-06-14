@@ -7,3 +7,4 @@ outscraper>=4.0
 requests>=2.31
 google-genai>=1.0
 gunicorn>=21.2
+dash-leaflet>=1.1.0
