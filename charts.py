@@ -542,6 +542,7 @@ def build_customer_reviews_histogram(reviews: list) -> go.Figure:
     layout["xaxis"]["title"] = "Number of Reviews Written by User"
     layout["yaxis"]["title"] = "Number of Users (Log Scale)"
     layout["yaxis"]["type"] = "log"
+    layout["title"]["font"]["size"] = 20
     fig.update_layout(**layout)
     return fig
 
@@ -619,6 +620,7 @@ def build_customer_scatter_chart(reviews: list) -> go.Figure:
     layout["xaxis"]["type"] = "log"
     layout["yaxis"]["title"] = "Total Photos (Log Scale)"
     layout["yaxis"]["type"] = "log"
+    layout["title"]["font"]["size"] = 20
     fig.update_layout(**layout)
     return fig
 
