@@ -328,7 +328,7 @@ def build_trust_scatter_chart(reviews: list) -> go.Figure:
             "trust_score": rev_count + photo_count,
             "log_trust_score": max(rev_count + photo_count, 0.5), # avoid 0 for log axis
             "rating": rating,
-            "jittered_rating": rating + random.uniform(-0.15, 0.15),
+            "jittered_rating": rating + random.uniform(-0.2, 0.2),
             "is_suspicious": is_suspicious
         })
 
