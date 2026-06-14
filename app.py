@@ -543,16 +543,36 @@ def build_review_table(reviews: list):
 # Cross-Filtering Callback
 # ═══════════════════════════════════════════════════════════════
 @app.callback(
-    Output("review-details-card", "children"),
+    [Output("review-details-card", "children"),
+     Output("explorer-table", "style_data_conditional")],
     Input("explorer-table", "active_cell"),
     State("explorer-table", "derived_virtual_data"),
     prevent_initial_call=True
 )
 def display_review_details(active_cell, table_data):
     if not active_cell or not table_data:
-        return dash.no_update
+        return dash.no_update, dash.no_update
     
     row = table_data[active_cell["row"]]
+    active_row = active_cell["row"]
+    
+    new_style = [
+        {
+            "if": {"row_index": active_row},
+            "backgroundColor": "rgba(249, 115, 22, 0.15)",
+            "border": "1px solid var(--accent)",
+            "color": "var(--text-primary)"
+        },
+        {
+            "if": {"filter_query": "{suspicion_score} >= 0.6"},
+            "backgroundColor": "rgba(239,68,68,0.1)",
+            "color": "#fca5a5",
+        },
+        {
+            "if": {"filter_query": "{in_burst} = 1"},
+            "borderLeft": "3px solid #f97316",
+        },
+    ]
     
     # We query the DB for the full text since the table might truncate it
     with get_db() as conn:
@@ -573,7 +593,7 @@ def display_review_details(active_cell, table_data):
         html.Div(f"Published: {date} | Rating: {row.get('rating', '?')} ⭐", style={"color": "var(--text-secondary)", "marginBottom": "12px", "fontSize": "0.9rem"}),
         html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6"}),
         html.Div(f"Topics: {row.get('overall_sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)"}),
-    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"})
+    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"}), new_style
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -668,7 +688,7 @@ def update_global_charts(min_suspicion, depth):
     Output("insights-review-table-container", "children"),
     Input("insights-topic-chart", "clickData"),
     Input("insights-dish-chart", "clickData"),
-    Input("search-dropdown", "value"),
+    Input("selected-place-id", "data"),
     prevent_initial_call=True
 )
 def update_insights_table(topic_click, dish_click, restaurant_id):
@@ -679,7 +699,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
 
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
     
-    if trigger_id == "search-dropdown":
+    if trigger_id == "selected-place-id":
         return html.Div("Click a bar on the charts above to view associated reviews.", style={"color": "var(--text-secondary)", "padding": "20px", "textAlign": "center"})
     
     clicked_label = None
@@ -793,16 +813,27 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
 # Insights Table Click Callback
 # ═══════════════════════════════════════════════════════════════
 @app.callback(
-    Output("insights-review-details-card", "children"),
+    [Output("insights-review-details-card", "children"),
+     Output("insights-table", "style_data_conditional")],
     Input("insights-table", "active_cell"),
     State("insights-table", "derived_virtual_data"),
     prevent_initial_call=True
 )
 def display_insights_review_details(active_cell, table_data):
     if not active_cell or not table_data:
-        return dash.no_update
+        return dash.no_update, dash.no_update
     
     row = table_data[active_cell["row"]]
+    active_row = active_cell["row"]
+    
+    new_style = [
+        {
+            "if": {"row_index": active_row},
+            "backgroundColor": "rgba(249, 115, 22, 0.15)",
+            "border": "1px solid var(--accent)",
+            "color": "var(--text-primary)"
+        }
+    ]
     
     with get_db() as conn:
         all_revs = get_all_reviews_with_analysis(conn)
@@ -822,11 +853,11 @@ def display_insights_review_details(active_cell, table_data):
             break
             
     return html.Div([
-        html.H4(f"Review by {author}", style={"marginTop": "0", "color": "var(--text-primary)"}),
-        html.Div(f"Published: {date} | Rating: {row.get('Rating', '?')} ⭐", style={"color": "var(--text-secondary)", "marginBottom": "12px", "fontSize": "0.9rem"}),
-        html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6"}),
-        html.Div(f"Sentiment: {row.get('Sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)"}),
-    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"})
+        html.H4(f"Review by {author}", style={"marginTop": "0", "color": "var(--text-primary)","fontSize": "2rem"}),
+        html.Div(f"Published: {date} | Rating: {row.get('Rating', '?')} ⭐", style={"color": "var(--text-secondary)", "marginBottom": "12px", "fontSize": "1.3rem"}),
+        html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6","fontSize": "1.6rem"}),
+        html.Div(f"Sentiment: {row.get('Sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)", "fontSize": "1rem"}),
+    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"}), new_style
 
 # ═══════════════════════════════════════════════════════════════
 # Run
