@@ -1,6 +1,6 @@
 # Google Maps Review Scraper & Analyzer
 
-![App Screenshot](screenshots/Pasted%20image.png)
+![App Screenshot](screenshots/dashboard_dark_mode.png)
 
 A high-performance, stealthy pipeline for extracting, analyzing, and visualizing Google Maps restaurant reviews. This toolkit helps you discover patterns, extract rich metadata (like reviewer history), run NLP analysis via Large Language Models (LLMs), and detect suspicious "fake review" bursts using a beautiful, interactive dashboard.
 
