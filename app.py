@@ -455,7 +455,8 @@ def render_tab(tab, place_id):
                 html.Div(dcc.Graph(id="insights-topic-chart", figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
                 html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
             ], className="charts-grid", style={"marginBottom": "24px"}),
-            html.Div(id="insights-review-table-container", className="card")
+            html.Div(id="insights-review-table-container", className="card"),
+            html.Div(id="insights-review-details-card", style={"marginTop": "24px"})
         ], className="tab-pane")
 
     elif tab == "tab-names":
@@ -740,6 +741,7 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
     return html.Div([
         html.H3(f"Reviews mentioning {filter_type}: {clicked_label}", style={"marginBottom": "16px", "fontSize": "1.1rem"}),
         dash_table.DataTable(
+            id="insights-table",
             data=df_display.to_dict("records"),
             columns=[{"name": i, "id": i} for i in df_display.columns],
             page_size=10,
@@ -771,6 +773,45 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
             }
         )
     ])
+
+# ═══════════════════════════════════════════════════════════════
+# Insights Table Click Callback
+# ═══════════════════════════════════════════════════════════════
+@app.callback(
+    Output("insights-review-details-card", "children"),
+    Input("insights-table", "active_cell"),
+    State("insights-table", "derived_virtual_data"),
+    prevent_initial_call=True
+)
+def display_insights_review_details(active_cell, table_data):
+    if not active_cell or not table_data:
+        return dash.no_update
+    
+    row = table_data[active_cell["row"]]
+    
+    with get_db() as conn:
+        all_revs = get_all_reviews_with_analysis(conn)
+    
+    author = row.get("Author")
+    date = row.get("Date")
+    
+    full_text = row.get("Review Text", "")
+    for r in all_revs:
+        # Match using author and date string
+        r_date = "Unknown"
+        if "published_timestamp" in r and r["published_timestamp"]:
+            r_date = pd.to_datetime(r["published_timestamp"], unit="s").strftime("%Y-%m-%d")
+            
+        if r.get("author_name") == author and r_date == date:
+            full_text = r.get("text", full_text)
+            break
+            
+    return html.Div([
+        html.H4(f"Review by {author}", style={"marginTop": "0", "color": "var(--text-primary)"}),
+        html.Div(f"Published: {date} | Rating: {row.get('Rating', '?')} ⭐", style={"color": "var(--text-secondary)", "marginBottom": "12px", "fontSize": "0.9rem"}),
+        html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6"}),
+        html.Div(f"Sentiment: {row.get('Sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)"}),
+    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"})
 
 # ═══════════════════════════════════════════════════════════════
 # Run
