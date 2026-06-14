@@ -430,30 +430,31 @@ def render_tab(tab, place_id):
             html.Div([
                 html.Div([
                     dcc.Graph(figure=build_sentiment_chart(reviews),
-                              config={"displayModeBar": False}, style={"height": "30vh"}),
+                              config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
                     dcc.Graph(figure=build_suspicion_histogram(reviews),
-                              config={"displayModeBar": False}, style={"height": "30vh"}),
+                              config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
                     dcc.Graph(figure=build_rating_distribution_chart(reviews),
-                              config={"displayModeBar": False}, style={"height": "30vh"}),
+                              config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
                 html.Div([
                     dcc.Graph(figure=build_trust_scatter_chart(reviews),
-                              config={"displayModeBar": False}, style={"height": "30vh"}),
+                              config={"displayModeBar": False}, style={"height": "20vh"}),
                 ], className="card"),
             ], className="charts-grid", style={"gap": "12px", "marginBottom": "12px"}),
-            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}, style={"height": "25vh"}), className="card")
+            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}, style={"height": "20vh"}), className="card")
         ], className="tab-pane")
 
     elif tab == "tab-insights":
         return html.Div([
             html.Div([
-                html.Div(dcc.Graph(figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "65vh"}), className="card"),
-                html.Div(dcc.Graph(figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "65vh"}), className="card"),
-            ], className="charts-grid")
+                html.Div(dcc.Graph(id="insights-topic-chart", figure=build_topic_sentiments_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
+                html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
+            ], className="charts-grid", style={"marginBottom": "24px"}),
+            html.Div(id="insights-review-table-container", className="card")
         ], className="tab-pane")
 
     elif tab == "tab-names":
@@ -645,6 +646,129 @@ def update_global_charts(min_suspicion, depth):
         build_customer_scatter_chart(filtered),
         build_topic_sentiments_chart(filtered)
     )
+
+# ═══════════════════════════════════════════════════════════════
+# Insights Interactivity Callbacks
+# ═══════════════════════════════════════════════════════════════
+
+@app.callback(
+    Output("insights-review-table-container", "children"),
+    Input("insights-topic-chart", "clickData"),
+    Input("insights-dish-chart", "clickData"),
+    Input("restaurant-dropdown", "value"),
+    prevent_initial_call=True
+)
+def update_insights_table(topic_click, dish_click, restaurant_id):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        raise dash.exceptions.PreventUpdate
+
+    trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
+    
+    if trigger_id == "restaurant-dropdown":
+        return html.Div("Click a bar on the charts above to view associated reviews.", style={"color": "var(--text-secondary)", "padding": "20px", "textAlign": "center"})
+    
+    clicked_label = None
+    filter_type = None
+    if trigger_id == "insights-topic-chart" and topic_click:
+        clicked_label = topic_click["points"][0]["y"]
+        filter_type = "topic"
+    elif trigger_id == "insights-dish-chart" and dish_click:
+        clicked_label = dish_click["points"][0]["y"]
+        filter_type = "dish"
+    else:
+        raise dash.exceptions.PreventUpdate
+
+    if not clicked_label:
+        raise dash.exceptions.PreventUpdate
+
+    with get_db() as conn:
+        reviews = get_analysis_for_restaurant(conn, restaurant_id)
+        
+    filtered_reviews = []
+    for r in reviews:
+        if filter_type == "topic":
+            topics_str = r.get("topics", "[]")
+            try:
+                topics = json.loads(topics_str) if isinstance(topics_str, str) else topics_str
+                if isinstance(topics, list):
+                    for t in topics:
+                        if isinstance(t, dict) and t.get("topic", "").strip().capitalize() == clicked_label:
+                            filtered_reviews.append(r)
+                            break
+            except Exception:
+                pass
+        else:
+            dishes_str = r.get("dishes_mentioned", "[]")
+            try:
+                dishes = json.loads(dishes_str) if isinstance(dishes_str, str) else dishes_str
+                if isinstance(dishes, list):
+                    for d in dishes:
+                        if isinstance(d, str) and d.strip().capitalize() == clicked_label:
+                            filtered_reviews.append(r)
+                            break
+            except Exception:
+                pass
+
+    if not filtered_reviews:
+        return html.Div(f"No reviews found for {filter_type}: {clicked_label}", style={"padding": "20px", "textAlign": "center", "color": "var(--text-secondary)"})
+        
+    df = pd.DataFrame(filtered_reviews)
+    
+    if "published_timestamp" in df.columns:
+        df["Date"] = pd.to_datetime(df["published_timestamp"], unit="s").dt.strftime("%Y-%m-%d")
+    else:
+        df["Date"] = "Unknown"
+        
+    display_cols = {
+        "Date": "Date",
+        "author_name": "Author",
+        "rating": "Rating",
+        "overall_sentiment": "Sentiment",
+        "text_original": "Review Text"
+    }
+    
+    available_cols = [c for c in display_cols.keys() if c in df.columns]
+    df_display = df[available_cols].copy()
+    df_display.rename(columns=display_cols, inplace=True)
+    
+    if "Sentiment" in df_display.columns:
+        df_display["Sentiment"] = df_display["Sentiment"].astype(str).str.capitalize()
+    
+    return html.Div([
+        html.H3(f"Reviews mentioning {filter_type}: {clicked_label}", style={"marginBottom": "16px", "fontSize": "1.1rem"}),
+        dash_table.DataTable(
+            data=df_display.to_dict("records"),
+            columns=[{"name": i, "id": i} for i in df_display.columns],
+            page_size=10,
+            style_table={"overflowX": "auto"},
+            style_cell={
+                "textAlign": "left",
+                "padding": "12px",
+                "backgroundColor": "var(--surface)",
+                "color": "var(--text)",
+                "borderBottom": "1px solid rgba(255,255,255,0.1)",
+                "fontFamily": "inherit"
+            },
+            style_header={
+                "backgroundColor": "var(--bg)",
+                "fontWeight": "bold",
+                "color": "var(--text-secondary)",
+                "borderBottom": "2px solid rgba(255,255,255,0.1)"
+            },
+            style_data={
+                "whiteSpace": "normal",
+                "height": "auto",
+                "lineHeight": "1.5"
+            },
+            filter_action="native",
+            sort_action="native",
+            style_filter={
+                "backgroundColor": "var(--bg)",
+                "color": "var(--text)",
+            }
+        )
+    ])
 
 # ═══════════════════════════════════════════════════════════════
 # Run
