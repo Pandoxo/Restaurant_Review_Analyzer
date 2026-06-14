@@ -99,7 +99,10 @@ def serve_layout():
         # SIDEBAR
         html.Div([
             html.Div([
-                html.H2("Restaurant Dashboard", style={"fontSize": "1.25rem", "fontWeight": "700", "marginBottom": "32px", "color": "var(--text-primary)"}),
+                html.Div([
+                    html.Div("🍔", style={"fontSize": "2rem", "marginRight": "12px", "display": "inline-block", "verticalAlign": "middle"}),
+                    html.H2("PRR", style={"fontSize": "1.5rem", "fontWeight": "800", "display": "inline-block", "verticalAlign": "middle", "margin": "0", "color": "var(--text-primary)", "letterSpacing": "1px"}),
+                ], style={"marginBottom": "32px"}),
             ]),
             
             html.Div([
@@ -194,31 +197,41 @@ def serve_customers_view():
             ]),
         ], className="app-header"),
         
-        # STATS
+        # CONTROL WIDGETS
         html.Div([
             html.Div([
-                html.Div(f"{unique_authors:,}", className="stat-value", style={"color": "#8b5cf6"}),
-                html.Div("👥", style={"fontSize": "1.75rem", "opacity": "0.3"}),
-            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
-            html.Div("Unique Customers", className="stat-label"),
-        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginRight": "16px", "marginBottom": "24px"}),
+                html.Label("Minimum Suspicion Score", className="stat-label", style={"marginBottom": "8px", "display": "block"}),
+                dcc.Slider(
+                    id="global-suspicion-slider", min=0, max=1, step=0.1, value=0,
+                    marks={0: '0', 0.5: '0.5', 1: '1'}, tooltip={"placement": "bottom", "always_visible": False}
+                )
+            ], style={"flex": "1", "marginRight": "32px"}),
+            html.Div([
+                html.Label("Review Depth", className="stat-label", style={"marginBottom": "8px", "display": "block"}),
+                dcc.Dropdown(
+                    id="global-depth-dropdown",
+                    options=[
+                        {"label": "All", "value": "all"},
+                        {"label": "Detailed", "value": "detailed"},
+                        {"label": "Moderate", "value": "moderate"},
+                        {"label": "Shallow", "value": "shallow"}
+                    ],
+                    value="all", clearable=False
+                )
+            ], style={"flex": "1"})
+        ], style={"display": "flex", "marginBottom": "24px", "background": "var(--surface)", "padding": "16px", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)"}),
         
-        html.Div([
-            html.Div([
-                html.Div(f"{avg_reviews}", className="stat-value", style={"color": "#10b981"}),
-                html.Div("📊", style={"fontSize": "1.75rem", "opacity": "0.3"}),
-            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
-            html.Div("Avg Total Reviews / User", className="stat-label"),
-        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginBottom": "24px"}),
+        # STATS
+        html.Div(id="global-stats-container"),
 
         # CHARTS GRID
         html.Div([
-            html.Div(dcc.Graph(figure=build_customer_reviews_histogram(all_reviews), config={"displayModeBar": False}), className="card"),
-            html.Div(dcc.Graph(figure=build_customer_scatter_chart(all_reviews), config={"displayModeBar": False}), className="card"),
+            html.Div(dcc.Graph(id="global-histogram", config={"displayModeBar": False}), className="card"),
+            html.Div(dcc.Graph(id="global-scatter", config={"displayModeBar": False}), className="card"),
         ], className="charts-grid"),
         
         html.Div([
-            html.Div(dcc.Graph(figure=build_topic_sentiments_chart(all_reviews), config={"displayModeBar": False}), className="card"),
+            html.Div(dcc.Graph(id="global-topics-chart", config={"displayModeBar": False}), className="card"),
         ], className="charts-grid", style={"marginTop": "24px"}),
 
     ])
@@ -451,13 +464,15 @@ def build_review_table(reviews: list):
         display_df["text"] = display_df["text"].str[:200]
 
     return html.Div([
+        html.Div("Select a row in the table below to read the full review.", className="subtitle", style={"marginBottom": "16px"}),
         dash_table.DataTable(
+            id="explorer-table",
             data=display_df.to_dict("records"),
             columns=[{"name": c.replace("_", " ").title(), "id": c}
                      for c in available],
             sort_action="native",
             filter_action="native",
-            page_size=25,
+            page_size=15,
             style_table={"overflowX": "auto"},
             style_cell={
                 "textAlign": "left",
@@ -477,15 +492,46 @@ def build_review_table(reviews: list):
                     "borderLeft": "3px solid #f97316",
                 },
             ],
-            tooltip_data=[
-                {
-                    "text": {"value": str(row.get("text", "")), "type": "markdown"}
-                }
-                for row in display_df.to_dict("records")
-            ] if "text" in available else None,
             tooltip_duration=None,
         ),
+        html.Div(id="review-details-card", style={"marginTop": "24px"})
     ], className="card")
+
+# ═══════════════════════════════════════════════════════════════
+# Cross-Filtering Callback
+# ═══════════════════════════════════════════════════════════════
+@app.callback(
+    Output("review-details-card", "children"),
+    Input("explorer-table", "active_cell"),
+    State("explorer-table", "data"),
+    prevent_initial_call=True
+)
+def display_review_details(active_cell, table_data):
+    if not active_cell or not table_data:
+        return dash.no_update
+    
+    row = table_data[active_cell["row"]]
+    
+    # We query the DB for the full text since the table might truncate it
+    with get_db() as conn:
+        all_revs = get_all_reviews_with_analysis(conn)
+    
+    # Find the matching review by author and date
+    author = row.get("author_name")
+    date = row.get("published_at")
+    
+    full_text = row.get("text", "")
+    for r in all_revs:
+        if r.get("author_name") == author and r.get("published_at") == date:
+            full_text = r.get("text", full_text)
+            break
+            
+    return html.Div([
+        html.H4(f"Review by {author}", style={"marginTop": "0", "color": "var(--text-primary)"}),
+        html.Div(f"Published: {date} | Rating: {row.get('rating', '?')} ⭐", style={"color": "var(--text-secondary)", "marginBottom": "12px", "fontSize": "0.9rem"}),
+        html.Div(full_text, style={"padding": "16px", "background": "var(--bg)", "borderRadius": "8px", "borderLeft": "4px solid var(--accent)", "lineHeight": "1.6"}),
+        html.Div(f"Topics: {row.get('overall_sentiment', 'None')}", style={"marginTop": "12px", "fontSize": "0.9rem", "color": "var(--text-secondary)"}),
+    ], style={"padding": "24px", "background": "var(--surface)", "borderRadius": "8px", "boxShadow": "var(--shadow-sm)", "border": "1px solid rgba(255,255,255,0.05)"})
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -509,6 +555,64 @@ def update_page_view(n_campaign, n_customers):
         return serve_customers_view(), "nav-item", "nav-item active"
     else:
         return serve_campaign_view(), "nav-item active", "nav-item"
+
+# ═══════════════════════════════════════════════════════════════
+# Global Analytics Callbacks
+# ═══════════════════════════════════════════════════════════════
+
+@app.callback(
+    Output("global-stats-container", "children"),
+    Output("global-histogram", "figure"),
+    Output("global-scatter", "figure"),
+    Output("global-topics-chart", "figure"),
+    Input("global-suspicion-slider", "value"),
+    Input("global-depth-dropdown", "value")
+)
+def update_global_charts(min_suspicion, depth):
+    with get_db() as conn:
+        all_reviews = get_all_reviews_with_analysis(conn)
+        
+    filtered = []
+    for r in all_reviews:
+        suspicion = r.get("suspicion_score")
+        if suspicion is None: suspicion = 0
+        if suspicion < min_suspicion:
+            continue
+            
+        txt_len = len(r.get("text") or "")
+        if depth == "detailed" and txt_len < 200: continue
+        if depth == "moderate" and (txt_len < 50 or txt_len >= 200): continue
+        if depth == "shallow" and txt_len >= 50: continue
+            
+        filtered.append(r)
+        
+    unique_authors = len(set(r.get("author_name") for r in filtered if r.get("author_name")))
+    avg_reviews = round(sum(max(int(r.get("author_reviews_count") or 0), 1) for r in filtered) / max(len(filtered), 1), 1)
+    
+    stats = html.Div([
+        html.Div([
+            html.Div([
+                html.Div(f"{unique_authors:,}", className="stat-value", style={"color": "#8b5cf6"}),
+                html.Div("👥", style={"fontSize": "1.75rem", "opacity": "0.3"}),
+            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
+            html.Div("Unique Customers", className="stat-label"),
+        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginRight": "16px", "marginBottom": "24px"}),
+        
+        html.Div([
+            html.Div([
+                html.Div(f"{avg_reviews}", className="stat-value", style={"color": "#10b981"}),
+                html.Div("📊", style={"fontSize": "1.75rem", "opacity": "0.3"}),
+            ], style={"display": "flex", "justifyContent": "space-between", "alignItems": "center", "marginBottom": "8px"}),
+            html.Div("Avg Total Reviews / User", className="stat-label"),
+        ], className="stat-card", style={"width": "30%", "display": "inline-block", "marginBottom": "24px"})
+    ])
+    
+    return (
+        stats,
+        build_customer_reviews_histogram(filtered),
+        build_customer_scatter_chart(filtered),
+        build_topic_sentiments_chart(filtered)
+    )
 
 # ═══════════════════════════════════════════════════════════════
 # Run
