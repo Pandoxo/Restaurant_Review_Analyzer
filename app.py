@@ -456,7 +456,7 @@ def render_tab(tab, place_id):
                 html.Div(dcc.Graph(id="insights-dish-chart", figure=build_dishes_chart(reviews), config={"displayModeBar": False}, style={"height": "35vh"}), className="card"),
             ], className="charts-grid", style={"marginBottom": "24px"}),
             html.Div([
-                html.Div(id="insights-review-table-container", className="card", style={"flex": "2", "minWidth": "0"}),
+                html.Div(id="insights-review-table-container", className="card", style={"flex": "1", "minWidth": "0"}),
                 html.Div(id="insights-review-details-card", style={"flex": "1", "minWidth": "0"})
             ], style={"display": "flex", "flexDirection": "row", "gap": "24px", "alignItems": "flex-start"})
         ], className="tab-pane")
@@ -517,6 +517,11 @@ def build_review_table(reviews: list):
                     },
                     style_data_conditional=[
                         {
+                            "if": {"state": "active"},
+                            "backgroundColor": "rgba(249, 115, 22, 0.1)",
+                            "border": "1px solid var(--accent)"
+                        },
+                        {
                             "if": {"filter_query": "{suspicion_score} >= 0.6"},
                             "backgroundColor": "rgba(239,68,68,0.1)",
                             "color": "#fca5a5",
@@ -528,7 +533,7 @@ def build_review_table(reviews: list):
                     ],
                     tooltip_duration=None,
                 ),
-                style={"flex": "2", "minWidth": "0"}
+                style={"flex": "1", "minWidth": "0"}
             ),
             html.Div(id="review-details-card", style={"flex": "1", "minWidth": "0"})
         ], style={"display": "flex", "flexDirection": "row", "gap": "24px", "alignItems": "flex-start"})
@@ -768,6 +773,13 @@ def update_insights_table(topic_click, dish_click, restaurant_id):
                 "color": "var(--text-secondary)",
                 "borderBottom": "2px solid rgba(255,255,255,0.1)"
             },
+            style_data_conditional=[
+                {
+                    "if": {"state": "active"},
+                    "backgroundColor": "rgba(249, 115, 22, 0.1)",
+                    "border": "1px solid var(--accent)"
+                }
+            ],
             filter_action="native",
             sort_action="native",
             style_filter={
