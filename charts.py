@@ -422,6 +422,8 @@ def build_topic_sentiments_chart(reviews: list) -> go.Figure:
     layout["xaxis"]["title"] = "Percentage (%)"
     layout["yaxis"]["title"] = "Topic"
     layout["yaxis"]["autorange"] = "reversed"
+    layout["font"]["size"] = 16
+    layout["title"]["font"]["size"] = 20
     fig.update_layout(**layout)
     return fig
 
@@ -480,6 +482,8 @@ def build_dishes_chart(reviews: list) -> go.Figure:
     layout["yaxis"]["autorange"] = "reversed"
     layout["xaxis"]["title"] = "Percentage (%)"
     layout["yaxis"]["title"] = "Dish"
+    layout["font"]["size"] = 16
+    layout["title"]["font"]["size"] = 20
     fig.update_layout(**layout)
 
     return fig
