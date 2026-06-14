@@ -199,7 +199,7 @@ def build_sentiment_chart(reviews: list) -> go.Figure:
     """Donut chart of sentiment distribution."""
     sentiments = Counter()
     for r in reviews:
-        s = r.get("sentiment", "neutral")
+        s = r.get("overall_sentiment", "neutral")
         if s:
             sentiments[s] += 1
 

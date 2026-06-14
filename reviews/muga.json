@@ -1,0 +1,682 @@
+{
+  "restaurant": {
+    "name": "Muga",
+    "type": "Fine Dining",
+    "address": "Bolesława Krysiewicza 5, 61-825 Poznań",
+    "price_range": "Ponad 200 zł",
+    "total_reviews": 47,
+    "avg_rating": 4.7
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCa2JFUmhSRTlKU2tzelJFaFRlSEJZT1RkNk0xRRAB",
+      "author_name": "Laurence Marks",
+      "author_reviews_count": 18,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "To nie było doświadczenie na jedną gwiazdkę Michelin. Najpierw dobra część: jedzenie było ciekawe, choć nie jakieś super specjalne. Teraz zła część: weź ze sobą książkę, żeby poczytać w oczekiwaniu. Od momentu naszego przybycia do zaoferowania czegokolwiek minęło 20 minut. To trwało, a na ostatnie danie główne czekaliśmy 30 minut. Kiedy już je podano, żadne z nas nie było nim zainteresowane. To wszystko zepsuło, zwłaszcza że restauracja była dość zimna. Zrozumieli, że jest problem, kiedy poprosiliśmy o desery (zamiast czekać jeszcze dłużej), być może dlatego zaoferowali darmowe wino deserowe (porto). Jednak za późno, koń opuścił stajnię.",
+      "published_at": "23 godziny temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWallXaGlaMnBrWnpkcVNIcG1WbWxJTm5JNU4yYxAB",
+      "author_name": "Alexandra",
+      "author_reviews_count": 136,
+      "author_photos_count": 1580,
+      "rating": 5,
+      "text": "⭐️ Muga | 14.05.2026 | Poznań\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n📍 | Poznań, PL\n🍽️ | @restauracja_muga\n👨🏻‍🍳 | @artur_skotarczyk\n. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .\n\nMENU GRAN RESERVA\n\nHOMAR, MARCHEW, POMARAŃCZA\nTUŃCZYK, WASABI, BIAŁA RZODKIEWKA\nJELEN, JAŁOWIEC, CZARNA TRÓBKA\nCHRZAN, JAJKO, SZCZYPIOR\nWOŁOWINA, SOS PONZU, IMBIR\nCHLEB, MASŁO\n▫️ BIAŁE SZPARAGI, KALARIKA DASHI, LIMONKA, LIŚCIE KAFIRU\n▫️ KREWETKI CARABINEROS, SHISO, POR, YUZU\n▫️ TURBOT, JEŻOWC, MĘCZENNICA, WERCYZOLACJA▫️ KURCZAK BRESSE, SMARSZCZE, CZOSNEK NIEDŹWIEDZI, MADERA▫️ CARRILLERAS IBERICO, PIGWA, RAKI, MORCILLA\nPRZED DESER\n▫️ CZEKOLADA, OSCIETRA ANTONIUS CAVIAR ****** BANAN, ORZECHY PEKAN, FASOLKA TONKA\nBOMBONIERE\n\nCena: 660 zł (ok. 160 euro) 6 Gang\n\n———————————————————————————————\nSzczególnie podobało mi się nowoczesne podejście do kuchni polskiej w Muga. Liczne amuse-bouche były prawdziwą atrakcją. Fantastyczne doświadczenie kulinarne — chętnie wrócę podczas kolejnej wizyty w Poznaniu. 9/10 🤍\n\n[Niezależne opinie]\n—————————————————————————————\n\n#szczęśliwy #poznań #muga #wykwintnepolskie #smakosz",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOWE9VMUlWSGRCZUVKU2IwMUpSbTkwTjFoVFJuYxAB",
+      "author_name": "Peter unisensor",
+      "author_reviews_count": 29,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko było w sam raz; wybór dań był doskonały, a dobór win również pierwszorzędny. Gorąco polecam.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Uk5ITndlR2h0VjJkVWNIZHdSVGRsZEVOdVdIYxAB",
+      "author_name": "Marek Całka",
+      "author_reviews_count": 16,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie,miła obsługa.Polecam",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201bVpsQldVbGt3ZDA4d1NHOXhjSGxxZGtOclNXYxAB",
+      "author_name": "Maciej Tokaj",
+      "author_reviews_count": 70,
+      "author_photos_count": 76,
+      "rating": 5,
+      "text": "Tutejsze menu degustacyjne to czysta poezja smaku – każde danie zaskakuje głębią i genialnym balansem. Powiem to wprost, choć to odważna teza: ta restauracja robi najlepszy i najbardziej dopracowany plating w całym kraju. Wizualnie to absolutny kosmos.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oQ1prbzFZblUyTldKc056SlhjMVJQZVdReVRIYxAB",
+      "author_name": "Agata Cejrowska",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Absolutnie szokujące, że w moim pięknym mieście dalej serwuje się coś tak nieludzkiego, jak foie gras. Z pewnością nie brakuje Państwu polotu, żeby znaleźć mniej barbarzyński sposób na drogie, sztucznie ekskluzywne danie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wWGFFeGZkelJYV1RGWVh6RXdjWGszYTBwdlFrRRAB",
+      "author_name": "igor Prc",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fenomenalna degustacja, dbałość o szczegóły, balans smaków, perfekcyjne tekstury każdego ze składników oraz kompozycja całego menu z ilością technik gotowania zdecydowanie godna gwiazdki Michelin.\nPrezentacja na poziomie 2 gwiazdek Michelin !\nFantastyczna obsługa, nieprzytłaczająca atmosfera z przyjemna muzyką.\nAssiette ze szparagów zaskakujące, ciekawe przepyszne.\n\nCzapki z głów dla Szefa kuchni, kucharzy oraz całego zespołu Mugi.\n\nDziękuję.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjd1Z5MUZlSGxzYmtaak56VlRVR2w0ZVhKSVMzYxAB",
+      "author_name": "Agnieszka Baraniok-Lipińska",
+      "author_reviews_count": 62,
+      "author_photos_count": 202,
+      "rating": 4,
+      "text": "Wizyta w Mudze była dla nas bardzo ciekawym i intensywnym doświadczeniem kulinarnym, które dało nam też sporo refleksji o tym, czym dziś jest fine dining i współczesny luksus.\n\nNa początku warto powiedzieć jasno: poziom kuchni jest naprawdę bardzo wysoki. Widać ogrom pracy, talentu i konsekwencji. Dania są dopracowane technicznie, pięknie podane, a smaki prowadzone bardzo świadomie. Obsługa również była świetna – profesjonalna, spokojna, uważna i nienachalna.\n\nNajmocniej zapamiętam doświadczenie związane ze szparagami – zupa szparagowa była absolutnie fenomenalna. Jedno z tych dań, które zostają w pamięci na długo. Ogromne wrażenie zrobiła też brioszka podana przy daniu „Carrilleras Iberico” – niezwykle delikatna, niemal rozpływająca się w ustach. Takie momenty pokazują, dlaczego Muga ma swoją pozycję.\n\nWybraliśmy najkrótsze menu degustacyjne oraz pairing bezalkoholowy. I tutaj pojawiła się moja największa refleksja. Mimo że było to najmniejsze menu, całość okazała się dla mnie bardzo intensywna sensorycznie. Sam pairing był ciekawy i dopracowany, ale kolejne smaki, napoje i późniejsza słodycz deseru sprawiły, że pod koniec organizm był już zwyczajnie zmęczony.\nI właśnie tutaj zabrakło mi pewnej elastyczności. Można rozszerzyć doświadczenie o dodatkowy kawior, pairing i kolejne elementy, ale właściwie nie ma możliwości, by coś odjąć. Dla mnie idealnym zakończeniem byłby pre-deser – lekki, świeży, domykający całość. Pełny deser był już krokiem za daleko. Coraz więcej osób je dziś mniej cukru i mniej intensywnie, dlatego możliwość zakończenia menu wcześniej byłaby bardzo ciekawą opcją.\n\nDuże znaczenie miał dla mnie również sposób, w jaki została zorganizowana przestrzeń restauracji. Trafiliśmy na stolik naprzeciw wahadłowych drzwi do kuchni. Przy takiej formie kolacji — trwającej kilka godzin i wymagającej dużej koncentracji na smakach — ciągły ruch obsługi oraz trzaskające drzwi stały się z czasem dość męczące sensorycznie. Mam też wrażenie, że przestrzeń została wykorzystana bardzo intensywnie — stoliki stoją blisko siebie, przejścia są dość wąskie, a całe wnętrze momentami sprawia wrażenie mocno zagęszczonego. Przy tak dopracowanej kuchni marzyłoby się jeszcze trochę więcej przestrzeni i spokoju wokół stolików, żeby móc w pełni skupić się na samym wieczorze i smakach.\n\nMiałam też momentami poczucie pewnego pośpiechu w sposobie serwowania dań. Zdarzało się, że talerze były stawiane trochę nieprecyzyjnie, bardziej z boku niż centralnie przede mną, co przy tak dopracowanym doświadczeniu zwraca uwagę. To drobiazg, ale właśnie takie detale budują atmosferę spokoju i uważności, której oczekuje się w fine diningu.\n\nPodobnie odebrałam muzykę. Pojawiały się utwory wokalne, momentami bardziej dynamiczne, co przy tak intensywnym kulinarnie wieczorze wprowadzało dodatkowy szum i kolejne bodźce. Przy tego typu kolacji marzyłoby się raczej subtelne, spokojne tło, które pozwala jeszcze mocniej skupić się na smaku, rozmowie i rytmie całego wieczoru.\nKażda z tych rzeczy osobno byłaby właściwie drobiazgiem. Ale razem zaczęły budować poczucie wielopoziomowego przeciążenia, które przy tak dopracowanej kuchni i tak wysokim poziomie restauracji po prostu zwraca uwagę.\n\nMimo tych refleksji uważam, że Muga jest miejscem bardzo ważnym na kulinarnej mapie Polski. Kuchnia stoi tu na naprawdę wysokim poziomie. Mam jednak poczucie, że współczesny luksus to dziś nie tylko możliwość zaoferowania „więcej”, ale również umiejętność stworzenia przestrzeni dającej oddech, spokój i możliwość dopasowania doświadczenia do gościa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSQkxXUkljMkZSZEdObVVVaEpaSHBvYUhOSVNIYxAB",
+      "author_name": "Ki Bol",
+      "author_reviews_count": 29,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Na mapie restauracji Poznania to jest perła. Forma podania , estetyka, serwis, pieczywo. Jedliśmy tam miesiąc temu ale dalej jesteśmy pod wrażeniem delikatności turbota w dyni, deserem z ikrą z jesiotra , który sprawił że się poczuliśmy jakbyśmy jedli lody pt słodki karmel. Największe wrażenie zrobił barszcz biały przed świętami który sprawił że poczuliśmy się  jak w domu. Zabrakło trochę więcej warzyw . No i wino ! Znawcami nie jesteśmy ale siadło idealnie do każdego dania. Somalier jest specjalistą wysokiej klasy bo posiada wiedzę historyczną oprócz tej alkoholowej.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tScWRHcHNiWEZ5Y25WWVYyNTBlWE5uU0V0c09HYxAB",
+      "author_name": "Bogusia xdd",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 3,
+      "text": "Jedzenie w miarę, niestety dostaliśmy piwo przeterminowane…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twRWVqZHpZVVJKZUVWbVNUTjRPWGRVU2xCc1NuYxAB",
+      "author_name": "James Watkins",
+      "author_reviews_count": 24,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Każde danie było absolutnie pyszne i doskonale przygotowane. Sommelier udzielił fantastycznych rekomendacji, obsługa była uważna i przyjazna, a całe doświadczenie było wspaniałe.\n\nGorąco polecam to miejsce, jeśli chcesz zafundować sobie lub bliskiej osobie wspaniały posiłek.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GcVVpMDVTV1YzY0RGeFRtTkRSa0ZxYUdsSldsRRAB",
+      "author_name": "Umerso",
+      "author_reviews_count": 12,
+      "author_photos_count": 38,
+      "rating": 5,
+      "text": "MUGA to absolutnie zjawiskowe miejsce, które dostarczy Ciniepowtarzalnych doznań smakowych. Serwowane tutaj kulinaria to małe dziełasztuki, które zachwycają gości nie tylko wybitnie wyrafinowanym smakiem ikonsystencją, ale również kunsztownym wykonaniem, kompozycją, dekoracjami raz końcowąformą. Szef kuchni to fenomenalny człowiek, działając świadomie i konsekwentnieprzez ostatnie 12 lat stworzył miejsce, które zachwyca gości oraz przyciąga najbardziejwymagającym smakoszy poszukujących niepowtarzalnych wrażeń. Bezdyskusyjnieniepowtarzalna restauracja, gdzie każda potrawa wzbudza niezapomniane emocje, ponadtosposób podania, klimat wnętrza oraz wybitna obsługa tworzy razem najwyższy toppod każdym względem. ABSOLUTNIE POLECAM WSZYSTKIM!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SRk9ERjFUbnAxTVV0eVozQmFjazkxU1VOU2NtYxAB",
+      "author_name": "Jakub Sobczyk",
+      "author_reviews_count": 50,
+      "author_photos_count": 12,
+      "rating": 1,
+      "text": "Naprawdę rozczarowujące, że wciąż serwujecie foie gras. W dzisiejszych czasach, przy takiej świadomości dotyczącej sposobu jego produkcji, to nie jest oznaka luksusu, tylko braku refleksji. Dla mnie to wystarczający powód, żeby nie wrócić.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWak9XNHlZMWRXUkUxeVlXUlpRalpLZFU5elZsRRAB",
+      "author_name": "tina moon",
+      "author_reviews_count": 11,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Za samo Fua Gra- nie rozumiem jak restauracja w Polsce, gdzie jest zakaz produkcji tego dania, posiada to w swoim menu :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twemMzbFZiREJ2VkVoT1RHRTBWV2R0VnpGSlpIYxAB",
+      "author_name": "Robert Ochnik",
+      "author_reviews_count": 111,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toMFJWTmxiM0JtUzNsRE5tNTNTWFpEWVVaVFJuYxAB",
+      "author_name": "Paweł Grabowski",
+      "author_reviews_count": 9,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Świetne miejsce i kuchnia najwyższej próby. Precyzja, różnorodność starannie dobranych smaków i doskonały balans zdradzają ogromną pasję i kulinarny kunszt. Serwis z klasą- z wyczuciem, kulturą i umiejętnością odpowiadania na pytania gości. Całość tworzy wyjątkowe doświadczenie. Klasa sama w sobie.",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xYVFuZEtOVTFpTlZKa1JTMTBUR1JqU2xWNGNIYxAB",
+      "author_name": "Tomek Malinowski",
+      "author_reviews_count": 7,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Świetne miejsce warte każdej złotówki i minuty",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ5M0kyVHZRRRAB",
+      "author_name": "Karolina Hełka",
+      "author_reviews_count": 3,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Było to niezwykłe przeżycie kulinarne. Wszystko estetycznie podane, doznania smakowe 10/10. Obsługa bardzo o nas zadbała, do tego idealny wine pairing👌",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSeVZ6VkxOSGRqUmpBNFprTTVlSGw0U0dsRlExRRAB",
+      "author_name": "Dominika",
+      "author_reviews_count": 48,
+      "author_photos_count": 28,
+      "rating": 3,
+      "text": "Obsługa była na najwyższym poziomie. Zajmował się nami bardzo miły chłopak, który z zaangażowaniem opowiadał o potrawach i potrafił w ciekawy sposób wprowadzić nas w menu.\n\nJeśli chodzi o jedzenie, amuse-bouche było prawdziwą petardą – zaskakujące i perfekcyjnie dopracowane. Niestety, dania główne zupełnie nie trafiły w mój gust. Miałam wrażenie, że jem wciąż to samo – dominowała słodycz, brakowało innych smaków i kontrastów. Mimo różnorodnych składników na talerzu, wszystko smakowało bardzo podobnie.\n\nCzęść deserowa  chyba najlepsza ze wszystkich pozycji.\n\nCzy wróciłabym ponownie? Raczej nie – to doświadczenie nie było do końca dla mnie.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sNVlYZHlOSEJaUlc1SlF6bGxYemQxV0VaSWQyYxAB",
+      "author_name": "Łukasz Cichoń",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super restauracja, jednak ostatnio Bandura z kanalu Bungee na youtube wchodzac do restauracji uderzyl swoim wielkim brzuchem drzwi wejsciowe , wtedy spanikowalem poniewaz wylala mi sie szklanka wody z powodu trzesienia ziemi. Lokal oceniam 10 na 10 . Pozdrawiam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMlZHSkxibnBLVERscFRWSjRkWEJSZFVsWVIxRRAB",
+      "author_name": "Katarzyna M",
+      "author_reviews_count": 212,
+      "author_photos_count": 353,
+      "rating": 5,
+      "text": "Byliśmy w restauracji Muga z okazji urodzin i był to świetny wybór. Jeśli ktoś zastanawia się co może wyjątkowego zrobić z takiej okazji to jest to zdecydowanie dobry pomysł. Polecam każdemu chociaż raz zdecydować się na kolacje degustacyjna. Serwis na najwyższym poziomie no i jedzenie znakomite. Byliśmy bardzo zadowoleni z wieczoru. Również polecam zdecydować się na wine pairing - idealnie dopełnia to każdy moment. Zdecydowaliśmy się na menu gran reserva.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aRmFXbHZMVkphZDFWUGNtRjJOVlV4Tm5oMU4zYxAB",
+      "author_name": "Justyna",
+      "author_reviews_count": 132,
+      "author_photos_count": 121,
+      "rating": 4,
+      "text": "Wybitne jedzenie. Byłam zachwycona poziomem kulinarnym. Wszystko było idealnie skomponowane. Desery poprawne, ale w porównaniu z daniami to niższy level.\nJeżdżąc po gwiazdkowych restauracjach w Polsce widzę dziwna tendencję jeśli chodzi o obsługę. Kelnerzy urządzają spektakl, recytują wyuczone regułki, a jak się im przerwie lub zapyta o coś nie w porę to się irytują. Tak było i tutaj. Po zapytaniu o kawę przy predeserze kelnerka zestrofowała mnie, że to jeszcze nie czas na kawę, bo nie wjechały desery. Ludzie zostawiają dużo pieniędzy w waszej restauracji więc wypadałoby, aby każdego traktować z szacunkiem, bo bez gości nie ma restauracji.\n\nP.S. Przywiązujcie większą dokładność do alergii pokarmowych. Zgłaszałam przed rezerwacją ( bez czosnku u cebuli gdyż te prof wywołują u mnie ból brzucha ). Kelnerka pomieszała dania i ostatecznie zjadłam cebulę. U mnie skończyło się „tylko” na bólu, ale jeśli ktoś miałby silną alergię mogłoby być gorzej.",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210UmVEbDVjSGhvWVdwSFl6VkZaRzlIVlhwemVFRRAB",
+      "author_name": "Tomek Niedźwiedź",
+      "author_reviews_count": 20,
+      "author_photos_count": 17,
+      "rating": 3,
+      "text": "Mieszane uczucia. Kolacja z menu reserva to coś co należy traktować bardziej w kategorii pokazu niż posiłku. Dania mocno opierają się na formie i sposobie podania. Wszystko jest przygotowane bardzo poprawnie ale w smaku z ponad ośmiu pozycji naprawdę warte zapamiętania były dla mnie tylko dwie: tatar z jelenia z galaretką z sherry i gołąb. Tutaj faktycznie smak dorównywał ciekawej formie podania. Zupa z fasoli z truflą to z kolei monumentalny przerost formy nad treścią. Pozostałe dania perfekcyjne technicznie i ok w smaku ale po restauracji z gwiazdką Michelin spodziewałem się więcej. Pokaz pianek, emulsji i filigranowych ciasteczek, trochę zbyt sterylny, aptekarski i wiejący nudą. Żadne danie nie zrobiło na mnie takiego wrażenia żebym chciał po nie wracać.\nPairing wina w wersji \"loco\" był za to naprawdę udany. Każde z win w interesującym stylu, dobrze dopasowane do podawanych dań.\n\nObsługa profesjonalna ale trochę sztywna. Niestety razem z podaniem deseru praktycznie o nas zapomniano o nas i o wodę czy rachunek trzeba było dwa razy się dopraszać. W restauracji spędziliśmy łącznie 3,5 godziny.\n\nWystrój schludny ale niczym się nie wyróżniający.\n\nByłyby solidne cztery gwiazdki gdyby nie cena. Za standardowe menu degustacyjne dla dwóch osób z pairingiem wina zapłaciliśmy niemal 2500 złotych. W Poznaniu moglibyśmy pójść na trzy fantastyczne kolacje w przynajmniej trzech innych miejscach.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KbGJHSnRUMVJ1VW1oSVYyZHZORFpzTlVSRGRVRRAB",
+      "author_name": "Hubert Grupa",
+      "author_reviews_count": 39,
+      "author_photos_count": 21,
+      "rating": 5,
+      "text": "Wizyta warta wszystkich wydanych pieniędzy. Znakomite menu w opcji Grand Reserva, wspaniałe, zaskakujące dania, najwyższej jakości obsługa i forma podania, świetna atmosfera.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSVmFIcENMVzFoU2xKWFRIQmFSbTVyVGs5bWEwRRAB",
+      "author_name": "Przemysław",
+      "author_reviews_count": 6,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "W Muga zdecydowaliśmy się na menu degustacyjne Reserva z wine pairing Clásico i Loco. To był prawdziwy popis kunsztu — zarówno kuchni, jak i serwisu. Każde danie dopracowane w najmniejszym detalu, a dobór win idealnie podkreślał charakter kompozycji. Obsługa — kelner oraz sommelier — na najwyższym poziomie: profesjonalna, uważna i z wyczuciem. Wieczór perfekcyjny pod każdym względem.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoTFpEWXpiMUZGVDA0eFREQmpOM1pTTVRNMGVWRRAB",
+      "author_name": "pawel matulewski",
+      "author_reviews_count": 22,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Przepysznie z wyjątkowa obsługą. 3.5h podróż doznań smakowych.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oT09EbHlRVkJwVUZSd1lsQnVXVU5NT1dweVgzYxAB",
+      "author_name": "Susanna Kachmar",
+      "author_reviews_count": 9,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Kolacja w MUGA - prawdziwa, trzygodzinna przygoda kulinarna, która angażuje wszystkie zmysły. Każde danie zaskakiwało: smaki odważne, perfekcyjnie zbalansowane, a kubki smakowe długo pozostają w stanie zachwyconego „szoku”.\n\nEstetyka całego procesu – od podania, przez kompozycję talerzy, aż po rytm degustacji – na absolutnie najwyższym poziomie.\n\nSzczególne podziękowania należą się naszej kelnerce Dagmarze – za uważność, profesjonalizm i ciepłą obecność, które idealnie dopełniły ten wieczór.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WbldFeHZVa1kxWDNkVlpGRlZUMHh2YUdNMVUzYxAB",
+      "author_name": "Grb Żrk",
+      "author_reviews_count": 23,
+      "author_photos_count": 46,
+      "rating": 4,
+      "text": "Najlepszy i tak tatar :-))",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5VlJWTmtha1F5V25aNlEzSndVRFpxWmtrM00yYxAB",
+      "author_name": "Samuel Owen",
+      "author_reviews_count": 181,
+      "author_photos_count": 739,
+      "rating": 5,
+      "text": "Wyjątkowa restauracja w Poznaniu, zasługująca na gwiazdkę Michelin. Obsługa była fantastyczna i dorównywała tylko temu, co było ciekawe. Zabawna, różnorodna, uprzejma i ogólnie doskonała. Chciałbym zobaczyć danie z serem, ale menu było idealnie zbilansowane. Wyszedłem z uczuciem sytości, ale nie dyskomfortu. Czy ktoś tu zagląda? Gorąco polecam wcześniejszą rezerwację – nie pożałujecie. Cena również była bardzo rozsądna.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21walRsWnZjMnd3VjJZM01FdFNiV2RyUVhObmFXYxAB",
+      "author_name": "Danuta S.",
+      "author_reviews_count": 6,
+      "author_photos_count": 13,
+      "rating": 4,
+      "text": "Poczęstunek trwający około 2 godzin, cena za 2 osoby: menu degustacyjne 1330, dodatkowo woda 19 zł i kawa 36 zł, napiwek 173 zł (wina nie zamawialiśmy, więc nie podaję cen). Przystawki oraz dania główne oparte na małych kęsach, na szczęście podane 3 kromki pieczywa do kolacji, za to wyborne desery na najwyższym poziomie i jest ich sporo, deserami można się najeść do syta. Wyjątkowy smak pierwszej przystawki (kapusta kiszona, wędzony jesiotr z bezą) oraz zupy z białej fasoli oraz zupy z dyni, a także świetnie przyrządzona pierś gołębia. Dodatkowo na plus - przytulne miejsce i ciekawie podane porcyjki kęsów.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxMU9WODRhVUZNY2xodVEwVTBMWGRWTVhscFRtYxAB",
+      "author_name": "Jakub Andrysiak",
+      "author_reviews_count": 40,
+      "author_photos_count": 13,
+      "rating": 1,
+      "text": "Absolutne 0/5 za foie gras w ofercie. Im więcej świadomych klientów, którzy tego typu miejsca będą unikać szerokim łukiem, tym większa szansa, że pazerni restauratorzy przestaną obchodzić prawo poprzez import wątróbek z państw, w których maltretowanie gęsi / kaczek poprzez przymusowe karmienie rurką aż do stłuszczenia wątroby jest legalne. Wstyd i jeszcze raz wstyd!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4emFHWmxZamRWWVhkUFZDMWlUMkZ5Wm5GdFJsRRAB",
+      "author_name": "Dark Heart",
+      "author_reviews_count": 119,
+      "author_photos_count": 195,
+      "rating": 5,
+      "text": "⸻\n\nMuga to wyjątkowe miejsce — klasa światowa. Restauracja z gwiazdką, menu degustacyjne robi ogromne wrażenie. Każdy set przemyślany od początku do końca, a kawior i dodatki po prostu przepyszne. Smaki dopracowane, obsługa profesjonalna. Idealne miejsce na coś naprawdę specjalnego.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214emRtOW1jWEZXYlc1VFJrMVpZbFp0VTJwbGQwRRAB",
+      "author_name": "Dariusz Starzyński",
+      "author_reviews_count": 41,
+      "author_photos_count": 118,
+      "rating": 5,
+      "text": "Kolejna wizyta w Mudze i kolejne fantastyczne doświadczenie. Powiedziałbym z czasem jest tylko lepiej. Prezentacja dań jest jak zawsze bardzo elegancka a smaki doskonale zbalansowane i złożone. Obsługa jest zaangażowana i uważna. Dla osób zastanawiających się czy warto odwiedzić Muge odpowiadam, że jest to miejsce obowiązkowe.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4eU5EWnFTV05QTUhGQk5YSXlXalExVlhSM1YxRRAB",
+      "author_name": "Aga R-Ch",
+      "author_reviews_count": 20,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Szlachetna Paczka Poznań Wilda-Dębiec dziękuje z całego ❤️ za wsparcie Wolontariuszy i zadbanie o ich pełne brzuchy podczas Weekendu Cudów ❤️\nDziękujemy za przepyszny i bardzo pożywny gulasz, który rozgrzewał zmarzniętych Wolontariuszy 😍",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNadXFTTFFREAE",
+      "author_name": "Ewa J.",
+      "author_reviews_count": 81,
+      "author_photos_count": 113,
+      "rating": 5,
+      "text": "Jestem po prostu zachwycona. I na pewno przy następnej wizycie w Poznaniu zaplanuję przede wszystkim wizytę w Muga. To była uczta dla wszystkich zmysłów, nie tylko zmysłu smaku. Wystrój klimatyczny (miałam stolik przy szybie z widokiem na winiarnię), przepiękne zdjęcia Brodziaka na ścianach, obsługa uprzejma, kompetentna i przemiła - spełnia wszystkie prośby a nawet je trafnie odgaduje (pozdrawiam Panią kelnerkę i dziękuję za pamiątkę❣️) i wreszcie najważniejsze - to była ambrozja nie posiłek. Menu degustacyjne to przerewelacyjny pomysł - pozwala odkryć feerię smaków. Zdecydowałam się na opcje 4-daniową ze względu na ograniczenia czasowe i się najadłam, ale i tak bardzo żałuję że nie mogłam skosztować jeszcze kilku innych dań. Bo właściwie każde danie jest ucztą samą w sobie - to co jest jego istotą (mięso, ryba) jest wzbogacone przeróżnymi dodatkami, co sprawia, że każdy gryz to inny smak. Wszystko co jadłam było przepyszne. Już przystawka postawiła mnie i moje kubki smakowe na baczność - beza z wędzoną rybą i musem szczypiorkowym pozostanie w mej pamięci na zawsze. To trzeba spróbować, żeby uwierzyć, że wszystko może być tak smaczne. Nawet coś tak zwyczajnego jak chleb z masłem tutaj stał się niezapomnianym arcydziełem. Zjadłam z zainteresowaniem nawet surową rybę mimo że nie lubię sushi. A to wielki komplement. Dziękuję ogromnie za te wszystkie doznania. I już myślę o kolejnej wizycie!",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKcVdHUnBUMHRJYmpkcmMyeFRZVWh3U1RSS2JtYxAB",
+      "author_name": "Be Li",
+      "author_reviews_count": 78,
+      "author_photos_count": 372,
+      "rating": 5,
+      "text": "To była Nasz kolejna wizyta w restauracji z gwiazdką Michelin. Tym razem Poznańska Muga. Bardzo przytulna urokliwa restauracja od wejścia miła obsługa, która odbiera okrycia. Kelnerzy na wysokim poziomie ciekawie opowiadający o poszczególnych daniach. Wszystko było elegancko podane w spokojnej atmosferze bez zbędnego narzucania się. Jeżeli chodzi o menu degustacyjne nietuzinkowe smaki i kontrasty. Piękne naczynia, w których były wyeksponowane potrawy, idealny był każdy detal po miskę, talerz, ziarna kawy, bursztyn, róże i tym podobne dawały całości niebanalny wygląd a jak wiadomo \"je się oczami\" Przechodząc do smaku zaczynamy od finger food idealne na jednego kęsa beza z kapustą, rożek oraz jeleń bardzo smaczne połączenia. Aksamitny krem z fasoli z truflą do tego wybitny \"pączek\" z wołowiną top of the top. Dania główne krem dyniowy i kasztany interesujący smak plus babeczka dyniowa mięciutka i delikatna, turbot i jeżowce nie do końca moje smaki natomiast makaron z borowikami i lejkowcem dęntym oraz secreto iberico to eksplozja smaków z nutą idealnej ostrości od papryczki. Muszę również wspomnieć o chlebie i maśle, które idealnie dopełniły wytrawne dania. Pre dessert w postaci musu z mango i sorbetu melonowo ogórkowego a także lizaków z marakują orzeźwiły kubki smakowe. Deser pistacja lody kruche ciastko to poezja smaków, który zapamiętamy na długo. Kolację zwieńczyło pudełko znakomicie skomponowanych łakoci. Polecamy każdemu spróbować takiego doświadczenia niespotykanych smaków i udać się na tą wyjątkową kolację. Ogromne brawa dla całej załogi za stworzenie tak świetnego miejsca.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25weVkweDVka1ZpU2pkSk9UZHhPR1JXT0V4TmMwRRAB",
+      "author_name": "Maciej Śpiewanek",
+      "author_reviews_count": 27,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Degustacja w Restauracji Muga była moim pierwszym doświadczeniem tego typu. Wybrałem się ze swoją drugą połówką i wybraliśmy opcję Grand Reserva + pairing bezalkoholowy. Sam klimat restauracji to TOP: wystrój + muzyka idealnie ze sobą współgrały. Obsługa opiekowała się nami. Kelnerzy dokładnie opisywali wszystkie dania a somelier idealnie dobierał napoje do danych posiłków i tłumaczył dlaczego tak to wygląda. Same danie to dzieła sztuki (aż żal było to jeść bo tak pięknie wygląda na talerzu). Na początku Beza z kiszoną kapustą, która rozpuściła się w ustach i dała niesamowite doznania. Z dań głównych na wielki plus: Dynia (nowość sezonowa), Turbot i Wieprzowina Secreto Iberico. Deser był idealnym zwieńczeniem tego cudownego doświadczenia. Podsumowując: Zawsze chciałem iść do restauracji z gwiazdką i nie zawiodłem się w ogóle. Cieszę się, że miasto w którym mieszka posiada taką restaurację. Wielki ukłon dla całej załogi, która tworzy to miejsce. PS. Brakuje na stronie internetowej informacji na temat szefa kuchni. :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200NFlrRlNSRmx5U1RGU2MwTnBRMDFEVWpZeWNWRRAB",
+      "author_name": "Anna Sendal",
+      "author_reviews_count": 20,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Jak można być tak niemiłym właścicielem restauracji m? Dla mnie niepojęte. Właściciel który poprawia klienta odnośnie tego jak ma się wysławiać🤯…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214T1l6RnpVekZTTWxjNVpYTmhTRXRwVTJGWlRWRRAB",
+      "author_name": "Andrew Davis",
+      "author_reviews_count": 446,
+      "author_photos_count": 242,
+      "rating": 3,
+      "text": "Nie byłem pod wystarczającym wrażeniem, aby dać 5 gwiazdek restauracji z gwiazdką Michelin za tę recenzję. Strona internetowa do dokonywania rezerwacji nie zawierała wszystkich dostępnych godzin. Kiedy dzwoniłem, aby dokonać rezerwacji, nalegali, aby skorzystać ze strony internetowej, mimo że oferowany przez nich czas nie pojawiał się na stronie. Po około 10 minutach rozmowy telefonicznej zorientowali się w sytuacji i zarezerwowali moją rezerwację. Powiedzieli, że prześlą potwierdzenie e-mailem, ale nigdy tego nie zrobili, musiałem oddzwonić innego dnia, aby je otrzymać. Strona internetowa miała opcję języka angielskiego, ale nie była przyjazna dla użytkownika i była trudna w nawigacji. Po przyjeździe znalezienie miejsca parkingowego było na początku bardzo trudne. Byłoby miło, gdyby w e-mailu z potwierdzeniem podawali rekomendacje dotyczące parkingu. Atmosfera była miła, grała elegancka muzyka. W całej restauracji była tylko jedna łazienka, co spowodowało długie oczekiwanie na klientów, w tym na mnie. Przechodząc do jadalni, menu zostało wyjaśnione, ale powiedziano nam, że jeśli chcemy kawior dodany do jednego z dań rybnych, będzie to kosztować dodatkowo od każdego z nas. Jeśli menu jest dostępne z wyprzedzeniem, nie należy doliczać dodatkowych opcji ani opłat podczas posiłku, a przynajmniej należy o to zapytać z wyprzedzeniem. Tempo serwowanych dań było świetne. Większość dań była świetna, z wyjątkiem secreto iberico, które było niesamowicie suche, co bardzo mnie rozczarowało. Bombniere również nie pasowało do tego dania. Poinformowałem też obsługę, że obchodzimy rocznicę ślubu, ale nie wspomnieli o tym w trakcie posiłku, mimo wcześniejszej prośby.\n\nOgólnie rzecz biorąc, przeciętne doświadczenie, niezasługujące na gwiazdkę Michelin.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1TFpqTkVMVlJSV2xocVpsWXdSRE5PT1RadFQzYxAB",
+      "author_name": "Tomasz Tramś",
+      "author_reviews_count": 145,
+      "author_photos_count": 33,
+      "rating": 5,
+      "text": "Warto, to jest niesamowite doświadczenie. To jest coś więcej niż restauracja.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNHa3NMN053EAE",
+      "author_name": "Damian Kowalski",
+      "author_reviews_count": 545,
+      "author_photos_count": 1739,
+      "rating": 5,
+      "text": "Gwiazdkowa restauracja. Szukasz oryginalnego menu, to tu znajdziesz. Bdb wina mają.",
+      "published_at": "Edytowano 8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jdFRFWnBUMnhUYzBSd1FWcE9Ua3hhTjNwdmFuYxAB",
+      "author_name": "Bartosz Sitkiewicz",
+      "author_reviews_count": 58,
+      "author_photos_count": 74,
+      "rating": 5,
+      "text": "Tutaj jedzenie staje się sztuką, a pożywianie doświadczeniem. Delektowanie się menu degustacyjnym wprowadza w inny wymiar.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWMU5WTTNiMmQ2YW5Zd2RXbHBaRzg1TlZOWVExRRAB",
+      "author_name": "Olaa Kłuś",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Świetna obsługa. Przyjemne wnętrze. Jedzenie - wielkie rozczarowanie. Po knajpie z gwiazdka jednak miałam dość spore oczekiwania. Na całe duże menu degustacyjne 3 pozycje były faktycznie warte zjedzenia. Dania wyglądały pięknie ale w smaku niestety nie zachwycały.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JeFJuQjJiekZ6ZGpkTE9HZGlWMUJ5Um1KWlIzYxAB",
+      "author_name": "Zofia Kaczmarek",
+      "author_reviews_count": 18,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Od razu po wejściu poczułam vibe – MUGA to totalny hit! Wnętrze eleganckie, przytulne, światło nastrojowe, muzyka w tle – wszystko takie dopasowane, że od razu chce się tu zostać. Obsługa mega miła, doradza, uśmiecha się i w ogóle czuć, że zależy im na każdym gościu. Menu? No petarda! Przystawki świeże i kreatywne, dania główne soczyste, idealnie przyprawione, a desery… wow, po prostu magia. Do tego wino dobrane perfekcyjnie – wszystko gra!\n\nAtmosfera idealna na wyjątkowy wieczór – spokojnie, elegancko, bez pośpiechu, można rozmawiać i delektować się każdym kęsem. Cena jest trochę wyższa, ale serio, każda złotówka warta tej przyjemności. MUGA to miejsce, gdzie wychodzi się nie tylko najedzonym, ale i totalnie zachwyconym. Na pewno wrócę – 5 gwiazdek bez dwóch",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCMlNXeFBZUzE0TkdkSk1URndjM2xGVERKMVEzYxAB",
+      "author_name": "Agnieszka Kwitowska",
+      "author_reviews_count": 23,
+      "author_photos_count": 62,
+      "rating": 5,
+      "text": "Wizyta w Restauracji Muga była prawdziwą ucztą dla zmysłów i jednym z najlepszych doświadczeń kulinarnych w naszym życiu. Niesamowity poziom dbałości o detale i zaskakujące połączenia smaków.\n\nLokal urządzony w bardzo ładnym, eleganckim i nienachalnym stylu. Obsługa od wejścia bardzo miła.\n\nKażda pozycja z menu dopracowana jest w najmniejszym szczególe, zachwyca wizualnie, smakowo, czasem zupełnie zaskakuje formą i połączeniem smaków. Każde danie było głębokim emocjonalnie przeżyciem o którym nie da się zapomnieć na długo po wyjściu z restauracji. Dania dopracowane do najmniejszego szczegółu. Całość to kulinarne dzieło sztuki. Wine pairing proponowany do potraw komponuje się z nimi idealnie. Tutaj warto również zwrócić uwagę na dużą wiedzę o winie jaką posada Pan Sommelier, profesjonalne doradztwo oraz wysoka kultura osobista.\n\nObsługa miła, profesjonalna i dyskretna dająca poczucie zaopiekowania i wyjątkowości.\n\nGratulacje i podziękowania dla szefa kuchni i całego zespołu (kuchnia, sala) za niezapomniane przeżycie i za prawdziwą ucztę smaków, za doznania kulinarne, które pozostają na długo w pamięci.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CWWRYZHdNWGhtT1hsa01uTlJZWEprU21KcldsRRAB",
+      "author_name": "Lukasz Bialecki",
+      "author_reviews_count": 61,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Wszystko się zgadza 👌",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nMGRrMVhVVkZTUldOVlNGQnVZeTB6WlRaMFVIYxAB",
+      "author_name": "Borys K",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fantastyczne miejsce na mapie Poznania, i chyba Polski w ogóle.  Jedzenie, obsługa, klimat - TOP\nPolecam",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZMVpYbFZPSEpHYkc5emVrdDVjWE5KZVZRMWFtYxAB",
+      "author_name": "Paula Januszkiewicz",
+      "author_reviews_count": 63,
+      "author_photos_count": 101,
+      "rating": 5,
+      "text": "Niesamowity czas w Poznaniu! Kolacja w Mudze była niezapomnianym przeżyciem — dziękujemy za kreatywność, wyrafinowanie i pyszne smaki. Każde danie było jak osobna historia, połączona z elegancją. Naprawdę przyjemna i inspirująca podróż kulinarna!",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21neVNqZDNjMEowWWxsMmRHWktXWFZCTlVKSlVFRRAB",
+      "author_name": "Joakim Siefert",
+      "author_reviews_count": 16,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Fantastyczne przeżycie, którego koniecznie trzeba spróbować, jeśli jesteś w Poznaniu.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkYU9XbGZZWE5NY0UxUGJuQTFPWFZPYnpaV2JIYxAB",
+      "author_name": "vitali bazhezha",
+      "author_reviews_count": 13,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Świetna atmosfera, świetny kelner i idealne wnętrze, jedzenie było bardzo smaczne, ale na pewno nie najecie się takimi porcjami, trzeba tam przyjść najedzonym.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pacGVVSnlWRUphYTJaVVR6RlNYMWxrYjFCRldGRRAB",
+      "author_name": "Franek Melaniuk",
+      "author_reviews_count": 82,
+      "author_photos_count": 144,
+      "rating": 5,
+      "text": "Ciekawe doświadczenie. Jedzenie pyszne, obsługa pomocna, a lokal wygląda apetycznie. Spędziliśmy tam 2,5 godziny. Zdecydowanie warte swojej ceny.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURwMzVyR3hRRRAB",
+      "author_name": "kopytko686",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Po kolejnej kolacji daje jedną gwiazdkę mniej, w takiej restauracji nie powinna mieć miejsca sytuacja gdzie po ostatnim daniu siedzimy ponad 10 minut przy pustych kieliszkach i szklankach, a kelnerka obslugująca nasz stolik pojawila się dopiero po zwróceniu uwagi innej osobie z obsługi.",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xRFduZ3hlbGRUT0d4b1N6Y3lhMDFrVW5BMmJYYxAB",
+      "author_name": "Adam Pawlaczyk",
+      "author_reviews_count": 120,
+      "author_photos_count": 285,
+      "rating": 5,
+      "text": "Super jedzenie super klimat przepyszne deser",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wM1JFaHBaa05SYTJWdGIwTm9SM3AyVjNkamFrRRAB",
+      "author_name": "Captivity",
+      "author_reviews_count": 133,
+      "author_photos_count": 365,
+      "rating": 5,
+      "text": "Wyjątkowe smaki połączone z idealnie dobranym winem. Dodatkowo świetnie zaopatrzony sklepik z winami z niestandardowym asortymentem.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGV09WTkxWbWRvU25CZkxUUXdlRXhtUTFWaU4xRRAB",
+      "author_name": "Shaken&Rated",
+      "author_reviews_count": 352,
+      "author_photos_count": 2618,
+      "rating": 5,
+      "text": "Wszystko na naprawdę wysokim poziomie, zarówno klimat, jak i obsługa oraz dania. Przede wszystkim przepyszny kawior, polecam spróbować, zwłaszcza osobom takim jak ja, które dotychczas go unikały. Specjalne podziękowania dla sommeliera,…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwRmMxSjRjRFl3Wm1GQ2JGZGFTM2hhTjBGSFFYYxAB",
+      "author_name": "Dawid Jujka",
+      "author_reviews_count": 115,
+      "author_photos_count": 125,
+      "rating": 5,
+      "text": "Polecam spróbować namiastkę „ nieba” na talerzu 🙂…",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GalVuaEZOemhOYm5sRVMwNVRTemN4YmtwMWVIYxAB",
+      "author_name": "Cornelius Sharp",
+      "author_reviews_count": 37,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Uwielbiałam tę restaurację. Piękne widoki z jadalni. Jedzenie było wyśmienite. Kelnerka spisała się znakomicie.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psaVluSjRNMDFaU3pGeFkxVkNPRU5EU2taaVRYYxAB",
+      "author_name": "Jan Kowalski",
+      "author_reviews_count": 113,
+      "author_photos_count": 7,
+      "rating": 2,
+      "text": "Brak jakiegokolwiek wow - jeżeli liczycie na wyjątkowe doświadczenie, to nie jest to miejsce. Restauracja w każdym aspekcie wypada strasznie słabo na tle innych restauracji z gwiazdką w Polsce.…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201bmIwVnRka2xUTlRKNVEweEhkMEkwWm1sTlIyYxAB",
+      "author_name": "Cezary Tarasiewicz",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Krótki wstęp względem restauracji:\nMUGA została uhonorowana jedną gwiazdką Michelin w 2023 i utrzymała ją w 2024 roku, jako jedyna restauracja tego formatu w Poznaniu i jedna z siedmiu w Polsce…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kRWIxVm1hblZ6VTJZdGJXaGFWMDQ0VFVKMFprRRAB",
+      "author_name": "Zofia",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Kilka miesięcy temu odwiedziłam restaurację Muga, korzystając z vouchera, który podarowałam bliskiej osobie z myślą, że nie będzie musiała nic dopłacać. Voucher obejmował pełną wartość kolacji, napoje oraz 10% serwisu. Towarzyszyłam jej…",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aR01FbGlOVWxKZGtSbVpXRXRlVVpTTTNFdGQxRRAB",
+      "author_name": "Artur Aleksander Korzeniowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Niebanalne doświadczenie. Serwis, smak, całość niesamowita. Z pewnością to miejsce na wyjątkowe okazje...",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWGMwVkpjblV3VWpsc2VYaG5VWFpsUW5ZeFlVRRAB",
+      "author_name": "Tomasz Purchała",
+      "author_reviews_count": 352,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "cudownie",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSRFNrVmhSMHhmU21sVlFsaEVjbE5WTkVsTmVWRRAB",
+      "author_name": "Piotr Wardaszko",
+      "author_reviews_count": 35,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i fenomenalna obsługa. Warta swojej ceny.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wSVdXUmFRVTA1UkVSelpESllZWE14ZFd0S1pVRRAB",
+      "author_name": "Kropacz Sławek",
+      "author_reviews_count": 365,
+      "author_photos_count": 160,
+      "rating": 5,
+      "text": "Byłem na spotkaniu ze znajomymi. Jak zwykle pięknie podane .Potrawy robią wrażenie. Goście z zagranicy oczarowani. Polecam .",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KdFYxSXlWMkpDYUZOTFFVOXZXV3RpTVdSb1JGRRAB",
+      "author_name": "Patrycja Zach",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniałe doświadczenie pod każdym względem ;)",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NemVXVlZSMmhuVG1kNGJtZFpUMWxwUTNObWJXYxAB",
+      "author_name": "callesteros kanal",
+      "author_reviews_count": 36,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Niesamowite pod każdym względem!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pabVRGcHpkM2ROYXkwd1duUlJlbVZJWVZSWVZVRRAB",
+      "author_name": "Marcin Barwinski",
+      "author_reviews_count": 24,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "Nie polecam menu gran reserva wegetariańskiego.\n\nDania są smaczne, ale często jednosmakowe. Brak złożoności smaków i ciekawych,…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

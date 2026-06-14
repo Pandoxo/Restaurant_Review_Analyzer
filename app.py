@@ -292,14 +292,14 @@ def build_review_table(reviews: list):
     # Format columns for display
     display_cols = [
         "published_at", "rating", "author_name", "author_reviews_count", "author_photos_count", "text",
-        "sentiment", "staff_names", "dishes_mentioned",
+        "overall_sentiment", "staff_names", "dishes_mentioned",
         "review_depth", "suspicion_score", "in_burst",
     ]
     available = [c for c in display_cols if c in df.columns]
     display_df = df[available].copy()
 
     if "suspicion_score" in display_df.columns:
-        display_df["suspicion_score"] = display_df["suspicion_score"].round(2)
+        display_df["suspicion_score"] = pd.to_numeric(display_df["suspicion_score"], errors="coerce").round(2)
     if "text" in display_df.columns:
         display_df["text"] = display_df["text"].str[:200]
 

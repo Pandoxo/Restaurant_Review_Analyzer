@@ -68,10 +68,10 @@ def init_db():
                 id                  INTEGER PRIMARY KEY AUTOINCREMENT,
                 review_id           TEXT UNIQUE,
                 place_id            TEXT NOT NULL,
-                sentiment           TEXT,
+                overall_sentiment   TEXT,
                 staff_names         TEXT,  -- JSON array
                 dishes_mentioned    TEXT,  -- JSON array
-                topics              TEXT,  -- JSON array
+                topic_sentiments    TEXT,  -- JSON object
                 review_depth        TEXT,  -- "shallow", "moderate", "detailed"
                 specificity_score   INTEGER,
                 fake_signals        TEXT,  -- JSON array
@@ -142,17 +142,17 @@ def insert_analysis(conn, analysis: dict):
     """Insert or update analysis results for a review."""
     conn.execute("""
         INSERT OR REPLACE INTO analysis
-            (review_id, place_id, sentiment, staff_names, dishes_mentioned,
-             topics, review_depth, specificity_score, fake_signals,
+            (review_id, place_id, overall_sentiment, staff_names, dishes_mentioned,
+             topic_sentiments, review_depth, specificity_score, fake_signals,
              suspicion_score, in_burst)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         analysis["review_id"],
         analysis["place_id"],
-        analysis.get("sentiment", ""),
+        analysis.get("overall_sentiment", ""),
         json.dumps(analysis.get("staff_names", []), ensure_ascii=False),
         json.dumps(analysis.get("dishes_mentioned", []), ensure_ascii=False),
-        json.dumps(analysis.get("topics", []), ensure_ascii=False),
+        json.dumps(analysis.get("topic_sentiments", {}), ensure_ascii=False),
         analysis.get("review_depth", ""),
         analysis.get("specificity_score", 0),
         json.dumps(analysis.get("fake_signals", []), ensure_ascii=False),
@@ -179,8 +179,8 @@ def get_reviews_for_restaurant(conn, place_id: str) -> list:
 def get_analysis_for_restaurant(conn, place_id: str) -> list:
     """Return analysis results joined with review data for a restaurant."""
     rows = conn.execute("""
-        SELECT r.*, a.sentiment, a.staff_names, a.dishes_mentioned,
-               a.topics, a.review_depth, a.specificity_score,
+        SELECT r.*, a.overall_sentiment, a.staff_names, a.dishes_mentioned,
+               a.topic_sentiments, a.review_depth, a.specificity_score,
                a.fake_signals, a.suspicion_score, a.in_burst
         FROM reviews r
         LEFT JOIN analysis a ON r.review_id = a.review_id
@@ -222,6 +222,22 @@ def get_dashboard_summary(conn) -> list:
         GROUP BY rest.place_id
         ORDER BY flagged_pct DESC
     """).fetchall()
+    return [dict(r) for r in rows]
+
+
+def get_customers_for_restaurant(conn, place_id: str) -> list:
+    """Return customer aggregations for a given restaurant."""
+    rows = conn.execute("""
+        SELECT 
+            author_name,
+            MAX(author_reviews_count) as author_reviews_count,
+            MAX(author_photos_count) as author_photos_count,
+            GROUP_CONCAT(review_id, ', ') as review_ids
+        FROM reviews
+        WHERE place_id = ?
+        GROUP BY author_name
+        ORDER BY author_reviews_count DESC
+    """, (place_id,)).fetchall()
     return [dict(r) for r in rows]
 
 

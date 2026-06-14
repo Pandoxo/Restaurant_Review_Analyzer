@@ -1,0 +1,4372 @@
+{
+  "restaurant": {
+    "name": "Restauracja Rynek 95",
+    "type": "Fine Dining",
+    "address": "Stary Rynek 95, 61-773 Poznań",
+    "price_range": "40–80 zł",
+    "total_reviews": 6317,
+    "avg_rating": 4.5
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCWFEwSnJlRnBhYTBsS1IzSTJaRmx1TWxwVVIxRRAB",
+      "author_name": "Bartek XX",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie dobra obsługa, Pani Nadzieja świetna obsługa",
+      "published_at": "godzinę temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twNllrcERPRVpuU1hoQ1NIWXllbFpuZDFoVWJtYxAB",
+      "author_name": "Krystian Mar",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja",
+      "published_at": "godzinę temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0NU9YbzVTMDEyT0hwelpFdGZNR1p5WWpaU2VrRRAB",
+      "author_name": "Denys Shaltyka",
+      "author_reviews_count": 74,
+      "author_photos_count": 9,
+      "rating": 1,
+      "text": "Zarezerwowaliśmy stolik na godzinę 8:00 rano przez stronę internetową, podając wszystkie dane na godzinę 18:00. Po przybyciu do restauracji powitał nas menedżer Damian, który nie mógł znaleźć naszej rezerwacji. Następnie znalazł i posadził…",
+      "published_at": "godzinę temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOTk9VVlVVVk5GWlU5UVUwZE5lV3hEWkVsdk5VRRAB",
+      "author_name": "Paulina Lisiewicz",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, fajne jedzonko i klimat. WikiS nas obsługiwała ❤️ pozdrawiamy z pieskiem 🫶🏼…",
+      "published_at": "godzinę temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psZk0wdzJUeTF1T0hGbE9ESnFURkJJVDFGeExXYxAB",
+      "author_name": "Zuza Kurzawa",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przemiła obsługa - pani Nadzieya ❤️",
+      "published_at": "5 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xneVVVdENRVXd6Y1RaUVNXMXpORlJEZEVreVVtYxAB",
+      "author_name": "Klaudia Grz",
+      "author_reviews_count": 6,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Pyszne jedzenie, bardzo duże porcje, cena adekwatna do jakości i lokalizacji.\nSuper obsługa - Pani Nadzeya bardzo miła i pomocna 🙂…",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSSFZrcGtTMXBaVWpkdlNrRkpObTVUWTBGbGJuYxAB",
+      "author_name": "Magda Grzymała",
+      "author_reviews_count": 0,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "świetne jedzenie i bardzo miła kelnerka pani Nadzeya.",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sclNXTkVNaTE0TTNKbGFHZFRWRlppVlRoUFVGRRAB",
+      "author_name": "Łukasz Grzymała",
+      "author_reviews_count": 7,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Pani kelnerka o imieniu Nadzeya była bardzo miła i pomocna",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swMFYwRk5hbnBIWDBkWE4zcHpVM2x2VUZoS1NGRRAB",
+      "author_name": "Maciej Goranin",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajna restauracja,dobre jedzenie i super obsługa  Nadzieja",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOSlowTnllWEp1V1dNeGRWOW9ZbDlHVVRNM2JsRRAB",
+      "author_name": "weronika knopska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1cGVUZHVXVzUwVFZoc1drVm5aMjFUWWpORmQwRRAB",
+      "author_name": "Klaudia Grzeszczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Ogromne porcje pysznego jedzenia, polecamy mohito XXL marakuja!\nA najlepsza w tym wszystkim byla przesympatyczna, uśmiechnięta kelnerka Pani Celina :)",
+      "published_at": "7 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSdGVUZGZaVnAzWmtnMlRrWnhPVmxaVFVONmVWRRAB",
+      "author_name": "Bartosz szkudlarek",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Przemiła obsługa, kelnerka Nadzieja zadbała o każdy szczegół",
+      "published_at": "7 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25BeGFubEJRVTV5ZG5WV0xWOHhSV0pQYmtkYU1sRRAB",
+      "author_name": "Karol 1327",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie i bardzo przyjemna obsługa w naszym przypadku ze strony Pani Nikoli 😊…",
+      "published_at": "8 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnMlgwZHNlbVJtWkdGWVMzazRZM0JCU3psR1ltYxAB",
+      "author_name": "Tomasz Stefański",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "18 min czekania na piwo bezalkoholowe. Przy dwóch stolikach zajętych licząc mój. Trzy panie stoją i rozmawiają w przedsionku i to wyglądające na menagerki (strój) parę minut, a zamówienia nie miał kto zrealizować.",
+      "published_at": "11 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xneFkzTm5kbmxuU1ZNdFRVTlFWbVpqU1ZkcU5FRRAB",
+      "author_name": "Stanisław Sowiński",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzeya najlepsza",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdVpEQXlaR1YwTUVrM2FWcDJURXhxYWt3MVNFRRAB",
+      "author_name": "Adrian Lukaszewicz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie i świetna obsługa, Pani Nadzeya Bardzo sympatyczna:)",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSck1VcFdOM1o0UzNaNlVEWnlSbU5MWTJGaFgxRRAB",
+      "author_name": "Oliwia vx",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne jedzenie i cudowna obsługa🫶🏼Pani Nadzeya niezastąpiona ❤️…",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMFgyaG1SalpET1ZwbFoxVTFXVGt5YjNsbVoxRRAB",
+      "author_name": "Mateusz Sawron",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna, profesjonalna obsługa, polecam kelnerkę Nadzieye!!!",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5aFRsUnRlazQyVFZoWFlraEVkVGhTUkROR2FGRRAB",
+      "author_name": "patrycja ziniewicz",
+      "author_reviews_count": 4,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Nadzieja super kelnerka, pozdrawiam",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205T09FaHdWSE54ZEZoc1ltczFOelZ6TUdSYVpXYxAB",
+      "author_name": "Damian Dąbrowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KVmNHSXRhRTlwWW1GbUxVNXBZMjFpUXpKaFRWRRAB",
+      "author_name": "Elizabeth Monchak",
+      "author_reviews_count": 2,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Jestem zachwycona tym miejscem! Jedzenie było absolutnie przepyszne – każde danie było przygotowane z najwyższą starannością i pełne smaku. Szczególnie polecam pastę, która była wyjątkowo smaczna i idealnie doprawiona. Również napoje były…",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21abGNsUnJWRFZEVDJWWGNURm1jWFZQVDJSWFFYYxAB",
+      "author_name": "C d",
+      "author_reviews_count": 11,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Wspaniale jedzenie na pewno wrócimy :-)",
+      "published_at": "4 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkWVlWTnhhVlp1UWw5UFpGcE9WbDlqUldOU2JuYxAB",
+      "author_name": "Joanna Olejnik",
+      "author_reviews_count": 24,
+      "author_photos_count": 36,
+      "rating": 5,
+      "text": "Bardzo fajna restauracja, przepyszne jedzenie, obsługa meeeeega pozytywna , kelnerka Olga mega miła i pozytywna bardzo polecamy i pozdrowienia dla Olgi od ekipy ze Szczecina",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twdFFYWmpVMFJ2T1U1MFVsa3dXV0pqYUVzMmRIYxAB",
+      "author_name": "krzysiek olejnik",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Chciałbym serdecznie podziękować naszej kelnerce za fantastyczną obsługę. Była niezwykle uprzejma, uśmiechnięta i profesjonalna. Od samego początku dbała o komfort gości, szybko realizowała zamówienia i chętnie pomagała w wyborze dań. Jej…",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSNVVqTjFWVVYzUm01bVJWVXRVWGh0Y1VaaGVIYxAB",
+      "author_name": "Mahdiyeh Khabbaz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "PYSZNE JEDZENIE DZIĘKUJĘ WIKI S",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20wNGNtczNXVTR3TVhwZk4weFZabmswV1hoQmRVRRAB",
+      "author_name": "Tikor PL (TikorPL)",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, fenomenalna obsługa Wiki S. dziękuję",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWMFVWSlVPRVJSUkZWZmFVZGFhbFZzY0ZobVYwRRAB",
+      "author_name": "Amelia Tylska",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszna szarlotka i bardzo dobry schabowy. Dziękujemy Pani Nadzeya za przemiłą obsługę. Serdecznie polecamy!!",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUVRVVllRalk0ZDJRMFRHVmZXV2xxZGprNFZHYxAB",
+      "author_name": "Rita Petliukh",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam. Dobre jedzenie, szybko dostałyśmy zamówienie i drinki, bardzo miła obsługa przez kelnerkę Olgę",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toemVtUmtSMWxZT1RkWGRtUlNXWFZVUzBSUlpYYxAB",
+      "author_name": "Richard DIETRICH",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Olga jest wyjątkowa, a jej pozytywne nastawienie sprawia, że ​​jedzenie to czysta przyjemność. Gorąco polecam.\nJedzenie też było niesamowite.",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzeGMxaGZTVzVDUldKd1JWSm9hSEp4U1ZSeFlYYxAB",
+      "author_name": "Mal Was",
+      "author_reviews_count": 25,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie. Bardzo miła obsługa przez Panią Nikolę.",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aVF6azNPRTVST0U4MmQzSnBTakJLVmkxbGRVRRAB",
+      "author_name": "Vika Mas",
+      "author_reviews_count": 4,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Super miejsce!\nObsługa od Pani Nadziei na najwyższym poziomie 👍…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjeGNFRkZkbloxWm1SWWNsbENlRU53TVhoS2VFRRAB",
+      "author_name": "Wiktoria Kowalczyk",
+      "author_reviews_count": 16,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Super atmosfera w lokalu, pyszny tatar i drineczki. Nie pierwsza i nie ostatnia wizyta w tym miejscu 😊 na pewno każdy znajdzie coś dla siebie…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5d1owZDBSV2N6VWt4T1RWUnZhR3hDYUdsamNIYxAB",
+      "author_name": "Maja P-D",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cudowna obsługa. Dziękujemy ❤️ Nadzeya",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdGNXSmxORVEzWkZwV1lsY3hSa2xHVjFoNGRrRRAB",
+      "author_name": "Wika",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam , obsługa bardzo dobra pozdrawiam panią nadzeya  ❤️❤️",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214QmNqWTVkVmczTFVwelpuZERkMWhhWTI1SmFHYxAB",
+      "author_name": "Magdalena Dawidowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Polecam tą restauracje Rynek 95\nWszystko pyszne i świeże.\nObsługa Nadzeya była idealna.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5WGN6VXRja1pRVFhWcVowaE5ia3BvTkdJeFdIYxAB",
+      "author_name": "Ikk Ádám",
+      "author_reviews_count": 34,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miłe miejsce. Szybko i sprawnie. Jedzenie było pyszne. Nadzeya zapewniła niesamowitą obsługę.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Wa1VuUnBWMVJWY0VWQllsTlRhbFpuWlc5Wk9WRRAB",
+      "author_name": "draxyyy",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa Nadzeya",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSTVlrWk5VQzEzVm5GMVUxRlpSR2s0TW1kcllWRRAB",
+      "author_name": "Radosław Janeczek",
+      "author_reviews_count": 170,
+      "author_photos_count": 916,
+      "rating": 5,
+      "text": "Świetna restauracja z bardzo przyjemnym, przytulnym klimatem. Obsługa na najwyższym poziomie – szczególnie pani Nikolia, niezwykle miła i pomocna. Jedzenie bardzo smaczne i estetycznie podane. Całość uzupełnia fajna atmosfera i spokojna muzyka. Zdecydowanie miejsce warte polecenia!",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OVU5rMW9TV1oxYlVvd1VITllaRGRVVW5keUxYYxAB",
+      "author_name": "Christina Skiba",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Piękny wieczór ❤️dziękuję",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SZmQxcDVZWFZ6ZEV0R01UVlhaV3haV0hKU09IYxAB",
+      "author_name": "Max S.",
+      "author_reviews_count": 17,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Dziękuję bardzo za miłą obsługę.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkMlYxRmtWeTFEY2pOeFVVcHlNVVZUYlVseFdtYxAB",
+      "author_name": "Jacek",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajne jedzenie. Wszystko pyszne. Bardzo miła obsługa. Dodatkowy plus za kącik dla dzieci!\nPolecam wszystkim którzy chcą zjeść coś lokalnego w Poznaniu!\nObsługa Nikoli na 5+",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201WWJrSlZhRW8xUTBONU1HTkJWV3BZWW1VeVVYYxAB",
+      "author_name": "Julia Oliszewska",
+      "author_reviews_count": 21,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Serdecznie polecamy! Super miejsce z pysznym jedzeniem. Wszystko świeże i bardzo smaczne. Szczególnie polecamy herbatę z miodem! Na uwagę zasługuje też przemiła i otwarta obsługa w osobie Pani Nikoli. Na pewno przyjdziemy ponownie 😇…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxbU16QlRjSGR4ZFcxNVpWWjZUVlJUWXpaMFRIYxAB",
+      "author_name": "Samanta Sami",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Jestem stałą klientką, ale po dzisiejszej sytuacji raczej już nie wrócę. Odmówiono nam wejścia z psem z powodu braku kagańca, mimo że wcześniej wielokrotnie widziałam w tym lokalu psy bez kagańców. Trudno nie odnieść wrażenia, że problemem…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GMVpqbDFiemQ2VVZGMFFtY3pjMTlZWVZKeFUzYxAB",
+      "author_name": "Dominika Frątczak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzonko jak zwykle pyszne, a Pani Nikola- fantastyczna obsługa!",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wclFYUkdha1JqV0hSaFJVTXhNSE5sTUhKWVRYYxAB",
+      "author_name": "Lena Borys",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo smaczne jedzenie i wspaniała obsługa Pani Nadzeyi. Polecamy z całego serca 🥰…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUFJqUk9abXd6VEdOSWVHczVNRmRYV0RFeWFWRRAB",
+      "author_name": "Alicja",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie pierwsza klasa\nPolecamy Panią Nikolę! Świetna obsługa",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUlgxUmlNekZsVkUxdE9GTnpjazl6VG5WTU1rRRAB",
+      "author_name": "Julia Sławek",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecamy Panią Nikole ❤️ super obsługa",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKS2MyTnhXVE41Y21kV1RHaERkbHA0YTI5RFNtYxAB",
+      "author_name": "Adrian",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa (Nadzeya)",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwdGR6TXhTVXMyZUZOaWJHaGhjMkpxVFhSNFVFRRAB",
+      "author_name": "Zuzanna Zielińska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5MFZWUnVWRkpCVldSb2ExOURhRFJPWmsxb04xRRAB",
+      "author_name": "Jagoda Pacocha",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201WlZsWTVSbWN6TjA5VWQwTnVZMlJLWmxGVVlWRRAB",
+      "author_name": "swinkaABC",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOamNrVjZTWHBZZERsd2VVdDVUekF3VUd0MFprRRAB",
+      "author_name": "batku",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miła i profesjonalna obsługa Pani Nikoli",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWelZGRkxRbUZTWDNwMFJYVXpWSGRLZWxwUWFsRRAB",
+      "author_name": "Bulas",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzonko petarda tak samo jak obsługa\nWiki S.  Super jest 👌…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taNWNsWkJkekkyVVRSNlZHaHBaWE5yTVhOUlFXYxAB",
+      "author_name": "Oliwia Szmyt",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa- Pani Nikola",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jd2JHUTFTamhDUnpjMVExWktkME5YZEdnMU9VRRAB",
+      "author_name": "Igor Kozak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa wiki.s",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205bVVrRTNaa2hSYTNNNFRXWjBRbmxIWTA1U2NXYxAB",
+      "author_name": "Gabrysia Sobol",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie obsługa niesamowita Pani Wiktorii. S",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSaFpUa3djamt5Yms1eGFqVnNZbVZpYVVkUFRrRRAB",
+      "author_name": "Kacper Kalbarczyk",
+      "author_reviews_count": 208,
+      "author_photos_count": 173,
+      "rating": 4,
+      "text": "Wszystko dobrze, jedna gwiazdką mniej za długie oczekiwanie na zamówione posiłki",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCYWFtMTFkSFJsU0RKRFRHWlJlRlo2UlVSbFVYYxAB",
+      "author_name": "Julia Bagrowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Makaron ze szparagami rewelacja! Super miła obsługa (Nadzeya)",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GT01IWTRZMlV5WjB4Q1dVTkVZbWxtZWtkS1FXYxAB",
+      "author_name": "Asia Śliska",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, ale co nas bardziej zachwyciło to cudowna obsługa pani Nikoli, która wręcz zaraża dobrą energią. Każda restauracja chciałaby mieć taką świetną kelnerkę, mimo że mieszkamy daleko to na pewno tu jeszcze wrócimy ❤️",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oNE5uWjFZVVJ3T1ZKU2EwdEpVSFZaVFhoYU9YYxAB",
+      "author_name": "KissBeybeMe",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja - bardzo miła i profesjonalna obsługa,  jedzenie przepyszne polecam .",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25acmVIbHRjVEZRZGxkcE5qa3hUVkJZV25adVRIYxAB",
+      "author_name": "daria Kozłowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jesteśmy bardzo zadowoleni, miła atmosfera i świetna obsługa ze strony Nadziei",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkWGEzQlNYelpGYzNkUU0xUlhRVUkwZEdWUE1IYxAB",
+      "author_name": "Marcin Stefanski",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pyszne jedzenie, świetna atmosfera i profesjonalna obsługa. Szczególne podziękowania dla kelnerki Nadziei – była niezwykle uprzejma, uśmiechnięta i pomocna.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVMVVXWlhWVUppVVVjeWIwcEZVSFV4TVZKWE0xRRAB",
+      "author_name": "Ира Морозенко",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne jedzenie, duże porcje i świetna atmosfera. Obsługa na najwyższym poziomie - szczególne podziękowania dla pani Nikoli, która była niezwykle miła, pomocna i profesjonalna. Na pewno wrócimy i z przyjemnością polecamy to miejsce!",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aTGQyY3dNM2Q1UVdOVWVIaE5SMVJQVFdObllWRRAB",
+      "author_name": "Marcin Kot",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie, szybka obsługa, polecam.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twdWFVbDJSV0ZDUTBaTUxXMVBiMnRyZFVGQ1NIYxAB",
+      "author_name": "Marcin „Nooddyy” Nowak",
+      "author_reviews_count": 33,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Bardzo miła obsługa ( pani Nadzieja).\nJedzenie bardzo dobre  mały minus za frytki jak dla mnie i partnerki zbyt przypieczone. Drinki zero bardzo smaczne sądziliśmy że są na bazie alkoholu 🫣 na pewno jeszcze wpadniemy…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xvNWNtRXlVM0J0VjNseWNuTkpkMkZGV1RkT2JWRRAB",
+      "author_name": "Aleksandra Watkins",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Piękne, klimatyczne miejsce z przepysznym jedzenim. Pani Nadzeya przemiła!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0VlltWjVaM3BmVDNOaVREWmtNVzg0V2w4NE9WRRAB",
+      "author_name": "Jake Watkins",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Niesamowite jedzenie, cudowna atmosfera. Nadzeya jest najlepsza!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkcWRtWXhVR1JqVHpoRGMwTkVSM3BsZVd0blpHYxAB",
+      "author_name": "Misia 1599",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko super, jedzonko pyszne, obsługa przesympatyczna. Pani Nadzeya bardzo milutka i pomocna. Serdecznie polecam☺️",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4dmIzSjBjV1pmUlROSGFHbHdNMVo2VjBsaVUyYxAB",
+      "author_name": "Hanna Kaliszczak",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jedzenie, atmosfera i obsługa na najwyższym poziomie :-)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25acE0wcFhlRkJTUlRZMGNEUnFiRjl0VFhscFFrRRAB",
+      "author_name": "Natalia Łapińska",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Super obsługa. Kelnerka Nadzieja top of the top",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNk0wRnFVa2w1VVV0bFlXVk1OM1ZPTmpCek1tYxAB",
+      "author_name": "Mario",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce naprawdę godne polecenia. Przemiła obsługa,Pani Nikola zadbała o każdy szczegół,pełna wiedzą na temat dań, drinków i ciągły uśmiech sprawiły że czuliśmy się mega zaopiekowani. Lokalizacja 5*,obsługa 5*, jedzenie 5*.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VM1VYb3RTV3c1T0hSTGNGZEtXR2N4WnpneFIxRRAB",
+      "author_name": "Darya Dyachkova",
+      "author_reviews_count": 40,
+      "author_photos_count": 133,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twV1F6VkdORGhVYmpkTFJFNUtUVmhMZFUxNVFtYxAB",
+      "author_name": "Matvii Misevych",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nicola jest super",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214cVgxWnVSa0phY1ROeFNYZHBURkowY0VZelprRRAB",
+      "author_name": "Izabella M.",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie jest przepyszne! Rosół lepszy niż u mamy 🙂 i dodatkowo przemiła obsługa Pana Sashy. Dziękujemy i pozdrawiamy.…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toS1N6QkdNbEE0V1hGNU9HdFdibkJoTjFCV1JsRRAB",
+      "author_name": "Konrad Borkowski",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa i pyszne jedzenie. Pani Nadzieja i small talk o jamnikach zasługuje na 5 gwiazdek 😁😁…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214U2JIVjFVVm8yWW5sdGNXZGZPSEZuU20xWE9YYxAB",
+      "author_name": "Влада Шнайдер",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Super obsługa od  Nadzeha ☺️",
+      "published_at": "Edytowano 2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5RGNsZFZXRXgzZEdwQ0xUVmlhRzFuZWxsbWVHYxAB",
+      "author_name": "Анна Криворучко",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "NaDena Super obsługa",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSTFZ6VjRNelZwUjNONmJHUlRlVUZHY0VSRFQzYxAB",
+      "author_name": "Magdalena Rosinska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "KELNERKA NADZIEJA - NAJLEPSZA",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOTGQwMDROVE5qY0RVeVJqWTFVRzUyTTJONGIzYxAB",
+      "author_name": "Norbert Walczak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam. Pyszne jedzenie i świetny klimat. Bardzo miła i uśmiechnięta obsługa.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGNlZHbDRkMUJwYVdwWWRVVmhYM0p4Y1RGb1psRRAB",
+      "author_name": "Asia Szymczak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne jedzenie, wspaniała obsługa. Pozdrawiam Sashę",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOWk5HOU5kR2RUYzNScE4xUlhNV1puYVROcGRFRRAB",
+      "author_name": "Dana Kartasheva",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzonko😊Dobra atmosfera i świetna obsługa. Szczególne podziękowania dla Pani Nadzieji za uprzejmość i profesjonalne podejście!!!…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKM1VXWm1VVVpvTFU1Wk0xSldhMlZuZFRoUmFHYxAB",
+      "author_name": "Dariusz Guca",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cudowny klimat podparty turbo miłą obsługą pani Nikoli.Pozdrawiamy gorąco i na pewno wrócimy.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOR2RGbFplRUpDWW1vNGJTMWhOVlI1YkZOamJsRRAB",
+      "author_name": "Мирослава Чортова",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadgeya",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGbGMzcHdjRmxLV0RoSE1GTlhjMWxJUzJKRU9FRRAB",
+      "author_name": "Ariel Domański",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pani Olga 😀 dobrze radzi ! Słuchajcie jej, wyjdziecie najedzeni i napici ! Pozdrawiam cała ekipę 😀…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Wk9Ha3dkRGc0T1RsZlpHTm1NWGhrTjJjd01VRRAB",
+      "author_name": "macit nlmb",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie i obsługa Wiktorii S.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paamRpMHRVelkwUTJoM0xWTXlRMnRKUldwQ1oyYxAB",
+      "author_name": "Patrycja Browarczyk",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko i przemiła obsługa, Pani Nadzieja spełniła nasze oczekiwania 🥰…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205VlFuaHljREpQZDAxTGNGSk1lSE5zUzNoSFoyYxAB",
+      "author_name": "zuza markiewicz",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko, przemiła obsługa w szczególności pani Nadzieja",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsR2FITnBSMlZZWmtONE1IVlRORzVTUjNKdVdHYxAB",
+      "author_name": "Matthew Malara",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nikola była super! Bardzo jej zależało aby wszystko było dobra. Polecam nie tylko restauracje ale ja jako kelnerkę też!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwR1ZrSXlXV2hNU0VVMlNrTTNRVlE0YVhsbGEzYxAB",
+      "author_name": "Roelof RV",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Dużo sauny w jakimś mięsie. Placki ziemniaczane pływały.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SblMzSnBjR3ByVWxkTGFWUmpaVEJ2VUdseFpsRRAB",
+      "author_name": "Natalia Bauta",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła atmosfera, Pani Olga bardzo fajnie podchodzi do klientów polecam🙂…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21veVFUWmZNVXR3ZEUxTVFWVlZOMjlSVnkxUWNWRRAB",
+      "author_name": "karina kulka",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecamy, jesteśmy tu drugi raz, i za każdym razem pyszne , miła obsługa Olga :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CSFdHSk9VRU5xT0MxaVdWbzFlR0UzTUZGUVIxRRAB",
+      "author_name": "ognik88",
+      "author_reviews_count": 41,
+      "author_photos_count": 36,
+      "rating": 1,
+      "text": "W tym roku obsluga to dno. Czekalismy przy stoliku okolo 20min na kelnera i zrezygnowalismy. Po nas przychodzily inne osoby i kelner odbieral od nich zamowienia. Poczuliśmy się zignorowani.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4ZlNFSkhaVUZ2ZUhSVmRGUmxjSEp6UlhKRWRrRRAB",
+      "author_name": "Angelika Rożek",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fachowa obsługa przez Panią  Wiki S.\nPolecane drinki bardzo dobre.\nJedzenie smaczne.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxbVNYZEdORWR3U1VkTU1Vd3hSMGhMUlVaRWMyYxAB",
+      "author_name": "liliia ivanova",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kelnerka Nikolka robi klimat całej restauracji, zawsze uśmiechnięta i zainteresowana klientem, nawet jak ma pełną salę. My jako stali klienci oczywiście wracamy dla pysznego jedzenia, ale to właśnie dla TAKIEJ obsługi zostawia się tu serce. Dziewczyna ma niesamowity vibe i totalny profesjonalizm w jednym palcu. Do zobaczenia!😘…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kRWN6STJZa1JXYlZSd2JYTllNVU5sTmpWSlkwRRAB",
+      "author_name": "Katarzyna Cygan",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne pierogi oraz pyrki z gzikiem! Miła obsługa. Pozdrawiam kelnerkę Nikolę <33",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twNlptVlZhM2x3UTBsSlZGSlVkVnB4YUdaT1VYYxAB",
+      "author_name": "Paulina S",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wczoraj byliśmy na obiedzie. Miejsce godne polecenia. Zaczynajac, miło nas przywitała i zaprosiła kelnerka Nikola, profesjonalna również w obsłudze , bardzo dobre jedzenie . Fantastyczny klimat. Serdecznie polecam 🙂…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pJMGQwZHlaRFJPTUdNNFRtNDNVVUZoWjB4TVluYxAB",
+      "author_name": "Romualda Kasprowiak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszny mysliwski gulasz - polecam! Dziekujemy za mila obsluge WikiS",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGclkyWnFhRzlWU0djeFUxQnVjR3BFYmt0MlVYYxAB",
+      "author_name": "Izabela Komodzińska",
+      "author_reviews_count": 125,
+      "author_photos_count": 270,
+      "rating": 5,
+      "text": "Kameralne miejsce z ogródkiem na Rynku. Dobre jedzenie. Polecam.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWZlEwOW5jM2xXTWxkSldFbHRSRVpRVWw4eFJFRRAB",
+      "author_name": "wikers",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne regionalne dania! Nikola kelnerka robi robotę, zaraża pozytywnym vibem. Zdecydowanie polecam 🙂…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoRk9YRlpaVzluU2xvd2JrVkxZVFpXWW1vM1dYYxAB",
+      "author_name": "Zosia Krzemińska",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam kaczkę 😋miła obsługa 👍 pozdrawiam panią Nikolę, która nas obsługiwała bardzo profesjonalna😌…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkWlMzbFlhV1I1ZEc1eE16Rk9aM015ZFV4dmRFRRAB",
+      "author_name": "Olivia Fernandes",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardos miła obsługa dziękujemy, Nadzeya",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201Q1drYzBjRFF6UzIwd1IzRk9UMU5JVDJkcGMwRRAB",
+      "author_name": "Anna Gruchot",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja miło i sympatycznie nas obsługiwała, była zainteresowana czy wszystko smakuje, czy coś nam jeszcze podać.\nBędziemy wracać:-)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRNFkyMDNVelZZVlZZME9HdG9Xamd4ZGxReWVFRRAB",
+      "author_name": "Wanessa Gwara",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie i super obsługa. Miejsce zdecydowanie godne polecenia! Kelnerka Nadzieja zadbała o każdy szczegół żeby nasza kolekcja była w punkt😁…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbVlsRjNNMVp1YzI0eFFXUkxUbk00YjNOd1luYxAB",
+      "author_name": "Kamila Kaczmarek",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa pyszne jedzenie fajny klimat, mam 11lat byłem z mamą na dzień Mamy :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25FNGJHOXBaUzFPUjJwclltcEtWV3QwTlVkUGVuYxAB",
+      "author_name": "Janusz Swiatkowski",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Wspaniały serwis i doskonałe jedzenie. Pani Wiki S wykazała się taktem i sprawną obsługą. Bardzo dziękuję",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xScFEzRjNhMHgxY1hOaGVEQk9TM2hyUVdRdFFrRRAB",
+      "author_name": "Zuzanna Galant",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo polecamy to miejsce . Pyszne jedzenie oraz fenomenalna obsługa . Pani Wiktoria S doskonale zna się na swoim fachu na doskonałe pojęcie o całej kuchni oraz doborze odpowiednich win do posiłku . Wrócimy ❤️",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5bk1UaDFNWEF5YTBwd0xXTmlZbHBhV0ROeVVIYxAB",
+      "author_name": "Julia Balcerek",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo profesjonalna obsługa przez Panią Wiktorię S., polecam serdecznie, na pewno tu wrócę",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0clVtdHhWelJRUVVKS1J6ZDRSVzlaYjBkUlVrRRAB",
+      "author_name": "Ania Chojnacka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie kelnerka Wiktoria S. Potrafiła odpowiedzieć na każde pytanie 😊\nChętnie odwiedzę to miejsce kolejny raz…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wTk0xRnZVMUF3VTB3elVUVTRlalpLVGtsd2FrRRAB",
+      "author_name": "Anna Kotlińska",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Obsługa super, brawo Wiktoria S",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOaExYbHZPV3AwVFhkNVNWWmljVTFUWjBGa1ExRRAB",
+      "author_name": "Dominik Pietrzyk",
+      "author_reviews_count": 71,
+      "author_photos_count": 5,
+      "rating": 3,
+      "text": "Rosół bardzo zwyczajny to znaczy woda z solą i makaronem - absolutnie nic specjalnego ( obok kelner leje do makaronu bulion z dzbanka przy kliencie co samo w sobie robi wrażenie a o smaku nie wspomnę)…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkRFUxSTBjM1I2YzB0a1owa3hhbXd0WWtGTFVuYxAB",
+      "author_name": "Aleksandra Gorczyca",
+      "author_reviews_count": 25,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Dobre jedzonko, fajny klimat, ceny nawet nawet. Przemiła obsługa, w szczególności pani Wiktoria S. :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oemNWUTNkMFpqVW5WR1UzSm9OR1U1ZUMxamVHYxAB",
+      "author_name": "kc jordan",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Piękna restauracja, wizyta ze Stanów i cudowne przeżycie! Victoria S. zaopiekowała się nami i bardzo pomogła nam zdecydować, co zamówić.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkaVZUVlphRTQyZUZscU1TMTJOVTVJZVdkWWNHYxAB",
+      "author_name": "terrilynn goertz",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Vikis (Victoria) była niesamowita! Wspaniała zupa!!!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WaWFuRTBSbDkzVW5oNlRuSllhelk0VlRoRFVWRRAB",
+      "author_name": "Dianne Young",
+      "author_reviews_count": 19,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Atmosfera na Starym Rynku jest wspaniała. Dobre jedzenie i świetna obsługa ze strony Wikis.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWUVNtUjVTV3QyUWpCeVNqRkxWV1I1Ulc4NFZFRRAB",
+      "author_name": "Wiktor Sawasciuk",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nikola 11/10 obsługa",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGVVRHTTVkVTlTVlVST2NEY3piMU00V0hReWRYYxAB",
+      "author_name": "Zuzia Czyżewska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie i cudowna atmosfera, dziekuję kelnerce Nikoli za przemiłą obsługę😊…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214MFkwZFJhMlZITkc5aE1Hc3dSRUoxUmxadGIzYxAB",
+      "author_name": "Maciej Ilów",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzonko, pani Wiktoria S zwłaszcza",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMFFVdzRiM1JIWTFWWmJqVXRValV3WjI0MlEwRRAB",
+      "author_name": "Przemyslaw Hrakalo-Horawski",
+      "author_reviews_count": 55,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Przemiła, sympatyczna obsługa na 6 gwiazdek pani Wiki S.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GamVFZGlTbWhsYVdKamNEUm1WbEV5VmtseGVXYxAB",
+      "author_name": "Radek Horawski",
+      "author_reviews_count": 37,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Świetna atmosfera i super profesjonalna obsługa. Pani Wiki S. zawsze miła,  uśmiechnięta i bardzo pomocna -tak trzymać.\nNa pewno tam jeszcze wrócę aby smacznie zjeść i miło spędzić czas.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1NU1qZEVOVjlDZHpaTVJtTTFSV0o1TlMxc09GRRAB",
+      "author_name": "Ferhat Yılmaz",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zamówiłem jabłko z wanilią i było pyszne. To najlepszy deser, jaki dostaję w Polsce. Obsługa jest świetna, kelnerka Viki S była najlepsza. Jest bardzo zainteresowana naszymi zamówieniami.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214cWNWRklkVE5wY21abWVVcGpUalpXUkcxSlltYxAB",
+      "author_name": "Kerem KAHRIMAN",
+      "author_reviews_count": 33,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Mamy bardzo smaczny deser i dobrą atmosferę, dzięki vikies za dobrą obsługę",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Gdk1FNVZkakpFYkhCNWMwVm1VbWh6Y0RobE5tYxAB",
+      "author_name": "Yiğit Eren Havuz",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedno z najlepszych miejsc na poznańskiej starówce. Pyszne jedzenie i świetna obsługa od Wiki S. Dziękuję.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsdmRUWXhTelZvWjNWcVpVRjBkRU56VmtsWk1HYxAB",
+      "author_name": "Jyothsna Boni",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 4,
+      "text": "Jedzenie było dobre, a atmosfera i obsługa klienta były na wysokim poziomie. Nasza kelnerka Victoria była dla nas bardzo miła i mówiła po angielsku. Wyjaśniła nam nawet menu i pomogła nam wymówić po polsku nazwę piwa, które chcieliśmy zamówić. Ogólnie rzecz biorąc, było to bardzo miłe doświadczenie.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0M0xWQndVV2t0VDFGcFYyRTFWRTR3VW10WlRuYxAB",
+      "author_name": "Jacek P",
+      "author_reviews_count": 46,
+      "author_photos_count": 46,
+      "rating": 5,
+      "text": "Jak będę bardzo stary i będę siedział przy kominku z whisky w ręku i z cygarem w ustach to wspomnę rynek poznania i rynek 95 i panią Wiki S. Ktora nam podawała to przepyszne jedzenie",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGa2NIZE5TV3QzUkVFeGFFcG9jVGQzTlY5eVZtYxAB",
+      "author_name": "Koleta Kwiatkowska",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam, jedzonko zawsze dobre nie raz już tutaj bywałam a Pani Nadziei bardzo dziękujemy za miłą obsługę :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWlduQnJhMEZPWjJoMlZuRnNUREI0WWtSTlRIYxAB",
+      "author_name": "Agata Szewczak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko ok, Pani kelnerka Nadzeya super obsługa 😊…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWUFZHTkpVMDFWVldaZmRGQlljM0JYUjFCQ00wRRAB",
+      "author_name": "Dennis Żdan",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "„Jeśli każda restauracja miałaby taką kelnerkę jak pani Olga, Michelin rozdawałby gwiazdki hurtowo 😄 Miła, pomocna i zawsze z uśmiechem!”…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aVGRsVkRiR2hSWlZkaldIZFZSVmRCUVRFNFRrRRAB",
+      "author_name": "Piotr Karpiak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Obsługa Pani Olgi wyśmienita jak karkówka z ziemniakami z gzikiem :)",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tnMGVGOTVaWEo2YkRaMVZIaG9Zazh6VEU1SFNVRRAB",
+      "author_name": "marta zlotnicka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieja",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WRVlqbGhWVTFhYTNKR04yNVVaVzVqWTNOaFlVRRAB",
+      "author_name": "Else Nilsen",
+      "author_reviews_count": 17,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Bardzo zaskakująco dobre jedzenie i świetna obsługa! Zupełnie nie to, czego można oczekiwać od restauracji na Rynku!",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xjNVZuVnBOR3BMZVhoR1ZtdHJXR0ZLYTE4dGNuYxAB",
+      "author_name": "Kornelia Krogul",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCb2NVdHZlRzF6ZUY5SGEycFJVSGswZGxkNU1YYxAB",
+      "author_name": "Zuzanna Grudzińska",
+      "author_reviews_count": 9,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGTWIyMVFkbTgxUm5FeU9HVm9kMGhHVmxNM1VVRRAB",
+      "author_name": "Mateusz Chaliński",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrMU0wc3dMVEJEY1ZBeU9EQjRVVmg1YWpsTGExRRAB",
+      "author_name": "Jakub Modlicha",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FemFGRXpkRkZPTFVZemNHTkZUR3d4WlRoMlVsRRAB",
+      "author_name": "Szymon Maza",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "NADZIEYA",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZelVEVldTRlJhVVRrd00yNHpXbGhTVTNoWmNGRRAB",
+      "author_name": "Aleksandra Wiśniewska",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trd1JYRlZXbGhCTldWNll6RkpibEpuU1haa00xRRAB",
+      "author_name": "Ewelina R",
+      "author_reviews_count": 12,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Dwa dni z rzędu zjedliśmy wspaniały obiad. Pyrki z gzikiem przepyszne. Obsługa cudowna. Zależało nam na czasie, a Pani Nadzieja, która obsługiwała nasz stolik w magiczny sposób bardzo szybko podała nam zamówione dania. Na pewno tu wrócimy.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aWWRUaHZSRFZpVDBGRVJGOTBSbkl6VXpkUVNHYxAB",
+      "author_name": "Maja Schlabs",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam miejsce, najlepsze na rynku. Najlepsze, bo jest super pani Nikola, doradziła naprawdę pyszne dania i koktajle. Ale klimacik też mają fajny 😃…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KUmVYQjFZVUUxVDFObFJtdDJaVGxVWjNSZlEyYxAB",
+      "author_name": "joanna matelska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna obsługa! Olga było nam niezmiernie miło być obsługiwanymi przez Ciebie. Świetna atmosfera!!",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ScFF6SjFMV1ZJWlVoU1NuZHRkbXRtWmxRdE5XYxAB",
+      "author_name": "Marcin Grzegorzyca",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Obsługa bardzo miła, na jedzenie trzeba było czekać 40 min. Pierogi wyglądały na odmrożone i były prawie zimne, natomiast pizze (\"Buratta\") jadłem lepszą.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4SVZtMWxhbTV6WDFSUGVsQTJNblJWYm1vMGVsRRAB",
+      "author_name": "Paulina Konecka",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie pyszne, obsługa wyśmienita (w szczególności Pani Nikola). Klimat cudowny. Polecam.😊🥰…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1MVlXcERhRVZRVW5KdWNEbGtRVEJHYXpSMlMwRRAB",
+      "author_name": "Weronika Kozerewicz",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jedzenie niesmaczne, mięso suche i twarde, cena zupełnie nieadekwatna do jakości",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xseGJrbFRaemt4UzFOVFgwZFNOSEZGWDI5NGNrRRAB",
+      "author_name": "Justyna Krajka",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa, Pani Nikola jest bardzo pozytywna i uśmiechnięta oraz zaangażowana w swoją pracę. Pyszne jedzenie i duże porcje, polecam.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWdVYyeFJiRTQ1ZW1oTU9FOTRRMnBDVlRkMWJYYxAB",
+      "author_name": "Klaudia Kowalska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko pyszne, wspaniała atmosfera i szczególne podziękowania dla uśmiechniętej, profesjonalnej Pani Nikoli za obsługę ❤️ będziemy wracać napewno 😊…",
+      "published_at": "Edytowano 3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WcUxVOVhPRmhFZW01alVHeHhTbWhCZUdkbVJXYxAB",
+      "author_name": "Aimo Uusitupa",
+      "author_reviews_count": 5,
+      "author_photos_count": 16,
+      "rating": 5,
+      "text": "To była moja trzecia wizyta w tej restauracji. Obsługa jest bardzo uprzejma i elastyczna. Jedzenie jest dobre. Powinno być więcej opcji dań głównych. A powiedziano mi, że będzie ich o siedem więcej. Ale wciąż jest coś, czego potrzebują…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aTWNHWnBiVWxQTmkxV1JWbFZZazFyYVZOa05uYxAB",
+      "author_name": "Robert Kaczmarek",
+      "author_reviews_count": 365,
+      "author_photos_count": 1067,
+      "rating": 5,
+      "text": "Kolejna udana wizyta w tym lokalu. Dobre jedzenie, przyzwoite ceny, miła obsluga.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkMFVFUmtXbDgyWm5kbVlWb3Ria2d0YlUweWIzYxAB",
+      "author_name": "Weronika Wronka",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzonko 10/10\nNa pewno wróce 😃\nPolecam…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkTllXZ3RORmxmWWxaRE5WbElZM05FVFVwU1kyYxAB",
+      "author_name": "Sylwia Szymiel",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce klimatyczne, przepyszne jedzenie cudowna obsługa bardzo bardzo polecam Nadzieya najlepsza kelnerka :)",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBNGMyOUViM1ZoVm1oeVdVaDJXSFJMUVcxeWNGRRAB",
+      "author_name": "Agnieszka Górska",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Niesamowite miejsce, świetna atmosfera, wybitne jedzenie, dbałość pod każdym względem oraz wyjątkowa i przemiła obsługa, w szczególności WIKI S. 🫶🏻 polecam z czystym sumieniem…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toSFRrMTNSelJvU0hOcVJDMDVNVE5EYVUxQlRsRRAB",
+      "author_name": "Joseph Szczepkowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Odwiedzam z USA i zatrzymywałem się tu kilka razy. Jedzenie jest niesamowicie pyszne. Koniecznie trzeba spróbować zupy pomidorowej i herbaty. Obsługa jest punktualna i mówi po angielsku. Muszę powiedzieć, że jeśli macie okazję, poproście o miejsce w piwnicy! To miejsce warte zobaczenia.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rd1gwZDRSV28zUXpGdGRqQnVlamt3ZURkYVRVRRAB",
+      "author_name": "діана сотник",
+      "author_reviews_count": 1,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Bardzo pyszne jedzenie oraz średnio duże porcje , przyjemna atmosfera i obsługa:>",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOcWJEQkdSRkphZUZGQlF6QkNkR1IwVEZsR2VGRRAB",
+      "author_name": "Aleks Zielezinski",
+      "author_reviews_count": 23,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam panią Wiki.S doradziła co do deseru i trafiła idalnie w nasz gust obsługa pierwsza klasa",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNeE1GWnFMWGt4WjBvMWEwZGFSbVZzZEUxWlFsRRAB",
+      "author_name": "Dominika",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kelnerka Wiki S przesympatyczna pomocna sprawiła że to doznanie było nieziemskie",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21nNWVXaDBUVXcyWVdzMFYyVllWemRXU2tkSlVHYxAB",
+      "author_name": "Amelia Matusik",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie. Obsługiwała nas przemiła Pani Wika S.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFeVoyUmpWelJGYlhoV1RWcEZYMjVEV21waVYxRRAB",
+      "author_name": "Kamila Janka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza obsługa wiki s . Polecam pyszne jedzenie",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkdlpubEtlWEJ6TURsSGJIQnFRV1U0YUVWVE5rRRAB",
+      "author_name": "Mirela Małecka",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa przez Panią Wiktorię",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNelQyY3RSeTF3YVRSdFh6ZElMVWx5VFd4cWFtYxAB",
+      "author_name": "Joanna",
+      "author_reviews_count": 8,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Niemiła obsługa. Trzy razy prosiłam o rachunek, pani w warkoczu udawała, że nie słyszy. Krem brule pół centymetra wysoki. Jedzenie z torebki sztuczny sos. Nie polecam",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kd1NWQmhhRlJhUTNOV2VXSjJSbWRuWDFZemFVRRAB",
+      "author_name": "Aleksandra",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miałam przyjemność zjeść tutaj przecudowną kolację, przy której obsługiwała nas pani Marta - i obsługa, i jedzenie - były na najwyższym poziomie :)",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRelpIbGxaMlo2T0hoUGJtZE5iRmxHWkZab01uYxAB",
+      "author_name": "Seana Wallis",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nadzeya była fantastyczną gospodynią. Zjedliśmy pyszną kolację.",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMWRUVk9OSE5TYkd0c2NUTXdVa0oxWVhNNVNFRRAB",
+      "author_name": "Izabela Świerczyńska",
+      "author_reviews_count": 21,
+      "author_photos_count": 36,
+      "rating": 5,
+      "text": "Klimatyczne miejsce z pysznym jedzeniem i sympatyczną obsługą😊…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xrMU1tSkdVa2xvZFZCeFZVaFRaRlpWYTNoRlRrRRAB",
+      "author_name": "Akandwanaho Allan",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Jedzenie było dobre, wyglądało na wykwintne. W sam raz, żeby się najeść, ale nie za dużo. Smak był bardzo dobry.…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GV0xWZzBYMHBIVERKR01HMU9iR3A2YWxwdmVGRRAB",
+      "author_name": "Ewelina Bejcar",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, Pani Wiktoria S bardzo miła i uprzejma. Jedzonko lokalne i bardzo dobre :)",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKaUxXVjVVM1JUWDJSUE16UmhZbkJhVVV0Sk0xRRAB",
+      "author_name": "P W",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fajna obsługa, klimatycznie i smacznie",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnMmFIWlZia2xDYlRWUlZuaHdkRE52ZUZjelVFRRAB",
+      "author_name": "Kinga Szymańska",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Przecudowna atmosfera i przyjazna obsługa. Poza jedzeniem świetne kawy - szczególnie smakowe. Serdecznie polecam i pozdrawiam Wiki S ;)!❤️",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aRlJ5MXRURzAyVEdsdFUzWlpNVVJIVTAxR2EyYxAB",
+      "author_name": "таисия кормич",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Obsługa przez kelnerkę Karinę pozostawia wiele do życzenia. Od samego początku sprawiała wrażenie, jakby robiła nam łaskę, że w ogóle nas obsługuje. Bardzo nieprzyjemne podejście, brak zainteresowania gośćmi. Atmosfera przez takie…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSMVZWRjVWM0p4UVRWUE9UQlpYM3B3T1RoNmJYYxAB",
+      "author_name": "Szokun TV",
+      "author_reviews_count": 37,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Serdecznie polecam wszystkim tą restauracje. Duży wybór jedzenia, bardzo różnorodny aż ciężko się zdecydować. Szczególnie dziękuję za opiekę pani. Nadzieyi. Napewno wrócimy z dziewczyną",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTmNucG1MVkYxZEZkTU9VeFVkWEp0UkMwd2IzYxAB",
+      "author_name": "Angelika Puzio",
+      "author_reviews_count": 17,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Bardzo polecamy, pyszne jedzenie, czuliśmy się bardzo dobrze przyjęci i zaopiekowani przez przemiłą panią Nikolę. ❤️",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSVVEyZGljR2t6V25nelRHRmZZVk5OTjNkWGFVRRAB",
+      "author_name": "Юлия Клевцова",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam te miejsce! Pyszne jedzenie,  przyjemny klimat i przyjazna kelnerka Nikola 😍…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxcFZsWlFWR2xpTVdOaU5UUlBjR1JxVVVoV1IyYxAB",
+      "author_name": "Patrycja Wietrzykowska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, obsługiwała nas Pani Nadzieja. Dziękujemy za przemiłą obsługę 💚…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aSFZIUlpPR280WWpOeFRXZGZTM1JvWHpSS2FWRRAB",
+      "author_name": "фуа Фуа",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo smaczne jedzenie, dziękuję Niki za obsługę✊",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pobFRGWk1aRXN4WVZwWVpYZDBkbGhpV21oWk4zYxAB",
+      "author_name": "Ola Lewandowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo fajnie spędzony czas, dobre jedzenie, super drinki i miła obsługa ze strony pani Nikoli 🙂 polecam!…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rdFRrcHVXbU5UTTI5RVYyTk9VekJ3TUdoU2FXYxAB",
+      "author_name": "Julia Murawska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nikola cudowna miła osoba ,pełna empatii,bardzo miła i szczerze oddana swojej pracy! Polecony przez kelnerkę Nikolę łosoś oraz makaron z krewetkami petarda. Napewno wrócimy spróbować pozostałych dań z karty, mają ogromny wybór 😌…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201a1EzSlZXV1F0ZFVRMVlWSjRlVk52UzNwamFtYxAB",
+      "author_name": "Daria",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Nadzieja super!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CNWRGaGFMVzV3YldWek9XRjVaVEJPUzBOZlpIYxAB",
+      "author_name": "Agnieszka Kołodziejczyk",
+      "author_reviews_count": 47,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzonko. Bardzo miła obsługa . Fajny klimacik. Na ogródku parasole i fajne kominki dzięki czemu jest cieplutko. Polecam!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUU5tTmZWMVJ3V0RaalkzVmpSR2RQVkZSVFNrRRAB",
+      "author_name": "SzymonZ",
+      "author_reviews_count": 7,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Szczególnie wyróżnienie należy się Pani Nadzieii, która tworzy super klimat tego miejsca!!! :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Vd09XVnNValZRZEZsb1dETlJWRmRLWjBoMU5YYxAB",
+      "author_name": "John Carter",
+      "author_reviews_count": 81,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Zamówiłem placki ziemniaczane z gulaszem i ziemniaki w mundurach z gzikiem. Nie polecam. Placki ziemniaczane chyba z marketu, a gzik suchy jak pieprz. Słabo, bardzo słabo. Nie próbowałem innych potraw i być może są ok.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taUk5HWXlaa3REY1dodFkwcGFMVTAyTVdkNGNIYxAB",
+      "author_name": "Marta k.",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kelnerka Nadzeya przemiła i pomocna dla ludzi i dla piesków ❤️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwelRWZDZRM2xJVm5OVk5tMU1URE5UUzIxZlkzYxAB",
+      "author_name": "Tylko Ja",
+      "author_reviews_count": 20,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Godne polecenia miejscówka na wyjście 👍👍👍👍…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkalZFUnRiemxSU0VWQmRHUmFXVUZuVGtVeVlVRRAB",
+      "author_name": "Wiktor Wiąz",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzieya sprawiła że obiad był czystą przyjemnością.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0aFpXY3liVW81UVVoWFNXVlphbHAyUm0xeFoxRRAB",
+      "author_name": "Łucja Radomińska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzieja taka piękna dziewczyna i miła😮 wspaniała obsługa ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCV1IyTkpla1JpYTE4MFJGQlNkMFZrV1dSUGVWRRAB",
+      "author_name": "Sergey Makarov",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko było przepyszne! Świetna atmosfera i fantastyczna obsługa. Nikola była bardzo miła, uśmiechnięta i pomocna. Na pewno wrócimy 😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201eFJqbFFVMWR1UlhkZlZsOWlRelpZZW5SamRFRRAB",
+      "author_name": "Agnieszka Łętowska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniały klimat i obsługa, jedzenie pyszne. Polecam w 100% obsługę pani NADZEYA",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SbWRXcDFjMFprYVhoZmJIVjRiekJ0U2pSS01VRRAB",
+      "author_name": "Aleksandra Łętowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajne miejsce, gdzie można smacznie zjeść, obsługa bardzo sympatyczna:) Nadzieja zapewniła nam super klimat.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VMlJIYzRjSFZoZDBWNlFYWjZjVU5uUW5GRFRGRRAB",
+      "author_name": "MIŁY",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie , cudowny klimat i bardzo miła pani Nadzieja z obsługi ☺️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0M1ZVMHhjRFV3V25Gb2FUTTFka2hrYW5kQ1NGRRAB",
+      "author_name": "Szymon Łętowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedziecie i klimat :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsaWFGWkZOVWxCZEc1WloxcEdNMVU1YTA1SVptYxAB",
+      "author_name": "Pampi .0112",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa, bardzo miła atmosfera i pełen profesjonalizm. Pani Nadzieja bardzo pomocna uśmiechnięta i uprzejma. Jedzenie przepyszne Polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRMFREVkdXalo0WDFSUVJIUjJVMEpyZG1kNlMwRRAB",
+      "author_name": "Patryk",
+      "author_reviews_count": 25,
+      "author_photos_count": 4,
+      "rating": 3,
+      "text": "Lemoniada była tak kwaśna że nie było można jej wypić powinno być to zaznaczone w menu że smak truskawkowy nie ma za bardzo nic wspólnego z truskawkami  tylko jest bardzo kwaśne, jedzenie przeciętne nic specjalnego. Miła obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toU2NsTTFjbTVoT1U5SWJFcHdXbHBPUjBoM2VGRRAB",
+      "author_name": "Olga Kuzo",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Super obsługą polecam,zwłaszcza dziękujemy Pani Nadzieji 😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZMmN6RTRNVFJ4VUZWck5YcFhkRGd0TVdKR1RrRRAB",
+      "author_name": "Iwona Ruda",
+      "author_reviews_count": 3,
+      "author_photos_count": 17,
+      "rating": 5,
+      "text": "Byliśmy we dwoje, pizza super, ciasto rewelacja, drinki też smaczne🫣, ale największą robotę zrobił kelner, byliśmy zaopiekowani🤪,,a nasza lemoniada była zaopiekowana najbardziej,, jeśli Pan to przeczyta to pozdrawiamy 50+\nByliśmy kolejny raz i nie ostatni 😃…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOeE9XeHRhMDA0VFd0dlIyWjFlR051ZG5GS1gyYxAB",
+      "author_name": "Julia Anna Michałek",
+      "author_reviews_count": 68,
+      "author_photos_count": 55,
+      "rating": 5,
+      "text": "Przepyszne jedzenie (jak zawsze), wszystko bardzo świeże. Obsługa również na plus. Na pewno jeszcze odwiedzimy to miejsce niejeden raz.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwelNuQnhlRXhNTVd4QmVYTnpNSEpzYVRZdFZWRRAB",
+      "author_name": "Łukasz Sz.",
+      "author_reviews_count": 104,
+      "author_photos_count": 32,
+      "rating": 2,
+      "text": "Bardzo przyjemne wnętrze, sympatyczna i sprawna obsługa. Gdybym na tym zakończył, to musiałbym dać 5 gwiazdek. Jednakże w restauracji najważniejsze jest jedzenie i tu zazgrzytało.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tob1VIWTVXWHBUV214a1JuRlJSbVZYUlhaS1JXYxAB",
+      "author_name": "Michał Kamiński",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzeya super nas obsłużyła. 10/10",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWRU1GTlNVV000ZFdKVFFXSXROVEZvYms1VkxYYxAB",
+      "author_name": "Dominika Groszek",
+      "author_reviews_count": 8,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Pani Nadzeya\nsuper nas obsłużyła. Polecamy 💖…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkRVgyazNNRE41YjFsWWRGRkVNSEpRU1hBMWFtYxAB",
+      "author_name": "Natalia",
+      "author_reviews_count": 20,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Bardzo klimatyczne miejsce i wspaniała obsługa. Pani Nadzeya przemiła i bardzo profesjonalna. Zdecydowanie polecam!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0NllYcFpNV05QTlZKTWNuUkRSV2RXYkVoaVIzYxAB",
+      "author_name": "Paulina Paulina",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nadzieya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VdE0yazNTM2hGU0cwNWF6TjZUMVYyTFZWc1IzYxAB",
+      "author_name": "Michalina Gralak",
+      "author_reviews_count": 12,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Wyśmienite Dania - regionalne - stosunek jakości do ceny - wyśmienite",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xjNFdUQTNjVE5ZWlRKME1uRmpUemxyTjJ0dlIwRRAB",
+      "author_name": "Dominika Lewińska",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pani Nadzieja ❤️❤️❤️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNMGNXWXRSSEJvWVRKTVNrVjVkakE0Ykd4WWFXYxAB",
+      "author_name": "Mateusz Jankowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa pani Nikoli oraz pyszne jedzenie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCSGJ6VkplbkJ0UjNkelVsVjNhelpLUzNsV1JXYxAB",
+      "author_name": "Pencil",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne jedzenie i miła obsługa kelnerki Nikoli",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taUlUyZFVTMlJYUjJGeWN6aFNla2RRYzFOV1NXYxAB",
+      "author_name": "Dominik Jankowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super jedzenie i wspaniała obsługa Nikoli",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcVJUYzVUVjkwWDJ4U2NFOVBhQzFwVFZKYVJGRRAB",
+      "author_name": "Bartek Czajka",
+      "author_reviews_count": 19,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie bardzo dobra obsługa w szczególności Pani Nicola  która nas obsługiwała Lech Poznań Arka Gdynia",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GdWFuTlRkemhJU1hWNU5EWkJNamRIYWt4cmRIYxAB",
+      "author_name": "Wojciech Pestilenz",
+      "author_reviews_count": 8,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Rewelacyjne jedzenie polecam makaron z chorizo i krewetkami obsługa bardzo dobra, a szczególnie Pani Nikola\nArka Gdynia Powiat Pucki Pozdrawia",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kNlpIUXpRbmd3V1cxbE0yRXpNR0pLWDFWeVJuYxAB",
+      "author_name": "Krystian Prabucki",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wczorajsza kolacja w Rynek 95 w Poznaniu była absolutnie świetna! Jedzenie przepyszne — wszystko świeże, dopracowane i podane z klasą. Do tego rewelacyjna obsługa, a szczególne podziękowania dla Pani Wiki T., która była niezwykle miła,…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GUllUQnZXbEl5Ym14TlJITldURVZJZFMxRE4yYxAB",
+      "author_name": "Szymon Styn",
+      "author_reviews_count": 18,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miejsce, fajna obsługa (Wiki S.) i dobre jedzonko. Polecam.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkWFpVSk5iMUJUVEhjeFkzZE9jM0pDWTJGUlJIYxAB",
+      "author_name": "Łukasz Kudyn",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa pana saszy",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCaVYzcEVhVVZLVjFvemFrMWhSbU13TVhwRlJHYxAB",
+      "author_name": "Filip Jusiel",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie zwłaszcza stek a z nadzieją na dobry deser pani Nadzieja zaproponowała nam tiramisu które było smaczne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210SmVXbFFMVzg0TmtNNE4yaEtRWEpXVlhwV1ptYxAB",
+      "author_name": "Julia Kubisz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "jedzenie niesamowicie dobre, obsługa bardzo miła, pani nikola skradła nasze serca. Wszystko super polecam serdecznie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WRFdGVmZPV28zUXpWclltTlVUVGxRYmkxUWRXYxAB",
+      "author_name": "Katarzyna Bronowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne miejsce,  pyszne jedzonko. Bardzo miła obsługa przez Panią Nikolę🙂 Gorąco polecam ❤️…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xadlptdGZTMlYzYjJ4RWRubG9RbGxVYnpsek5GRRAB",
+      "author_name": "Magda Magda",
+      "author_reviews_count": 14,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wspaniale miejsce pyszne jedzonko. Czarny makaron rewelacja a pani Nikola przemiła i pomocna 🙂…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SNE0wUlNZbGRMTVZaUFdqWTFTbW95VDBveVEwRRAB",
+      "author_name": "Alinka Zhy",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Byłam z mężem po raz pierwszy. Byli bardzo zadowoleni. Jedzenie jest bardzo pyszne, obsługa szybka, atmosfera miła. Na pewno odwiedzimy tę restaurację jeszcze.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kWmJIUjBSVnBWZFU4eGNUaDNVMHRJTTI0MFFuYxAB",
+      "author_name": "Kamil Wojciechowski",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo pyszne jedzenie . Duże porcje . Bardzo miła uśmiechnięta obsługa . Obsługiwała nas bardzo Mila pani Nikola .",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Gc1dHSlVlREJKVW04NFpITjRSa0UzZFhNNWVsRRAB",
+      "author_name": "Dzmitry Sytsevich",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przyjemne miejsce na Starym Rynku. Bardzo miła obsługa, zwłaszcza Nadzeja, która była bardzo uważna i pełna szacunku.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5aFVXbFRZalUzY2xabWFERXhVazh4ZUc5bmRsRRAB",
+      "author_name": "ed williams",
+      "author_reviews_count": 9,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Mój syn i ja jedliśmy tu dwa wieczory z rzędu. Jedzenie było niesamowite i każdy znalazł coś dla siebie.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWWVVNDNaM1F6YUVGV05FTmFhVFpGUzE4dFoyYxAB",
+      "author_name": "Marcin Jesionkowski",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam bardzo Panią kelnerkę Wiki s",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5ZlRrRllaM1ZpYmpsSGNEZ3dRbUZvVW1GVGFrRRAB",
+      "author_name": "Hania Saw",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko, obsluga mega super pani Wiki najlepsza💕…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOcVdGaE9NMnBpTlZabWEyZHVNbko2ZDNkb1dFRRAB",
+      "author_name": "Julian Czepiec",
+      "author_reviews_count": 41,
+      "author_photos_count": 83,
+      "rating": 5,
+      "text": "Jedziecie bardzo dobre, porcje dość duże. Żurku było trochę mało ale też nie był bardzo drogi.\nCeny takie jak wszędzie na rynku. Ogólnie polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocmJFcFVlbXBKWmtNd2NXcFpOVE5sU2pnM1VWRRAB",
+      "author_name": "Martyna Pertek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzonko i super obsługa (Nadzeya). Polecam!!!✨😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjMk5VVmlaV2hOVG1Oa1NsWTJZMlZMVmxsUVJtYxAB",
+      "author_name": "Veronika Tsurenko",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miłe wrażenia z wizyty! Szczególne podziękowania dla kelnerki Nadzeyi — niezwykle uważnej, życzliwej i profesjonalnej. Widać jej szczere podejście do gości.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcU5FMWFTa3RtYTFGQllVZ3pZamxJVUhaQlRFRRAB",
+      "author_name": "best player best player",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzeżda",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psTlIxQkxaalZwV2s1blVIUTFXR05sZFZONldFRRAB",
+      "author_name": "norbi kopy",
+      "author_reviews_count": 175,
+      "author_photos_count": 230,
+      "rating": 2,
+      "text": "Schabowy nigdy nie leżał w Wielkopolsce chyba ze w jakieś chłodni. Nie polecam chyba ze że ziemniaki i kapusta bo były pyszne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSMVVsZFJZbTg1YW1OaVVrSXpOMU5oU1dsdlFWRRAB",
+      "author_name": "Agnieszka Bojanowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo Polecam Przepyszne Jedzenie\nPrzeurocza Pani Celinka😍Dziękuje bardzo za obsługę i doradztwo..…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NemQwaGhiVWw0V0VGNWFETlVVWEJpWTNaNE9WRRAB",
+      "author_name": "Dorota Duhr",
+      "author_reviews_count": 9,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Świetne miejsce 💪🏻 Pani Celina zapewniła serwis na najlepszym poziomie, doradziła smaczne jedzenie i świetne drinki 🍹…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KQlFtZHlNelpHU0RoVmNDMW1aWFJtVDBoa1UxRRAB",
+      "author_name": "Bartosz Chudziak",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Celina sztos!\nJedzenie też spoko",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KWFpuQnJVRkozUVhWeFlYZEZaRmhHVFdwaFQzYxAB",
+      "author_name": "Marcin Matusiak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byliśmy w weekend majowkowy i spacerując po Starym Rynku natknęliśmy się na tą restaurację -spotkaliśmy się tam ze wspaniałym jedzeniem,miła atmosfera i oczywiscie cudowną obsługą-ukłony dla WIKI S😉😗☺️Polecay z czystym sercem.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGYVJqQTVSVnBHTlhOeVQxUnhOM2xSVGxFNVZHYxAB",
+      "author_name": "Agatt K",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Pizza straszna twarda ,nie zjadliwa..\nRosół mało przyprawiony..\nToaleta damska była straszna , śmierdziało nie przyjemnie było..",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMFRWTkNlRFpvYWpaVE1FazRVbXQzZGtJd1NsRRAB",
+      "author_name": "Luljan Baski",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Sasha zrobił dobrą robotę , jeśli jesteś na keto albo low carb świetnie Ci doradzi i sam z Siebie wymieni produkty na inne w twoim daniu którym wybierzesz aby nie wybiło Cię z Ketozy 😎…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKdGRGTXhXVlo2TmxCZlRHdFlhM1pIU0ZaTk9HYxAB",
+      "author_name": "сергей белый",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżdo, jesteś wspaniała",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210SUxWbDNWR2hPWVZwU1JXVmtWVmhGWWw5dlRYYxAB",
+      "author_name": "P N",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Zamówione placki ziemniaczane z gulaszem myśliwskim,  same placki były ok natomiast gulasz w którym była sama kiełbasa śladowe ilości boczku i jeden kawałek mięsa nijak ma sie do gulasz myśliwskiego. Pozdrawiam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxRk4zaGliRFJwVVRCZmFrUmFWRWx1VUdsNlgxRRAB",
+      "author_name": "Kateryna Turkova",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCT1ZGRm1lalZmU0VJM1YwSnBRVWxFWmxRNWJHYxAB",
+      "author_name": "C J",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miłe miejsce i przemiła kelnerka Nikola!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGUVJEazBjVGxqVFhJNFpXeG5ObTlQYlhrMVkzYxAB",
+      "author_name": "J.N.P",
+      "author_reviews_count": 87,
+      "author_photos_count": 116,
+      "rating": 5,
+      "text": "Gorąco polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GTmQxVkdibmd3UTE5TlprVnJSSE5PZGpOZk0yYxAB",
+      "author_name": "Anna S",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjemNrRklRMTlXTmxJNWR6UjBlRmh5TkdsR1pWRRAB",
+      "author_name": "Nikodem Kowalski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Śmieszna 67 kelnerka Nadzieja. Bardzo pozytywna miła obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kc1UxaFNRV2xSZVZKSWJIUk1kMW8yVFZKbVZuYxAB",
+      "author_name": "Agnieszka Dyksińska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzeya to przesympatyczna kelnerka. Porcje, które otrzymałyśmy były ogromne. Polecamy, wspaniałe miejsce na spędzenie wieczoru",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sQllWVmpaV000YWtKU1QxZ3lOalJyYlRobldVRRAB",
+      "author_name": "Hanna Henzler",
+      "author_reviews_count": 22,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cudownie spędziliśmy tu wieczór - Olgo, jesteś najlepsza!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201dGVUVTJaMVJoV0ZKeU5WaHNha1J5TVV0c2FuYxAB",
+      "author_name": "Katarzyna S.",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniała obsluga, przyjazna atmosfera, bardzo sie dziwiłam gdy do stolika kelnerka, Pani Nadzeya, przyniosła mi niepodzianke w postaci sernika, na moje osiemnaste urodziny.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkaU9IQXpiVXAxU3psTGFWaHhlRzVQUm5VM2RWRRAB",
+      "author_name": "Елена",
+      "author_reviews_count": 50,
+      "author_photos_count": 36,
+      "rating": 4,
+      "text": "Świetne miejsce! Jedzenie jest bardzo smaczne, porcje duże, ceny adekwatne do jakości. Na zamówienie nie trzeba długo czekać — wszystko przygotowywane jest naprawdę szybko. Obsługa jest miła i na dobrym poziomie.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aWFRYZFJaamxpZUdKVWJrWTVORUZTU1hseGEzYxAB",
+      "author_name": "Klaudia Suckrau",
+      "author_reviews_count": 17,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Zamówiliśmy 3 dania i wszystkie były genialne. Naprawdę nie można się do niczego przyczepić. Kelnerki uśmiechnięte i życzliwe. Jeszcze wpadniemy",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCbVUxaHFSM05RZWxodlEwaDBTR0ZQVTFKWGJGRRAB",
+      "author_name": "Agnieszka Osinska",
+      "author_reviews_count": 5,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Diana  najbardziej pogodna kelnerka przemiła uśmiechnięta profesjonalna",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SeVExaGxPRTV2YldwbmJVazRTRFZNV1hNMFVWRRAB",
+      "author_name": "Krzysztof Dernoga",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenia bardzo pyszne wszystko podane estetycznie i duże porcje klimat i obsługa(obsługiwała nas przemiła  Pani Nadzieja) super !!!Polecam!!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wRGVYUm9NRGhWWkd3M1RHUm5NeTFrY3pWa05sRRAB",
+      "author_name": "Wiktoria Kedzierska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za obsługę i jedzenie. Byliśmy obsługiwani przez Wiki. Polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GSlZEVkljbVpyWWpWa1ZEQlRlV1JDTUVwMGJWRRAB",
+      "author_name": "Aleksandra",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie dobre, ale obsługa jeszcze lepsza Pani Nikola Skradła nasze serce. ♥️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWVNWOWxTM0YyUTE5R1ltazVOV3hXY1dGTVkyYxAB",
+      "author_name": "Adrian Narbuntowicz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byłem w restauracji już kolejny raz i za każdym razem wszystko na plus. Obsługa kelnerska Pani Nikoli zadbała o wszystko. Lokal jest bardzo przyjazny nie ma ścisku można swobodnie porozmawiać. Dania bardzo smaczne, idealnie doprawione, ładnie podane, aromatyczne, czuć starania kucharza. Na pewno wrócimy nie raz 🙂…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OTWVrOUVNSGRIVVVoa2FqbElaR000VmpkeGVVRRAB",
+      "author_name": "Julia Z",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie przepyszne. Miła i profesjonalna obsługa😊 pani Nikola poleciła dania i wszystko było pięknie zadbane. Napewno wrócimy z powrotem.🥰🥰🥰…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OMGRHTTFTV1pmYW5GeVNpMUVjMWhwUVV0cWJXYxAB",
+      "author_name": "Karolina Bąk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Niestety ta restauracja jest tylko dla turystów i tylko do wejścia na jeden raz.  Zachęcona dobrymi opiniami jestem bardzo rozczarowana. Pomimo, że obsługa bardzo miła Jedzenie nijakie przegotowane i bez smaku. Pizza niejadalna.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SWE0yaFpYMU5HTFdNMWFVOVFWa0puYUZkcVIxRRAB",
+      "author_name": "NATALIA FRELIK",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Świetne jedzenie ale najlepsza to obsługa Pana Sashy. Od początku miły i zabawny. Spowodował że na pewno wrócimy do tego miejsca jak tylko będziemy w Poznaniu! Dziękujemy :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsVlZrRXdkM2N0YURkSlZHUkliWEpUWmtVNFNuYxAB",
+      "author_name": "Miłosz",
+      "author_reviews_count": 26,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Pyszne jedzenie oraz lemoniady, pani kelnerka Nikola bardzo sympatyczna i pomocna, pomogła w doborze dań. Na pewno wrócę!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjMVlVNVNUWFV4WWt0NFYybDBaV0ZFVm1Gb2VXYxAB",
+      "author_name": "Kuba Ku",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecamy w 100%. Miła obsługa w szczególności Pani Nadzeya 😉…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SMVRqUkZPWEJQTWxGcVdXdGxPVmx3VEU5cVJIYxAB",
+      "author_name": "Aleksandra Sapuła",
+      "author_reviews_count": 14,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Najlepsza pizza jaką jadłem w Poznaniu a nawet w Polsce polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMlJubHJUMHRNYVZGMk1rMU5Ta0UzZVZabWNsRRAB",
+      "author_name": "Arda ERTUGRUL",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie było świetne. Obsługa również była świetna, dzięki Nadzeya.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sUmF6RkdTVzVxTW10ZlFqQklWVWhJV1dadGNrRRAB",
+      "author_name": "Maria Ziemba",
+      "author_reviews_count": 20,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Nadzieja była naprawdę świetną kelnerką! Jedzenie też było niesamowite",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT213eU5IbGlNbEppVERoQ1RWWXlPRTVUYUhwTVVVRRAB",
+      "author_name": "Aleksandra Szymańska",
+      "author_reviews_count": 80,
+      "author_photos_count": 79,
+      "rating": 5,
+      "text": "Pyszne jedzenie, przemiła obsługa. Warto!!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSVFNHeFljMmxrU25CdFNHSk9lVlpYYkhsV1lWRRAB",
+      "author_name": "Gabriela Świerczewska",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne jedzenie, bardzo miła i profesjonalna obsługa w wykonaniu kelnerki Nikoli, ładny wystrój, szybko podane!! Polecam!🫶🏻…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVdGJtZHNNbk5vYzJwUGFta3pMWEJSV0hCYVZtYxAB",
+      "author_name": "Wiktoria Jackiewicz",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fantastyczna restauracja, wspaniałe jedzenie. Oraz obsługa na najwyższym poziomie . Wspaniała  Pani Nikola. Serdecznie polecam!😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSFpVRkhkVVZ3UmpCdE5YZHBMWGcwT0RKdFlXYxAB",
+      "author_name": "He Ha",
+      "author_reviews_count": 242,
+      "author_photos_count": 468,
+      "rating": 4,
+      "text": "Usiedliśmy na zewnątrz w piękny poniedziałkowy wieczór i od razu mieliśmy w rękach menu (po polsku i angielsku) 🤓 Wybraliśmy 250-gramowy stek z wołowiny Angus i żeberka – oba bardzo smaczne, ale bardzo wątpimy, żeby stek ważył 250 g na surowo! Koktajle 🍹 i piwo 🍺 były dobre. Obsługa była uważna i przyjazna. Chętnie wrócimy 👍🏻…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWMFJsTkpVVEZ0Ympoek9GaFhVR2h4Wkd0b2FIYxAB",
+      "author_name": "anainesdpp",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wiki S była bardzo miła i pomocna.\nKochamy wszystkich.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ST1pubzVTVEp5TnpaSVpHaDBiMnRtYjBWQ2FXYxAB",
+      "author_name": "Arek Talarek",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Miło spędziliśmy czas w rodzinnym gronie. Dziękujemy pani Nikoli za sympatyczną i profesjonalną obsugę. Z przyjemnością wrócimy!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkRFFXaEpVa1ZaY1ZKc1NYbDZlbmhtVkZkdGFWRRAB",
+      "author_name": "Honorata Siry Jabłońska",
+      "author_reviews_count": 83,
+      "author_photos_count": 51,
+      "rating": 5,
+      "text": "Pyszne jedzenie a w karcie wiele dań innych niż wszędzie dookoła. Szczególnie polecamy mini kartę ze szparagami. Wszystko smakowite i w dobrych cenach. Obsługa bardzo miła.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WcFFtTTBPRlZaYkRsMVZuQkNabmRKVG1GQk1sRRAB",
+      "author_name": "Roman Fornalczyk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Olga wspaniała dziękujemy za doswiadczenie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaVU9WbGZabUo0VjJoWVprZExNMmhyTFRGNVRGRRAB",
+      "author_name": "Michał Kolęda",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy kelnerce Oldze za wspaniałą obsługę, jedzenie też przepyszne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oNGRuQTJiSFJMVW0xdVkxQm9kMlZOU0hsNVpHYxAB",
+      "author_name": "Jarek Wągiel",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Super jedzenie obsługa Olga petarda",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUFpFdG5WbUZpY3poUVkyUm5VVEJwVHpoNU1IYxAB",
+      "author_name": "Sylwester Weber",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Olga kelnerka świetna, dziękujemy za wspaniałą obsługę!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkd1ZteGlTbHBJTkVKdVR6QTVSSFJoWWpSUk9HYxAB",
+      "author_name": "Katarzyna Ćwirko",
+      "author_reviews_count": 120,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Nasza opinia od 15 osób wszystko na 6+ , sezonowe potrawy odlot ..... Dziękujemy i wpadniemy następnym razem go będziemy w Poznaniu",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSVRXeFVjREJ1VlVsUVlqQmhNMDl0T0dKQmVYYxAB",
+      "author_name": "Patrycja Bednarek",
+      "author_reviews_count": 3,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzoo polecam restauracje! Super miła obsługa<3 Drinki pyszne, bardzo szybko dostałyśmy mimo oblężenia😊 Jeden mały minusik za kurczaki w burgerze, mogłyby być troszkę miększe i jeden większy kawałek kurczaka a nie kilka mniejszych, myślę…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFelNUQnlOazgyTFVoWUxYSjBWMHBZZDIxRWJIYxAB",
+      "author_name": "Ewelina Orwat",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo smaczne,porcje duże idzie się najeść,polecam ♥️",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMFdEbEpYemhwUTIxR1RHZHRSRTAzYzJSU1pYYxAB",
+      "author_name": "Wrocław Osteopatia",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Chciałabym bardzo pochwalić kelnerkę Nadzieję. Obsługa była na najwyższym poziomie – uśmiechnięta, uprzejma i bardzo zaangażowana. Czułam się naprawdę zaopiekowana jako gość. Nadzieja świetnie doradzała i zadbała o każdy szczegół. Zdecydowanie osoba, która robi ogromną różnicę w odbiorze całego miejsca. Dziękuję!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSTU9USnVUa0UwTUc1RVgybzVYMlV5ZUdoNVIxRRAB",
+      "author_name": "Mateusz Pełtak",
+      "author_reviews_count": 4,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Pani Olga jest na tyle sympatyczna, że nie chce się opuszczać lokalu. Polecam wszystkim odwiedzającym Poznań :-)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swNU1IbzVSMFUzYVRKdVdXcFNaRkUyY0V3MGNsRRAB",
+      "author_name": "azawadzki100",
+      "author_reviews_count": 15,
+      "author_photos_count": 56,
+      "rating": 5,
+      "text": "Pyszne jedzenie i krótki czas oczekiwania.\nBardzo miła obsługa, polecam.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vNWVGcDJORGgzVlZSNVYzZHNUWGRXYUVWVExVRRAB",
+      "author_name": "Go4FitMorocco Tomasz Szala",
+      "author_reviews_count": 3,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Jedzenie dobre lecz bardzo długi czas oczekiwania bez wczesniejszej informacji. Obsługa mila do momentu aż zwróci się na coś uwagę. Trochę mało profesjonalne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCT2RFMVZaRmt4TW5WVlZ6RTROMEZHVUVaV04wRRAB",
+      "author_name": "Zosia Szatkowska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i dobra atmosfera. Dziękujemy za przemiłą obsługę Pani Nikoli. Napewno wrócimy😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21selZXTlRUblZLU0ZCUWJHdFpOblZtZVZKMVJHYxAB",
+      "author_name": "Dominika Berent",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Niesamowicie smaczne jedzenie i genialny klimat. Pani Nikola swoim uśmiechem i profesjonalnym podejściem już od wejścia osłodziła nam dzień! Polecamy!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKUFNYcDJlalJSTFdGMWFsUnpiVFl0TTFOVVltYxAB",
+      "author_name": "Emily Notrica",
+      "author_reviews_count": 14,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Świetne jedzenie! Zamówiłem kaczkę. Żeberka wyglądały świetnie i pewnie zamówię je następnym razem. Na deser miałem tiramisu. Nadzeya była niesamowita w obsłudze i trosce o klienta. Restauracja bardzo przyjazna psom. Świetne miejsce!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxa01IQjFValZuVEZwUWRURjNaSEJHUVV0eFNuYxAB",
+      "author_name": "Tomasz Zajac",
+      "author_reviews_count": 44,
+      "author_photos_count": 163,
+      "rating": 3,
+      "text": "Z przykrością muszę to napisc. Dzisiejszy wieczór chciałem spędzić miło czas z znajoma i udaliśmy się do wyżej wymienionego lokalu. Koleżanka która na codzień mieszka w Poznaniu sama zaproponowała lokal. Zgodziłem się.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSWFHVkhkakJtWTFWRUxWQlBaMlJFUlVwSE5HYxAB",
+      "author_name": "Tobiaszek Konieczny",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nadzieya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4VVFuRkpNR1Z5YVdKQ2RYSTVPRmMyZDFOdmFuYxAB",
+      "author_name": "Kacper Cukrowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scWJVZGZSRVE1UVdOdVVVMU5VaTFqYjJSTVNVRRAB",
+      "author_name": "Natalia Rogowicz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oalYzZENjbnBZTjJoVWRVdGpZbk5oZWtKWlZHYxAB",
+      "author_name": "Jakub Kmieciak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzieya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1MGMyeHZjRWRzVVRjMlRWWm9aMlo2ZW5sd1QxRRAB",
+      "author_name": "Milena Tolka",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsluga, najlepsza pani Nadzeya",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1bWFpMHdUMVE0VEcxNGNrWTVjRVYxV0hGRFlrRRAB",
+      "author_name": "Urszula Lenard",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne tradycje jedziecie, znakomita obsługa przez Panią Nadzieję. Polecamy 🌸🌸🌸🌸…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SaU1sQlhWVkYwT0ZSVVdYWm1iRlo2VEdoMmNFRRAB",
+      "author_name": "Aleksandra J",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre w przystępnej cenie a porcje w sam raz!! zamówienie szybko zostało nam podane, lokal w środku ma piękny wystrój. Obsługiwała nas pani Nikola więc dziękujemy za miłą obsługę <3",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wcFZreDRjbFp0VUVvNE1GaFhhall6ZW5scllXYxAB",
+      "author_name": "Mariusz Kędzierski",
+      "author_reviews_count": 8,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pani Nadzieya sprawiła, że dzisiejszy obiad był naprawdę wyjątkowy. Jestem tu nie pierwszy raz, ale zdecydowanie wrócę!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xjd09XRlZWRE4xYVRsRlFpMUdTVmxJUWxkMU9GRRAB",
+      "author_name": "Martyna Sz",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Rewelacyjny klimat, obsługa, jedzenie i drinki!\nWśród tylu restauracji, wybraliśmy kilka razy Rynek 95, właśnie ze względu na super energię.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poM2VIbERlVFpvVkRoNldFNTNRVXBVVGw5RVRtYxAB",
+      "author_name": "Anna Marczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Nadieżda",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twbVgwZEpRMmd3TFRCVVNqQXRaR1p2UVc5SUxWRRAB",
+      "author_name": "Mat ias",
+      "author_reviews_count": 93,
+      "author_photos_count": 1763,
+      "rating": 5,
+      "text": "Pyszny Żurek w chlebie 👌Szparagi też 👌…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMlVIQnBMVE4yYmtKRVdUUlhXRGw2UmxOMFJsRRAB",
+      "author_name": "Becks Louise",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetnie się tu bawiliśmy, dokładnie to, czego oczekujesz od miejsca, w którym można napić się kilku piw. Atmosfera była swobodna, ale jednocześnie pełna życia, dzięki czemu łatwo było się zadomowić i zostać dłużej niż planowano. Był tam…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkaFRGUTFaRFZKYnpsU1VHTkpkbkk1U0RZd1QyYxAB",
+      "author_name": "Наталія Паращук",
+      "author_reviews_count": 2,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo ładna atmosfera i obsługa. I bardzo mi spodobała się herbata owocowa",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkR2NUUkNSRVZOWVY5RVYxbFlSa1V6VDJWQk1XYxAB",
+      "author_name": "Antonina Jagiełka",
+      "author_reviews_count": 7,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "zawsze chetnie tutaj wracam! jedzenie jest naprawde pyszne, wszystko swieze i dobrze doprawione, a porcje sa satysfakcjonujace. obsluga zasluguje na szczegolne wyroznienie-zawsze mila, usmiechnieta i pomocna (pozdrowienia dla Pani…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxTlJFMTJSR2cwZFVGNE1VOVFOako1VDBsRkxWRRAB",
+      "author_name": "Alvaro Murawski",
+      "author_reviews_count": 137,
+      "author_photos_count": 220,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, a obsługa bardzo miła. Lokal ma idealny klimat na wyjście ze znajomymi lub rodziną, zjedzenie dobrego burgera i wypicie piwa 😁…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1YWNFcEVTRlJtUmxKSGIxbGxkbUZhVTNaV1RYYxAB",
+      "author_name": "Zuzia Ruszkowska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie dobre, bardzo miła obsługa, Nikola bardzo pomocna i profesjonalna.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poRk5HczNVVmhtVkRCM1VFd3dPRTFzTVZCWVMzYxAB",
+      "author_name": "skunicka",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 4,
+      "text": "Fajne miejsce, bardzo mila obsluga szczegolnie Nikola bardzo mila i pomocna:) Jedzenie bylo w porzadku",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGMVdtZFdZalJwUWs1V1YweERTMWxSUmtJNFMxRRAB",
+      "author_name": "Roksana Roksana",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fajne klimatyczne miejsce. Pyszne jedzenie. Porcja spora. Drink pięknie podany i smaczny. Nigdy nie widziałam tak ogarniętej uśmiechniętej obsługi, ci ludzie robią ten klimat.  Brak frytek w karcie na co  Pan kelner odpowiedział zrobimy.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGMU5YUktUMHBCT0c1WFFtbFpibEpyTW5reGEyYxAB",
+      "author_name": "Dominika Suchodolska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko smaczne, mimo soboty wieczorem bardzo sprawnie realizowane zamówienia. Szczególne wyróżnienie dla Pani Kelnerki Kariny, bardzo miła i pozytywna osoba która dbała żebyśmy spędzili miły wieczór 😌…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xad1MwMUlWWFIwZEVkb2VXVXdiSFpQVVdjMmMyYxAB",
+      "author_name": "Klaudia Pawlikowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajne miejsce. Super jedzonko - stek z karkówki przepyszny 😊Napewno wrócimy tutaj nie jeden raz. Obsługa top! Pani Nikola, przemiła i widać, że zależy jej aby każda osoba była odpowiednio obsłużona.\nPolecam!…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCVWJHUnZUWFl3TTJFeFRWSjJSekZRUm1FMGEwRRAB",
+      "author_name": "Kacper Mucha",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzieja jest the best!\nMam NADZIEJĘ, że wygra konkurs na najlepszego kelnera !",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFNVYzVXdVWEoxWDBsTlUzZGlXbXhVV1VKVE4zYxAB",
+      "author_name": "Łukasz Wojtaś",
+      "author_reviews_count": 7,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pani Nadzieja jest bardzo miła i uprzejma. Super osoba.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURnMGNDQmtRRRAB",
+      "author_name": "Kacper Kacper",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła atmosfera, świetne jedzenie, obsługa profesjonalna (PS. Pani Nadzeya bardzo miła i świetna w obsłudze)",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wM1RHdHRaelpsV1VkWVUyZFpYMVJIVmtsdVVWRRAB",
+      "author_name": "Joachim Jurek",
+      "author_reviews_count": 19,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Obsługiwała nas Pani Nadzieja. Fachowa obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5bFVrVmtaM1ZwTUcwNFgyaDBlRWgwV0cxTFpsRRAB",
+      "author_name": "Ewa Frąckowiak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Nie ma \"fizycznej\" możliwości kupna napojów bez lodu (wystarczyło nie wsypać no ale nie ma fizycznej możliwości, w efekcie litrowa lemoniada rozlana na 4 szklanki miała maks 100 ml na szklankę i była bardzo zimna, tak akurat dla dzieci na…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FMk5VbzBMWFJGTVZOVU1VSkNUM0JUYjNKZlJHYxAB",
+      "author_name": "Michał Klawiter",
+      "author_reviews_count": 40,
+      "author_photos_count": 5,
+      "rating": 3,
+      "text": "Miejsce z super klimatem, niegdyś bardzo równe jeśli chodzi o poziom. Obsługa przemiła, sprawna i profesjonalna. Jedzenie natomiast bardzo przeciętne. Karkówka w połowie surowa, kurczak nie smakował jak kurczak, sos chyba z paczki albo…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GTlgxQlNiVUpXY1ZGSVRXNVRibXB6U0dsSlJYYxAB",
+      "author_name": "Waldemar Grabowski",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie! Pani Nadzeya gwaranatuje obsługę z uśmiechem. Polecam :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsbE9FbGZUVzF2YmxaSWNVUXlhek42WTA1blVGRRAB",
+      "author_name": "Iwona Trz",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam super klimat  i jedzenie .Obsługa również na wysokim poziomie szczególnie Pani Nikola która nas obsługiwała .Będziemy polecać  w 100%",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tabVowWlBTMDFHYVd0elJsTkhkSFkwVUZOSFZHYxAB",
+      "author_name": "Rafał Zubczyński",
+      "author_reviews_count": 21,
+      "author_photos_count": 4,
+      "rating": 2,
+      "text": "Knajpa gdyby nie lokalizacja na starym mieście to nie miałaby żadnego klimatu, jedzenie mierne, problem z rozbicie rachunku i fakturą.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poeU1HSkZXRUpOVmxReldXWkVZbWxPVTJJeVZYYxAB",
+      "author_name": "Libor Fair",
+      "author_reviews_count": 73,
+      "author_photos_count": 69,
+      "rating": 5,
+      "text": "Osobiście uważam, że Celina jest najlepsza! Spełnia każde życzenie z uśmiechem. Gdybym mogła, dałabym za obsługę więcej niż 5 gwiazdek.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OaFRqRmxabXBLTkZZeFVXVlVjM0ZGVDFKRmRXYxAB",
+      "author_name": "Vod Malesice",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Celina to najlepsza kelnerka, jaką można spotkać w restauracji! Jest tak miła i sympatyczna, że ​​reaguje na każdą prośbę. Uśmiecha się i obsługuje wszystko z klasą. Jej obsługa zasługuje na więcej niż 5 gwiazdek!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkc1FYaFpTekpPUm1wbFMwdDNhRlY0WVRadFNIYxAB",
+      "author_name": "Wiktoria Przymusinska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzienie nie dość że przepyszne to ogromne porcje obsługa strasznie miła i pomocna szczególnie pani nikola",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ONWNUZEVRbGR5UWtWa1ZWbG9hbEpsYmxNNFdFRRAB",
+      "author_name": "Zuzia Adamek",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pozdrawiam panią Nikole super obsługa:)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201UFl5MWpNM2RVTUdGVWMxbEVSMGRVYW00dFJtYxAB",
+      "author_name": "Lena Jarocka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super restauracja pozdrawiamy panią Nikole super obsługa:)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5eFMyWlpaMGcxY1Vwb2EwczVNWEJOTlhsUldFRRAB",
+      "author_name": "Sandra S",
+      "author_reviews_count": 74,
+      "author_photos_count": 206,
+      "rating": 5,
+      "text": "Cicha restauracja z nastrojową muzyką. Smakował mi bardzo dobry żurek, idealny na przeziębienie.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsUlkzSkNaMlYyZEU1blQzZzVTRmd0VmtGSVpHYxAB",
+      "author_name": "Karolina Kozłowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Razem z mężem zorganizowaliśmy w restauracji obiad weselny i z całego serca możemy polecić. Po pierwsze bardzo dobry kontakt z Panem Kamilem, indywidualne podejście do klienta, nie było problemu z przygotowaniem skróconej karty alkoholi czy…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pNeVQzazBVMWw0TW1KcE16SjJUMUEwY1ZndFRWRRAB",
+      "author_name": "Dariusz Sobkowicz",
+      "author_reviews_count": 22,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Super miejsce. Bardzo miła obsługa.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Kc1dqQmpRV2wzU25KeWFsbzRjWGN5ZG5BNGJGRRAB",
+      "author_name": "Sigrid M Dahl Krokmoen",
+      "author_reviews_count": 1,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo miłe miejsce i miła atmosfera. Pyszne jedzenie i miła obsługa kelnerki Nadzei.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdU1rVkhUVVF6WVZwZk5uVkVTM2ROTmxGTE4xRRAB",
+      "author_name": "Ewa Kodłubajska",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Kelnerka Nikola najlepsza, wspaniała obsługa 💕 pyszne jedzenie, duże porcje w naprawdę dobrych cenach jak na rynek 😁Na pewno wrócimy!…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4U1EyWnJVM05tYjJSbFdXNXJVRkJ5YVRSaVRWRRAB",
+      "author_name": "Leszek Stanulewicz",
+      "author_reviews_count": 18,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Genialna obsługa Pani Nikoli!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKRWFteHBZM2h5ZUZrM2FVNUtRbGRIYW5aRWVGRRAB",
+      "author_name": "bayanista 5",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecamy restauracje, przemiła obsługa ze strony Pani Nikoli",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GWGVEaFBlRmRsZG5aV1RscGxiV1ZWWW5BME9VRRAB",
+      "author_name": "Michael Mcwhir",
+      "author_reviews_count": 21,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Gorąco polecam tę restaurację, naprawdę ładne wnętrze, bardzo dobra obsługa i autentyczne menu z polskim jedzeniem, zamówiłem sznycla, który był ogromny, ale bardzo smaczny z ziemniakami i kapustą z boczkiem",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxNk5sWmpabTkzY2pBMmRYbGFXRUZLZURjdFNVRRAB",
+      "author_name": "EM",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Nie polecam schabowego w żadnej postaci\nKapusta z boczkiem była ok, zbyt dużo pytań od obslugi",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vd1ZHVlRZbXQ0V0dSNFJsTmZSamxyU3pCdU9VRRAB",
+      "author_name": "Дмитро Гончар",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pyszne jedzenie, miła atmosfera, troskliwa i miła kelnerka Nadzeya",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RMlRWcExUV3RKWlZGRFVuZEJWVjl4U2xKT2IyYxAB",
+      "author_name": "Юлия Окусок",
+      "author_reviews_count": 15,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Dziękujemy kelnerowi za świetną obsługę – wszystko było na najwyższym poziomie! 😊 Kelnerka Nadzeya…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tJNFRFNUJXa2haV2t0UE5IUXRPRUp2WTFWVVJVRRAB",
+      "author_name": "Ryszard Andrzejewski",
+      "author_reviews_count": 10,
+      "author_photos_count": 18,
+      "rating": 4,
+      "text": "Takie normalne miejsce żeby smacznie zjeść, trzeba tylko pamiętać że przy większej grupie nie podzielić rachunku",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0UlRYRjBVa3BRU21Sa2VYUndabnBTVkVSRVMwRRAB",
+      "author_name": "Karlos Lukas",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo pyszne jedzenie wspaniala pani kelner usmiechnieta pomocna bardzo polecam to miejsce",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGRFIxWXhjMGQ1TUdob1prVTJibWhzVUVKUk1FRRAB",
+      "author_name": "Edyta Lange",
+      "author_reviews_count": 13,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Fajne miejsce.\nMile, klimatyczne. Jedzenie ok, obsługa super.\nPozdrawiam Panią Nadzieję 😁…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psWFJGcEVXVGxLVlc1cmFrcENNbmR5ZEZjdFZrRRAB",
+      "author_name": "Justin-adam valentino Nowacka",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce, a zwłaszcza jedzenie, były świetne. Kelnerka, w tym przypadku Nadzeya, była bardzo uprzejma, sympatyczna i pomocna.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aNk5FcHJlRzEzUTJkb1VVSjVaRmcxV214UGRIYxAB",
+      "author_name": "Akhil Anand",
+      "author_reviews_count": 2,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Świetne miejsce na posiłek w centrum miasta. Chętnie odwiedzę je ponownie.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KWWNGVlJaalppUVZvMlFUTTRUREUxZWxFd2JYYxAB",
+      "author_name": "Ana Cortes",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KMWJWRnphbUpGTmxGblh6SlBOWGxrVG14V2FIYxAB",
+      "author_name": "Citizen Loder",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Nieelastyczni. Specjalne prośby są ignorowane. Personel słabo mówi po angielsku.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0RU0ybFJlRzFWWlRSRWVVdGtlVlJwU0RWQ1ZsRRAB",
+      "author_name": "Clara Panciera",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przyjazny personel\nDobre i obfite jedzenie\nPolecane",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKcFRGaHdabDh5TW1SS2NtOVpZMnBFVDNoeVkyYxAB",
+      "author_name": "ΕΛ ΣΤ",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękuję Nadzeko za Twoją służbę 👌👌👌…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sMFZDMUVhRWg2Ym5kQ1YydFZWekpZVTA5dVoyYxAB",
+      "author_name": "Despina",
+      "author_reviews_count": 16,
+      "author_photos_count": 14,
+      "rating": 4,
+      "text": "Miłe miejsce i Nadzeka była bardzo pomocna we wszystkim",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVd1NIWlpPRlJQWDFkMVUzcHJTRUpUTFRGaVZHYxAB",
+      "author_name": "Adrian Drwal",
+      "author_reviews_count": 13,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Pierwsza restauracja do której zawitaliśmy na Starym Mieście i to był od razu strzał w 10. Intuicja mnie nie zawiodła. Duże porcje, jedzenie smacznie przygotowane, zamówiłem jak to w niedziele schabowego z pyrkami i kapustą z boczkiem oraz…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOeVRsUjFUblZaYjAxbFFtdHFlSE5ZYVdaSmJXYxAB",
+      "author_name": "Aleksandra Jankowska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Klimatyczne miejsce z dobrą kuchnią oraz wspaniałą obsługą Pani o pięknym imieniu Nadzeya. Polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsRVNHOVNOMEk0YW5oclJsODVjbkkzTUVONGFGRRAB",
+      "author_name": "M Z",
+      "author_reviews_count": 21,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Super jedzenie i  obsługa. Podziękowania dla kelnerki Nadzeya",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1T1JteHBhalZEY0VjeE5qTjZObGRrWkdWVGRXYxAB",
+      "author_name": "Galaxy",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mieliśmy dobry wieczór, a kelner Nadzeya był dla nas bardzo uprzejmy",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pObk1YZG5NMFozUVdaVE5VaFRlVmR3ZG5oTGRsRRAB",
+      "author_name": "Mariam Jabanishvili",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Atmosfera była bardzo dobra. Jedzenie i koktajle były również fantastyczne. Dziękuję bardzo 🤍🤍🤍🤍 Kelnerzy byli bardzo uprzejmi i mili. Jeszcze raz dziękuję 🤍🤍…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMGNHVlROa041V0dwT05tNUxNblZCTjBOblZWRRAB",
+      "author_name": "Saba Grigalashvili",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "NADZEYA , wszystko było idealnie , polecam 🫶🏾…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFMFIwdGpZekZOYlVkTVpuazBjRVo1VnpCd1NGRRAB",
+      "author_name": "Felix Müller",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "To było naprawdę wspaniałe doświadczenie. Mogę z czystym sumieniem polecić tę restaurację. Nadzeya wykonała świetną robotę.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kYVZIVkxRMEk1UmtFeFkzQk9lblZwWjBWc2JFRRAB",
+      "author_name": "Sebastian Lissek",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xseFVrTmhPWGRqV1ZoRFZEazJjMmQ1VVZWVWNWRRAB",
+      "author_name": "Ania",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Udko z kaczki TOP! Pani Nadzeya sprawiła, że czas spędzony w restauracji minął w przyjemnej atmosferze! Polecam serdecznie",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pacmFsbGxOelpZVlU1blNXdFNWRVpFUjJKMlFYYxAB",
+      "author_name": "Kasia Jankowska",
+      "author_reviews_count": 12,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Polecam, pyszne jedzonko - najlepsza kaczka w Poznaniu, Pani Nadzeya- obsługa pierwsza klasa -profesjonalna i przemila :)",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VeFpFWkdlbkJHUTNVdFFqUldSM2RUU1RGYVMwRRAB",
+      "author_name": "Hanna K.",
+      "author_reviews_count": 8,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Niesamowita obsługa kelnerki Nadzei, żadnych opóźnień, pozytywna atmosfera",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vNWF6VmlWUzF2TTFKak1WSldjakJSWnpnemJFRRAB",
+      "author_name": "Paweł",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Super restauracja, dobre jedzenie i atmosfera. Pani kelnerka Wiki T bardzo uprzejma.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WaFFtNHliRVJ1VUMxaFFsZDROelkzV21oSlgzYxAB",
+      "author_name": "Kimiko_pl",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Kelnerka Dajana bardzo pozytywna energia",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OMGRtc3ROVzg1UkRSb1RuUjZNR1IwU2kxSVJIYxAB",
+      "author_name": "Wiktoria",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani kelnerka Dajana bardzo miła i przyjemna",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCM2FHMXdXa2xuVTFwSWMwcHFhVmd4TkdSME4xRRAB",
+      "author_name": "Pol Lorenzo",
+      "author_reviews_count": 7,
+      "author_photos_count": 8,
+      "rating": 4,
+      "text": "Jedzenie było dobre, a obsługa bardzo uprzejma i przyjazna. Świetny wybór w samym sercu historycznego centrum, z dobrą lokalną kuchnią i autentyczną atmosferą.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGV1psOVdlRU55VkMwd1dubFpZVmRJVEc1YU5GRRAB",
+      "author_name": "Weronika Kostecka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super obsługa Pani Nadzieja była bardzo sympatyczna 😊 a jedzonko bardzo dobre 😊…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OTlYyUnlWVmRtU2xCRmNuQTNTSGxuVm1sSmFtYxAB",
+      "author_name": "T. Nicklasson",
+      "author_reviews_count": 17,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Bardzo miła restauracja z absolutnie pierwszorzędnym jedzeniem i obsługą. Gorąco polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkSGJVMWthemMzY25KZk1XRmxkRk5qYWpKMU9XYxAB",
+      "author_name": "Aga Rwicz",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Swietna obsluga. Pani Wiktoria T umilila nam wieczor🙂…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSRFJYZ3dNR2RyVW1SbFNXUkdSME5aYkVvd05tYxAB",
+      "author_name": "zosia",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "super klimat, przepyszna panna cotta i bardzo mila obsluga, zwlaszcza pani nikola :))",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GV1VFbExSV0Z1UW13MmFGaHVXWE50Ykc1b1JVRRAB",
+      "author_name": "Hania Jargilo",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "przepiekna atmosfera, przepyszna kawa i deser, bardzo mila obsluga zwlaszcza pani Nikola",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pObk9VMUpVRWRtVFhscFoyczRTREV0U1VKU1ZtYxAB",
+      "author_name": "Bartek Szym",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam jedzenie bardzo dobre,pozdrawiam miłą i sympatyczna  kelnerkę",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oZldEbG5MVU5YWW5CT1NXRjJNMHhFYURGSFRWRRAB",
+      "author_name": "Grażyna Sku",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, duże porcje i rewelacyjna obsługa, którą zapewniła nam Pani Nikola. Będziemy wracać ;)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GRVJVSnplbEU0TVVKRFVUUjJTak4wTWpSemEyYxAB",
+      "author_name": "kate styl (kate.stlndk)",
+      "author_reviews_count": 38,
+      "author_photos_count": 25,
+      "rating": 5,
+      "text": "Wszystko było idealne!!!!! Atmosfera, obsługa, jedzenie, ceny",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pobGNFdzFUblJEVUV0NFlrTllZalZaYVZCYVNWRRAB",
+      "author_name": "Giorgos Markoulakis",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie, duże porcje, dobre ceny, gratulacje!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SRVVubFhZVk56YzNoaWRVSkpOR1ZaVW1rd2JVRRAB",
+      "author_name": "Monika",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byliśmy wczoraj na obiedzie, obsługiwała nas kelnerka Nikola ktora jest bardzo sympatyczną osobą. Bez problemu doradziła nam co warto wybrać z karty. Polecamy i napewno wrócimy😊😊…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xclVGOXplVTFwUVd4TmVEQmlSVXB0ZWtoRmRFRRAB",
+      "author_name": "Tomasz Maki",
+      "author_reviews_count": 79,
+      "author_photos_count": 161,
+      "rating": 3,
+      "text": "Obsługa na duży plus, bardzo miła i sprawna. Jedzenie niestety przeciętne napewno nie adekwatne do cen…burger mega słaby, nawalone sałaty lodowej, bułka ni jaka, sos nie wyczuwalny. Placki po myśliwsku z 3 kawałkami mięsa ale za to z 20…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWU01UbFBUemhtY1doaFRGUlRRVTVLVWpFNFNtYxAB",
+      "author_name": "Zach Tan",
+      "author_reviews_count": 4,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Gulasz myśliwski był przepyszny. Obsługa Nadii była znakomita i wspaniała!!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WbFNFTk5lWGs1TTFoWk5GOHdURmx0ZFZkUFozYxAB",
+      "author_name": "Daniel Moore",
+      "author_reviews_count": 7,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jedzenie tutaj było niesamowite! Ciepło i przytulnie, Nadzeya była bardzo uważna i gościnna :) Uwielbiam jej obsługę.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxcExYVlhTek0zTW1KcFRrUkVia05DZDBWcU9FRRAB",
+      "author_name": "JUlia Samiec",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nikola super!! pyszne jedzenie super atmosfera i ekstra obsługa ❤️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTFpERlRiM2szZGpkT05sbHJiV0k0TFZsaFJrRRAB",
+      "author_name": "Айя Махметова",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kelnerka, dziewczyna o imieniu Nadzeya, obsłużyła nas bardzo dobrze, wszystko było super 😍…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcFptRXlWMHQwYWtkb1prZE5kUzEzYmxkeFExRRAB",
+      "author_name": "Aiya Zaurbaeva",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetna obsługa, dzięki Nadzeya",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOc2RXUTRSSGhtWTBGUk9GbElRMmhFVFMxbFNXYxAB",
+      "author_name": "Amirbek Khakimzhan",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadieżda",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xZNVN6aE1URTQwYUhaMVEyZHJTMU55Y2kxb1pFRRAB",
+      "author_name": "Javi",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Pod pretekstem, że nie mieli reszty, nie zwrócili nam całej kwoty.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xVGVEWnFUelJJY2pocVZ6Wm1aRGMwUzNscWFVRRAB",
+      "author_name": "Joel Yamah",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "NADZENA - Szanowni Pracownicy",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205aFJEbEZTRGhOVFdadExVdENRVXRIVFRrM1RWRRAB",
+      "author_name": "Piotr Stempniewicz",
+      "author_reviews_count": 44,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Profesjonalna obsługa Pani Nadzieji tworzy prawdziwy klimat tej restauracji",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psMVdFRmhZa1U1ZGxaMVYwZGFNbGRwYmsxbmJYYxAB",
+      "author_name": "Klaudia Sowińska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Obsługa i klimat przede wszystkim Pani Nadzieja najlepsza na świecie, bardzo elokwentna i troszcząca sie o klienta kelnerka :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ORVRXVTVSVk5RTW1rM1pVUlJNRW81VURabVowRRAB",
+      "author_name": "Kubik Kalorianin",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super 💗💗 najlepsza obsługa Nadzeya…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kQ05tVnpaVXA2WlRkd01YcFdNRU5NTmpKTE0zYxAB",
+      "author_name": "Asia Rosa",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniale jedzenie -jak zawsze :) obsługa 10/10 Pani Nadzeya dziękujemy .",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jelN6UkhPWFF4TVZZMVIyWjJkWE0wYmtWWFltYxAB",
+      "author_name": "Jakub Dudek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Łopanie, ale sztos! Wiki S. Najlepsza obsługa w moim życiu!!! Co za miejsce! Piękne i eleganckie!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1TGNFZG5XSGhsVDAxMGNHeG5la1V0U0VwVFIyYxAB",
+      "author_name": "Ewa Jarzembowska",
+      "author_reviews_count": 41,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "Polecam miły klimat byłam na dzień kobiet polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkeE5GOXFWMjAwUXpaYWRVNUhkV2hZZGtNMWVYYxAB",
+      "author_name": "%M4H4S% piotkowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne miejsce z klimatem, dobre jedzenie i duży wybór drinków. Obsługa Pani Nikoli na medal 🏅😍…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkTkxWVmZZa1pVTXpoNWMyTlFPV1E1Y25KVFNVRRAB",
+      "author_name": "Nikita",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobra obsługa dziękuję Nadzeya",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKWldUQmxNMjUwYjBabVJrUXRRelZzUVhaMGJrRRAB",
+      "author_name": "Алëна Аридова",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Przyjechaliśmy i bardzo nam się podobało. Specjalne podziękowania dla Nadii.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wU1lqQnNjMHRrZFZGRlpHOU9ObEJqT1hoeU1VRRAB",
+      "author_name": "Conor Mc Carthy",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Madzeya była bardzo przyjazną kelnerką",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25BeVpWTlFjMG8yU0V3NWRWQm5WVmN3UVhaS2RVRRAB",
+      "author_name": "Karolina A",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Byłam w sobotę w godzinach wieczornych, stolik znalazł się bez rezerwacji co na pewno jest plusem. Ale mam mieszane uczucia niestety co do podanych dań. Na przystawkę tatar był pyszny ale z kolei rosół kompletnie niedoprawiony i bez smaku.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwNWJXRlFaRk4wVVVaeFZ6WmtRak51VVVFeVdVRRAB",
+      "author_name": "Sofia Simon",
+      "author_reviews_count": 15,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "Obsługiwała nas kelnerka Nadzeya i naprawdę zrobiła świetne wrażenie. Była bardzo uważna, profesjonalna i jednocześnie naturalnie sympatyczna – dokładnie wyczuwała moment, kiedy podejść, a kiedy dać przestrzeń. Dzięki niej całe…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKd1dXVnFZVEJ1V1doemFGZEVTa014ZGtrelpIYxAB",
+      "author_name": "Malika Tatisheva",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa! Szczególne podziękowania dla kelnerki Nadzeya była niezwykle uprzejma, uśmiechnięta i profesjonalna. Dzięki niej atmosfera była bardzo przyjemna, a wizyta w restauracji jeszcze lepsza. Zdecydowanie wrócimy ponownie.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKamJuWTFjVll4ZGtSUFVVdHlWME40Y2twQ2RGRRAB",
+      "author_name": "Norbert Badurski",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajne miejsce z klimatem , jedzenie bardzo dobre z bardzo miłą obsługą Pani Nikoli 😊👌\nBardzo polecam to miejsce ! 😎🤝…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KWmFtUlFVSFoyZDBaRFdXVktaMU5yTjNSQlkxRRAB",
+      "author_name": "db",
+      "author_reviews_count": 78,
+      "author_photos_count": 92,
+      "rating": 4,
+      "text": "Tradycyjne dania bardzo smaczne",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toMVgzSlhVMjUyZUdGRU1FUkdXbFJ3UzNKNlJrRRAB",
+      "author_name": "Катерина Горбачова",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo przyjemna atmosfera — cicha, ciepła i spokojna, z silnym poczuciem jakości. Obsługa była doskonała, zwłaszcza kelnerka Nadzeha, która była przyjazna, łatwo się z nią komunikować i służyła nam pomocą przez cały pobyt.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xodmVYZFBiRWcwVnpSRU1IY3pabGw1YTJFdGFXYxAB",
+      "author_name": "Marianna Jurga",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzonko super, przemiła, świetna i profesjonalna obsługa ze strony Pani Nadzeyi",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCdFVYWjRWR05GVTJWTloydFNaMnR5WVZsR1NXYxAB",
+      "author_name": "Marzena Nadolczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie podane przez komunikatywna, przemiłą Panią Nadzieję.  Porcje dla glodnego. Mile wyjście.  Pyszna lemoniada.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wbmJ6VkVYMkZmZWxobmIyaFVhbk5MZGt0YU5uYxAB",
+      "author_name": "Jan Dziudzia",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Nadzieja super kelnerka pełna profeska oraz podejście do klienta nie z tej ziemi należy się podwyżka!!!!!!!!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGVVkyVlhNR28wVGtOZldHdGpSVWRGYTBwdmNYYxAB",
+      "author_name": "Aleksandra Kozica",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszne jedzenie i super obsługa. Bardzo polecamy Panią kelnerkę Nadzieję!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5a2QwcE5jVEZXYkdsUWEyaHZWVGszV2tOVVVFRRAB",
+      "author_name": "Robert Barnes",
+      "author_reviews_count": 17,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna opcja. Christoph i Kornelia, świetna obsługa!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WUGRrRm1YMjFIYUVwcVNVZHlVelZVU1Y5d1ozYxAB",
+      "author_name": "Dawid Pawlak",
+      "author_reviews_count": 6,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Miła Pani Nadzieja. Wszystko w porzadku!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKM2RqZHRkbE5TVlV4MGJGZHNaRU10TjFsUk9HYxAB",
+      "author_name": "Ewelina Barczyńska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła obsługa, Pani Nadzieya zadbała o miłą atmosferę podczas spotkania ☺️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204eVEyMVdlbFJqYnkxdVYzTmFaV0l3V0hCbVZYYxAB",
+      "author_name": "M Kucz",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dajanaaa wrócimy do Ciebie, dziękuję za cudowny klimat,miłą obsługę\ni pysne jedzenie( żeberka kosmos),\no drinkach nie wspomnę:) było bosko...",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kcU1GVlZUSEpCVG05VWFYbHJVblJJV2xkT1RsRRAB",
+      "author_name": "Łukasz Sęczyk",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobrze spędzony czas w restauracji, jedzenie dobre, obsługa Pani Wiki S. wzorowa, podejście do klienta w pełni profesjonalne. Szczerze polecam każdej osobie, która chce zorganizować tutaj jakieś spotkanie!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kd05WbFZjVEU1Y1MwemJYQTBSbGRTUW1jNVJGRRAB",
+      "author_name": "S.",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za fajną obsługę Wiki S.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGeGJtTm1RalpXT0ZWR2JtaGFSVnB6ZUZSMGNuYxAB",
+      "author_name": "michal Maciejewski",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Knajpa sympatyczna obsługa miła jedzenie dno. placki ziemniaczane gotowce mrozonki,gulasz skrawki mięsa kupa tłuszczu+najtańsza kiełbasa.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoVlpHbDZTVnBwVVV4cFQwWldUM2cyV1dSVk1WRRAB",
+      "author_name": "Damian Belka",
+      "author_reviews_count": 27,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Kurczę, słabo. Kelner powiedział, że nie można zamówić sałatki bez dodatku w postaci surowej cebuli, bo mają za duży ruch xD sos „ala cezar”dobrze że napisane, że ala bo z prawdziwym sosem Cezar niewiele ma wspólnego. żeberka owszem na…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFMlNVUmlablpSWTBOV056ZGpTQzFGVUVnNFVGRRAB",
+      "author_name": "Jadwiga Witowska",
+      "author_reviews_count": 76,
+      "author_photos_count": 124,
+      "rating": 3,
+      "text": "Piękne zdjęcia, ale bez smaku.\nPizza włoska wzbudziła wiele kontrowersji. Ciasto sztywne jak u Joeya po tygodniu wyjęte z pod kanapy + opłata nawet  za oliwę.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0QmIzVlJiV1Z5U2xkbmNVRjRkSGxOYm5Sb2RGRRAB",
+      "author_name": "Katarzyna Zwolińska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystko super bardzo miła kelnerka Nadzieja",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT213eVFWbG5abVF0TVhKMlRYbGZielZXZGxGbGMwRRAB",
+      "author_name": "Piotr Biały (Colombo)",
+      "author_reviews_count": 22,
+      "author_photos_count": 143,
+      "rating": 5,
+      "text": "Jedzenie bardzo smaczne obsługa auper . Pni Nikoła bardzo usmiechnieta miło nas obsłużyła pomogła wybrać dania . Po długiej podróży miło było usiąść wypić dobrą kawę zjeść  coś  konkretnego i spotkać tak miłą osobę i zamienić parę słów o…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aTU9GRTNWbU0yYkhSU1J6WnlSVzFTWjFWb2RVRRAB",
+      "author_name": "Agnieszka Bąk",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Było super",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SR1JFbFlielZTWW5GTVprRm1UMGRXUldaRGFXYxAB",
+      "author_name": "Kacper Szkutnik",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nadzeya super kelnerka 😁…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSVGJIWk5Sa2hQT0U1b1NDMTNOVUpwUkhwaVVuYxAB",
+      "author_name": "Anna Nowak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo przyjemne miejsce !\nPyszne jedzenie i fantastyczna atmosfera !",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBNE4yNVBlbmgxYmxsRlMzWXdkbE5KUjNsTWFVRRAB",
+      "author_name": "Marta Łukowiak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo sympatyczne miejsce❤️jedzenie wyśmienite😋 obsługa rewelacja, bardzo miła, uprzejma dziewczyna. Podziękowania ślemy głównie  dla Wiki S:) jej praca 10/10 ❤️…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KWFQzaFFXVTQ1VEdrelJuaEVOMEpQVWtaM2FWRRAB",
+      "author_name": "M C",
+      "author_reviews_count": 57,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Super miejsce ! Szliśmy z partnerka po rynku - dostaliśmy zaproszenie z ulicy i postanowiliśmy wejsc :) przestronne wnętrze- mega klimat :) pyszne jedzonko ! Na przystawkę tatar :) danie glowne stek z gzikiem i młodymi pyrkami posypanymi…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WR1NXZFhhVGxKUWtacVQyUndUVFZGZEdoMlYwRRAB",
+      "author_name": "Swiss Brownie",
+      "author_reviews_count": 136,
+      "author_photos_count": 795,
+      "rating": 5,
+      "text": "Ta restauracja znajduje się w samym sercu Poznania. Jedzenie jest tradycyjne i bardzo dobre, a obsługa przyjazna i gościnna. Ponieważ nie jesteśmy stąd, cierpliwie i życzliwie tłumaczyli nam każde danie. Spędziliśmy cudowny wieczór.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSUGJYRkNSMGh5Um1ReVFYZGZRbUpmU1U5eFluYxAB",
+      "author_name": "Agnieszka Paryś",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo sympatyczne miejsce z jeszcze sympatyczniejszą obsługą 😊\nPani Nikola - best of the best ☺️…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGMk4yczJURUptZFd4c1QyczNNSEZLYkhocFZHYxAB",
+      "author_name": "Татьяна Гойк",
+      "author_reviews_count": 19,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Bardzo mi się podobało to café. Atmosfera jest przytulna i spokojna, idealna żeby odpocząć albo spotkać się ze znajomymi. Bardzo smaczne jedzenie! Wszystkie dania były świeże, pięknie podane i naprawdę pyszne. Czuć, że są przygotowywane z…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psVlNFRmtVekpQZGxKdVJIZFdkak5TYW1sTmIyYxAB",
+      "author_name": "Polina Hoyk",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Spodobało się obsługa Kelnera Nikoli, bardzo miła dziewczyna, miejsce superowskie, bardzo smaczne i pyszne jedzenie. Polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wblZ6RmphbTFJUm1ZeVVESTJZa3hvVDE5NFVXYxAB",
+      "author_name": "Anna Zalewska",
+      "author_reviews_count": 179,
+      "author_photos_count": 1013,
+      "rating": 4,
+      "text": "Zwiedzając zabytki Poznania zgłodnieliśmy i weszliśmy do restauracji Rynek 95. Od progu byliśmy miło przywitani i od razu znaleziono dla nas stolik. Zamówiliśmy pizzę oraz łososia i herbaty. Dania były pięknie podane (zwłaszcza łosoś). Wszystko nam smakowało. Obsluga miła i pomocna. Wizytę uznajemy za udaną ☺️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNYbElTdmlBRRAB",
+      "author_name": "Bartosz Drozd",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Wróciliśmy po roku i niestety przez ten czas jedzenie mocno straciło na jakości. Z plusów, Pani Nadzeya była bardzo miła i pomocna :)",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kTWMzbG1UMlpSU1hSZk9DMHhiV1JKYjFwR1dXYxAB",
+      "author_name": "Daria Wysota",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam ! Jedzonko pyszne obsługa  przemiła. Bardzo polecam Panią Nadzieję",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xscVYwbGtUWHBuWld4ZlNVWmZaVk4zVVhGWmEwRRAB",
+      "author_name": "Francesca Carone",
+      "author_reviews_count": 2,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Bardzo przytulne i zadbane miejsce w samym centrum Poznania, z pysznym jedzeniem i miłą obsługą, szczególnie Nadzeya, która wyjątkowo zadbała o mój stolik. ❤️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pONk9HdHFUMWRsV210UVkzcEZWMFkyWldKNVNrRRAB",
+      "author_name": "Sandra Kostyrka",
+      "author_reviews_count": 2,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pyszne jedzenie, fajny lokal, podobało mi się to zejście na niższy poziom jakby do piwnicy, ale przystrojone klimatycznie, no i obsługa sztos, szczególnie pani Nadzeya, byłam pewna że Polka a ona z Białorusi i mówi tak piękną polszczyzną że naprawdę mi zaimponowała!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWelFqTnpWMUJVTXpoakxXbzVMVUU0Y21aS1gyYxAB",
+      "author_name": "Karolina Zalewska",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre. Obsługiwała nas pani Nadzeya - bardzo miła i pomocna",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZdGExWjVlVVo1VVhaWFluQm5kbUV3U1RWb0xWRRAB",
+      "author_name": "Michalina Wach",
+      "author_reviews_count": 9,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Był to wspaniały przypadek, że trafiłyśmy do tej restauracji w tę deszczową niedzielę, tuż po przyjechaniu do Poznania.  Do środka zaprosił nas miły i przystojny Pan z obsługi ;) Jedzenie przepyszne, porcje nie do przejedzenia, łosoś jak…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taeWVHOUtjVlp1TVhOdU4zZGZMWGd5ZVU1VVFWRRAB",
+      "author_name": "Wiczka J",
+      "author_reviews_count": 6,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Jeśli uwielbiacie Polską kuchnie - traficie doskonale. Szybka wydawka, porcje spore, delikatna kawa. Czułam sie zaopiekowana przez Panią Kelner - ale nie nachalnie. Pani Wiktoria T. przeprowadziła nas przez dania w przyjemnej atmosferze. Dziekujemy!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VeGRVNUpXbmxIUkdoQlNXVlhhek0xWmpSNFYwRRAB",
+      "author_name": "Krzysztof Mikołajczak",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWMFVXWlBXbTB4WVRCemRtOHlSMU5WYzA0NVpuYxAB",
+      "author_name": "Maciej Podemski",
+      "author_reviews_count": 173,
+      "author_photos_count": 819,
+      "rating": 5,
+      "text": "Nadzieja wspaniale obsługiwała. Wszystko idealnie, nie trzeba było specjalnie czekać. Dziękuję",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKV1JHZElZVVpsUlhKV1p6aHZOa0prZGs0ME1sRRAB",
+      "author_name": "Monika",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko, przemiła kelnerka Wiktoria, polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUQ3Z0pHV2Z3EAE",
+      "author_name": "Weronika",
+      "author_reviews_count": 68,
+      "author_photos_count": 113,
+      "rating": 5,
+      "text": "bardzo miła obsługa, pomimo pełnego lokalu szybki czas obsługi\nbardzo miła Pani Wiktoria :) dziękujemy za obsługę",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURMeXFDeEd3EAE",
+      "author_name": "Arkadiusz Zborowski",
+      "author_reviews_count": 137,
+      "author_photos_count": 253,
+      "rating": 5,
+      "text": "EDIT 11.03.2026: ///Po roku kolejna wizyta w tym miejscu. Dziś wybór padł na stek z angusa i gulasz z plackami ziemniaczanymi. Powiem tyle, niebo w gębie. Nie ma co więcej pisać.///…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tacWFWVlBjMHR3VFRsVWVsTllZazA0Um5GNWRYYxAB",
+      "author_name": "Magdalena Bałuczyńska",
+      "author_reviews_count": 150,
+      "author_photos_count": 506,
+      "rating": 5,
+      "text": "Kolejne odwiedziny w Poznaniu i kolejny strzał w 10 w wyborze restauracji. Obiekt niezwykle klimatyczny i przyjazny. Jedzenie smaczne, a posiłki obfite i bardzo artystycznie podane. Personel uprzejmy i wysoce kompetentny. Polecamy to miejsce!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd1JESldjSGxJU1U5WVlrSlpjVzluWjB4dFZFRRAB",
+      "author_name": "Mirek Regulski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo miła i pomocna obsługa pani Celiny",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGQlZsbHdhVmd0Y0V3elJHVTRjbUl3U2poeWVHYxAB",
+      "author_name": "Ewelina Żywicka",
+      "author_reviews_count": 9,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Pani Celina, wspaniała i miła kelnerka.\nNasza szalona, 18 osobowa grupa jej nie przeraziła. 😉\nSmaczne krewetki i piwko.😁\nPozdrawiamy, Kaszubi.…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sWGJrYzBWR3h2Y0hGRmMxQmxOVEJCTm5oWVRVRRAB",
+      "author_name": "Asia Woźniak",
+      "author_reviews_count": 45,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie ze świetną obsługą! Dziękuję bardzo Pani Nikoli za świetną obsługę i piękny uśmiech 🥰 oby więcej takich kelnerek ❤️…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wNlREUkxPVWhuZWtGSFgxWmFjMnh5WlRKUVVuYxAB",
+      "author_name": "Anna Schreiner",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko było na najwyższym poziomie 🙏 Zawsze przyjemność. 5 ❤️…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTU5qUktPVzlyWVc1YU4yTmFVMjE2WW5kWmVtYxAB",
+      "author_name": "Maciej Końka",
+      "author_reviews_count": 16,
+      "author_photos_count": 17,
+      "rating": 5,
+      "text": "Jedzenie przepyszne, polecam w szczególności karkówkę z sosem Rynek95. Restauracja idealna w stosunku ceny do jakości, a kelnerka Nikola wykazała się pełnym profesjonalizmem w stosunku do klientów. Pozdrawiam i na pewno wrócę do tego miejsca.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5UlNIUXlORTA1UW5wb2NuRTVkR2h1UjA5amRVRRAB",
+      "author_name": "Kacper Pardela",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzienie bardzo dobre. Miła obsługa kelnerki nikoli",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201bkxXbzFkbUpDTVhweVRWWkNOVlJZTjFkd0xXYxAB",
+      "author_name": "kewal shaholia",
+      "author_reviews_count": 170,
+      "author_photos_count": 135,
+      "rating": 4,
+      "text": "Jedzenie jest dobre, w daniu głównym są tylko 2 opcje wegetariańskie. Zamówiłem wegetariańskiego burgera z ciepłym sosem serowym i frytkami, który był prosty, ale ogólnie smaczny. Fajnie byłoby spróbować polskiej kuchni wegetariańskiej,…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGd2EwRnRZVVJuY1hGc1RVWlVNVzFUWkZjNGVHYxAB",
+      "author_name": "Agnieszka Dybowska",
+      "author_reviews_count": 40,
+      "author_photos_count": 24,
+      "rating": 5,
+      "text": "Super miejsce, pyszne jedzenie i fenomenalna obsługa",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OQ1F6UXRaRmhZWmt3NGFubFBiRFZNVWpGSkxVRRAB",
+      "author_name": "Benjamin De Amorim",
+      "author_reviews_count": 273,
+      "author_photos_count": 298,
+      "rating": 5,
+      "text": "Szybka obsługa, bardzo bogate menu, całkiem niezły wybór win, a do tego wszystkiego stosunek jakości do ceny jest więcej niż doskonały, biorąc pod uwagę lokalizację restauracji.\nGorąco polecam 😄…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NemJFeHllV1kwTUY5dmQzZzBYekJwUTFGdFZsRRAB",
+      "author_name": "Areczekk43",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "przemiłe kelnerki",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMWRrTnpUV1l5VlZaU09YbDRURVExUW5BMlFrRRAB",
+      "author_name": "Monika Drabarczyk",
+      "author_reviews_count": 129,
+      "author_photos_count": 1375,
+      "rating": 5,
+      "text": "Uwielbiam do Was przychodzić i ucztować !",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxWGVtbDBZVTV4TFRoVVUydE5MV3h0Ym5sbWVrRRAB",
+      "author_name": "MC LOGISTICS Michał Chojnacki",
+      "author_reviews_count": 137,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Klimatyczne miejsce. Bardzo dobry gulasz w chlebie. Fajna obsługa. Polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKWVpHTnFaekF5ZURob1VsZE1hbFJrYjNaSGJWRRAB",
+      "author_name": "Małgorzata Jazienicka",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za super obsługę Pani Celinie\nMiła uśmiechnięta osoba\nNa pewno będzie nam miło wrócić",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaclF6bE9iMGhDV0RnM2IwSkpRMFJXWkdSVlFWRRAB",
+      "author_name": "Valeri",
+      "author_reviews_count": 110,
+      "author_photos_count": 179,
+      "rating": 3,
+      "text": "Niestety sałatka Cezar nie była smaczna. Ser parmezan był bez smaku i jakby stary. Grzanki były małe, a w sałatce było bardzo dużo cebuli, która psuła cały smak, ponieważ była bardzo intensywna i było jej zdecydowanie za dużo. Obsługa była miła.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGcFIwWk1hRGw1T0c5YVduaHlNbkI1Unpkb2IzYxAB",
+      "author_name": "Zofia Przygoda",
+      "author_reviews_count": 45,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Bardzo miłe miejsce, ciekawe jedzenie. Ceny rynkowe",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSk1HVm5lR3BQTXpaWE5HNVdkSHBYTUZwV2VVRRAB",
+      "author_name": "Paulina Sadowska",
+      "author_reviews_count": 51,
+      "author_photos_count": 74,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, klimatyczna restauracja, zdecydowanie restauracja godna polecenia. Jedliśmy pyszne żeberka BBQ, łososia, kurczaka oraz domowe pierogi. Szczególnie miłą i sympatyczną kelnerką była Pani Nikola. Polecam bardzo serdecznie każdemu się tam wybrać",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWbU1HRmhaVGxIZFVOd1JXOUtSRzlwVTFWR1ZtYxAB",
+      "author_name": "Marcin Kołodziejczyk",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre, porcje solidne, obsługa bardzo miła. Miejsce warte polecenia! Chętnie tu wrócę.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xR1FqQmFUVEUzUmpCS05HZExSakF6YWpCQ1VrRRAB",
+      "author_name": "Adam Góreńczyk",
+      "author_reviews_count": 30,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Bardzo miła obsługa i smaczne jedzenie",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsSWNXczNSRkpFUW5OdFFYTndOWGt0ZW05NVJXYxAB",
+      "author_name": "Klaudia Sierszuła",
+      "author_reviews_count": 5,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Bardzo miła obsługa oraz pyszne jedzenie! Żeberka rewelacyjne - gdzie tylko jestem jem żeberka i te zdecydowanie wygrywają ! ❤️ Konkretna ,sycąca porcja 👌🏻 Makaron z krewetkami bardzo dobry , krewetki świetnie przyrządzone . A do tego…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aa1FrMDVZa05KVGt4eUxTMWlkMnhhVGtoa1EwRRAB",
+      "author_name": "Magdalena MW",
+      "author_reviews_count": 9,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Super jedzenie, miła obsługa dzięki Pani Nikoli. Polecamy ❤️",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    }
+  ]
+}

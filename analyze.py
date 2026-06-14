@@ -12,30 +12,37 @@ import argparse
 import json
 import time
 import requests
+import concurrent.futures
 
 import config
 from db import get_db, init_db, get_unanalyzed_reviews, insert_analysis
 
 SYSTEM_PROMPT = (
-    "You are an expert NLP analyst for Polish restaurant reviews. "
-    "Respond with ONLY valid JSON, no markdown.\n"
-    "Extract: sentiment (positive/negative/neutral/mixed), "
-    "staff_names (base nominative form, ONLY staff like waiters/cooks), "
-    "dishes_mentioned (Polish), "
-    "topics (from: service, food_quality, ambiance, price, location, "
-    "cleanliness, speed, portions), "
-    "review_depth (shallow/moderate/detailed), "
-    "specificity_score (0-5), "
-    "fake_signals (from: only_mentions_staff, no_food_details, generic_praise, "
-    "excessive_exclamation, template_like, unnaturally_positive, "
-    "mentions_staff_by_name_without_context).\n"
-    "Rules: Polish names decline — always return nominative: Kacpra→Kacper. "
-    "Do NOT include names from restaurant/dish names. Be conservative."
+    "You are an expert NLP analyst specializing in Polish restaurant reviews. "
+    "Your task is to perform Aspect-Based Sentiment Analysis and anomaly detection. "
+    "Respond with ONLY a valid JSON array of objects, no markdown blocks or conversational text.\n"
+    "For each review, extract and return exactly these fields:\n"
+    "- \"review_id\": exact string from the input\n"
+    "- \"overall_sentiment\": \"positive\", \"negative\", \"neutral\", or \"mixed\"\n"
+    "- \"topic_sentiments\": object mapping mentioned topics to their sentiment (\"positive\", \"negative\", \"neutral\"). "
+    "Allowed topics: [\"service\", \"food_quality\", \"ambiance\", \"price\", \"location\", \"cleanliness\", \"speed\", \"portions\"]\n"
+    "- \"dishes_mentioned\": array of specific food items (keep original Polish, but always return nominative (base) form , [] if none)\n"
+    "- \"staff_names\": array of staff names mentioned (waiters/cooks only, [] if none)\n"
+    "- \"review_depth\": \"shallow\", \"moderate\", or \"detailed\"\n"
+    "- \"specificity_score\": integer from 0 to 5\n"
+    "- \"fake_signals\": array of detected anomalies from [\"only_mentions_staff\", \"no_food_details\", "
+    "\"generic_praise\", \"excessive_exclamation\", \"template_like\", \"unnaturally_positive\", "
+    "\"mentions_staff_by_name_without_context\"]\n"
+    "IMPORTANT RULES:\n"
+    "1. Polish names decline — always return the nominative (base) form (e.g., Kacpra->Kacper, Pawłowi->Paweł, Zosię->Zosia).\n"
+    "2. Do NOT include names from restaurant names or dish names in staff_names. Be conservative.\n"
+    "3. Do not include topics in \"topic_sentiments\" if they are not explicitly or implicitly mentioned.\n"
+    "4. Output ONLY the raw JSON array."
 )
 
 
-def _build_user_prompt(text: str, restaurant_name: str, rating: int) -> str:
-    return (f'Analyze this review:\nRestaurant: {restaurant_name}\n'
+def _build_user_prompt(text: str, restaurant_name: str, rating: int, review_id: str) -> str:
+    return (f'Analyze this review:\nReview ID: {review_id}\nRestaurant: {restaurant_name}\n'
             f'Rating: {rating}/5\nText: "{text[:2000]}"\nRespond JSON only.')
 
 
@@ -61,12 +68,12 @@ def _get_gemini_client():
     return _gemini_client
 
 
-def call_gemini(text: str, restaurant_name: str = "", rating: int = 5):
+def call_gemini(text: str, restaurant_name: str = "", rating: int = 5, review_id: str = "test_review_1"):
     """Send a review to Gemini API. Returns parsed JSON dict or None."""
     from google.genai import types
 
     client = _get_gemini_client()
-    prompt = _build_user_prompt(text, restaurant_name, rating)
+    prompt = _build_user_prompt(text, restaurant_name, rating, review_id)
 
     try:
         response = client.models.generate_content(
@@ -75,57 +82,29 @@ def call_gemini(text: str, restaurant_name: str = "", rating: int = 5):
             config=types.GenerateContentConfig(
                 system_instruction=SYSTEM_PROMPT,
                 temperature=0.1,
-                max_output_tokens=512,
+                max_output_tokens=1024,
                 response_mime_type="application/json",
             ),
         )
         content = response.text
-        return json.loads(content)
+        data = json.loads(content)
+        # If the LLM returns an array as requested, extract the first item.
+        if isinstance(data, list) and len(data) > 0:
+            return data[0]
+        return data
     except json.JSONDecodeError:
         print(f"  ⚠️ Failed to parse Gemini JSON response")
         return None
     except Exception as e:
         err = str(e)
-        if "429" in err or "RESOURCE_EXHAUSTED" in err:
-            print(f"  ⏳ Rate limited, waiting 15s...")
+        if any(x in err for x in ["429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE"]):
+            print(f"  ⏳ API busy (rate limit/503), waiting 15s...")
             time.sleep(15)
             return None
         print(f"  ⚠️ Gemini error: {e}")
         return None
 
 
-# ═══════════════════════════════════════════════════════════════
-# Backend: Ollama (local GPU)
-# ═══════════════════════════════════════════════════════════════
-
-def call_ollama(text: str, restaurant_name: str = "", rating: int = 5):
-    """Send a review to Ollama. Returns parsed JSON dict or None."""
-    prompt = _build_user_prompt(text, restaurant_name, rating)
-
-    payload = {
-        "model": config.OLLAMA_MODEL,
-        "messages": [
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": prompt},
-        ],
-        "stream": False,
-        "options": {"temperature": 0.1, "num_predict": 512},
-        "format": "json",
-    }
-
-    try:
-        resp = requests.post(
-            f"{config.OLLAMA_URL}/api/chat", json=payload, timeout=120
-        )
-        if resp.status_code != 200:
-            return None
-        content = resp.json().get("message", {}).get("content", "")
-        return json.loads(content)
-    except (json.JSONDecodeError, requests.exceptions.ConnectionError):
-        return None
-    except Exception as e:
-        print(f"  ⚠️ Ollama error: {e}")
-        return None
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -133,14 +112,12 @@ def call_ollama(text: str, restaurant_name: str = "", rating: int = 5):
 # ═══════════════════════════════════════════════════════════════
 
 def call_llm(text: str, restaurant_name: str = "", rating: int = 5,
-             backend: str = None):
+             backend: str = None, review_id: str = "test_review_1"):
     """Route to the configured LLM backend."""
     backend = backend or config.LLM_BACKEND
 
     if backend == "gemini":
-        return call_gemini(text, restaurant_name, rating)
-    elif backend == "ollama":
-        return call_ollama(text, restaurant_name, rating)
+        return call_gemini(text, restaurant_name, rating, review_id)
     else:
         raise ValueError(f"Unknown LLM_BACKEND: {backend}. Use 'gemini' or 'ollama'.")
 
@@ -155,8 +132,8 @@ def compute_suspicion_score(analysis: dict, author_reviews_count=None):
     has_staff = len(analysis.get("staff_names", [])) > 0
     has_food = len(analysis.get("dishes_mentioned", [])) > 0
 
-    if has_staff and not has_food:
-        score += config.WEIGHT_STAFF_NAME_ONLY
+    if has_staff :
+        score += config.WEIGHT_STAFF_MENTIONED
     if analysis.get("review_depth") == "shallow":
         score += config.WEIGHT_SHALLOW_REVIEW
     if author_reviews_count is not None and author_reviews_count < 5:
@@ -184,71 +161,85 @@ def analyze_batch(batch_size: int = 50, backend: str = None):
         reviews = get_unanalyzed_reviews(conn, limit=batch_size)
         if not reviews:
             print("✅ No unanalyzed reviews remaining.")
-            return 0
+            return 0, 0
 
         rests = {}
         for r in conn.execute("SELECT place_id, name FROM restaurants").fetchall():
             rests[r["place_id"]] = r["name"]
 
-        print(f"📊 Analyzing {len(reviews)} reviews via {backend}...")
+        print(f"📊 Analyzing {len(reviews)} reviews via {backend} (parallel)...")
         processed = 0
 
-        for i, rev in enumerate(reviews, 1):
+        def process_review(rev):
             text = rev.get("text", "")
             if not text or len(text.strip()) < 5:
-                insert_analysis(conn, {
-                    "review_id": rev["review_id"], "place_id": rev["place_id"],
-                    "sentiment": "neutral", "staff_names": [],
-                    "dishes_mentioned": [], "topics": [],
-                    "review_depth": "shallow", "specificity_score": 0,
-                    "fake_signals": [], "suspicion_score": 0.0, "in_burst": 0,
-                })
-                processed += 1
-                continue
+                return rev, None
 
             result = call_llm(
                 text, rests.get(rev["place_id"], ""),
-                rev.get("rating", 5), backend
+                rev.get("rating", 5), backend, rev["review_id"]
             )
-            if result is None:
-                continue
+            return rev, result
 
-            suspicion = compute_suspicion_score(
-                result, rev.get("author_reviews_count")
-            )
-            insert_analysis(conn, {
-                "review_id": rev["review_id"], "place_id": rev["place_id"],
-                "sentiment": result.get("sentiment", ""),
-                "staff_names": result.get("staff_names", []),
-                "dishes_mentioned": result.get("dishes_mentioned", []),
-                "topics": result.get("topics", []),
-                "review_depth": result.get("review_depth", ""),
-                "specificity_score": result.get("specificity_score", 0),
-                "fake_signals": result.get("fake_signals", []),
-                "suspicion_score": suspicion, "in_burst": 0,
-            })
-            processed += 1
-            if i % 10 == 0:
-                print(f"  ⏳ {i}/{len(reviews)} processed...")
-                conn.commit()
+        # Use 10 workers for parallel API calls. This is safe for Pay-As-You-Go limits.
+        # If running on Free Tier and hitting 429s, it will still naturally backoff.
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [executor.submit(process_review, rev) for rev in reviews]
+            
+            for i, future in enumerate(concurrent.futures.as_completed(futures), 1):
+                rev, result = future.result()
+                text = rev.get("text", "")
+                
+                # Check if it was an empty review
+                if not text or len(text.strip()) < 5:
+                    insert_analysis(conn, {
+                        "review_id": rev["review_id"], "place_id": rev["place_id"],
+                        "overall_sentiment": "neutral", "staff_names": [],
+                        "dishes_mentioned": [], "topic_sentiments": {},
+                        "review_depth": "shallow", "specificity_score": 0,
+                        "fake_signals": [], "suspicion_score": 0.0, "in_burst": 0,
+                    })
+                    processed += 1
+                elif result is None:
+                    # Failed API call (rate limit, 503, error), skip DB insertion
+                    pass
+                else:
+                    # Successful API call
+                    suspicion = compute_suspicion_score(
+                        result, rev.get("author_reviews_count")
+                    )
+                    insert_analysis(conn, {
+                        "review_id": rev["review_id"], "place_id": rev["place_id"],
+                        "overall_sentiment": result.get("overall_sentiment", ""),
+                        "staff_names": result.get("staff_names", []),
+                        "dishes_mentioned": result.get("dishes_mentioned", []),
+                        "topic_sentiments": result.get("topic_sentiments", {}),
+                        "review_depth": result.get("review_depth", ""),
+                        "specificity_score": result.get("specificity_score", 0),
+                        "fake_signals": result.get("fake_signals", []),
+                        "suspicion_score": suspicion, "in_burst": 0,
+                    })
+                    processed += 1
 
-            # Respect rate limits for Gemini
-            if backend == "gemini":
-                time.sleep(config.GEMINI_DELAY_SECONDS)
+                if i % 10 == 0:
+                    print(f"  ⏳ {i}/{len(reviews)} completed...")
+                    conn.commit()
+
+            conn.commit()
 
         print(f"\n✅ Analyzed {processed}/{len(reviews)} reviews.")
-        return processed
+        return processed, len(reviews)
 
 
 def analyze_all(backend: str = None):
     """Process all unanalyzed reviews in batches."""
     total = 0
     while True:
-        batch = analyze_batch(50, backend)
-        total += batch
-        if batch < 50:
-            break
+        processed, fetched = analyze_batch(50, backend)
+        total += processed
         print(f"  📊 Total so far: {total}")
+        if fetched < 50:
+            break
     print(f"\n🎉 Total analyzed: {total}")
 
 
@@ -257,10 +248,10 @@ def test_single(backend: str = None):
     backend = backend or config.LLM_BACKEND
     sample = (
         "Byliśmy tam w sobotę. Kelner Kacper był miły. "
-        "Polecił pierogi z kaczką — wyśmienite! Atmosfera przytulna."
+        "Polecił pierogi z kaczką — wyśmienite!, kupiliśmy wrapy z kurczakiem i wrapa vege. Atmosfera była okropna, sala była bardzo brudna."
     )
     print(f"🧪 Testing with {backend}: '{sample}'\n")
-    result = call_llm(sample, "Restauracja Testowa", 4, backend)
+    result = call_llm(sample, "Restauracja Testowa", 4, backend, review_id="test_review_1")
     if result:
         print(json.dumps(result, indent=2, ensure_ascii=False))
         print(f"\n📊 Suspicion: {compute_suspicion_score(result, 15):.2f}")

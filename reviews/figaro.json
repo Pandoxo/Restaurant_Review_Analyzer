@@ -1,0 +1,332 @@
+{
+  "restaurant": {
+    "name": "Figaro",
+    "type": "Fine Dining",
+    "address": "Ogrodowa 17, 61-820 Poznań",
+    "price_range": "$$$",
+    "total_reviews": 756,
+    "avg_rating": 4.7
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205VWVUUk5VR05aUjNKdU0wVk5VblZUTlcxdWEzYxAB",
+      "author_name": "daria de1ay",
+      "author_reviews_count": 2,
+      "author_photos_count": 2,
+      "rating": 4,
+      "text": "Byłam z 3-4 razy w Figaro i chciałabym zostawić opinię przede wszystkim po to, aby zwrócić uwagę na jedną kwestię dotyczącą obsługi.\n\nByłam w restauracji kilka razy i wcześniej zawsze spotykałam się z miłą i profesjonalną obsługą. Niestety podczas ostatniej wizyty miałam wrażenie, że kelnerka była wobec nas pasywno-agresywna i sprawiała wrażenie, jakbyśmy nie byli mile widzianymi gośćmi. Trudno wskazać jeden konkretny moment, ale ogólna atmosfera kontaktu była dla mnie nieprzyjemna i wpłynęła na komfort całej wizyty.\n\nPiszę o tym uprzejmie, ponieważ sama pracuję jako kelnerka i wiem, jak duże znaczenie ma sposób obsługi klienta. Nawet przy bardzo dobrym jedzeniu i ładnym lokalu to właśnie kontakt z obsługą w dużej mierze decyduje o tym, czy gość chce wrócić.\n\nJeśli chodzi o jedzenie, moim zdaniem było nieco zbyt słone, ale nie był to główny problem. Najbardziej przeszkadzało mi właśnie wrażenie chłodnego i nieprzychylnego podejścia podczas obsługi.\n\nMam nadzieję, że ta uwaga zostanie potraktowana jako konstruktywna informacja zwrotna, ponieważ poza tym restauracja robi bardzo dobre wrażenie :)",
+      "published_at": "6 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkNE0zVlpabXhqVUhKRWN6aHVTVVJPT0hBNWRHYxAB",
+      "author_name": "Natalka Pagowska",
+      "author_reviews_count": 46,
+      "author_photos_count": 36,
+      "rating": 5,
+      "text": "Wspaniałe miejsce.Obsluga kelnera wyjątkowa.Jedzenie pyszne.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sVU9ETkRXVlJEVVZseU5tSnhjbUpQVW5sV04xRRAB",
+      "author_name": "Francesco de Paulis",
+      "author_reviews_count": 66,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Jako Włoch mogę powiedzieć, że jedzenie spełniło moje oczekiwania. Wybór win był niesamowity. Dziękuję.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trd1ZuRlhVakZIYW5sM1gxWlRjVmR0UlRoWU1XYxAB",
+      "author_name": "Mariusz Nowicki",
+      "author_reviews_count": 28,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Elegancka restauracja ze świetną kuchnią. Każde danie na wysokim poziomie, doskonałe w smaku.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tjMlV6RnFhVkZtUm1odVpFeGFjakoxV0ZGNVRHYxAB",
+      "author_name": "Agnieszka Z",
+      "author_reviews_count": 10,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pyszne jedzenie, wspaniała obsługa",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ONlRqTnhNbVZmWjBsdmVYbGFkMk0zYmxabmVVRRAB",
+      "author_name": "M",
+      "author_reviews_count": 33,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo dobra jakość jedzenia. Świetna obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnM04xa3dOR280VUVOV1VFVTBaVzV6VkRSb2JFRRAB",
+      "author_name": "Beata Marchlewska",
+      "author_reviews_count": 12,
+      "author_photos_count": 119,
+      "rating": 5,
+      "text": "Perełka na mapie gastronomii. Piękne wnętrza, obsługa czujna, uśmiechnięta, profesjonalna i pojawiająca się dokładnie w momencie, kiedy jest potrzebna. Jedzenie to już osobny poemat smaków. Wrócę tu z całą pewnością.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214V1gyaGhjSGN6Ym5wME4yNTZRbVJTUjAwM05rRRAB",
+      "author_name": "Marharyta Nazarenko",
+      "author_reviews_count": 5,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Naprawdę super miejsce, będę wracać 🤍",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZd1JYVnVZakpOY1RNM1JqQldTaTF4UjNwaGRuYxAB",
+      "author_name": "Bird Film",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Dziś odwiedziłem restaurację Figaro.\nByło bardzo klimatycznie, smacznie, pięknie, a personel był bardzo miły!\nPolecam to miejsce!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214VmVtdHpWVVZNT1dkVGIyUktVbkp0WkhsSmMyYxAB",
+      "author_name": "Monika Marzec",
+      "author_reviews_count": 14,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Super jedzenie! Każde danie jest dopracowane i naprawdę na wysokim poziomie. Smaki doskonale Gorąco polecam!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsRmRqbENlVGN5TkhWcWFHd3dOUzFvU21oNE1HYxAB",
+      "author_name": "Jacek Pelczynski",
+      "author_reviews_count": 12,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Spodziewaliśmy się, że może być smacznie, pięknie i miło i tak rzeczywiście było tyle, że jeszcze bardziej. Szczerze polecam.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Sa1IxcHJTekl0WVdScmVHNDVWV2x5UzFsc09FRRAB",
+      "author_name": "Marek",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobrze i po Włosku. Od samego wejścia do restauracji pięknie pachnie, ładnie wygląda. Obsługa ładnie ubrana, przyjemna i uśmiechnięta. Miło posmakować Włoskiej kuchni w Poznaniu. Bardzo polecam. I należy dodać, iż wino mają doskonałe. !",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poRlRYZGpRVUZuWDJaeFQzaG1UMlZzZUhaYWJGRRAB",
+      "author_name": "Łukasz T.",
+      "author_reviews_count": 468,
+      "author_photos_count": 124,
+      "rating": 5,
+      "text": "Obsługa bardzo czujna i miła. Jedzenie bardzo smaczne, szczególnie polędwica była idealna 👍🏻 Ceny dość wysokie w stosunku do wielkości podawanego jedzenia. Małe zastrzeżenie do tatara - w smaku bardzo dobry ale warto by do niego podawać dobre pieczywo bez konieczności jego dodatkowego zamawiania...",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1QlNGODJNMEp4UTJGcGMyNDVVWGx5VEY5Q2FuYxAB",
+      "author_name": "Vojitaz",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fantastyczne miejsce, polecam każdemu!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwVE1VUmZZWGhvUmtadk5HeDRTV1JYY25GdE5WRRAB",
+      "author_name": "Patrick Kisters",
+      "author_reviews_count": 31,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Angielski poniżej.\n\nW zeszłym tygodniu spędziliśmy cudowny wieczór w Figaro.\n\nCzwórka z nas delektowała się wyśmienitym jedzeniem i napojami. Dania były świeżo przygotowane, pięknie podane i smakowały wyśmienicie.\n\nObsługa była nienaganna. Dyskretnie i bez zbędnych ceregieli, nasze kieliszki zawsze były pełne wody lub wina, dzięki czemu nasze rozmowy z partnerami biznesowymi nigdy nie były przerywane.\n\nAtmosfera była przyjazna, a przyjazny personel zachęcał nas do pozostania na dłużej. Po ponad trzech godzinach w końcu wróciliśmy do hotelu, bardzo zadowoleni.\n\nGorąco polecam Figaro na miły wieczór z dobrym jedzeniem.\n\n-----------------------------\n\nW zeszłym tygodniu spędziliśmy cudowny wieczór w Figaro.\n\nCzwórka z nas delektowała się wyśmienitym jedzeniem i napojami. Dania były świeżo przygotowane, pięknie podane i smakowały wyśmienicie.\n\nObsługa również była nienaganna.\n\nObsługa była dyskretna i dyskretna, dbając o to, aby nasze kieliszki były zawsze pełne wody lub wina, abyśmy mogli bez przeszkód kontynuować przyjemne rozmowy z naszymi partnerami biznesowymi.\n\nAtmosfera zachęcała nas do dłuższego pobytu, podobnie jak przyjazny personel. Po ponad trzech godzinach, w końcu, bardzo zadowoleni, wróciliśmy do hotelu.\n\nGorąco polecam Figaro na wspaniały wieczór z dobrym jedzeniem.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGT1VFTkRjRGcwYkcwNVJUTkVjVlExTTJwb1pIYxAB",
+      "author_name": "Janek",
+      "author_reviews_count": 40,
+      "author_photos_count": 64,
+      "rating": 5,
+      "text": "Klimatyczna restauracja z pysznym jedzeniem. Polecam",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wSWNGVm9TWEZoV0hkM1ZtMWpWV05EV1RaalpYYxAB",
+      "author_name": "Gosia Mrozinska",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super  polecam",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoNWVIVnNia3BCT0ZkS2FVUmtPRE5tZW5KMmNWRRAB",
+      "author_name": "Aga A",
+      "author_reviews_count": 83,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo fajne miejsce, klimatyczne, jedzenie bardzo dobre, dostepne też wersje bezglutenowe (trzeba mówić, bo brak w menu). Obsługa bardzo uprzejma. Wysokiej klasy restauracja (także cenowo, ale warto).",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vMmMydzJTbkZUZUZjMmRFbDVhMUl6Vmt4bWFsRRAB",
+      "author_name": "Julia",
+      "author_reviews_count": 276,
+      "author_photos_count": 45,
+      "rating": 5,
+      "text": "Ekskluzywna włoska restauracja. Ośmiornica jest boska.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGVlVrZE5jbXhSU0V3MFp6WlVaelZXTjBVMk9IYxAB",
+      "author_name": "Basia Migda",
+      "author_reviews_count": 22,
+      "author_photos_count": 72,
+      "rating": 5,
+      "text": "Resteuracja z klimatem , pyszne jedzenie , doskonała obsługa .\nPrzegrzebki , ośmiornica , krewetki  świeże , dobrze przygotowane .\nDesery pierwsza klasa .\nNa pewno wrócę .",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnek5DMVFPWGM0VkZadmRXWnVjRGhXYkdjeVMyYxAB",
+      "author_name": "Marta Jasińska",
+      "author_reviews_count": 36,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Pyszne jedzonko i przyjemny klimat. Ogromny plus za wersje bezglutenowe. Obsługa na najwyższym poziomie. Dziękujemy Panu Karolowi za miłą obsługę. Cieszę się, że spędziłam tu miło czas w swoje Urodziny. Dziękuję",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trMk0yTkRkV0pYYmpWQ05IUTBWVWxFV2tsRVlWRRAB",
+      "author_name": "Lauren Shelander",
+      "author_reviews_count": 46,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Zjedliśmy wspaniałą kolację w ekskluzywnej restauracji Figaro! Próbowaliśmy i dzieliliśmy się wieloma daniami. Wyjątkowy stek tatarski, pulpo z krewetkami, stek wołowy – wszystkie bardzo smaczne i wyrafinowane. Solidna obsługa – miła, uważna i przyjazna. Wnętrze tętni życiem.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWT1VXMXBPRXhxUlVWS1ptWkxhVWxzTm5adVZWRRAB",
+      "author_name": "Juppi M",
+      "author_reviews_count": 63,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Specjalnie poszedłem na tatar i wróciłem na drugi dzień",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ONk1tUklTMkpxWWtaR01UTm9VVFo1WTNNMVdsRRAB",
+      "author_name": "Dorota Winiarska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie polecam ! Zamiast makaronu tagliolini podano spagetti. Jagnięcina pływa we krwi. Ohyda!  Nie honorują voucherów opłaconych wcześniej w tej restauracji , przykra niespodzianka. Obiad za 800 zł dla czterech osób , wyszliśmy zniesmaczeni . Szukasz włoskiego klimatu ? Zapomnij ,w Figaro go nie znajdziesz .",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wM1JqTlBZa2h4ZGtsNGEyVm9UWGhKY1d4NVVFRRAB",
+      "author_name": "Justyna Czajka",
+      "author_reviews_count": 6,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pyszna zupa gruszkowo-pietruszkowe i rewelacyjny tatar",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oamIyNTFhR2RaYzBod1JUZEZlRjkwVjJaWVgxRRAB",
+      "author_name": "mr izzy",
+      "author_reviews_count": 29,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza restauracja w Poznaniu",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JdExXSldjREU1VGtzd09DMHhkVWxFU2tkTE5sRRAB",
+      "author_name": "Marta Glik",
+      "author_reviews_count": 9,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Piękna włoska restauracja, chyba najlepsza włoska kuchnia jaka jadłam w Polsce. Polecam z czystym sercem 💖",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxVFEzWlJZbFJFUW1WbmIyOXdUMU54YkhWQmVVRRAB",
+      "author_name": "Anna Mucha",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo elegancko. Obsługa serdeczna. Potrawy pięknie podane i smaczne. Genialnym pomysłem jest deser dla dwóch osób, dzięki której można zakosztować większości oferty deserowej 😃\npolecAM",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201elRsRkxNaTFRZFZKcFJreDRlbTkzZGxSUWJGRRAB",
+      "author_name": "Bogdan Dubas",
+      "author_reviews_count": 471,
+      "author_photos_count": 1730,
+      "rating": 5,
+      "text": "Lokal jest na mapie Poznania już kilka dekad. Szef kuchni stara się, aby cały czas warto byłoby tu zajść i z przyjemnością spędzić czas.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURnOXF6Uk53EAE",
+      "author_name": "M W.",
+      "author_reviews_count": 44,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGZlZscEZXbVZUYWxOcFltOTFOMVZYTmpGNk4xRRAB",
+      "author_name": "Michal Jakubský",
+      "author_reviews_count": 1097,
+      "author_photos_count": 231,
+      "rating": 4,
+      "text": "Jedzenie było uczciwe i ładnie podane. Kelnerzy byli nieco mechaniczni. W menu było dużo dań z makaronem i owoców morza. Ogólnie rzecz biorąc, było to niezapomniane przeżycie.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwR09YQktWbmxEWTFwYVFuUXdUbFZFUVZoWFZWRRAB",
+      "author_name": "Anna Stocka",
+      "author_reviews_count": 23,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Od lat wysoki poziom obsługi i oferowanych dań",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

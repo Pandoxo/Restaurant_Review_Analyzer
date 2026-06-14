@@ -1,0 +1,3552 @@
+{
+  "restaurant": {
+    "name": "Restauracja Zen On",
+    "type": "Fine Dining",
+    "address": "Święty Marcin 21, 61-804 Poznań",
+    "price_range": "40–60 zł",
+    "total_reviews": 3759,
+    "avg_rating": 4.6
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VdFNYaFlhbFZsVEhOc2FtZ3hXbVZ2TFhwU1VuYxAB",
+      "author_name": "Aleksandra Skrzypczyk",
+      "author_reviews_count": 11,
+      "author_photos_count": 34,
+      "rating": 5,
+      "text": "Bardzo smaczne jedzenie. Czuć w ramenach ten sznyt profesjonalnego podejścia do gotowania - lecz dla nas chyba nieco zbyt \"przekombinowane\" połączenia smakowe, ale umiemy je docenić. Odwzorowanie smaków faktycznie wybitne - czuć składniki…",
+      "published_at": "18 godzin temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xadlEyUTViMWhLWlhaYVNHTndZMTlKVm1sRVVHYxAB",
+      "author_name": "Bartek Brzozowski",
+      "author_reviews_count": 39,
+      "author_photos_count": 38,
+      "rating": 5,
+      "text": "Ramen tam był tak niesamowitym przeżyciem że ciężko je opisać, sto procent smaku w każdym kęsie. Super atmosfera w środku i bardzo miła obsługa, ale to dania zdecydowanie grały pierwsze skrzypce. Niesamowite przeżycie kulinarne, polecam…",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkRFIzWnFTMDloTFRGMk5VcERRamt4ZEhSaGQyYxAB",
+      "author_name": "Wiktor Bielecki",
+      "author_reviews_count": 8,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Nie umiem tego opisać słowami, tego trzeba po prostu doświadczyć własnym podniebieniem - zdecydowanie warto <3",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFeUxYWnRWMEkyTkZremQyUlZUM05uYTNaRFoxRRAB",
+      "author_name": "Mr. Bombastic",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie bardzo smaczne, udon wyśmienity, rybny wywar aż łagodzi nasze gardełka spragnione azjatyckich smaków :) Pierożki, składniki w tempurze, BAO a do tego japońskie piwko mhm… Jedyne co osobiście mi nie smakowało to Tantan Spicy Meat, trochę mdła, tłusta zupka. Wielki plus także dla przemiłej obsługi :)",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SdlpuaHFVRWh1UWxWQlFuVmFabEJqWDIxSWQzYxAB",
+      "author_name": "Jaroslaw Gryla",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nie polecam. 40 minut przed zamknięciem nie zostałem obsłużony. Dlaczego podajecie godziny otwarcia. Jak jest otwarte to można wejść i zamówić.",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1Rk1YZDJibE5PTUhvNFh5MXBXWHBEYjFWNlowRRAB",
+      "author_name": "Sergiusz Czarniak",
+      "author_reviews_count": 128,
+      "author_photos_count": 124,
+      "rating": 5,
+      "text": "Od niedawna moją ulubiona skośna knajpka. Doskonałe jedzenie.",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxdU4xcERkRlp5WHpGWWQxRmxTMlJGVFROS2VuYxAB",
+      "author_name": "Konrad Kacprzak",
+      "author_reviews_count": 9,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Ładny wystrój, klimat, obsługa też niczego sobie, to co zamówiłem akurat nie trafiło w moje gusta, wziąłem ostry ramen, wywar wydawał się strasznie tłusty, przez co nie zjadłem nawet połowy. Często jadam ramen, ale takiego składu się nie spodziewałem.",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSaGNESkRhemw1VTJkTlFURnliVXB4ZERaR01rRRAB",
+      "author_name": "Małowinka 12",
+      "author_reviews_count": 186,
+      "author_photos_count": 159,
+      "rating": 5,
+      "text": "Najlepsi ♡",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFMFp6bEhhWEZtV1VkelR6Tm5YME41VDNOTFpGRRAB",
+      "author_name": "Robert Zdobylak",
+      "author_reviews_count": 47,
+      "author_photos_count": 141,
+      "rating": 5,
+      "text": "Wybraliśmy się zachęceni opinimi znawców, ja do nich nie należę. Weszliśmy z ulicy po chwili czekania,zaopiekowała się nami, bardzo miła pani. W środę ciasno, mało swobody. Szedłem z nastawieniem, że zostanę oczarowany  smakiem potrw. Oczy…",
+      "published_at": "2 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GSmVVSTJXbVJvU3pkamFrVnZRelJ6VFZCcVJrRRAB",
+      "author_name": "Marcel",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Zamówiłem Tantan Spice Meat i był bardzo dobry, bulion Sezamowy z mięsem mielonym dobre połączenie robione na mleku sojowym lekki ramen nie za tłusty (olej ostry poprosiłem osobno) wyszło około 1000kcal w porcji, Polecam bardzo dobry jedyny minus kolejka na 30 minut Polecam 9,5/10",
+      "published_at": "3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poYVNUVjJXR2RvTFRjeVgyZFVieTFIYjBOYWJVRRAB",
+      "author_name": "Kasia Korecka",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pysznie, super obsługa, ogromne porcje. Dziękujemy za przesympatyczny urodzinowy obiad i będziemy wracać :)",
+      "published_at": "3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xbGFGaHFiazF1TWpCSmJVeHdSbTFsTVVWeVRuYxAB",
+      "author_name": "Recenzent",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam!!!!",
+      "published_at": "3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oTUxYa3dkbGxLU2t4MlQweEhNbEZzYkU5VFNrRRAB",
+      "author_name": "Gosia W",
+      "author_reviews_count": 76,
+      "author_photos_count": 78,
+      "rating": 5,
+      "text": "Fantastyczne jedzenie, przemiła obsługa . Opłacało się jechać ze Szczecina na tą kolację. Polecam Ramen, wszystkie napoje oraz deser z najlepszymi lodami o smaku rogala Marcińskiego.",
+      "published_at": "4 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURybko2U2F3EAE",
+      "author_name": "Mateusz Horowitz",
+      "author_reviews_count": 24,
+      "author_photos_count": 23,
+      "rating": 4,
+      "text": "Jedzenie było dobre, ale nie wykwintne, bardzo miła obsługa, przeniósłbym restaurację do lepszego budynku, ponieważ w środku było bardzo ciepło.",
+      "published_at": "Edytowano 4 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25adGFFb3hVMVJTY1ZRelJXOVpVbnBCTmw5RlkwRRAB",
+      "author_name": "Michal Gawin-Gostomski",
+      "author_reviews_count": 14,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Co tu dużo mówić . Kolejki mówią same za siebie",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCRWFucGhNRVIyYlRCSE9XRnNNRFJhVGpsM1VIYxAB",
+      "author_name": "Delllor",
+      "author_reviews_count": 91,
+      "author_photos_count": 176,
+      "rating": 5,
+      "text": "Wszystko co zamówiliśmy było bardzo smaczne. Obsługa miła i profesjonalna. Polecam",
+      "published_at": "5 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBeFEwdG1URTlITm1vMU9FbFNPWEpVV2xaWmVYYxAB",
+      "author_name": "Agnieszka Kozłowska",
+      "author_reviews_count": 58,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Pyszny Ramen, w końcu wyróżnienia Michllen nie rozdają każdemu. Dodatkowo bardzo sympatyczna pani Kelnerka, której dbałość i troska jeszcze podbijają miłe wrażenie.",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xWWFXZDJPVTQwUXkxbmFsb3dURXhMWDFWZlMzYxAB",
+      "author_name": "Danuta",
+      "author_reviews_count": 118,
+      "author_photos_count": 174,
+      "rating": 5,
+      "text": "Ramen , który jadłam,  był tak smaczny, że,ups, tylko na doznaniach się skupiłam a nie na zapamiętania nazwy . Ponieważ był na ostro, na moje wahania związane z decyzją, Pani kelnerka,zaproponowała ,,, spice \",na talerzyku osobno, i to było bingo.",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toTWJ6QXRXa2hmVjNKc2QzSnpUV3hFTjBoQ1RtYxAB",
+      "author_name": "Artur Borzucki",
+      "author_reviews_count": 18,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Pyszne jedzenie 🍜…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGUk5uQTNaVWRyUjA5S1RGbGhYekkzYVRWSGVGRRAB",
+      "author_name": "Nikola Schnell",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Niedawno specjalnie przyjechaliśmy z chłopakiem do Poznania, spędzając 2,5 godziny w trasie, żeby spróbować ramenu w Zen On po obejrzeniu filmu Książula. Oboje bardzo lubimy ramen i często odwiedzamy różne miejsca, więc mieliśmy spore…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OYU5XZERNRXBZZEc1dlNYRndRbWg0UkhoM2RVRRAB",
+      "author_name": "Bartosz Płóciniczak",
+      "author_reviews_count": 51,
+      "author_photos_count": 71,
+      "rating": 5,
+      "text": "Świetne miejsce! Jedzenie było naprawdę pyszne, wszystko świeże, dobrze doprawione i podane z dbałością o szczegóły. Obsługa miła i sprawna, a atmosfera bardzo przyjemna. Zdecydowanie jedna z lepszych restauracji, jakie odwiedziłem w Poznaniu. Chętnie wrócę i spróbuję kolejnych dań. Polecam!",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poSlVIaFJMVVJaWDBoUU0zbHVXRU4yWkUxak1HYxAB",
+      "author_name": "Aleksandra Demianosova",
+      "author_reviews_count": 116,
+      "author_photos_count": 317,
+      "rating": 4,
+      "text": "Widać za co się dostaje gwiazdki Michelin - restauracja zdecydowanie broni się jedzeniem. Wzięliśmy dwa różne rameny - Tantamen oraz Ramen ze stekiem z kalmara. Smakowały bardzo dobrze, zaskoczeniem były niecodzienne dodatki do ramenu -…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGWWJsSlpOMU5ITVV4RFRHNVhWR2R0V2t0blNsRRAB",
+      "author_name": "Tomasz Dudek",
+      "author_reviews_count": 17,
+      "author_photos_count": 24,
+      "rating": 4,
+      "text": "Jedzenie jest przepyszne. Faktycznie był to najlepszy ramen jaki miałem okazję jeść i dlatego tutaj 5 gwiazdek. Jednak od knajpy z gwiazdką Michelin oczekuje się więcej dlatego w innych kategoriach jest mniej gwiadek. 4 daje za obsługę,…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poRk9VTTVaVVZuWkZaT1MyazNXVkZrWmtodlgxRRAB",
+      "author_name": "Damian Dziewa",
+      "author_reviews_count": 12,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Super miejsce. Każdy kulinarny smakosz powinien je odwiedzić i spróbować pozycji z karty. Zarówno potrawy, atmosfera i obsługa.  Wszystko na najwyższym poziomie.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jeVpGZHpObTVrTVRoeVNsTnFha056VTNVemIxRRAB",
+      "author_name": "Julia Kwintkiewicz",
+      "author_reviews_count": 41,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Przepyszny ramen, najlepszy jaki jadłam. Bułeczki bao również bardzo smaczne, starannie dobrane składniki. Obsługa przemiła i pomocna. Będę wracać☺️",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSTlV6SjRkblJHVUZGWWFFVlViMUJHWTNSS2NHYxAB",
+      "author_name": "Dawid Greśkiw",
+      "author_reviews_count": 52,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Mimo soboty godzin obiadowych, nie dlugi czas oczekiwania na stolik. Obsługa przemiła. Jedzenie petarda.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204eVpETkZNWEpuT0hCSVdYbEtiV0ZIUlRkRlRXYxAB",
+      "author_name": "Karol Obuchowski",
+      "author_reviews_count": 205,
+      "author_photos_count": 21,
+      "rating": 5,
+      "text": "O matulu! Jeden z najlepszych Tantan (men), jakie jadłem! I bez problemu zamienili mi jeden składnik na inny. Wyróżnienie zasłużone",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5aU9EaEZjRkpqZEdGM1pHeGhTbUZ0Vm5SYVZVRRAB",
+      "author_name": "Kuba Guth",
+      "author_reviews_count": 25,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Szamka? Idealnie",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aR1RFNWhORWxmUkY5VFkzSTBjRzlsVTFsdk9YYxAB",
+      "author_name": "Magda Adamczak",
+      "author_reviews_count": 17,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Uwielbiam ich rameny!",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNdFZ6QXhWbmhGZVZSSmJGaFNNR05vVm0xcmRYYxAB",
+      "author_name": "Piotr Ostrowski",
+      "author_reviews_count": 16,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Niestety nie mam zdjęcia bo zorientowałem się że mam zrobić fotkę w połowie jedzenia. Ranem pyszny, tyle smaku że to jest nie do opisania trzeba po prostu zjeść. Obsługa rewelacja, uśmiechnięta, pomocna i nawet robiąca szybki kurs…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NM01GbGtPRGxSVTFKUlF5MXZPREZtTkZsNlRtYxAB",
+      "author_name": "Asia S",
+      "author_reviews_count": 22,
+      "author_photos_count": 27,
+      "rating": 1,
+      "text": "Miałam wygórowane oczekiwania po obejrzeniu filmu Książula i odznace Michelin, ale niestety się zawiodłam.…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25abmMwcE9SR1ZoTTBJMmJreFZNa1pHYlY5MmVtYxAB",
+      "author_name": "Zuzia Zięba",
+      "author_reviews_count": 17,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Przepyszny Ramen, porcja nie do przejedzenia, obsługa świetna a mają bardzo dużo pracy, ponieważ nawet w dni powszednie stoi kolejka przed lokalem. Polecam serdecznie. ❤️",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1dWEyUTViV3QwZUhSdWFXVkZhR3RNZEhoQmNWRRAB",
+      "author_name": "Ang Dab",
+      "author_reviews_count": 39,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Ramen petarda! Przyznam szczerze, że nie jestem jakiś smakoszem takiej kuchni, ale ramen, który tam zjadłam, spowodowała że jadłabym go codziennie. Bardzo fajny lokal ze świetną obsługą. Na pewno wrócę. Polecam!! :)",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKTWVYWXRORTA0VDB0WlMyUTRObEpSVkd0ZldYYxAB",
+      "author_name": "Michał Mach",
+      "author_reviews_count": 25,
+      "author_photos_count": 27,
+      "rating": 5,
+      "text": "Przesmaczny Tantanmen ramen, bardzo miła i pomocna obsługa, super klimat. Smaki Japonii, przez które można odpłynąć ;) Polecam w 100%",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210TFdrWjBVR05yU1ZwT2NsOXJhMHRxUzBkalNFRRAB",
+      "author_name": "Łukasz Złakowski",
+      "author_reviews_count": 206,
+      "author_photos_count": 844,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie – na wizytę w Zenie wybieraliśmy się już od jakiegoś czasu i zdecydowanie było warto. Wyszliśmy bardzo zadowoleni i najedzeni. Obsługa niezwykle miła i dobrze zorganizowana, wszystko działało sprawnie mimo bardzo…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SclMyUXdkbGN4WTFkV2RuWmxiWFZWZVhkYWNtYxAB",
+      "author_name": "David Buzalski",
+      "author_reviews_count": 134,
+      "author_photos_count": 372,
+      "rating": 5,
+      "text": "Wow! TAK się prowadzi restaurację! 🤩\n​Wszystko było niesamowicie świeże, absolutnie pyszne, a porcje ogromne.…",
+      "published_at": "Edytowano tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kSFlUZDNPV0pMVGxGR2EweFhOblF5VUZvMmFHYxAB",
+      "author_name": "Jo eN",
+      "author_reviews_count": 74,
+      "author_photos_count": 182,
+      "rating": 5,
+      "text": "Pyszny Ramen 😋…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCNVZuVTBXbWhPVEhGWFNYRlNPRkpWV2xOc1RGRRAB",
+      "author_name": "Martyna Mati",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo pyszne jedzenie w dużej porcji ☺️ Obsługa była bardzo miła i z uśmiechem na twarzy poleciła dania! Polecam! 🌸…",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OSFNHNVRiMlZCU3pSbFZreGlWV3hTTVRsUU5uYxAB",
+      "author_name": "Mateusz Szulc",
+      "author_reviews_count": 507,
+      "author_photos_count": 2991,
+      "rating": 5,
+      "text": "Tldr: zalecam odwiedzenie tej restauracji\n\nO 16:31 ustawiłem się w 12-osobowej kolejce. O 16:45 mogłem wejść (wybrałem się…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taQ01XNTVlV1V3WnpGaE1rWlliRkY0VXpkdlVGRRAB",
+      "author_name": "Bartek Klichowicz",
+      "author_reviews_count": 112,
+      "author_photos_count": 114,
+      "rating": 5,
+      "text": "To nie była moja pierwsza wizyta w Zen On na Świętym Marcinie i zdecydowanie nie ostatnia. Miejsce trzyma świetny poziom za każdym razem, ale ich ramen z kaczką to absolutny sztos i moim zdaniem najlepsza pozycja w menu. Warto odstać nawet…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMU1tMUJZM2xIVUZjMmVGOUJha2hWV1UxVFVuYxAB",
+      "author_name": "Kacper Nojman",
+      "author_reviews_count": 11,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Fajny ramen. Warto.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCQlVETk5hMUZEY0VkSmFIRjJXRkZmZHpGbk1FRRAB",
+      "author_name": "Justyna Hurkała",
+      "author_reviews_count": 13,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Ramen, na który wracam z Wrocławia. Nie do przebicia przez inne TOP rameny. Zdecydowanie miejsce, które trzeba odwiedzić.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GQk5WSmZTV2hyVWs5RmJVWlBaRUU0ZVMxTFQxRRAB",
+      "author_name": "Łukasz Mirosław",
+      "author_reviews_count": 107,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie, lemoniady i miła obsługa.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25jNFpVUTRSWHA0UVc5SGExSk5hRmw1T0hKWlIwRRAB",
+      "author_name": "Krz Kajak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "bardzo smaczny, gęsty i pełny smaku tantan spice meat ramen! pani Martyna bardzo uprzejma i pomocna, polecam!",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201MlEzRkZjQzFDVkd4VlVHOUxaa0pMVjJWc1ltYxAB",
+      "author_name": "Domo",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "szczerze jestem zawiedziona, zamówiłam buleczki Bao z boczkiem, przyszliśmy o 19;10 do lokalu, koło koło 19;20 zamówiłam na wynos jedną porcję Bao, dziesięć minut później pani powiedziała że mniej więcej jeszcze 10/15 minut, chwile…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poUlgxbGpjVWs0TFRaRVJ6QjVUa1JaV1VseWFGRRAB",
+      "author_name": "Jaworek Marcin",
+      "author_reviews_count": 69,
+      "author_photos_count": 254,
+      "rating": 5,
+      "text": "ZenON od wejścia czuć, że każdy detal jest dopracowany. Po wskazaniu stolika dość szybko otrzymaliśmy menu. Wybraliśmy Tantan Spicy Meat oraz Ika Paitan Ramen, a do picia między innymi Grzaniec Zen On. W oczekiwaniu na dania można było…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZeWRqaEdibDgxVlhsTWJucFNkVzk0TkhkeFpHYxAB",
+      "author_name": "Sebastian Adamczuk",
+      "author_reviews_count": 109,
+      "author_photos_count": 33,
+      "rating": 5,
+      "text": "Zasłużone 5 gwiazdek. Jedzenie pyszne i jakościowe i chapeu bas za nie wystrzelenie cen w kosmos po uzyskaniu rekomendacji M. Naprawdę miejsce warte odwiedzenia.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKSVkwbzJNVEp2V21WWU16RmxhWFJHYlVGMlNuYxAB",
+      "author_name": "Radosław Pohling",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Nigdy tak się nie zawiodłem jak dzisiaj zamawiając ramen w tej restauracji. W mojej ocenie najgorszy ramen w życiu.…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oTVFsbzVkMXBXYURNM1ltTjFjMEpuYUROemRVRRAB",
+      "author_name": "Ewelina Grambor",
+      "author_reviews_count": 154,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne, aromatyczne jedzonko. Bardzo polecam.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwZlNtUlZiMTlJVm5KUGVEYzVURmRsVmtVM1NYYxAB",
+      "author_name": "Piotr Rembowski",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Petarda !",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CWVlrVnNWVU0zUWpsRlUzaHdUM2xYVWtFek9VRRAB",
+      "author_name": "Igor Górski",
+      "author_reviews_count": 90,
+      "author_photos_count": 238,
+      "rating": 5,
+      "text": "Bardzo dobry ramen, polecam",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kUFQwRTRSM2h2VWxWdlZtOXJjMUJSZEdaU1EyYxAB",
+      "author_name": "Tantal 73",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "\"Gahou paitan ramen\" był okropnie słony - aż drapał w gardło przy jedzeniu i przyszedł letni zamiast ciepły. Do tego duszona kaczka w ramenie była niedopieczona, gumowa i o wyraźnym smaku krwi. Za to chipsy z pasternaku - pycha.…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wQ1pGcDZZWFozVmpCSVgwZEZYM2xPY0cwMWFuYxAB",
+      "author_name": "Ewelina Boska",
+      "author_reviews_count": 54,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Wspaniałe doświadczenie kulinarne, próbowaliśmy 3 rodzaje a każdy ramen był wybitny.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoT1RHVk9WMk5xWkd4c01uWjFSMjVMUzJweFgyYxAB",
+      "author_name": "Jacek Kaminski",
+      "author_reviews_count": 40,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Obłędny Ramen .  Wnioskując z kolejki przed wejściem inne Dania również.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WNFgwWlRla05TVmtrM2NXWnhZa051ZERsTFowRRAB",
+      "author_name": "Marta Mrówka",
+      "author_reviews_count": 88,
+      "author_photos_count": 184,
+      "rating": 5,
+      "text": "Jedzenie pyszne . Klimat również. Jedyne co mi się nie podobało to bliskość stolików obok.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkNGF6QnhOemd0UlVKaVMxWjZjR1Z1VG5kNVRGRRAB",
+      "author_name": "Kuba Nowicki",
+      "author_reviews_count": 10,
+      "author_photos_count": 2,
+      "rating": 4,
+      "text": "Najlepszy ramen jaki jadłem, byłem kilkukrotnie i nigdy się nie zawiodłem. Do poprawy moim zdaniem podejście do obsługi klienta szczególnie Pani w rudych włosach, kompletnie niezainteresowana i odniosłem wrażenie że pracuje tam za karę.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SUmJYVXhOelpzVjFwbE5FUXRWVmswZVcxVk5rRRAB",
+      "author_name": "b p",
+      "author_reviews_count": 82,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Bardzi dobre jedzenie i duze porcje",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5blpWcDNaRXBKWnpWaU5VcGZVbmRXU3pSc2NWRRAB",
+      "author_name": "Łukasz Czereda",
+      "author_reviews_count": 59,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Super. Pyszny Ramen, ale uwaga: duża porcja 😉…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsS2FWSlVOVjlrVjBFMFRHeEtXRWwxU0Vzek1YYxAB",
+      "author_name": "Dennzel Dizel",
+      "author_reviews_count": 18,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Najgorsza część restauracji to kolejkado niej, ponieważ restauracja poza tym jest świetna!\nZamówiliśmy pierożki , bardzo dobre. RAMEN - gwóźdź programu, okazał się być…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xacmNUYzVNRTVYVkY4NGEybEhjemsyZGxoS01YYxAB",
+      "author_name": "Damian Chojakowski",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "nie dziwię się wyróżnieniu jaka dostała ta rameniarnia. najlepszy ramen w poznaniu",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGSUxWVk1RWEIzVGxKQ01XUjJRblEyZFRnMFZVRRAB",
+      "author_name": "Maciej M.",
+      "author_reviews_count": 150,
+      "author_photos_count": 38,
+      "rating": 4,
+      "text": "Jedzenie jest dobre ale zeby wybitne to bez przesady. Osobiscie uwazam ze Ato Ramen we Wroclawiu jest o klase wyzej.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kSE4wUkhiM05ZU1ZSVlJHMWZka2MxZFdKb2IzYxAB",
+      "author_name": "Itinerary by Gigi",
+      "author_reviews_count": 59,
+      "author_photos_count": 128,
+      "rating": 4,
+      "text": "Odwiedziłem tę restaurację w środę około 16:00 i mieliśmy szczęście, że weszliśmy bez kolejki. Zostaliśmy usadzeni na drugim piętrze, obsługa była bardzo przyjazna i uważna, pomimo pełnego obłożenia. Jedyne, co nie pozwoliło nam się w pełni…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKSmRqZzRSREJZY0VWNk1sTkZhMkl4WkhodFRXYxAB",
+      "author_name": "Wojciech",
+      "author_reviews_count": 7,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Polecam serdecznie\nBardzo wysoką jakość składników i ciekawe smaki",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1eFpXeHlWMFZ3UzBVek1XNXZSRWRhYVdoeU0zYxAB",
+      "author_name": "Poto",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "dospermiony ramen",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWNVRIVk5jbTFFVlY5bWRYWm1kVkpxYjIxMlVHYxAB",
+      "author_name": "Artur Stróżyk",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Fajne porcie smaczne  miła obsługa",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WTmVHMUVVRTlxYVRkcE9XVm1ObFl6VUMxaVUzYxAB",
+      "author_name": "Joanna N",
+      "author_reviews_count": 37,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Ramen super choć sporo dziwnych dodatkow, które psuły smak. Nie byl to najlepszy ramen jaki jadłam w życiu. Obsługa bardzo miła, napoje smaczne",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Kd1lXWkxiRkJtYkZsZk0wUXpUM0U0TXpONlJWRRAB",
+      "author_name": "Mateusz Ma",
+      "author_reviews_count": 15,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jedzenie TOP! Doznania niesamowite!!!",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKelEzWXdZWEl6UjFsTFJEVnBjM05YWlROTk5rRRAB",
+      "author_name": "Damian Stelmach",
+      "author_reviews_count": 138,
+      "author_photos_count": 275,
+      "rating": 5,
+      "text": "Odwiedzone z powodu Szymona, powiem krótko - wypas.\nRamen tak nam zasmakował że byliśmy 2x - dzień po dniu. Za 1szym razem czas oczekiwania to góra 15 minut (17:00) 2 dnia (14:00) od razu dostaliśmy stolik. Ramen…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGbk5tUTBTREZNYVRnNFpWcERSVkpaVGpVNFNYYxAB",
+      "author_name": "Bartosz Kowalski",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jadłem dużo ramenów - ten jest najlepszy!",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210R05URmxVRXB5VldSbFRtWktZVjlpVG5sWVJuYxAB",
+      "author_name": "Roksana Kostera",
+      "author_reviews_count": 12,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Chodzę do Zen On od lat - jeszcze z czasów starej lokalizacji 😊 I poziom cały czas pozostaje świetny! Zawsze pysznie, świeżo i z super atmosferą. Uwielbiam ofertę lunchową, a Tantan Spicy Meat to totalny faworyt ❤️ Bardzo polecam!…",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKVmExbEVOVFptVGxrd1RFVXRSaTEyTUVreVlrRRAB",
+      "author_name": "Paweł Migut",
+      "author_reviews_count": 15,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Przepyszny Tantan, bardzo fajne miejsce, w zależności od pory dnia pewnie czasem trzeba poczekać na stolik jeśli jest się bez rezerwacji. Przemiła Pani Julia z obsługi :)",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5ZlFrWTRRVTVJT1U4d1YwaFBNRkpJTFZGVGQxRRAB",
+      "author_name": "portikon",
+      "author_reviews_count": 294,
+      "author_photos_count": 3210,
+      "rating": 5,
+      "text": "Pycha.....Wyszliśmy zauroczeni wyborem. Jedzonko wślizgiwało się do brzucha i uczucie było naprawdę miłe... Będe wracał. Bez kolejki, środa 13.....idealnie.",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rdExXWkJRMTlPTkZWS2JEUTFUMUp5VG1WRE4wRRAB",
+      "author_name": "Leszek Syroka",
+      "author_reviews_count": 3,
+      "author_photos_count": 17,
+      "rating": 5,
+      "text": "Najlepszy ramen jaki jadłem w życiu. Duże porcje, przystępne ceny. Miła obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KaVVVMUhXbE5GY2pWTkxXTnRkMHREVFRWTVRYYxAB",
+      "author_name": "Tomasz Królikowski",
+      "author_reviews_count": 83,
+      "author_photos_count": 147,
+      "rating": 4,
+      "text": "Po dwóch wizytach stwierdzam, że nie rozumiem za co jest ta * i czym się ludzie podniecają. Jedzenie ok ale bez szału - jadłem lepszy ramen w Poznaniu. Sam wybór też nieduży. Polecam przyjść i sprobować samemu tylko nastawcie się na kolejkę…",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4NWVYSkJNRzUxWDBNdFVtaHZlakZWYnpKRlkzYxAB",
+      "author_name": "Aleksandra Mastalerz",
+      "author_reviews_count": 17,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Nastaliśmy się w kolejce, ale było warto. Najlepszy ramen jaki jadłam, wyrazisty, przepyszne dodatki, ogromna porcja.  Zamówiliśmy również przystawkę (pierożki) i również była wspaniała.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCcmQyWlNaa1oxVW1WcldVTnhNVWhVZEhGc1VuYxAB",
+      "author_name": "Paulina",
+      "author_reviews_count": 177,
+      "author_photos_count": 137,
+      "rating": 4,
+      "text": "Okej, porównuje to miejsce do mojego Boga ramenu, czyli Ato Ramen.\nCzas oczekiwania na jedzenie strasznie długi. Czekaliśmy ponad 40 minut. W Ato przy 3 razy dłuższej kolejce jedzenie dostaje w max 20 minut. A wielkość lokali…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGRWNuVnlVMFpQYTNKemEzQXRVWEkzVldOUVJXYxAB",
+      "author_name": "Howaitohira",
+      "author_reviews_count": 128,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Najlepszy ramen w Polsce, a może i na świecie. Nie jest to klasyczny ramen, tylko bardzo eksperymentalny, ale to właśnie to sprawia że jest tak dobry :)…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSS05GcHRlbXc1VGtGRlUybGtXRXBXY1ZCd1pHYxAB",
+      "author_name": "fab629",
+      "author_reviews_count": 52,
+      "author_photos_count": 28,
+      "rating": 5,
+      "text": "Ramen przepyszny najlepszy jaki jedliśmy bulion bardzo wyrazisty dodatki równie pyszne polecam",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aUlpqUlZNMlJ4VEV0WE1VSlhOWEIzVGxCWk5WRRAB",
+      "author_name": "K.O. D",
+      "author_reviews_count": 17,
+      "author_photos_count": 21,
+      "rating": 5,
+      "text": "Dowiedziałam się o lokalu z filmiku na youtubie “książulo”\nCzekaliśmy w kolejce 45min, zamówiliśmy 2 różne rameny, dosyć szybko je dostaliśmy (około 15min), za 50 zł dostajecie mega dużą porcję , która napewno się da…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5cWRIVkRRMEZEYTJkUlJqY3hWR2RNVXkxWVdsRRAB",
+      "author_name": "Rafał Wójcicki",
+      "author_reviews_count": 43,
+      "author_photos_count": 75,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre, powalił nas czas oczekiwania na stolik (ponad 30 min) ale to była sobota, więc cóż... Dużo chętnych było ;) Polecam :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWUmNIVm5XRmxvYm5kd2FsVkVjMkUwUWxsek0zYxAB",
+      "author_name": "M K",
+      "author_reviews_count": 17,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko świeże, idealnie przyprawione, ceny przyjemne, obsługa bardzo na plus. Deser wariacja rogala marcinskiego obłędny!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taNWJsWkJObEE0WjI0NU1VbFFZWGRQV0d0bGNFRRAB",
+      "author_name": "Agnieszka Gmail",
+      "author_reviews_count": 11,
+      "author_photos_count": 8,
+      "rating": 4,
+      "text": "Pyszny ramen z gęsi, i pyszna lemoniada mango  😉…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwMWFIZElSemhJUlhvMFZ6ZERlalZpU1dsTFdWRRAB",
+      "author_name": "D B",
+      "author_reviews_count": 181,
+      "author_photos_count": 59,
+      "rating": 5,
+      "text": "Od dawna się wybierałem i w końcu udała mi się dotrzeć, nie jestem fanem ramenu raz jadłem w innym lokalu i mi nie podszedł, ale tutaj było inaczej smak obłędny, porcje ogromne, ja potrafię dużo zjeść ale ledwo co ramen zmieściłem i od 14…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKTlVtUmxNMGwzWDFJdFprTjRTR3N3VURWdFNFRRAB",
+      "author_name": "Jurek Wnukowski",
+      "author_reviews_count": 14,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo smaczne! 🙂…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxSVpGTk1hRXBwWW5sRFduWlVRM2RqYlVsc2NVRRAB",
+      "author_name": "Maciej Ignaczak",
+      "author_reviews_count": 33,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Pani Klaudia i Pani Martyna obsługa top jak przystało na Wyróżnienie Michelin, jedzenie top, klimat top, ceny bardzo dobre.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOS0xUVTRTazh4V0ZaRVNtUjBWRGc0Vkd0R09FRRAB",
+      "author_name": "Nikita Górski",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przykuwający oko wystrój i rozkład pomieszczeń.\nObsługa bardzo miła, wzorowo potrafi zadbać o potrzeby klienta.\nJedzenie na super poziomie, pierwszy raz spotkałem się z tak aromatycznymi…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGM2NrNWtWVlJMWkhkbFlUZHNkWEYzVlhsNVduYxAB",
+      "author_name": "Michał Skalski",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepszy ramen jaki jadłem w życiu i przemiła pani kelnerka, zdecydowanie polecam!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KM1FUSlZOVk5pUTFOVGVrVXhWRzVxYlc4MU5FRRAB",
+      "author_name": "Daria Sabiniewiecz-Łaski",
+      "author_reviews_count": 18,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Jedzenie przepyszne! Tantam spicy ramen turbo orzechowy, gęsty, z chrupiącymi dodatkami, wyborny! A deser inspirowany Rogalem marcińskimi- lody sztos, kumkwat, chrupka, wszystko się w nim zgadzało 👌…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1UE5sWnJRbEI2WTJvMk9WVTFjUzFJVjNGaVdrRRAB",
+      "author_name": "Monika Przybylska",
+      "author_reviews_count": 6,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jedzenie przepyszne !!!!\nObsługa świetna!!!…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOT2MwRnpORGs1ZFdVeVgySkRhbGxEYTIxa1JsRRAB",
+      "author_name": "Piotr Mądry",
+      "author_reviews_count": 74,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Żeby wejść musieliśmy trochę poczekać, ale zdecydowanie było warto. Przemiła obsługa i bardzo dobre jedzenie. Super, że można poprosić o złagodzenie wybranych pozycji z menu jeśli chodzi o ostrość.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNINDRQSmVnEAE",
+      "author_name": "Konrad",
+      "author_reviews_count": 17,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Ewidentnie robione pod jak najwiekszy przemiał klientów... moje jedzenie było dobre, ale czy zasługuje na gwiazdkę michelin? Nie mnie to oceniać, żona dostała kaczke niedosmażoną z piorami co jest niedopuszczalne, ledwo zdążyliśmy zjeść i…",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wVUxUaGlMVUpCUW5kT1ZreFRaME4yWDNKWWRIYxAB",
+      "author_name": "Patrycja Ściebura",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Tantan cudowny, bardzo kremowy i sezamowy. Porcje ogromne. Warto było jechać z Łodzi. Pozdrawiam :)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKeU1VSXhUMEl0WDFWS1gyWlhTVUV6Ulc5cGFYYxAB",
+      "author_name": "Mike K",
+      "author_reviews_count": 101,
+      "author_photos_count": 142,
+      "rating": 4,
+      "text": "Pierożki bardzo smaczne. Bułeczki Bao są smaczne, ale bez wow. Ramen homarowy to był zawód. Deser (makowy) też ok",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OaVEyTkNkMEU1VURCTGNERmxaa05RU21oelVuYxAB",
+      "author_name": "Katarzyna Błaszkiewicz",
+      "author_reviews_count": 35,
+      "author_photos_count": 38,
+      "rating": 5,
+      "text": "Ramen z łososiem był absolutnie świetny! 🍜 Delikatny soczysty kawałek ryby idealnie komponowały się z aromatycznym bulionem, który miał głęboki  smak. Makaron był sprężysty i doskonale ugotowany, a dodatki – świeże warzywa i subtelne…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WdmVVcFdXR2h4UjB4alpIUXRabXhCTFZCS1NGRRAB",
+      "author_name": "Xior 20",
+      "author_reviews_count": 16,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Ramen było wyśmienite, bardzo sycące, ledwo dałem radę zjeść całe. Klimatycznie, miła obsługa. Jak będę następnym razem w Poznaniu to na pewno zajrzę ponownie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paVlZrNXdSV015VW1kVk9URkpTVlZSYjBwT2MyYxAB",
+      "author_name": "Marek Bajorski",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Mimo długiej kolejki to moim zdaniem warto!\nPycha, pani która nas obsługiwała bardzo miła i pomocna.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSbldHZzFaVjk1TlZwaFlrUXpMVWxQZVVOM1JYYxAB",
+      "author_name": "Kulinarny_Poznań",
+      "author_reviews_count": 73,
+      "author_photos_count": 42,
+      "rating": 5,
+      "text": "Bez rezerwacji trzeba uzbroić się w cierpliwość, ale warto. Obsługa jest bardzo miła, a porcję są naprawdę duże. Byli z nami znajomi, którzy gustują w kuchni japońskiej i potwierdzili, że to najlepszy ramen, jaki jedli w Polsce!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGU2JrZDNjMlkwZEhsc1R6QTFYMHBwWlZWVVJrRRAB",
+      "author_name": "egbert wits",
+      "author_reviews_count": 27,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszne smaki, makaron świetnej jakości, duże porcje. Trochę kolejki na zewnątrz, ale warto.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5T1JXSnVWVTlpUVZOR1EwRktkbU5RZDBGUU0yYxAB",
+      "author_name": "Honor P",
+      "author_reviews_count": 22,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Przepyszne jedzenie.\nTrochę długo czekaliśmy (około godziny)",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5MFRWa3paSFl6VFVsYWNHVkJjRE5NUWtSSGMwRRAB",
+      "author_name": "Svitlana Voshchyna",
+      "author_reviews_count": 513,
+      "author_photos_count": 1113,
+      "rating": 5,
+      "text": "W środku nie byłam ale w ogródku też jest super przy tak miłej i fajnej obsłudze.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMlNWaGhMWFZhTlhNMlkyWTVObGRLUmtOUmMxRRAB",
+      "author_name": "Aleks Kas",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wege opcja świetna! A obsługa przesympatyczna i robiła wszystko, by jak najsprawniej uwinąć się z kolejką. Warte poczekania!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKdmVXTmlYMHB6YlVWWGJHbHpibmx4UTJObFlsRRAB",
+      "author_name": "Pepsi Cola",
+      "author_reviews_count": 263,
+      "author_photos_count": 571,
+      "rating": 4,
+      "text": "W dużym skrócie poprawny Ramen i chciałbym powiedzieć coś więcej ale się nie da. Tak samo smaczne i poprawne pierożki ale efektu wow nie było a jednak po to tu przyszliśmy. Trochę nie rozumiem tego wyróżnienia Michelin, Tantanmen mógłby być…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GWlUwRlhTV3B3Vm1KaE1YQlVORE5RUmxseU0zYxAB",
+      "author_name": "Danka Rachelska",
+      "author_reviews_count": 38,
+      "author_photos_count": 85,
+      "rating": 4,
+      "text": "Obsługa miła, jedzenie mojej koleżance bardzo smakowało mi tak sobie. Ramen porcje ogromne ale nie moje smaki. Za to pierożki z polikiem wołowym bardzo dobre",
+      "published_at": "Edytowano miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trM2VsSTFTMUUwUlVkelpITTBRVzVEU1RoMk4yYxAB",
+      "author_name": "Magdalena Strozyk-Cylka",
+      "author_reviews_count": 59,
+      "author_photos_count": 92,
+      "rating": 5,
+      "text": "Pyszny ramen, doskonale skomponowane propozycje, jedyny mankament, to kolejka przed wejściem, bo nie tylko ja o tym wiem 😄…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WYWNFTnpNMmRYYUU1WmFrcDNlazFPT0doNFVHYxAB",
+      "author_name": "Elwira Pachowicz",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Atmosfera Ok ale najlepsze jest w tej knajpie jedzenie bardzo dobre a deser obłędny. Polecam każdemu choć raz spróbować i odwiedzić ta knajpę",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trM1dsUmtkemR4VWpKbFNFUnNlREJvUlVSUmJHYxAB",
+      "author_name": "Rudobrody Grubas",
+      "author_reviews_count": 61,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko. Jedynie co to trochę ciasno, przez co nie ma się pełnej swobody w rozmowie bo praktycznie siedzi się stolik w stolik obok siebie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSWU5VdDFXa1kxUkdneU5VWnFWVTh4YzB4c2NXYxAB",
+      "author_name": "Bartek",
+      "author_reviews_count": 61,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Pyszny ramen, wspaniałe danie, ładnie podane, miła obsługa. Warto było czekać w kolejce ponad godzinę! Jak na lokal tej klasy (gwiazdka Michellin) to ceny normalne.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SeE5YUlJaelpXVDJwNVVUQnBRM1ZKTjJKelRYYxAB",
+      "author_name": "Paulina Czwojdrak",
+      "author_reviews_count": 29,
+      "author_photos_count": 26,
+      "rating": 5,
+      "text": "Polecam! Trochę długi czas oczekiwania ale smak rekompensuje 🙂…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taVVkzRkVVVXBHZW1aU1ozVnlTVzB5TXpKT01sRRAB",
+      "author_name": "Ewelina Chrzonszcz",
+      "author_reviews_count": 2,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Smaczne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tacVFta3hNVXRTYzJ0UFpHdDNkMGhDT0U1a01sRRAB",
+      "author_name": "Patrycja Frątczak",
+      "author_reviews_count": 33,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Jak zwykle niezawodna obsługa i przepyszne jedzenie ❤️\nDo zobaczenia za jakiś czas 😉\nSzkoda, że mam do Was 150km.\nAle warto dla Was wracać!…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21keGJIWm5aMDFZUm1wM2ExTm9SVFV6YTJOeUxVRRAB",
+      "author_name": "G B",
+      "author_reviews_count": 202,
+      "author_photos_count": 952,
+      "rating": 5,
+      "text": "Świetne pierożki ma start. Bardzo dobre, dopracowane rameny. Głębia smaku. Puryści ramenowi będą może nieco kręcić nosem, że mało ortodoksyjne - tylko takie wielkie michy pełne dodatków, rozmaitości i połączeń smaków. Ale fani dopasionych…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tac1dHcHhjMFJGY0dreFNFMHpSM1k1TVZGS1luYxAB",
+      "author_name": "mariusz matuk",
+      "author_reviews_count": 4,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Odwiedziliśmy restaurację że względu na rekomendacje Książula i rzeczywiście wszystko było muala.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sVFMxQnZSVUZuYzNOUGNtTkZZVVJNWTFRMVJFRRAB",
+      "author_name": "Beata",
+      "author_reviews_count": 25,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Jedzenie obłędne. Ramen przepyszny, tak samo jak grzaniec. Pani Kelnerka, brunetka z tatuażami i kolczykami, niestety nie zapytałam o imię, okazała się niesamowicie miłą i życzliwą osobą. Bardzo pomocna, zainteresowana gośćmi. Po prostu…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21veFVWQTVkbTF0VG05aVpHbFhOR3haTTJ4ak1GRRAB",
+      "author_name": "Zuzia R",
+      "author_reviews_count": 92,
+      "author_photos_count": 188,
+      "rating": 5,
+      "text": "niestety długa kolejka, ale patrząc na konkurencje jest to normalne zjawisko :) co do jedzenia dobre, duże porcje jednak w połowie smak już nieco się przejada, w porównaniu do innych dań tego typu myśle, że nie wypada o wiele lepiej. Mimo wszystko polecam sprobować",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5VGJUWmtNa2gyWldWNVNEUXdYekJpVFVoV01sRRAB",
+      "author_name": "Mateusz Beling",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Fantastyczne jedzenie i obsługa, ceny przystępne",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pNNFRqWTRVRmhwZVVsZmJGRTBkMnAwV25GeVQzYxAB",
+      "author_name": "marek buszkiewicz",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "wielki zawod na calej linii. kolejke na wejsciu pomijam, to normalna sprawa. natomiast juz przy stoliku wyczekalismy sie na ramen bardzo dlugo. kiedy miski juz dotarly to… nie moglismy uwierzyc, ze w miejscu rekomendowanym przez michelin…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZdFNuZHhhV3B0WnpaaVUyUkJPRjlFYm5GNFpsRRAB",
+      "author_name": "amieraz",
+      "author_reviews_count": 100,
+      "author_photos_count": 126,
+      "rating": 5,
+      "text": "Bardzo dobry udon. Makaron doskonały.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkU2RqVTFjRmR5UW01RVYxUklkVFZwVDFNdGRXYxAB",
+      "author_name": "Kacper T",
+      "author_reviews_count": 134,
+      "author_photos_count": 298,
+      "rating": 4,
+      "text": "Ogólnie spoko ale szału nie ma.\nMimo zachwytów Książula, ogromnej kolejki ramen jest oczywiście smaczny ale nie wybija się pond poziom innych dobrych ramenów. Raczej nie wrócę. Na plus ceny w granicach rozsądku mimo ogromnego rozgłosu.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CbFUydGpRV3QyVGtSWlZtcFFTbmhoV1hrMWVYYxAB",
+      "author_name": "raskal",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie było bardzo smaczne ale porcje ramenu dla przeciętnej osoby nie do przejedzenia. Fajnie jakby wprowadzono dwie różne wielkości porcji. Także polecam i oczywiście jeśli chcesz wejść trzeba uzbroić się w cierpliwość bo kolejki są bardzo długie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OcVFWZ3RlVk5pUmxRME56SmlkbTg1VlhKT2VrRRAB",
+      "author_name": "Honorata Sroczynska",
+      "author_reviews_count": 63,
+      "author_photos_count": 109,
+      "rating": 5,
+      "text": "Mistrzostwo",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S1Qyc3hhak5tY25OUExVcExVWGRpVjBScVoxRRAB",
+      "author_name": "Chiara Chinello",
+      "author_reviews_count": 34,
+      "author_photos_count": 14,
+      "rating": 4,
+      "text": "Prawdziwie ekskluzywna azjatycka restauracja, pozycja obowiązkowa, jeśli jesteście w Poznaniu. Polecam spróbować wegetariańskiej sałatki z fasolką edamame i sztucznym mięsem – jest naprawdę niesamowita! 😍😍 Z kolei ramen Tantan Vege jest…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKRFlWZG1lazQzTVV0WFVFaFhSR2hIZWpSWlRWRRAB",
+      "author_name": "Maciej Król",
+      "author_reviews_count": 132,
+      "author_photos_count": 238,
+      "rating": 3,
+      "text": "Mieszane uczucia, ramen bardzo smaczny, duża porcja natomiast wydaję mi się że za tłusty. Do końca dnia złe samopoczucie i ból brzucha.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kTk9EaDJNR05tWVcxdk9HcGlkMUJJWDA5ck5IYxAB",
+      "author_name": "Oliwia Degórska",
+      "author_reviews_count": 32,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Pyszne jedzenie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tZMU5HdGFaVVoxUm5oTllrdFNNeTFTUzFvNWVIYxAB",
+      "author_name": "Bea Bagsik",
+      "author_reviews_count": 50,
+      "author_photos_count": 131,
+      "rating": 5,
+      "text": "Absolutny HIT, PRZEPYSZNE JEDZENIE , cudowna obsługa , ogromne porcje, normalne ceny. KOCHAM TO MIEJSCE .",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OSmVsUlJOM0ZyT0hwWWVEUnlOV2xUWVZveFVsRRAB",
+      "author_name": "Kuba Czerwiński",
+      "author_reviews_count": 49,
+      "author_photos_count": 90,
+      "rating": 5,
+      "text": "Wybitna restauracja.\nJeżeli miałbym się do czegoś przyczepić to kawa.\nReszta perfekcyjna.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1UE9XRm5USFF0ZURoUlRrVXlOMUJPUld0amFrRRAB",
+      "author_name": "Świtek Original",
+      "author_reviews_count": 25,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Pyszne jedzenie, obsługa przemiła. Naprawdę warto czekać na stolik.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pka1VIRlJhR3hsWDE5MU1taHBUa2hzVlVwak4xRRAB",
+      "author_name": "Piotr Kaniewski",
+      "author_reviews_count": 20,
+      "author_photos_count": 111,
+      "rating": 5,
+      "text": "Miła obsługa, bardzo dobre jedzenie.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oWFVtTllSazFsYzJaMmNEQm1hMFZOZW1sWVZHYxAB",
+      "author_name": "Karolina",
+      "author_reviews_count": 12,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko super :) ludzi bez rezerwacji to nawet nie powinni wpuszczac, bo sie sapią w\nOpiniach, a nie przychodza na pierwszy lepszy ramen tylko wyróżniony gwiazdka…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SUlZVMVRjMVJ2Y1RreFR6aFBhRlZVTlhjNWFVRRAB",
+      "author_name": "Arkadiusz",
+      "author_reviews_count": 196,
+      "author_photos_count": 101,
+      "rating": 3,
+      "text": "Z jednej strony genialne jedzonko, z drugiej długie kolejki do wejścia i spory czas oczekiwania na ramen (30 minut na dwie zupy). Ale największym minusem jest to, że przyjść tam w więcej niż dwie osoby oznacza, że stojąc w kolejce…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwd1VVTnBZVE5wVERsSFdIVnJXWGRLWDNKclEwRRAB",
+      "author_name": "Jakub Liszewski",
+      "author_reviews_count": 40,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "W kilku takich restauracjach miałem okazję być i nie mają podjazdu.\nWszystko bardzo dobre i warte swojej ceny.…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSR1JWRk9ibEpuZGxSTExXb3liMUV3Vm5aUmIwRRAB",
+      "author_name": "Koksi Koksi",
+      "author_reviews_count": 111,
+      "author_photos_count": 286,
+      "rating": 5,
+      "text": "Zacznę od obsługi bo była przebardzo miła i cierpliwa.\nOczywiście jedzonko przepyszne, smaczne , przewspaniałe. Wrócę na 💯 procent.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMUxWRndOak5WTWxOSlpHWm5PVVZJUW01U1YwRRAB",
+      "author_name": "Adam Dąbrowski",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne miejsce, warto wystać 40-50 minut w kolejce, bo dzięki temu dostaniecie najlepszy ramen w Polsce. Oprócz tego świetna obsługa przez kelnerkę Julię.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSNVRVZFlSa295WjBwSlR6TmllbFptYjI1M1MzYxAB",
+      "author_name": "Jakub Krumplewski",
+      "author_reviews_count": 32,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dlugie oczekiwanie na stolik, ale bardzo warto!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KR2QxWkthemt4Y0cxWWRsWkRlV1ZpYVZOdVEzYxAB",
+      "author_name": "Angelika",
+      "author_reviews_count": 32,
+      "author_photos_count": 66,
+      "rating": 5,
+      "text": "Pychota!!!!\nNa pewno wrócę na ramen! Cały czas mi siedzi w głowie ahhh..i ten smak🤤…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsV05XUTRhR2xPZFc0eVFqaFBTa015WVdjNFRXYxAB",
+      "author_name": "Patrycja Szachta",
+      "author_reviews_count": 28,
+      "author_photos_count": 35,
+      "rating": 5,
+      "text": "Pojechalismy z marszu bez  rezerwacji.. sobota ponad godzinę czekania w kolejce za wejściem do lokalu ale było warto! Ramen wyśmienity reszta dań również ceny baaardzo przystępne polecamy",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNHdG8yY3VBRRAB",
+      "author_name": "Wiola Blaze",
+      "author_reviews_count": 135,
+      "author_photos_count": 373,
+      "rating": 5,
+      "text": "Byliśmy tu w piątek po południu i było tłoczno, klienci grzecznie czekali za stolikami przed lokalem. Nam udało się bez czekania. Mimo tłumu obsługa sprawnie uwijała się między stolikami.  Profesjonalna, zorientowana, dbająca o klientów.…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wTGFEQnlRWGhDVm5ONWFGcE5WbUl0WW1SbGFtYxAB",
+      "author_name": "Mariola Sita",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie przepyszne, wszystko dopracowane i podane z dbałością o szczegóły.\n\nOgromne podziękowania dla Pani Martyny, dzięki jej przemiłej i profesjonalnej obsłudze wizyta była wyjątkowo przyjemna. Zdecydowanie polecam i na pewno wrócimy!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GcFZ6WTJaR3hzVFc1RmVucDVPRlppU1ZkYVFuYxAB",
+      "author_name": "Svitlana Tymchenko",
+      "author_reviews_count": 72,
+      "author_photos_count": 127,
+      "rating": 5,
+      "text": "Ramen,bardzo dobry,polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KVlduQnljbHB3VGxSaFh6azRhV0prU2tOVlltYxAB",
+      "author_name": "Anna Zakorchemna",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Najlepszy ramen w życiu",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kUmFraGFXVmhSV0RGb1NXOWhaMVZRT0Vka1duYxAB",
+      "author_name": "Gabriela Kopij",
+      "author_reviews_count": 71,
+      "author_photos_count": 129,
+      "rating": 5,
+      "text": "Warto czekać w tej kolejce… na ten wspaniały ramen! No dawno nie jadłam takiego przepysznego. Każdy inny, ciekawy na swój sposób… próbujcie różne pozycje, bo jest co! 🫶🏻✨🍜…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOT1FVRldYelpIUkdaU2NqRmxTRFI1T0ZoNlZuYxAB",
+      "author_name": "Agata Nowakowska",
+      "author_reviews_count": 48,
+      "author_photos_count": 83,
+      "rating": 5,
+      "text": "Ramen z gęsią - obłędny!\nSpicy meat też przepyszny 😁\nI polecam napar do picia 🫠…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBNGNuQXRXRTVMYTJadFZrUXdibFJ2ZDNCVldWRRAB",
+      "author_name": "Kamil Zielazny",
+      "author_reviews_count": 291,
+      "author_photos_count": 328,
+      "rating": 5,
+      "text": "Najlepszy ramen w Poznaniu.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnNE1raGZRMFEzTXkxek1WOXhaRVkyTkdsNFQwRRAB",
+      "author_name": "Aleksandra",
+      "author_reviews_count": 29,
+      "author_photos_count": 5,
+      "rating": 3,
+      "text": "Jeżeli macie ochotę zjeść w klimatycznym miejscu to omijajcie szerokim łukiem. Wnętrze nie jest przytulne, taka jadłodajnia, szybko wejść i szybko wyjść. Klient nie czuje się tutaj ugoszczony, obsługa jest chaotyczna. Szklanki…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twQlNtVTViSE5VWXpaVE5uSjNSV1JCVFZGS2JGRRAB",
+      "author_name": "MONDZI",
+      "author_reviews_count": 18,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dobre jedzonko ,fajny klimacik i syte porcje ☺️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swMFprTllOVXh3TkVjelYxVkZhWFpsTFdsU2RsRRAB",
+      "author_name": "cinekg",
+      "author_reviews_count": 363,
+      "author_photos_count": 2089,
+      "rating": 5,
+      "text": "Very nice place  ;  atmosphere , great stuff  , food so good for as  . Good for everyone  ,  recommended\nBardzo fajne miejsce; atmosfera, świetna obsługa, jedzenie bardzo dobre. Dobre dla każdego, zdecydowanie  polecam .",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCSFJXaFZXbEV3VVRGV1V5MDRhMWRmZEdwb2JGRRAB",
+      "author_name": "Damian",
+      "author_reviews_count": 15,
+      "author_photos_count": 67,
+      "rating": 5,
+      "text": "Przekonałem się dzięki nim do ramenu, który miałem po wcześniejszych doświadczeniach za pizdowaty rosół",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GNllVbFlSRjlmZEd3MWFDMVRPR2hYTFRKMFZuYxAB",
+      "author_name": "Daniel Dzienis",
+      "author_reviews_count": 14,
+      "author_photos_count": 28,
+      "rating": 5,
+      "text": "GACHOU PAITAN RAMEN był nieziemsko dobry. Deser Kurowassan - palce lizać. Do tego przepyszny napar Zen On. Warto było poczekać 1,5h w kolejce pod wejściem :D",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kU2NFTktjRzgxVWt0R09XRjJPRVV0YkVNeVZrRRAB",
+      "author_name": "Barbara Florek",
+      "author_reviews_count": 50,
+      "author_photos_count": 64,
+      "rating": 4,
+      "text": "Gdy usiedliśmy do stolika i zaczęliśmy wybierać co zjeść podeszła kelnerka i spytała czy jesteśmy gotowi, odpowiedzieliśmy  że potrzebujemy jeszcze chwilę. Panie podeszła znowu po około 2-3min oczekując zamówienia przez co czuliśmy się…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OWlFWWmlkMmRvTVRGdldHWkRVbTk1WkRSVlZWRRAB",
+      "author_name": "Thomas",
+      "author_reviews_count": 27,
+      "author_photos_count": 24,
+      "rating": 5,
+      "text": "Fantastyczny Ramen, pyszny i kreatywny deser, szczerze mówiąc, powinni pobierać wyższe ceny",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VQX0V5dFBTN0xXSUFREAE",
+      "author_name": "Marcin Becmer",
+      "author_reviews_count": 80,
+      "author_photos_count": 61,
+      "rating": 5,
+      "text": "Przepyszny ramen :) i pierożki",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkaGQzUlpSSEJ3V0VrMVJHeFBTMUYyVG1kQlJrRRAB",
+      "author_name": "Turystka M",
+      "author_reviews_count": 15,
+      "author_photos_count": 24,
+      "rating": 5,
+      "text": "Kto raz tu był wie skąd wszystkie świetne opinie. Popieram wszystkie , moje ulubione ramenowe miejsce w Poznaniu.\nSzybko podane , uprzejma obsługa, możesz przyjść w dresie i w garniturze i tak…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5bE5HRklWVVJHY1UxalpUWlZTaTFtTTFvMFdVRRAB",
+      "author_name": "Janusz Będkowski",
+      "author_reviews_count": 47,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Jedzonko bardzo smaczne, porcje zacne i podane przyjemnie dla oka. Bardzo miła obsługa, która nawet w sobotę wielkanocną pod koniec dnia z uśmiechem na twarzy sprawili, że ten wieczór był jeszcze przyjemniejszy (dziękujemy za wino). Lokal zasługuje na swoją ocenę, będziemy tu wracać😊…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214Rk5tSkZaVXN3WldwSGNGUlhNVGN3VGxJM2JHYxAB",
+      "author_name": "Żaneta Miśtak",
+      "author_reviews_count": 21,
+      "author_photos_count": 34,
+      "rating": 4,
+      "text": "Minus 1 gwiazdka za bardzo długi czas oczekiwania na stolik, ale w sumie warto, bo jedzenie bardzo dobre plus bardzo miła obsługa",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSFlrOUpPR0ZuUTBzd056Qm5XRTF3VG14aGQwRRAB",
+      "author_name": "Sonia Ślusarska-Kurek",
+      "author_reviews_count": 4,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Zdecydowanie najlepszy w Polsce. Mimo innego miejsca zamieszkania ciągle tu wracamy :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFdFZUVXdjR0ZzZDAxSVlsVTRjVTE0U1VjNWMyYxAB",
+      "author_name": "RóżiX Piechowiak",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Lepszego udonu w życiu nie jadłam🤩🤩🤩 duże porcje świetna obsługa🤩…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205T1JtVmtNWFUyU25reU9VVk5kRU5KVGs5YWNIYxAB",
+      "author_name": "Jaroslaw",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetna restauracja na światowym poziomie!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGd1oydEtlSEF5T1Rrd2NqbERRMGgzV0c4NU1WRRAB",
+      "author_name": "Daniel",
+      "author_reviews_count": 66,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Miejsce, które zdecydowanie warto odwiedzić. Ramen był pyszny, aromatyczny i sycący.  Bułeczki bao - wyśmienite. Przystawki w porządku, smaczne, ale bez efektu „wow”, a wiadomo, miejsce posiada już określoną reputacja i goście mają pewnie oczekiwania. Klimat bez szaleństw, ale obsługa daje z siebie wszystko 😉…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5UlJrdHRXRTVWVjFwSFYyUXhXR3hOZHpSd2EzYxAB",
+      "author_name": "Nanu Neno",
+      "author_reviews_count": 13,
+      "author_photos_count": 6,
+      "rating": 4,
+      "text": "Jedzenie jest bardzo dobre, wręcz wyśmienite, ale co z tego skoro po wizycie książula nie idzie go nawet zjeść. Duże kolejki już w godzinę otwarcia, a rezerwacje możliwe na za dwa miesiące.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRNFpEUm9VUzF0TUd4bVpXVnFObFF3UlhOd2IwRRAB",
+      "author_name": "Łukasz Morawiec",
+      "author_reviews_count": 203,
+      "author_photos_count": 275,
+      "rating": 5,
+      "text": "Uwielbiamy ramen, przyjechaliśmy z Krakowa gdzie jest bardzo wysoki poziom w topowych ramenowniach, ale Zen On dał radę i klasyfikuje się w naszej topce - smak pyszny i oryginalny, porcje duże , obsługa bardzo miła i kulturalna. Jak kiedyś będziemy jeszcze w Poznaniu na pewno wpadniemy.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psTUxWTkxSVTR6ZEV0aGJWcERNMjVVYzNWaGRWRRAB",
+      "author_name": "Misza",
+      "author_reviews_count": 137,
+      "author_photos_count": 77,
+      "rating": 4,
+      "text": "Jedzenie jest absolutnie pyszne. Ocena byłaby wyższa, gdyby opis w menu był bardziej precyzyjny. Tantan to mielone mięso, a nie kawałki mięsa.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zeWEwdzRlRkJsVmxaTk9Wa3hiRFJ0TjBWb01YYxAB",
+      "author_name": "Piotr Goździewski",
+      "author_reviews_count": 5,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Bardzo smaczny ramen",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WRWMxcEZaa0prV2xnM1VGQkxRMWxqYVdSV1QzYxAB",
+      "author_name": "Magdalena Jasztal",
+      "author_reviews_count": 42,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wrócę, jak tylko kolejny raz odwiedzę Poznań. Przepyszny ramen i deser. No fantastyczne miejsce.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGSGJqSlhUM2RJZDFOWlpWaERXa1UxV0VZdFEzYxAB",
+      "author_name": "Lunatic Soul",
+      "author_reviews_count": 413,
+      "author_photos_count": 178,
+      "rating": 4,
+      "text": "Ramen jest poprawny ale efektu wow brak a można byłoby go oczekiwać po dwóch wyróżnieniach…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25odU1scEhPRkF3UkZkU1ZFVktjelprVjBGcmRWRRAB",
+      "author_name": "Michał Michalski",
+      "author_reviews_count": 120,
+      "author_photos_count": 13,
+      "rating": 3,
+      "text": "Byłem w tej restauracji dwa razy. Zachęciła mnie gwiazdka Michelin. Za pierwszym razem jadłem azjatycką zupę i było to bardzo dobre doświadczenie – jedzenie było pyszne.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1a1NVcGFZbE0yTVRaV2RWcEpUMFZNVUhndE9VRRAB",
+      "author_name": "Wiktoria L",
+      "author_reviews_count": 141,
+      "author_photos_count": 309,
+      "rating": 5,
+      "text": "Przepyszne jedzenie! Świeże składniki, klimatyczne miejsce i miła obsługa. Trzeba mieć na uwadze długą kolejkę Ale warto! Polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2padFNHaFhiMVJ2UWtReVgxTTRjVkJ3TFVoMVZVRRAB",
+      "author_name": "krystian _08",
+      "author_reviews_count": 28,
+      "author_photos_count": 3,
+      "rating": 3,
+      "text": "Przerost formy nad treścią, to był zwykły ramen, jakość składników typowo ramenowa- tu nie ma nic wyróżniającego. Czekałam godzinę na wejście, Pani zapraszająca do lokalu ni dzień dobry ni nic… Dodatki do ramenu poprawne, ciekawe smaki, ale to naprawdę nic, czego nie dostaniemy w innych poznańskich ramenowniach. Odwiedzam ostatni raz.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kaVpsSm9TMHhNVkZGR1prTnVWR04wYm10T2RuYxAB",
+      "author_name": "Anna Nowa",
+      "author_reviews_count": 26,
+      "author_photos_count": 22,
+      "rating": 2,
+      "text": "Nie wiem czy te kwestia weekendu, ale spory zawód. Temperatura nieodpowiednia, makaron niesprężysty, słone niesamowicie. Dwie gwiazdki za dobry rabarbar, który pocieszał przy takim rozczarowaniu. Dodatkowo Pani wskazująca miejsce, chyba wstała lewą nogą.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGRFJXdENVRFJ1ZGtOM1ZsOWhTM2RsV2tOR1ZuYxAB",
+      "author_name": "M Q",
+      "author_reviews_count": 42,
+      "author_photos_count": 105,
+      "rating": 5,
+      "text": "Jedzenie cudowne, ale mam zastrzeżenia co do matchy 😅 jest na zwykłym mleku. No i to trochę popsuło, ale ramen był przecudowny. Delikatny jak chmurka, kremowy i taki otulający podniebienie. Polecamy!…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25acmNWQTBSUzFQV1VkcU5taHlUMUpIWlhkSlRHYxAB",
+      "author_name": "Viking man",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fantastyczna oferta lunchowa",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkUWFsRk1UbWwwV2xaRlEybzRRa1V3V1dSSFJXYxAB",
+      "author_name": "Mateusz Wiśniewski",
+      "author_reviews_count": 17,
+      "author_photos_count": 63,
+      "rating": 5,
+      "text": "Naprawdę najlepszy ramen jaki gdziekolwiek jadłem! 🍜\nŚwietna obsługa i ciekawy klimat. Zamówiony wynos na konkretną godzinę w trakcie pobytu w lokalu bez żadnych problemów odebrany 5 minut przed czasem. Znajoma…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25nM1lXMU5ORTV5ZWtsWVYzbFZibGRYUm1FM2MzYxAB",
+      "author_name": "Michał Przybyszewski",
+      "author_reviews_count": 20,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Zjadłem Tantan Spicy Meat i to był najpysznieszniejszy ramen jaki zjadłem w życiu. Oprócz bazy - kremowej zupy, mamy delikatna wieprzowinke na ostro, lekki, sprężysty makaron i - tutaj mój największy zachwyt - świeże, chrupiące warzywne…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sWmJGQnBRVWxpZDJZd1ZsazBOVlp5UVdaNlJXYxAB",
+      "author_name": "Jacob",
+      "author_reviews_count": 18,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Pyszne pierożki Dim sum, nie wspomnę o ramenie. Totalnie punkt obowiązkowy na mapie Poznania, miła i zwinna obsługa, dajecie czadu 😁…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGcmEwMXNkMkpZVGtGNVowcFNRek52U1Y5eWIwRRAB",
+      "author_name": "Przemysław Żaba",
+      "author_reviews_count": 13,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Przepyszne jedzenie.\nPolecam jeść na miejscu jak i zamawiać do domu.\nDania serio najwyższej jakości, a różnorodność smaków rozwala kubki smakowe!\nPolecam z czystym sumieniem.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SUFVVVXhSbVZETFdsTU1sRkVaVWRDVERkVFFWRRAB",
+      "author_name": "Marta Głyda",
+      "author_reviews_count": 175,
+      "author_photos_count": 153,
+      "rating": 5,
+      "text": "Odwodziliśmy restauracje po obejrzeniu filmiku z recenzją od @ksiezula 🙂efekt ? Zamówiliśmy kilka przystawek - pierożki pyszne, rollsy i frytki z batatów również. Sos wasabi idealnie pasował do podanych dań. Zamówiliśmy ramen polecany przez…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25VM2FWSm1aM1ZLVDA1WVUzSnplVVYxVUVVNWNWRRAB",
+      "author_name": "Adam Rybarczyk",
+      "author_reviews_count": 9,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Za namową córki, która skuszona była tą restauracją, po obejrzeniu Shorts'a jednego z \"kulinarnych\" youtuberów, poszliśmy zjeść. I nie żałowaliśmy. Obawiałem się o moją młodsza córkę, że nie znajdzie tam nic dla siebie, ale jak spróbowała…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KamRHRkRORmREWnpGV1drUlJTWHBoVVhaWFRIYxAB",
+      "author_name": "Wiktor Koch",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepszy ramen w Poznaniu.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0SmMzTnZNakZYTTJKT1RrOVFOM1JGZWtKNVMzYxAB",
+      "author_name": "Adam Kolpaczewski",
+      "author_reviews_count": 176,
+      "author_photos_count": 200,
+      "rating": 5,
+      "text": "Zainteresowany opinia pewnego influencera, postanowiłem sprawdzić Ramen w wykonaniu tej restauracji podczas moim 40 urodzin.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWMlFtYzRRWEpuTm1kalF6VlFVWFJRZVhBMmFtYxAB",
+      "author_name": "Konrad",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszny ramen i pierożki dim sum :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aeVZHZzJUMkpFWlhJeVJEaDVZbTV6UkV0ZmNVRRAB",
+      "author_name": "Patryk Szudrowicz",
+      "author_reviews_count": 80,
+      "author_photos_count": 281,
+      "rating": 5,
+      "text": "Super jedzonko, miła obsługa. Byliśmy w niedzielę, bez rezerwacji było by ciężko. Szczególnie polecam „suchy” ramen, jak dla mnie rewelacja.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWdVQxOVFOekppTkVvd1psZ3lZMWxJYW1WM2FHYxAB",
+      "author_name": "Maciej Ban",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczny ramen i fajne opcje z lunchem w tygodniu. Najcześciej kolejka przed lokalem na około 30 minut czekania. Ceny ok. Jedynie zastanowiłbym  się nad systemem rezerwacji, bo czasami ktoś zdążyłby zjeść, a stolik dalej czeka pusty z tabliczką rezerwacja.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkRFgyNHdhRzF0VTNKTExUaHpkR05WTm05SlIwRRAB",
+      "author_name": "Tomasz Szwajkowski",
+      "author_reviews_count": 125,
+      "author_photos_count": 4326,
+      "rating": 5,
+      "text": "Pyszne jedzenie. Duże porcje. Przystępne ceny",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0ak0ydzBTbnBCY0dkeVlVSlFVWFV0VUZWd09VRRAB",
+      "author_name": "Angela Es (Andzia)",
+      "author_reviews_count": 181,
+      "author_photos_count": 286,
+      "rating": 5,
+      "text": "Polecam. Czekaliśmy godzinę na wejście, bo obłozenie lokalu jej non stop ale warto było. Wszystko co zamówiliśmy było poprostu petardą. Każde danie pełne smaków przenikających sie nawzajem.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JNWNETnlVbFprVjBWVVNWcEdhVjlRVlZJMk9XYxAB",
+      "author_name": "ewa",
+      "author_reviews_count": 28,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jedzenie przepyszne, polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVNU9YSjZlbVk0U1RoRFJsZzRkRjgxU2pScE1VRRAB",
+      "author_name": "Coolmaja Jest grane (Coolmaja)",
+      "author_reviews_count": 24,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Mega smacznie, ramen dobrze doprawiony, makaron przepyszny, każdy element w ramenie był dobrze dobrany, doprawiony i świeży, polecam z całym sercem tę restaurację, panie doradzają dopasowują do potrzeb.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCZlJUSllNRkpqYWxWd1pFNUZSVVpNZURoRFkxRRAB",
+      "author_name": "Marta Białczyk",
+      "author_reviews_count": 11,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Smaki jakie można poczuć w tych daniach to poezja. ❤️",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kS1ZtUkVYMEkzYVZjM2J6TXlOVFl0WWtOTGRIYxAB",
+      "author_name": "Klaudia Wysocka",
+      "author_reviews_count": 24,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Byliśmy z mężem kilka razy i za każdym razem wychodziliśmy spełnieni i najedzeni. Absolutnie przepyszny ramen!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tFdFNrZG5OMlZqWldnMVRXRkVPVXBaYVcxTGFGRRAB",
+      "author_name": "Vanessa J",
+      "author_reviews_count": 45,
+      "author_photos_count": 43,
+      "rating": 5,
+      "text": "Miła obsługa ✅\nPyszne jedzenie ✅\nDuże porcje ramenu ✅…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaQ1Qzb3hORlpLVGpoa2NHbGxUMUU1UkROMk1YYxAB",
+      "author_name": "Agnieszka Emila",
+      "author_reviews_count": 14,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Wszystko było pyszne ;)\nByłam juz tam dwa razy :)\nMam zamiar spróbować z czasem każdego ramenu :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210NmVEQldWSEY1VGxsaFVuRTFTRXAxZUhOUFUxRRAB",
+      "author_name": "ee",
+      "author_reviews_count": 41,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pyszne",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psRlFUZGxkbWhvV0hKTVlsVk1jbGxWV1RkTE0wRRAB",
+      "author_name": "Lukasz",
+      "author_reviews_count": 113,
+      "author_photos_count": 106,
+      "rating": 5,
+      "text": "Petarda !!!!!!\nJedzenie - fenomenalne.\nObsługa bardzo bardzo miła\nPolecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sMlIyRnRMVE10WW1oUlpHcGZiVXN5U2xCbmVGRRAB",
+      "author_name": "Maciej Łuczak",
+      "author_reviews_count": 56,
+      "author_photos_count": 26,
+      "rating": 5,
+      "text": "Pychota… tantamen, pierożki z polikiem wołowym… coś pysznego",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkd1VuUmlVR1pOT1hOb1ZUbFpjVWRwT0VodE4zYxAB",
+      "author_name": "Kamil K",
+      "author_reviews_count": 83,
+      "author_photos_count": 104,
+      "rating": 3,
+      "text": "Ramen był naprawdę smaczny, a szczególnie wyróżniał się bulion – bardzo kremowy, lekko pikantny i pełen smaku. Porcja jest ogromna, spokojnie można się najeść „pod korek”. Na minus zdecydowanie skromna ilość mięsa – dosłownie odrobina,…",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxblUyVjJkVTltV0hONVNXWkRYMm95TUVvM1ZrRRAB",
+      "author_name": "Bo Jar",
+      "author_reviews_count": 41,
+      "author_photos_count": 33,
+      "rating": 5,
+      "text": "Chyba najlepszy ramen jaki jadłem w życiu. Trochę już tych ramenów udało mi się zjeść i na pewno jest w czołówce. Na pewno tu jeszcze wrócę spróbować więcej. Obsługa bardzo miła i sam lokal również bardzo przyjemny. Jedyny minus to kolejki, ale przy takiej jakości dań jest to chyba nieuniknione.\nPOLECAM!!!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCVlRGWkRSRkI0YlVGMGEyZElYMloyTkVSbU9FRRAB",
+      "author_name": "Michał Krakowiak",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne miejsce na poznanie nowych smaków. Udon przepyszny, dawno nie jadłem nic lepszego. Do tego przemiła obsługa , która świetnie ogarniała dość duży ruch. Zdecydowanie polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kbWExbE1OVVZuYkRaQ1JsOUtUMUpYU21OV2MzYxAB",
+      "author_name": "Modelowski",
+      "author_reviews_count": 32,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Bardzo, bardzo dobry ramen! Intensywny, gęsty wywar, dużo dodatków dobrej jakości. Solidna porcja. Mocno polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSTFFYbHpjbE5WUjJOdVFWaFJXbDlaZGxOb2IxRRAB",
+      "author_name": "Wiczka J",
+      "author_reviews_count": 6,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Połączenie tekstur i smaków w ZenOnie to jakiś masterpiece! Pani Kelner sympatyczna, kolejki zrozumiałe - i napewno warte czekania❤️",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201NGNGaHRRMGd4YVRBMFJtWnpPRE5qV1dsV09IYxAB",
+      "author_name": "Marika Słomińska",
+      "author_reviews_count": 101,
+      "author_photos_count": 98,
+      "rating": 5,
+      "text": "Wszystko przepyszne 😍❤️ ramen z Gęsina top…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OTVNtWkNjVVpYYUc1ck4wZEZNREZ4VUhkMWExRRAB",
+      "author_name": "Dawid Surma",
+      "author_reviews_count": 58,
+      "author_photos_count": 46,
+      "rating": 5,
+      "text": "Przepysznie i w zaskakująco rozsądnej cenie, jak na restaurację z wyróżnieniem Michelin. Must have dla miłośników kuchni japońskiej.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURodTZxZ2hRRRAB",
+      "author_name": "Emre",
+      "author_reviews_count": 61,
+      "author_photos_count": 64,
+      "rating": 5,
+      "text": "Zen On to jedna z najlepszych restauracji azjatyckich w Poznaniu. Szczególnie smakowało mi ciasteczko, które podawali do posiłku. Można spróbować menu startowego, dostępnego tylko w dni powszednie. To menu lunchowe jest nie tylko pyszne, ale i niedrogie. Polecam to miejsce.",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21NM1JGcGZSVmg0UzNGeWJqWklhamN4YWtOWWMwRRAB",
+      "author_name": "Maja Sypniewska",
+      "author_reviews_count": 3,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Jedno z lepszych miejsc na ramen w Poznaniu! Przepyszne jedzenie, miła atmosfera, ciekawe wnętrze i cudowna obsługa. Pani Marta doradziła w wyborze i była przesympatyczna ❤️ Polecamy!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4NWVXeExZVUZvVDA4eVVHRmpaVjlGYVd4SFIwRRAB",
+      "author_name": "Emilia Julia Wasielewska",
+      "author_reviews_count": 25,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Obiektywnie najlepszy ramen! I zawsze przesympatyczna obsługa, trafiłyśmy na panią Martynę która bardzo pomogła w wyborze.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSRlpuTjFWekpYY2s5VU0wUm9NVVpRYUc5Nk1VRRAB",
+      "author_name": "Tad Tad",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, polecam.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scmJWYzBlSFZZUlZNM05GRnpkVEJvWHpsdmNHYxAB",
+      "author_name": "Agata Świderska",
+      "author_reviews_count": 33,
+      "author_photos_count": 7,
+      "rating": 4,
+      "text": "Super Klimat, Miła obsługa i dobre jedzenie :)  Rozkład miejsc do siedzenia mógłby być lepszy i ostry Ramen mógłbym być mniej tłusty ☺️",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wVVNGUTBWbmx5U0VOVk4yMVdlbVIyT0ZKWVlsRRAB",
+      "author_name": "Sara Tytko",
+      "author_reviews_count": 29,
+      "author_photos_count": 26,
+      "rating": 2,
+      "text": "Miałam przez ten udon koszmary 😫\n\nA bardziej konstruktywnie…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sM1YxUllRa0kyUkVoamQzcFhZVEZOZUdsM2JtYxAB",
+      "author_name": "Łukasz Włodarczak",
+      "author_reviews_count": 109,
+      "author_photos_count": 66,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Kb05EQmhlRnBEUlZkWU0ycG9OMlZMWkZCR1dsRRAB",
+      "author_name": "Bartłomiej Tabała",
+      "author_reviews_count": 160,
+      "author_photos_count": 197,
+      "rating": 2,
+      "text": "Przyszliśmy bez rezerwacji, stolik był od razu dostępny. Nie wiem czy dyspozycja dnia czy co tu nie zagrało. Jako że restauracja znajduje się w przewodnikach Michelin wpłynęło to na oczekiwania. Sam ramen poniżej przeciętnej, temperatura…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKek5XVklXWEpTTms1S01qZHVXbTlHT1hSTU4xRRAB",
+      "author_name": "Ola",
+      "author_reviews_count": 26,
+      "author_photos_count": 29,
+      "rating": 5,
+      "text": "Niecodzienne rameny na gęsi i na homarze z kalmarem- warto spróbować! Mocno podbity smak głównego składnika, trafnie dobrane dodatki, bulion idealnie kremowy. Dawno nie spotkałam tak ciekawych pozycji wśród ramenów.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ScWEydFFRMEZRZEhCV2VtUTJVSEZwV2s1Wk5YYxAB",
+      "author_name": "kingulin 0025",
+      "author_reviews_count": 23,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Bardzo polecam, jeden z najlepszych ramenow jakie jadłam, a na 100% najlepszy bulion, był wie z idealny. Ramen był jedyny w swoim rodzaju, dodatkowo jeśli nie wiesz na jaki się zdecydować miła obsługa zawsze pomoże. Można też modyfikować…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WSk1teFJkMGMwZURNMFlrUkVaR3hMTFRFeGJtYxAB",
+      "author_name": "Magda Kor",
+      "author_reviews_count": 31,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Warto zarezerwować stolik. Ramen z gęsi pierwsza klasa, bardzo soczyste i sycące. Porcja bardzo duża. Najlepsze Ramen w Poznaniu. Gwiazdka Michelin robi swoje. Jedyny minus długi czas oczekiwania.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKeVNuazNUbGxhYWtwaVNWUktaQzAwWm01NGMwRRAB",
+      "author_name": "Aleksandra",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Jedzenie bardzo dobre aczkolwiek dosyć długi czas oczekiwania",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205bFpGZFpXbHBIUkVObFJHZGlUVTQzVjJFeGVXYxAB",
+      "author_name": "Bartosz Szczepanik",
+      "author_reviews_count": 85,
+      "author_photos_count": 97,
+      "rating": 4,
+      "text": "Miejsce spoko, ale nie warto stać w kolejce na mrozie;)\nDeser przepyszny!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSSFMxQm1ZM1pYTFhKYVpYWkRka295UmpWM1ZGRRAB",
+      "author_name": "Alina Chernetska",
+      "author_reviews_count": 13,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Serdecznie polecam! Oczekiwanie w kolejce jest warte 😁…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1bFdEUkVWRTg1Y2t0MlVDMVlNemRRUVRKdlFYYxAB",
+      "author_name": "Michał „Canonier!” Kanonik",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Zamówiliśmy zupy ramen, każda inna, każda smakowała bardzo dobrze, najlepszy Tantan Spicy Meat! Petarda 🧨…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkUVZtNTZjbTh0VG0xTFVtSnRURmRQUkVoM01GRRAB",
+      "author_name": "Maciej Kokosiński",
+      "author_reviews_count": 26,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Najlepszy w Poznaniu.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWUVRHZFdMV0ZaVUU5b1QwVmtkMVp6UjFKU1ZWRRAB",
+      "author_name": "Piotr Kusztelak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Oferta lunch'owa nie do przebicia. Dawno tak dobrze nie jadłem",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURGbUpLSTZBRRAB",
+      "author_name": "Krzysztof Kosior",
+      "author_reviews_count": 516,
+      "author_photos_count": 1001,
+      "rating": 5,
+      "text": "Listopad 2023: Będąc w Poznaniu zdecydowaliśmy się na obiad w Zen On i był to strzał w dziesiątkę. Wprawdzie musieliśmy chwilę poczekać na wolny stolik, ale to tylko utwierdziło nas w przekonaniu, że warto tu zjeść. Wybrałem ramen Tantan.…",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WbWVIcDVNblZzWTAxelpFVnZhRWxoYTBaTk1sRRAB",
+      "author_name": "Aurélie d",
+      "author_reviews_count": 59,
+      "author_photos_count": 49,
+      "rating": 5,
+      "text": "Restauracja z gwiazdką Michelin. Obiad za 35 zł. Udało nam się zarezerwować telefonicznie.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sdWVHWkZhWEYwUVZWRlRVVjFVV0pIV1VGSmIwRRAB",
+      "author_name": "Marta Świetlik-Jerczyńska",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Za każdym razem ramen tak samo pyszny Polecam ✨",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURqbTR1TE93EAE",
+      "author_name": "Adam Kuta",
+      "author_reviews_count": 236,
+      "author_photos_count": 276,
+      "rating": 5,
+      "text": "Fajne smaczne miejsce godne polecenia jedzenie :-) pozdro\nPs.ponownie odwiedziłem restauracje i bardzo mnie zaskoczył udon z de volaille polecam ponownie miła obsługa przez dziewczyny, również polecam bez wątpenia miejsce obowiązkówe do odwiedzenia w Poznaniu",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGWFYzZE9RaTFqTmw5WVpESnNUbEUyTVZGYWFVRRAB",
+      "author_name": "Maciej Barej",
+      "author_reviews_count": 323,
+      "author_photos_count": 571,
+      "rating": 5,
+      "text": "Rozumiem skąd wyróżnienia Michelin. Wybitny ramen, najlepszy jaki jadłem, a trochę już tego przerobiłem 😊 dwa dni wcześniej nie dało już zrobić się rezerwacji w weekend, ale uprzejma obsługa podpowiedziała o przyjściu na otwarcie. Dla dwóch…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swM1NIcFhVRjlyUXpNM1JtWnJhR3BJVEhWV01GRRAB",
+      "author_name": "Jan Izdebski",
+      "author_reviews_count": 79,
+      "author_photos_count": 56,
+      "rating": 5,
+      "text": "Zen On od dłuższej pory był ma mojej liście miejsc do sprawdzenia. Słyszałem mnóstwo dobrego, więc miałem wysokie oczekiwania i się nie zawidodlem. Pierożki były świetne i bardo ładnie podane. Ramen zdecydowanie najlepszy w Poznaniu z tych…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGM05YUkRZV05ZUWpFMlRISnhSSGcwYjI1Zk1uYxAB",
+      "author_name": "Iwona Kołodziejska",
+      "author_reviews_count": 23,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Polecam.\nCzekaliśmy w kolejce, ale było warto",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOYWNubEZlRkJrWW1weFYyWjFNMk40T1dwdVQzYxAB",
+      "author_name": "Marita Dziadek",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jak na Ramen to tylko tutaj!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4bU1XNWphR2xQUTBrellWTXlSV3hqTUc1NGRrRRAB",
+      "author_name": "Kateryna Rubeikina",
+      "author_reviews_count": 22,
+      "author_photos_count": 157,
+      "rating": 5,
+      "text": "Byliśmy razem z mężem w Zen Onie na Walentynki. Niestety z naszej winy nie zarezerwowaliśmy stolika wcześniej, więc czekaliśmy przy wejściu około 1,5 godziny, podczas gdy cały czas wchodziły osoby z rezerwacją. Ale w końcu się udało😅…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NGJEbFBjbVJOTjNCbmJUZ3hhMjR3TWtScVEwRRAB",
+      "author_name": "Kasia",
+      "author_reviews_count": 25,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Pyszny udon. Miła obsługa. Spory ruch, więc warto rezerwować stolik wcześniej zwłaszcza jeśli wybieracie się w weekend.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGSlowRnhVbk5xZG05dGRGOVhhbGxpWjIxd1FWRRAB",
+      "author_name": "Krzysztof",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnTURvbzdiLXlRRRAB",
+      "author_name": "Emilia Czajkowska",
+      "author_reviews_count": 100,
+      "author_photos_count": 143,
+      "rating": 5,
+      "text": "Czy tutaj zjesz najlepszy ramen EVER?\nByć może!…",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JNFlVZG5NbE5YWTBKa2NFazBSbkZSZVhoYVgyYxAB",
+      "author_name": "Marek Zrembski",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wystrój, nazwa na duży plus. Najważniejsze jest jedzenie i tutaj też się nie zawiodłem. Ramen, chyba najlepszy jaki jadłem, miał bardzo dużo smaku. Można tutaj fajnie odpocząć przy dobrym jedzeniu :)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGaGEwWkVNRVpKTWpneFMxbHNRVlZ0WDJzNFNFRRAB",
+      "author_name": "Marysia By",
+      "author_reviews_count": 23,
+      "author_photos_count": 4,
+      "rating": 3,
+      "text": "3 gwiazdki za ładne wnętrze i spokojny klimat.\nObsługa - miałam wrażenie, że panie tylko czekały aż wyjdziemy, z 6 raz zostało zadane pytanie, czy już skończyliśmy. Jest odczucie przemiału gości na ilość a…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxZmNuTnZaWE5hTjJWM09XTlpiM1JKV1hVM1luYxAB",
+      "author_name": "Kasia P.",
+      "author_reviews_count": 29,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Jadłam tylko Ramen z gęsi- wszystko w zupie ok, tylko sam wywar tak przyprawiony glutaminianem i sola że ciężko było zjeść. Zamiast sypnąć aromatyczną przyprawą ciężko i niezbyt japońsko. Wnętrze mi się nie podobało.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oVFV6WnRkM2Q0Y2treFltOUlRVWc1V0cxdWExRRAB",
+      "author_name": "Aku",
+      "author_reviews_count": 21,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Cudo a nie jedzenie! Ani razu się nie zawiodłam, zarówno ramen jak i inne pozycje w menu - pyszne. Ramen ma ciekawe odsłony, idealne dla osób znudzonych typowymi dodatkami do ramenu (chociaż coś dla fanów klasyki też się znajdzie). Bardzo…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OUlMwMXhiV1UzWmtKTk1tVkZjRlZtTlZoYWJFRRAB",
+      "author_name": "Maryna K.",
+      "author_reviews_count": 9,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Polecam.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toMGNuQk9PR3hsU2tOVU1FNXFjRU00UjBWNFZXYxAB",
+      "author_name": "Jakub Chudy",
+      "author_reviews_count": 35,
+      "author_photos_count": 170,
+      "rating": 5,
+      "text": "Bardzo dobra restauracja polecam bardzo",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGdWQyVlBhM2w0TjFSbmFHSkRabXBzWmpJeGRtYxAB",
+      "author_name": "Karolina Malinowska",
+      "author_reviews_count": 1,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszne jedzenie, przesympatyczna i przede wszystkim pomocna Pani z obsługi. Trochę długi czas oczekiwania ale smak rekompensuje wszystko! Zdecydowanie najlepszy ramen w Poznaniu jaki jadłam. Bao z kaczka też rewelacja. Napewno wrócę!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kdWJtNXdUMFowWDNod1JYTkhhVko0Y0RkSFYwRRAB",
+      "author_name": "Marta Rusak",
+      "author_reviews_count": 25,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Najlepszy ramen w Poznaniu, ramen z bulionem homarowo-drobiowym to niebo dla podniebienia. To było tak dobre, że brak słów!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205Zk5XOU9kM2RYTVhCTVNUTkJaWGhoTTA1TmFuYxAB",
+      "author_name": "Alice Jansen",
+      "author_reviews_count": 11,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Porcja lunch, serwowana w godzinach 12-16, jest bardzo dobra. Zawiera ciastko, napój i zestaw do wybrania. Kosztuje 35 zł. Polecam.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tVNFQyaE9jRWRsZERjelVsWjBVRFprTURsV1dYYxAB",
+      "author_name": "T T",
+      "author_reviews_count": 302,
+      "author_photos_count": 231,
+      "rating": 5,
+      "text": "Najlepszy ramen w Poznaniu, polecam!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURlX19fU0lnEAE",
+      "author_name": "Vi Xiaste",
+      "author_reviews_count": 33,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Pierwsza od daaaawna randka udana. ;)\n\nEdit: Kolejna randka, już z kim innym i również udana ❤️",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUMtajZQczFnRRAB",
+      "author_name": "Krzysztof Blatkiewicz",
+      "author_reviews_count": 466,
+      "author_photos_count": 1171,
+      "rating": 5,
+      "text": "Udalo sie zdobyc miejsce . Sympatyczna obsluga .Ramen przedobry. Polecam wszystkim odwiedzić to miejsce jak najbardziej",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xMUxVRkVkMjk2YVRreFRqRnJiV3h1WVY5U1FVRRAB",
+      "author_name": "Maciej Pawlikowski",
+      "author_reviews_count": 17,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Lokal zdecydowanie wyjątkowy i ponadprzeciętny, zaskakująco dobry stosunek ceny do jakości, miła i profesjonalna obsługa, porcje solidne ale nie przesadzone. Duży plus za jakość i intensywność bulionu. Jedyne minusy jakie mogę tu zauważyć…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4dFpVdFlhVkZPZFdOeFlWZDNORGxtWVRGb2QzYxAB",
+      "author_name": "Damian Janiak",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie i bardzo miła obsługa. Miejsce godne polecenia",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxek5YaHVUamMzUlVoak9Ib3dXREF4TWtveWMzYxAB",
+      "author_name": "architekt wnętrz Pilarska-Brodowicz 604 866 072",
+      "author_reviews_count": 93,
+      "author_photos_count": 248,
+      "rating": 5,
+      "text": "Posililiśmy się dzisiaj, mmm wspaniały ramen, przepyszne, pięknie podane jedzenie w ciekawym wnętrzu, polecam 👏🙂…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toclRTMUdaakZ0TUhOQ2VHOWZVMHhtZEZWWE1uYxAB",
+      "author_name": "Melania B",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Świetna restauracja, do której z przyjemnością będę wracać. Obsługa bardzo miła, pomocna i uśmiechnięta, a atmosfera w lokalu przytulna i sprzyjająca relaksowi. Czas oczekiwania na dania krótki, a ceny adekwatne do jakości. Zdecydowanie polecam każdemu, kto szuka miejsca z doskonałą kuchnią i miłą atmosferą!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4MmFURlhZbmxLY0VSelR6TnBaMUk1TVd4aFFYYxAB",
+      "author_name": "Marta Urbaniak",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie, taniec różnych smaków w jednej misce, mile zaskoczenia. Wnętrze mało kojarzy się z Japonią, ale jest schludnie, elegancko, miejscami fotografiki.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sMVgySk5aWE52YW5aTFpGVmxaMHRIWWt0UldVRRAB",
+      "author_name": "Maja Kaźmierczak",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Doskonały ramen, jeden z najlepszych w Poznaniu ! Cudowna obsługa 🤍🤍…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGa01uUlZRV3BKUTFweGFsOHRMWGw1UzNCb1oxRRAB",
+      "author_name": "Margaret Heller",
+      "author_reviews_count": 13,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Pyszny ramen, lepszego w pzn chyba nie ma :) zostaliśmy szybko i miło obsłużeni, świeże i aromatyczne składniki dań. Krewetki ekstra\nLokal jest czysty obsługa miła",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toRFVFbDRjMUkyV2s1blVtTk9WamhuYmtseWFuYxAB",
+      "author_name": "Madzia Staniurska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie bardzo dobra obsługa i bardzo dobrze robi kucharkę jedzenie gratulacje dla kucharki",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oa2FXNDFVMk5tTUVGYVprVXhPSFpNWmt0d1pXYxAB",
+      "author_name": "Piotr B.",
+      "author_reviews_count": 134,
+      "author_photos_count": 364,
+      "rating": 5,
+      "text": "Te kolejki przed lokalem... tak warto postać:)",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toeFRtSnVibWhZYmxoNE9FNTZkMnR2TTNoMlprRRAB",
+      "author_name": "Bartosz Tupalski",
+      "author_reviews_count": 182,
+      "author_photos_count": 314,
+      "rating": 5,
+      "text": "Lokal w bardzo ruchliwej części Poznania.\nNa wstępnie brawo za nazwę, trafia do mnie.\nJedzeni faktycznie ZenON…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xScFIxRlZMV0pQUWt4TFZWUlVOMjU1UzA1b1puYxAB",
+      "author_name": "Robert Balcerzak",
+      "author_reviews_count": 874,
+      "author_photos_count": 2369,
+      "rating": 5,
+      "text": "Świetny ramen, równie ciekawy udon - ładnie urządzony lokal, sprawna obsługa. Ceny rozsądne. Zdecydowanie warto spróbować.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOcVdtUnJVak51Vmtwa1VrRmlVV1pqZFdaalNYYxAB",
+      "author_name": "Erik Lewandowski",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszny ramen, miła obsługa",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Zd2FHODFjbWhmY1dKT2NrSmxRa3haYjNZMmJVRRAB",
+      "author_name": "Filip Mokrogulski",
+      "author_reviews_count": 156,
+      "author_photos_count": 280,
+      "rating": 5,
+      "text": "mój top 1 ramen to chyba właśnie tutaj: tantan spicy meat\n\nserio",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Rek9IZFNUMjlFWTBOemJWbzNZemRFT0dZeGVIYxAB",
+      "author_name": "Klaudia",
+      "author_reviews_count": 8,
+      "author_photos_count": 3,
+      "rating": 1,
+      "text": "Dramatyczna obsługa na wejściu, pani po spytaniu czy jest rezerwacja po odpowiedzi, że nie kazała czekać na zewnątrz przy odczuwalnej temperaturze -11 stopni mimo miejsca do poczekania lokalu…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sd2RHWlZRbU5oY1V0blYwRlpNa1pMY1RSUWNWRRAB",
+      "author_name": "milosz tomczak",
+      "author_reviews_count": 15,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Dramatyczna obsługa - przy odczuwalnej temperaturze minus 11 stopni , kelnerka mimo braku ludzi i kolejki wyprosiła nas z restauracji byśmy czekali na zewnątrz - szok niedowierzanie - szczerze odradzam",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toNVRXaExWVmhzY1RGb04ySndjVU5sWTFCNFdIYxAB",
+      "author_name": "Natalia Marciniak",
+      "author_reviews_count": 33,
+      "author_photos_count": 6,
+      "rating": 3,
+      "text": "Nie moje smaki, bardzo intensywne jakbym jadła kostkę rosołową łyżką. Podane ładnie, bardzo miła obsługa",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwYVYwbE9Yek5NV2tSZlREYzBjRkJVTjFsTFZGRRAB",
+      "author_name": "Ivica Kavasaki",
+      "author_reviews_count": 94,
+      "author_photos_count": 335,
+      "rating": 5,
+      "text": "Bardzo dobre. Porcje mają jeden z najlepszych stosunków jakości do ceny, jakie kiedykolwiek widziałem.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsRGJHcGlPRkI0YzBkNWFtY3diM1ZVTWs1WWVFRRAB",
+      "author_name": "Piotr Sadowski",
+      "author_reviews_count": 29,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "krótko  - Petarda",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oRWRGWlJNbUZXYTBab1VITTBiVmhNVGs0Mk1XYxAB",
+      "author_name": "Kacper Pączek",
+      "author_reviews_count": 21,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Najlepszy ramen w mieście, serdecznie polecam ramen z gęsią! Wyrazisty, aromatyczny i bogaty bulion, dodatki pierwszej jakości. Fajnie byłoby jakby wrócił też ten z jeleniem, był pyszny",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21vNFoybG5kblpOUVRNeU5HMVRSRkpKVURGTWJHYxAB",
+      "author_name": "Sylwia J.",
+      "author_reviews_count": 95,
+      "author_photos_count": 462,
+      "rating": 5,
+      "text": "Nie mogliśmy się dodzwonić żeby dokonać rezerwacji więc stwierdziliśmy że pójdziemy i wejdziemy z ulicy i udało się..także wpadajcie nawet bez rezerwacji ale mowa o środku tygodnia godzina 16/17 nie wiem jak jest w weekend 🙄jedzenie…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKVmIwRmlhMUJ0Y1Roc2FIRnJTbVI0TFVrNFZYYxAB",
+      "author_name": "B.",
+      "author_reviews_count": 61,
+      "author_photos_count": 37,
+      "rating": 4,
+      "text": "Miało być super, wow, ale było po prostu ok.\nCzy wróciłbym specjalnie dla popisowego ramenu? Nie. Naprawdę jadłem już lepszy bulion robiony na pancerzach z krewetek.\nSzału nie ma.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnMWNXUlZRMkozZWt4R1VIbFNVa2RQWWtwZlQzYxAB",
+      "author_name": "Anna",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Fantastyczny Tantan spicy meat! Bulion był idealnie kremowy i głęboki w smaku, z wyraźną nutą sezamu, która nie przytłaczała całości. Ostrość świetnie zbalansowana, a makaron sprężysty, dokładnie taki, jak powinien być. To zdecydowanie jeden z lepszych punktów na mapie miasta dla fanów konkretnych, wyrazistych smaków.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aYVgyUlNVR1J1UzJsV05XTldPVU0zWVhkT05uYxAB",
+      "author_name": "Wieslaw Mieszczak",
+      "author_reviews_count": 36,
+      "author_photos_count": 28,
+      "rating": 5,
+      "text": "Zdecydowanie najlepszy ramen w Poznaniu! Od 2 lat, będąc w tym mieście, odwiedzamy to miejsce za każdym razem i zawsze trzymają tak samo wysoki poziom. To już dla nas obowiązkowy punkt na mapie Poznania.…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tJNU5sSmpURU5zV1V0R1ZFcFpkMkpSUVZWUlNXYxAB",
+      "author_name": "Agnieszka Kaptur",
+      "author_reviews_count": 12,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Odwiedziłam japońską restaurację i spróbowałam ramenu oraz deseru. Ramen był bardzo aromatyczny, z bogatym bulionem i idealnie ugotowanym makaronem. Składniki były świeże i dobrze dobrane, a całość smakowała naprawdę autentycznie. Deser był…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVlJrTkthMGxsY214RU5rVnhaRVZRVkRjdE1rRRAB",
+      "author_name": "Skawiszon",
+      "author_reviews_count": 275,
+      "author_photos_count": 211,
+      "rating": 5,
+      "text": "Ika pairan ramen to pozycja obowiązkowa. Coś pysznego!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psRWNWWllTVVk1VWpKWFIzTk9hbEkxTkVaVVoxRRAB",
+      "author_name": "Kasia Wierzba",
+      "author_reviews_count": 21,
+      "author_photos_count": 5,
+      "rating": 2,
+      "text": "Zen On to miejsce z bardzo dużym potencjałem, ale niestety mocno nierównym poziomem. Jedzenie było naprawdę bardzo dobre, ramen pełen smaku, świetnie doprawiony, przystawka również na super poziomie. Pod względem kuchni absolutnie rozumiem…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSSFFrUlZPWE5MZVhOc1lVMTNNMWx6WmpoTFFuYxAB",
+      "author_name": "S C",
+      "author_reviews_count": 32,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Zawsze chciałem wejść do lokalu ale nigdy nie było mi po drodze więc zamówiłem w końcu ramen i udon na wynos. Dostałem źle podpisane buliony, na szczęście w domu się zorientowałem co do czego. Może knajpa w ten sposób chce skłonić klientów…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zMlUyeFhkblJWU1ZVeVYzWnpVa3d0TlcwNVluYxAB",
+      "author_name": "Ленусик Рез",
+      "author_reviews_count": 146,
+      "author_photos_count": 629,
+      "rating": 5,
+      "text": "Zamówiłem na wynos. Danie było przygotowane trochę później niż podano, ale to nic dziwnego, bo ludzi było sporo. Lepiej zarezerwować stoliki. W środku znajduje się piękna, dwupiętrowa sala. Ramen był dla mnie pikantny, ale zjadłem go z przyjemnością.",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KMlNsbFpXREJWT0ZKVVNsaHJSamRsWVVkTk5YYxAB",
+      "author_name": "Iza M",
+      "author_reviews_count": 36,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Mega doznania dla kubków smakowych...",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOeWJYSklhREUxVkdFeVQxZ3pUbTFHUkdaaGRIYxAB",
+      "author_name": "Kacper M",
+      "author_reviews_count": 122,
+      "author_photos_count": 82,
+      "rating": 5,
+      "text": "Niezmiennie idealne jedzenie.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOUWEwTkNNa2RtWTJKRWVXcEthakZFV0VsQk1YYxAB",
+      "author_name": "Monika Monika",
+      "author_reviews_count": 26,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Najlepszy ramen w Poznaniu! To był mój pierwszy raz, kiedy naprawdę zjadłam dobry ramen idealnie aromatyczny bulion, świetnie dobrane dodatki i perfekcyjnie ugotowany makaron. Wszystko było dopracowane w najmniejszym szczególe. Zdecydowanie miejsce, do którego chce się wracać. Gorąco polecam każdemu miłośnikowi ramenu 🍜…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pObFRWcHhhbEo1UWtWa05VUTNOMEpPYVRCNmVXYxAB",
+      "author_name": "Waleria Kuzniecowa",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne dania, Ruda Pani z obsługi była bardzo miła! Napewno wrócimy. Polecam!!! 🥰 ❤️ ❤️ ❤️…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURzeXFXVHN3RRAB",
+      "author_name": "Jakub Wojciechowski",
+      "author_reviews_count": 16,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Jedzenie fenomenalne, muzyka w lokalu jest niczym z radia eska. Uważam że i wystrój i nastrój wymaga poprawy by dostosować się jakością do jedzenia. Kolejna sprawa to kolejki przed lokalem. W przypadku kiedy ludzie stoją w mrozie po 30-40…",
+      "published_at": "Edytowano 5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CeVlUTllSM1pYT1Mxa05qVjFhMDVYVVdjemNYYxAB",
+      "author_name": "Anna Wiktoria",
+      "author_reviews_count": 11,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Wspaniałe miejsce na mapie Poznania, każdy ramen jaki tam zamówiłam (odwiedzamy to miejsce regularnie) był pyszny, a mam porównanie bo byłam w Japonii (stolicy ramenu) i niczym nie odstają od oryginału, a nawet są lepsze, trochę trzeba poczekać na stolik ale za każdym razem smak tych cudnych zup wynagradza minuty spędzone w kolejce.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWd2NtMTBlR3REY0ZOc2FURjJRMjVNVkhnME1FRRAB",
+      "author_name": "Daniel Andersson",
+      "author_reviews_count": 22,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Jadłem ramen w różnych miejscach w Europie i ten jest wysoko na liście, jeśli nie najlepszy. Jedliśmy ramen z gęsiną i kurczakiem z homarem. Niesamowity bulion, ani za słony, ani za mocny, po prostu idealny. Wysokiej klasy dodatki. Obsługa…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pRd1ducDRjbnBTTUVOVFEyWmFhekpFVERKUlNIYxAB",
+      "author_name": "Klaudia L",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszny ramen",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taR2VqZzNiall3ZEdaWlRFMXVhMGQyV25sSE1uYxAB",
+      "author_name": "andrei ch",
+      "author_reviews_count": 139,
+      "author_photos_count": 51,
+      "rating": 5,
+      "text": "Ramen - po prostu wow!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjMVgyWldXVzFEWkV4QmFHMWllR2htTTI1WExVRRAB",
+      "author_name": "Marianna Borska",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cóż można powiedzieć, zaczynając od obsługi która na prawdę dba o gościa. Przyszliśmy w 4 osoby, ale niestety były rezerwacje i trzeba było czekać na stolik, więc czekaliśmy na zewnątrz przy minusowej temperaturze, w ramach tego…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUGFHcHFTV056Y1ZaWGMxbDZiRFJaUnpCdWFsRRAB",
+      "author_name": "Monika Garbala",
+      "author_reviews_count": 23,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Zdecydowanie najlepszy ramen w Poznaniu. Głęboki, esencjonalny smak, nie nudzi się po kilku łyżkach!!!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aeU5FaHBRMUpPYWkxb1EwRnFkR1pIZGtWNU1VRRAB",
+      "author_name": "Magdalena Mielcarek",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Słabe, nie rozumiem fascynacji tym miejscem, po prostu azjatycka restauracja",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWU1FsYzVXbWxoUVdZNE5YVm5OR05qU1dSUlYzYxAB",
+      "author_name": "Romain DIDIER",
+      "author_reviews_count": 42,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Cudowne doświadczenie, wyśmienite jedzenie, nienaganna obsługa i naprawdę miła atmosfera na fantastyczny wieczór. Polecam w 100%!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4ck0xQlRlSE5tWkhWaVJWaEtjMHMwTTBKUmJWRRAB",
+      "author_name": "camillo",
+      "author_reviews_count": 104,
+      "author_photos_count": 137,
+      "rating": 5,
+      "text": "Fajna knajpka z ramenami, do której by wejść, trzeba swoje odstać przed wejściem, jeśli się nie ma rezerwacji. I wcale mnie to nie dziwi. Jedzenie pyszne. Ja zamówiłem warzywa w tempurze, z majonezem (trochę tłuste od oleju, smak ogórka…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S1UyTkJNR1ZZZGxveWFGWjFPRkpzZUVVMk5tYxAB",
+      "author_name": "Mariusz Mądry",
+      "author_reviews_count": 44,
+      "author_photos_count": 43,
+      "rating": 5,
+      "text": "Świetny, wyrazisty smak do tego spore porcje oraz w miarę szybka obsługa (przy całkowitym zapełnieniu lokalu na ramen czekaliśmy ok. 20 minut).",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sd2MwMW9RV0l5TFVSR2VFMU5WVmhYWWxCNWRVRRAB",
+      "author_name": "Fitznerowa",
+      "author_reviews_count": 17,
+      "author_photos_count": 16,
+      "rating": 5,
+      "text": "Miejsce warte uwagi, polecam zrobić wcześniej rezerwację:)\nZ ramenow, które próbowałam w Poznaniu, jedyny, który oddaje i jest warty swojej ceny.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rNGRHRTJkbWhyTUc1SmVGVnFSREJHUzBsUmFXYxAB",
+      "author_name": "Capricciosa",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Przereklamowane miejsce, jedyne co zaskoczyło to pierożki z przystawek i lemoniady oraz ice tea. Ramen miał zieleninę której nie dało się pogryźć. Pani z obsługi przy podawaniu niektórych pozycji nawet nie powiedziała co jest czym i zostawiała talerze bez słowa.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGcVIwcEhRbFp6TjBkVFMyeEdjRXBHV0MwM00xRRAB",
+      "author_name": "Lavinia Masa",
+      "author_reviews_count": 12,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jedliśmy pyszne posiłki i koktajle. Dania były kreatywne, niepowtarzalne i absolutnie przepyszne.…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUE9XdEJVWEpXUkU1R01UWmphR3RyU2xsWlQxRRAB",
+      "author_name": "Patrick Jax",
+      "author_reviews_count": 17,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dodatkowy",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210alJtb3pRVmhaWW1ST1NYaHpiM1pPYTAxbk1HYxAB",
+      "author_name": "Alexandru Stoian",
+      "author_reviews_count": 38,
+      "author_photos_count": 8,
+      "rating": 3,
+      "text": "Słyszałem o tym miejscu i chciałem je sprawdzić. Chciałem zarezerwować stolik, ale pierwszy dostępny termin był w połowie stycznia. Czekając 40 minut na stolik, zauważyliśmy, że niektóre stoliki były zarezerwowane. Tak czy inaczej, byliśmy…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSSFptNXdSa05pWWxod1NIZzBXVEpPZVZCMWEyYxAB",
+      "author_name": "Mateusz Krawczyk",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wyjątkowo pyszne jedzenie w przystępnych cenach, nawet herbata zaskakuje smakiem i aromatem. A do tego zostaliśmy bardzo dobrze obsłużeni przez Panią Julię. Zdecydowanie polecam!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2todE1FSXlNVVZHYmxKd1JrdGlZVUZmUnpaT1ZtYxAB",
+      "author_name": "Aneta Ronij",
+      "author_reviews_count": 116,
+      "author_photos_count": 1911,
+      "rating": 5,
+      "text": "Doskonałość!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOZllrbzVlRUZGUlZJeU1HTkJTM1JXV1VOa2JIYxAB",
+      "author_name": "Agata Pacholczyk",
+      "author_reviews_count": 71,
+      "author_photos_count": 140,
+      "rating": 5,
+      "text": "Polecam bardzo. Jeden z najlepszych ramenów jakie jadłam w życiu. Chociaż w menu jest sporo do wyboru, to skusiły nas Rameny i pozytywe opinie o nich i nie żałujemy 😊 na pewno wrócimy, aby spróbować jeszcze innych dań z menu. Wegetarianie…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0a2FuTTJja2xLU2xrNFMzSkxibWRLZUY5clFWRRAB",
+      "author_name": "Michal",
+      "author_reviews_count": 29,
+      "author_photos_count": 27,
+      "rating": 5,
+      "text": "Ika Paitan Ramen - moja ramenowa topka, najlepszy ramen jaki jadlem. Dodatki, wywar, makaron, kompozycja - po prostu super. Inne rameny/udon niestety odstaja, sa niezle, ale jadalem lepsze wersje, eksperymentalne smaki to troche hit or…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poMFJqbHZXVzlNUldWdGVuazJabmhsYVdvdGQzYxAB",
+      "author_name": "Dominika Gilewska",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepysznie!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sdFVIb3RVa3hCWjNSNU9IVk9Oa1JxTUdaNlpYYxAB",
+      "author_name": "Aleksandra Jałocha",
+      "author_reviews_count": 186,
+      "author_photos_count": 761,
+      "rating": 4,
+      "text": "Overhyped.\nStanie w kolejce kompletnie nie ma sensu - experience tego kompletnie nie broni.…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paTWFtUnlSWGRxY2pWR1JqZEdVVXRaWVRGcGRYYxAB",
+      "author_name": "Agnieszka Sider-Garstka",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Ramen z kalmarami rewelacja, tak pyszny!!, brawo i dziękuję za doznania kulinarne. Warto było stać w kolejce🥰 Bardzo polecam…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CeWVHcFFXVGM1V1d4VmFHRlZUbVpaUVc1WWRYYxAB",
+      "author_name": "Beata Zając",
+      "author_reviews_count": 27,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepszy ramen, trzeba czekac na wejscie w weekendy ale warto",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKVlZsQlRPVzVmYW1aeFNuUXhlVEl0YUdaWFRVRRAB",
+      "author_name": "林啟揚",
+      "author_reviews_count": 76,
+      "author_photos_count": 45,
+      "rating": 5,
+      "text": "Dobry.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sRFNIVlVlRXBMTlVOaFRVNXhRMUl5WmxRNWRHYxAB",
+      "author_name": "Joanna Selewska",
+      "author_reviews_count": 31,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Zupa Ramen jest ogromna, ze spokojem na dwie osoby :) pyszny, niezwykły smak",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Wb1JEUlRTRWh2U0MxTE4xUm1XRUl4ZDNKWE5sRRAB",
+      "author_name": "Janusz Nawracala",
+      "author_reviews_count": 87,
+      "author_photos_count": 362,
+      "rating": 5,
+      "text": "Z jak największą pewnością słusznie zasłużyła restauracja na odznaczenie Michelin,  Dania są wręcz przepyszne, porcje spore i co najważniejsze,  ceny są  jak w większości restauracji co nie zniechęca klientów by spróbować. Obsługa bardzo…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CdGNsOXZNV1JHWm10RGJGbGhOVTB5TmpoaGJHYxAB",
+      "author_name": "Damian Wawrzyniak",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jak już się uda dostać stolik to trudno wyjść niezadowolonym. W dalszym ciągu ramenowy poznański top.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xNWVWZDJWVFZVWjJwbVpVUkZVaTEzUWpKRGFIYxAB",
+      "author_name": "B3zd3ch",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Obsługa bardzo miła i profesjonalna, porcje dosyć małe a czas oczekiwania 45 minut (w lokalu było 5 osób)",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aZmFEbDFZVGN4U1dwTVRuTnlRVUpMUkZVelltYxAB",
+      "author_name": "Jana Bataszczuk",
+      "author_reviews_count": 2,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, obsługa 1000/10💗…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaYU1XeHVkSGhUZVdkbGRqUnZTWFZZZVRWMlMzYxAB",
+      "author_name": "Smoczy Wojownik",
+      "author_reviews_count": 40,
+      "author_photos_count": 68,
+      "rating": 5,
+      "text": "Super. Warto było czekać w kolejce, ale następnym razem będę rezerwować stolik 😀.\nJedzenie mega dobre. Obsługa bardzo uprzejma i zaangażowana, super. Lokal fajnie urządzony, ma swój klimacik. Jeszcze tu wrócę 😆…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsc05WaHdlRlJ0VFVaTGFHSlllbU5pVFRCTGRsRRAB",
+      "author_name": "Adam Kruzel",
+      "author_reviews_count": 16,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepszy ramen jaki jadłem od dawna. Pysznie:)))",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tzNWVERTJRV3B0UWxGT01tcEhMVFJxU0VGWWJYYxAB",
+      "author_name": "Rafal Farba",
+      "author_reviews_count": 32,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Unikalne, wyrafinowane i oryginalne smaki. Za przeciętną cenę dostaniesz coś wyjątkowego. Wrócę z pewnością i namówię znajomych. Najlepsze orientalne jedzenie w Poznaniu.... a może nawet i w Polsce. Nie przesadzam, tego trzeba spróbować!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tvdFRqQjZPV2h4YzA5dGRWRXdTazQwZDNkbFkyYxAB",
+      "author_name": "love polczak",
+      "author_reviews_count": 82,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Gwiazdki nie z przypadku",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCTFQyMUpSblJwVDJwdFFUQldObFJGYzAxalMwRRAB",
+      "author_name": "Sofii",
+      "author_reviews_count": 86,
+      "author_photos_count": 113,
+      "rating": 3,
+      "text": "Jedzenie w porządku, ale nie zrobiło na mnie wrażenia jakiego się spodziewałam. Bulion kremowy był jak dla mnie aż nadto gęsty, miał konsystencję i zapach sosu pieczeniowego z torebki. Kluski dość gumowe, ciężko się je jadło, mogłyby być np…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkSE9VOTVWbGxyYUZVM1MySllhMEZPU2sxSU1sRRAB",
+      "author_name": "Andrew Davis",
+      "author_reviews_count": 446,
+      "author_photos_count": 242,
+      "rating": 2,
+      "text": "Miałem duże nadzieje związane z przyjściem do tej restauracji, opierając się na jej recenzjach i ocenie Michelin. Byłem jednak głęboko rozczarowany. Po przybyciu mieliśmy grupę sześcioosobową i powiedziano nam, że będziemy musieli ją…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210dFpETnNXRzlwWW1GWkxWVXpMVEpzTlU1S2RFRRAB",
+      "author_name": "Carlos van Dark",
+      "author_reviews_count": 130,
+      "author_photos_count": 257,
+      "rating": 5,
+      "text": "W mojej opinii lokal zasługuje na bardzo duże uznanie. W sobotnie południe kolejka przed restauracją, a obsługa częstuje ciepłym naparem. Obsługa na najwyższym poziomie.;) Lokalizacja świetna, w centrum miasta. Wnętrze bardzo przyjemne.…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKWU9UZGpVRTVEUjBKcVluQmtkaTB0TjBSUWIyYxAB",
+      "author_name": "Anton Kagan",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zjedliśmy rodzinny obiad w Zen On. Polecam to miejsce ze względu na pyszne japońskie jedzenie. Szczególnie smakował nam Gahou Paitan Ramen i koktajl Mulled Sake.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWbmJFNTVjRTlTWlU4dFdGWmtTSHBoYjJORFQxRRAB",
+      "author_name": "Littedreamer 06",
+      "author_reviews_count": 81,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Polecam! Bardzo dobre azjatyckie jedzenie, ceny adekwatne do jakości. Trochę mało miejsca, ciężko z rezerwacją, ale w około 45 minut stania w kolejce da się zjeść. Porcje bardzo solidne, duży wybór w karcie. Na pewno wrócimy!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S1lrdDBObkphUkdkNU5HbENSekpSTTJ4SU1tYxAB",
+      "author_name": "Oliwia Jaworska",
+      "author_reviews_count": 70,
+      "author_photos_count": 58,
+      "rating": 5,
+      "text": "Świetny ramen! Polecam ten z kaczki, wszystkie dodatki starannie dobrane, wydawało się, że nie zadziało się tam nic przypadkowego :) Duży wybór: udon, ramen: przystawki: azjatyckie napoje. Obsługa bardzo na plus, polecam wybrać się w pojedynkę - zawsze łatwiej znaleźć miejsce, bo generalnie graniczy to z cudem!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oUk4yOUVVRVZ4VUVSUE0xOWFjemcyVVc1bVMzYxAB",
+      "author_name": "Juliusz Brzostowski",
+      "author_reviews_count": 20,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Negatywnie.  Danie na gorąco było zimne. Bez sensu doprawione. Zwykły makaron zalany gorącą wodą z przyprawami.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21JME1YZDRSbWxOVGtaaGRGRnFRVGRFUTA4eFlVRRAB",
+      "author_name": "Luk Luk",
+      "author_reviews_count": 42,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszno, bardzo pyszno, częściej tam trafie.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xocFRreGhURVV4U1VaZlNtTnFRMFpaYkVaQlFuYxAB",
+      "author_name": "Damian Ledzion",
+      "author_reviews_count": 42,
+      "author_photos_count": 1,
+      "rating": 4,
+      "text": "Powiem tak, jedzenie było dobre ale samo miejsce jest przereklamowane. Widać że składniki starannie dobrane i świeże ale:\n- Na przystawkę trzeba było czekać ponad pół godziny, napoje przynieśli od razu,…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sM2RsY3lZV0pFZVY4dE1sbHdYMWxITFZVMllYYxAB",
+      "author_name": "aga aa",
+      "author_reviews_count": 67,
+      "author_photos_count": 14,
+      "rating": 4,
+      "text": "Jedzenie bardzo ciekawe, pierożki czy grzaniec, które wzięłam, to nie jakieś wybitne smaki, ale kake udon baaardzo smaczny! Jedyny minus, to kelnerka w okularach i czarnych włosach, która nie wydaje się zbyt uprzejma:( Kolejne, to bardzo…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wNE5XdHRkalJ2UVRCeVNrTnhjRmxqUVV0R2RYYxAB",
+      "author_name": "Natalia P",
+      "author_reviews_count": 66,
+      "author_photos_count": 93,
+      "rating": 5,
+      "text": "Ramen jeden z najlepszych, jakie jadłam — klarowny, pełen smaków i ciekawych dodatków. Składników naprawdę dużo. Lokal jest mały, ale przytulny, a obsługa pomocna i bardzo miła. Super, że podczas oczekiwania co jakiś czas podawany jest ciepły napar dla zmarzluchów.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4WVFVbFllRWRJTjAxTGFHNTVaR2h2TFU1V1VsRRAB",
+      "author_name": "Michał Boczar",
+      "author_reviews_count": 23,
+      "author_photos_count": 61,
+      "rating": 5,
+      "text": "Miałem dość wysokie oczekiwania przychodząc do Zen-on, bez zająknięcia mogę stwierdzić że wszystko zostało spełnione z nawiązką.\nNa start, bardzo miła i pomocna pani z obslugi, dzięki której mogliśmy zasiąść…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KNllqQXRlVFpKTjFKM2JGSjVPVlp3ZW1WelpsRRAB",
+      "author_name": "Bambaryla XXX",
+      "author_reviews_count": 40,
+      "author_photos_count": 32,
+      "rating": 5,
+      "text": "Klasa. Fantastyczne jedzenie. Pierożki dim sum z pikantną wołowiną obłędne.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkeVVXTTBlR1prVFRod2JsaHJlR1JUT0V4aU5XYxAB",
+      "author_name": "Jakub Borowiec",
+      "author_reviews_count": 17,
+      "author_photos_count": 22,
+      "rating": 5,
+      "text": "Jedzenie przepyszne. Na zdjęciu ramen na wywarze drób-homar oraz ramen na gęsi. Czekaliśmy ok. 45min na stolik dla dwóch osób w sobotę ok. 17:00. Obsługa przyniosła czekającym gorący napar z miodu i imbiru (było dość chłodno na dworze).",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201RGNuQkpjMjl0UkVWS2QyUk5OMjlXU1RrM1JIYxAB",
+      "author_name": "Wiktoria Marciniak",
+      "author_reviews_count": 2,
+      "author_photos_count": 21,
+      "rating": 5,
+      "text": "To miejsce to jeden z moich absolutnych faworytów w Poznaniu i jedno z\ntych, do których regularnie wracam i za każdym razem wychodzę w pełni zadowolona. Serwowane dania są dopracowane w każdym calu, a na szczególną uwagę zasługują…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wd2VHVTVjRFJPUTFZeWRFSklRbTE1UlZvNVkxRRAB",
+      "author_name": "Dariusz Niedzielski",
+      "author_reviews_count": 235,
+      "author_photos_count": 401,
+      "rating": 5,
+      "text": "Na ten moment najlepszy ramen jaki jadłem. Bardzo słuszne porcje!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0Qk9YQXlTVEp1Ykc5blZFZEVkRVoxZHpsUFNWRRAB",
+      "author_name": "Michał Gonczerzewicz",
+      "author_reviews_count": 7,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Rewelacja",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oUVJGWnJMWGxvTldKaE4zVkVjRTltZVV4d1dVRRAB",
+      "author_name": "Filip Skrzyński",
+      "author_reviews_count": 48,
+      "author_photos_count": 46,
+      "rating": 3,
+      "text": "Czytając opinie, słuchając znajomych i ich zachwalania jakie to są tam kolejki, jak dobrze można tam zjeść, jakie to mają wyróżnienia. Dokonaliśmy rezerwacji z miesięcznym wyprzedzeniem, faktycznie wystrój jest ładny, obsługa genialna, Pani…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0b1QyOW9aSGx3UzNGaVNFVk9lVlJCVlY5TlVWRRAB",
+      "author_name": "Monika Wilk-Adamczak",
+      "author_reviews_count": 24,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, mega klimt miejsca ❤️",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1WVJVSkNZWGxKU1hWQ1RITXdWamhQZGpKV2NIYxAB",
+      "author_name": "Juliette Aubert",
+      "author_reviews_count": 23,
+      "author_photos_count": 50,
+      "rating": 4,
+      "text": "Po niedawnej wizycie w Japonii, to miejsce zdecydowanie oferuje ramen i udon, które dorównują jakością potrawom. Specjał udonara był niesamowity, podobnie jak curry udon. Koktajle są trochę drogie, ale darmowa herbata i ciasteczko były…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5emIwWTNUMTloYVROeUxVVXRVM3BETVVGR05tYxAB",
+      "author_name": "Monika Stróżyńska",
+      "author_reviews_count": 142,
+      "author_photos_count": 742,
+      "rating": 5,
+      "text": "Lokal - malutki - zawsze są czekający za stoikiem a w środku sporo rezerwacji\nPrzy grupie pow 2 osób trzeba dłużej czekać i stoliki dwuosobowe są na\nPrawdę blisko siebie - tutaj ledwo się przejdzie.…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jd01rZG5VVWN3Y1dJMFVIaDRTMHRXVmtjNGVrRRAB",
+      "author_name": "zyba",
+      "author_reviews_count": 29,
+      "author_photos_count": 20,
+      "rating": 3,
+      "text": "Ogólnie było smaczne, ale czekaliśmy na stolik 1,5 godziny. Nie było warto takiego czekania... Stostowna cena do jakości.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twSVZHeFBTVTV3ZWtsVFUwTk5UVTFpUVRkcVRVRRAB",
+      "author_name": "Zuza Chmiel",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Restauracja Zen On to, moim zdaniem, miejsce serwujące jeden z najlepszych ramenów w Poznaniu. Lokal wyróżnia się nie tylko wysoką jakością dań, ale również profesjonalną obsługą. Pracownicy są zawsze uprzejmi, pomocni i gotowi odpowiedzieć…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsSGEzaEhhMk14VlhCdlpuRjZTbTlXU2pnM05YYxAB",
+      "author_name": "Agata Kapinska",
+      "author_reviews_count": 47,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Jedzenie było absolutnie pyszne, a atmosfera zdecydowanie dopełniała posiłek - mimo że lokal ma gwiazdkę Michelin, klimat pozostał wierny barowi ramen 👏…",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGWFNtdHhRVzlvTjB4UlgyWnRhRlZ3Y1dSWFZsRRAB",
+      "author_name": "Mateusz Adam",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Zamówiłem ramen przez jednego z dostawców. Ika paitan i Chintan shio. Generalnie bardzo słabo. W porównaniu do zamówienia sprzed roku to te obecne mnie zniechęciło kompletnie do tego miejsca. Jeśli chodzi o Ika paitan to był on po prostu…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Kek1EQllXbWxGWkhCUmMycHROekE0VjFBemQxRRAB",
+      "author_name": "Katarzyna Jar",
+      "author_reviews_count": 127,
+      "author_photos_count": 12,
+      "rating": 3,
+      "text": "Restauracja rzeczywiście serwuje autentyczne dania kuchni japońskiej. Najlepsze sajgonki jakie jadłam. Bardzo dobry udon. Niestety na duży minus oczekiwanie na stolik na zewnątrz, mimo,  że są wolne miejsca w środku. Stolik przy drzwiach…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsa2FtNDBaaTFsTmpnd05tMVhTa0oyVFdGaWRIYxAB",
+      "author_name": "Kasia M.",
+      "author_reviews_count": 474,
+      "author_photos_count": 350,
+      "rating": 5,
+      "text": "Z wizyty w Zen On najbardziej zapamiętałam, że super było zrobić rezerwację i to polecam. Dlaczego? Bo z racji naprawde pysznego jedzenia kolejka przed wejściem tworzy się nawet w niepogodzie. Od wejścia obsługa dba o samopoczucie i prężnie…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5Tk5uSnBOVTVJZDFGV2FraDRWMU5IZFVoNWFGRRAB",
+      "author_name": "Lucius Sander",
+      "author_reviews_count": 79,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Wiedząc, że restauracja jest wymieniona w przewodniku Michelin i biorąc pod uwagę wysokie oczekiwania, które narosły podczas 40-minutowego oczekiwania, daję jej teraz 4 gwiazdki. Jedzenie, obsługa i atmosfera były dobre, ale nie wybitne. Stosunek ceny do jakości jest w pełni adekwatny. Koniecznie zarezerwuj stolik!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUNfN3NyX0pBEAE",
+      "author_name": "Wiola Kuczi",
+      "author_reviews_count": 21,
+      "author_photos_count": 51,
+      "rating": 5,
+      "text": "Bardzo smaczny Ramen i miła obsługa 🎈…",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214NlZrVkJaMFZmTkRoMk1HRXljVTgwUldWSGFFRRAB",
+      "author_name": "Rafał Zaweracz",
+      "author_reviews_count": 42,
+      "author_photos_count": 75,
+      "rating": 5,
+      "text": "Sprawna obsługa, klimat dobry, byłem dwa razy i się nie zawiodłem. Znawca ramenow nie jestem,  po ludzku mi smakowało. Tak, trzeba czekać w kolejce, jak ktoś jest niecierpliwy niech idzie gdzie indziej, proste jak drut. Ja poczekałem i jak będę w Poznaniu to podejdę raz jeszcze aby zjeść. Pozdrawiam obsługę.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poeU9EQXpTRmxvWDFaUlgyazRNbTF5VmpObVdWRRAB",
+      "author_name": "Katarzyna Nowak",
+      "author_reviews_count": 203,
+      "author_photos_count": 265,
+      "rating": 5,
+      "text": "Pyszny ramen, jako osoba która w ramenowni pracowała kilka lat i testuje je dość globalnie to miejsce te wypada bardzo zacnie. Zamówiłam kremowy bulion z rybnymi dodatkami, bulion pyszny, umamiczny, stek z kalmara naprawdę doskonały,…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SWmVHSnhZVlJuWTJwSWJuaFlkWFpIYUVKdk1sRRAB",
+      "author_name": "Justyna Adamczewska",
+      "author_reviews_count": 196,
+      "author_photos_count": 220,
+      "rating": 4,
+      "text": "Smaczny, poprawny ramen ;) Gdybym miała po niego stać w 2h kolejce, które bywają, to byłabym zła.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vM1UyZGllVk5mYWpGU1JYaDZhMjR4VUV4WUxVRRAB",
+      "author_name": "Michał Elantkowski",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Rzadko daję złe opinie, ale tym razem muszę niestety dać tylko dwie gwiazdki. Byliśmy z dziewczyną na obiedzie 12.11.2025 i zamówiliśmy Ika Paitan Ramen oraz Udon z Żeberkami. Jedzenie smakowało ok, bez rewelacji, ale nie powiem, że było…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSbFlVbEhabXBoVkVaVWRtOU9jM2h5ZEZoZmQzYxAB",
+      "author_name": "Cezar Prochiński",
+      "author_reviews_count": 207,
+      "author_photos_count": 274,
+      "rating": 5,
+      "text": "Nigdy nie robię zdjęć potraw tam robiłem pierwszy raz, smak rewelacja ceny bardzo dobre.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZNGJGaHFNelV4Vkhsd2R6SlNhekZRTUdGbWMwRRAB",
+      "author_name": "Mimi",
+      "author_reviews_count": 261,
+      "author_photos_count": 965,
+      "rating": 1,
+      "text": "Jest pięknie podane i wygląda apetycznie, ale pomijając herbatę, nie smakuje mi tam jedzenie. Bułki mają strasznie twarde orzechy i są nieświeże; moim zdaniem te same orzechy zostały dodane do lunchu z jajkiem.…",
+      "published_at": "Edytowano 7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xac09IUTBUazB6YlhGdVZEbFFNMk5FV0ZaVVdYYxAB",
+      "author_name": "Piotr Barszczak",
+      "author_reviews_count": 46,
+      "author_photos_count": 39,
+      "rating": 5,
+      "text": "Z okazji 11.11 odwiedziliśmy ten lokal na specjalny ramen wykonany z gęsiny. Mimo czekania w kolejce około 1 godziny zdecydowanie warto czekać na takie jedzenie. Makaron świetnej jakości wykonywany na miejscu, do tego bogata kompozycja I…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGV1IxcG5XR1phUmkxSlFtTkZiR1JQWDNSemQyYxAB",
+      "author_name": "Oler",
+      "author_reviews_count": 69,
+      "author_photos_count": 12,
+      "rating": 4,
+      "text": "Ramen bardzo dobry, aromatyczny, wyjątkowe smaki, jednak polecam przyjście w początkowych godzinach otwarcia lokalu, ponieważ z reguły jest dosyć spora kolejka oczekujących na zewnątrz oraz czas oczekiwania na 2 rameny wyniósł u Nas ok. 45 minut. Niemniej jednak było wyjątkowo smacznie.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poalRqazFXVEoyZW1oNVRUZGhRbGczYjJaa1YwRRAB",
+      "author_name": "Krystian Mrozek",
+      "author_reviews_count": 13,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Czy warto stać w kolejce? Warto, a jeszcze lepiej mieć rezerwację. Jeśli jednak tak my wybierzecie się tam na pełnym spontanie to warto swoje odczekać. Jedzenie super, podane bardzo szybko. Smak rewelacja! Obsługa bardzo miła i fachowo…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTFNtazJhRkl5UTNSM1JVcFZialU1TlhOSVRsRRAB",
+      "author_name": "Ewelina Kwiatkowska",
+      "author_reviews_count": 48,
+      "author_photos_count": 176,
+      "rating": 5,
+      "text": "Restauracja ciesząca się niesłabnącą popularnością. Nie bez powodu. Rezerwowałam stolik i polecam tą formę nie trzeba czekać w kolejce na zewnątrz. Wnętrze bardzo klimatyczne. Polecam uważać tylko idąc do toalety zwłaszcza mając obcas -…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMmNIcG1TVkJGU2xoRlRXUmhiSEI0Y1Zaa1QyYxAB",
+      "author_name": "Sandra Cieślak",
+      "author_reviews_count": 16,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Absolutnie wyjątkowe doświadczenie kulinarne!\nRamen z gęsiną w Zen On w Poznaniu to prawdziwe arcydzieło – głęboki, aromatyczny bulion, idealnie ugotowany makaron i delikatne mięso, które dosłownie rozpływa…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GVlprUnVhMkZIUlVjemRWaGhYM2wwV0VsNGIxRRAB",
+      "author_name": "Martyna",
+      "author_reviews_count": 30,
+      "author_photos_count": 3,
+      "rating": 3,
+      "text": "Powiem tak, szału nie było. Skuszeni opinią, że jest to jedyny ramen z oznaczeniem Michelin zarezerwowaliśmy miejsce miesiąc wcześniej i przejechaliśmy kilka godzin, aby go zjeść! Czy było warto? No niekoniecznie. Jeżeli chodzi o przystawki…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tac1NrWTRkWGRXWW5CcGIzSndiM0JaUjJRMVpHYxAB",
+      "author_name": "Edyta Zyzańska",
+      "author_reviews_count": 24,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Byłam kilka razy, jedzenie pyszne, obsługa przemiła, można się dobrze najeść :). Lemoniady sztos. Często kolejka przed lokalem!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tadk4xVXlTVXBPTTJGcUxXWmZSR28zZFROS1pWRRAB",
+      "author_name": "Zosia Popielarska",
+      "author_reviews_count": 19,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Najlepszy ramen jaki jadłam w moim życiu a jadłam w wielu miejscach. Zamawiałam na wynos a zupa przyszła zapakowana osobno od składników bardzo szczelnie i do tego była bardzo ciepła! Ramen był przepyszny, makaron i dodatki starannie…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xocE5FUmtkbVJ6WVZnd1drZzFiRkJDZFZCalJVRRAB",
+      "author_name": "Marianka War",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Szczerze przyznam, że niewiele spróbowałam dań z karty, gdyż głównie przychodzę tu na lunche - są przepyszne! Co tydzień coś nowego i do wyboru dwie opcje - jedna z dodatkiem mięsnym, druga z wegetariańskim. Sycące danie, wybrany napój oraz…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKSlltVnpVa2R6ZVZwMVEyRnlWMnM1VGt0NU0xRRAB",
+      "author_name": "Daniel Staśczak",
+      "author_reviews_count": 21,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Tak cudownie przepyszne, że gdybym kiedyś trafił do więzienia z karą śmierci to jako ostatni posiłek zażyczyłbym sobie tantanmen z Zen Ona",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOeVZHY3hkR3hFVFU5ak1EVlZXRmd6V2pSNU9GRRAB",
+      "author_name": "Kambo",
+      "author_reviews_count": 28,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Świetne miejsce. Ramen klasa. Czysto i przytulnie.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGcVJVMXZWWFJQYmxreVpXMUdUM2s0T1ZaQk5sRRAB",
+      "author_name": "bart drr",
+      "author_reviews_count": 1,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "To miejsce to kulinarna rozpusta",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsbGNVZzJOV3BmYm0xdlZGcE5ORnByTVZCUVUwRRAB",
+      "author_name": "Piotr Tomczyk",
+      "author_reviews_count": 58,
+      "author_photos_count": 59,
+      "rating": 5,
+      "text": "Smacznie :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21RNVkzaHFUWGhETmtRMlpXNXljalJtUVVGRVYzYxAB",
+      "author_name": "Agata Bułat",
+      "author_reviews_count": 165,
+      "author_photos_count": 240,
+      "rating": 5,
+      "text": "Trzeba chwilkę poczekać na miejsce, ale!!! Naprawdę warto. Polecam gorąco. Bułeczki bao niebo, ramen również przepyszny. Zalecałabym jednak podawać również widelec, bo nie każdy potrafi jeść pałeczkami. Lemoniada rownież sztos. Bardzo fajny klimat i cudne miejsce. Wrócę tu na pewno",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

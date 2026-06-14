@@ -1,0 +1,2152 @@
+{
+  "restaurant": {
+    "name": "LA BOTTEGA Ristorante Italiano",
+    "type": "Fine Dining",
+    "address": "Bolesława Krysiewicza 5/1, 61-825 Poznań",
+    "price_range": "40–120 zł",
+    "total_reviews": 1524,
+    "avg_rating": 4.7
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNd01rUk1OVFkzYW1NNGRsSTVWSGRuT0hWbFNXYxAB",
+      "author_name": "Sławomir Piwowarczyk",
+      "author_reviews_count": 76,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Tak należy prowadzić restaurację!\nJedzenie bardzo dobre. Super",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25rM1VVVXpZV2MwTkV0aFpqQjRZWEl4TWpkUk1IYxAB",
+      "author_name": "Justyna Klein",
+      "author_reviews_count": 23,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Mają najlepsze tiramisu jakie kiedykolwiek jadłam 😄…",
+      "published_at": "wczoraj",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CbWVtTXRWbFYzTjBVeWVEVnlUREJPY0VwVU1VRRAB",
+      "author_name": "Jakub Marcinkowski",
+      "author_reviews_count": 7,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Wszystko przepyszne, polecamy serdecznie!",
+      "published_at": "3 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaRk4xVm9URGRrVTJKQmIyTTJkMk5pVkRjelZuYxAB",
+      "author_name": "Sebastiano Petriccione",
+      "author_reviews_count": 7,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Tego wieczoru La Bottega powitała nas w swoim wspaniałym, jasnym i kolorowym lokalu. Można tu zjeść PRAWDZIWE włoskie jedzenie, przygotowane przez PRAWDZIWYCH Włochów. Jedliśmy wyśmienicie: przystawkę, pierwsze danie i deser. Wszystko było…",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21abGNVNDBNRUZHWjJ4UU5YbHpjVEJDWm5wNGNtYxAB",
+      "author_name": "Julia Zarzycka",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Jadłam gnocchi i było przepyszne, pizza też dobra, lokal super bo można z pieskiem i jeśli nie macie rezerwacji to są wyznaczone stoliki, polecam",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWMWVrWlJYM2wyU1RaUFJ6WXdNRVUzVEhac01sRRAB",
+      "author_name": "Sergey Tiatenkov",
+      "author_reviews_count": 7,
+      "author_photos_count": 153,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za przydzielenie 5- gwiazdek. Miło Nam będzie gościć Pana ponownie.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWYVRHMWtZazFYZDNaVVNFOTJibUY2VUdoUE5VRRAB",
+      "author_name": "Radosław Bartoszek",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Chcesz przenieść swoje kubki smakowe do słonecznej i wyluzowanej Italii to dobrze trafiłeś. Jedzenie pyszne , czuć w tym miejscu pasję właścicieli do kuchni włoskiej .",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGaFFtbENVbTFTTFVaSGJFc3hMV2s0TVhScGMwRRAB",
+      "author_name": "drzazga Drzewik",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "balkon z pięknym widokiem, profesjonalna obsługa i pyszne włoskie smaki",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNNVdUVjZWVU5DTFdwZldsRlhhMHd6VUhoakxWRRAB",
+      "author_name": "Paweł Klecha",
+      "author_reviews_count": 106,
+      "author_photos_count": 1114,
+      "rating": 5,
+      "text": "Wyśmienite wloskie jedzenie. Jeżeli chcesz spróbować prawdziwej włoskiej kuchni musisz tu zajrzeć. Polecam.",
+      "published_at": "Edytowano 2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pocE9Hd3lOM2RMZUVGVmNGTkhhamM0TUZOT1IyYxAB",
+      "author_name": "Neszka G",
+      "author_reviews_count": 0,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dziękujemy za przyznanie Nam 5 gwiazdowej opini. Serdecznie pozdrawiamy i zapraszamy przy kolejnej okazji.",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURzM01HNlR3EAE",
+      "author_name": "Darek Knyszynski",
+      "author_reviews_count": 3,
+      "author_photos_count": 151,
+      "rating": 5,
+      "text": "Dziękujemy za 5 gwiazdową ocenę naszej Restauracji 🇮🇹…",
+      "published_at": "Edytowano 2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toU1RHWk5WMTl0WWtOcVJXTkJWSFJXY0dRNGIwRRAB",
+      "author_name": "Agnieszka",
+      "author_reviews_count": 11,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Najlepsza włoska restauracja, w jakiej miałam okazję być w Poznaniu ❤️\n\nPizza cudowna — zamówiłam Salame i nie zawiodłam się! Czuć, że każdy dodany…",
+      "published_at": "2 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxTGRIVm5aVkpJZEZSemVYRkVTWGRRYkVwMGNWRRAB",
+      "author_name": "Jacek Kasprzak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Nie ma lepszej PUTANESCA ZROBIONEJ PRZEZ AGNIESZKĘ na całym świecie jak tutaj w La Bottega",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsNmJITkdWMjEyWlRjNGRWSm5UMFpRTldsV2QyYxAB",
+      "author_name": "Maurizio Orlando",
+      "author_reviews_count": 12,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Zjedliśmy pyszne pappardelle w towarzystwie dobrego wina. Świetnie się bawiliśmy i chętnie wrócimy.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psNVZqRTFSMWRPTmtKbmQwbzVZMlUxUkRRM1gzYxAB",
+      "author_name": "Sebastian",
+      "author_reviews_count": 549,
+      "author_photos_count": 3154,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie we włoskim wydaniu. Makaron z krewetkami i cukinią w sosie pomidorowym był naprawdę smaczny. Krewetki świeże i sprężyste, a sos aromatyczny. Na  deser dobre cannolo. W środku bardzo ładny wystrój.",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rdE1VVXplakpsVVc5RWVHYzFhSEF4TWxjMmExRRAB",
+      "author_name": "Zuzanna Taisner",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Raczej więcej nie wrócę tam, zrobiliśmy z chłopakiem rezerwację. Przychodzimy, wszystkie stoliki dla 2 osób zajęte, kelnerka powiedziała że możemy usiąść przy 6 osobowym stoliku. Po 5 min podchodzi i mówi że musimy jednak się przenieść, bo…",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGSGVXUklZbTlFU0ZSNk4wdE1Walk0ZDFvelpFRRAB",
+      "author_name": "Mariola Wasowicz",
+      "author_reviews_count": 12,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Delicious & fantastic!!!!\nPolecam każdemu … jedzenie na najwyższym poziomie … przede wszystkim świeże i aromatyczne… obsługa profesjonalna i klimat włoski .",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsVFozcEZOa0ZNY0ZFNE5sQmxiREp0UzI1U1RFRRAB",
+      "author_name": "Karondran Karo",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Doskonała włoska restauracja Alberto. Zupa rybna jest wyśmienita! Gorąco polecam miłośnikom włoskiej kuchni. Wyśmienita!",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjeldUSnZVMDlYVkVWYVdsTnNTM1ZWYlVFNFpVRRAB",
+      "author_name": "Natalia Bukowiecka",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsze jedzenie pod słońcem  bardzo miła obsługa aż żal że jest tylko 5 gwiazdek bo wystawiła bym 6  stwierdziłam że to aż grzech robić tak pyszne jedzenie pozdrawiam Zofia bukowiecka",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214eFNGVkVWalpsYm1sU1VrbFlVVU5EV1ZoM2VtYxAB",
+      "author_name": "Madzior",
+      "author_reviews_count": 58,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Pyszna włoska kuchnia! Super klimat i obsługa. Właściciele bardzo zainteresowani salą i gośćmi, do tego uśmiechnięci i przemili. Na pewno będziemy wracać.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsRVZYUkVja05tYmpWMVdrRlZSVGxJTlVjd1dsRRAB",
+      "author_name": "Emilia Chrobok",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna restauracja, pyszne jedzenie i równie dobra obsługa. Właściciele bardzo mili i chętnie pomogą w wyborze idealnego wina do posiłku. Bardzo polecam spaghetti puttanesca, było niesamowite.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0Zk4xbGZTRkF3YUhCRGNERkRXSGhVZEVKNlduYxAB",
+      "author_name": "Marius Galkowski",
+      "author_reviews_count": 48,
+      "author_photos_count": 127,
+      "rating": 5,
+      "text": "Wpadliśmy na szybką przekąskę po spacerze po starówce. Cała nasza jedenastka. Okazało się, że lokal serwuje naprawdę niesamowite włoskie jedzenie. Pizza, którą jedliśmy, była niesamowita, podobnie jak makaron i gnocchi. Smakowało nam tak bardzo, że mieliśmy nawet okazję spotkać właściciela i szefa kuchni. Dziękujemy.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psT01IaGxXRjgzTWtOSGFEWkVOelV3VlhkMFQyYxAB",
+      "author_name": "Vlada Lavrentieva",
+      "author_reviews_count": 16,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, fajna włoska atmosfera i super obsługa🤗 Bardzo polecam to miejsce😊…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kRGVXY3pTMjB3TmpkMlRIQmFiM0ZHY1RWRlpXYxAB",
+      "author_name": "Karola K.",
+      "author_reviews_count": 149,
+      "author_photos_count": 437,
+      "rating": 4,
+      "text": "Smacznie",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWNlJYTlpkRFV4VnpRMldFRlJORFE0VjBoaGFWRRAB",
+      "author_name": "niunio concept",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i bardzo miła obsługa! Polecam serdecznie!",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SclFUYzFXVlp3TVdoRmVrNUZhSEZ3YmxwU1NVRRAB",
+      "author_name": "Jakub Szal",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam serdecznie, bardzo dobre jedzenie i miła obsługa",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Jd1ZGRXlhRUp1VmtrelFqQnlRM1p3VVhSblJGRRAB",
+      "author_name": "Mateusz Twardowski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo polecam jedzenie przepyszne i bardzo miła obsługa.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xCV04yMU1VR1ZOV20xMWVsZEpOM1UwYW1ZM1dsRRAB",
+      "author_name": "M Gress",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Masakra!!!! Nie polecam. Stolik zarezerwowany i okres oczekiwania 15 minut od punktualnego przybycia. Strasznie głośno i trudno się porozumieć przy stole. Zupa cebulowa to największa porażka!!! Po pierwsze to był krem, po drugie bardziej…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4bGEyWkpPRGQzUjBkbWNqWjNaSEJCTFVoTFRGRRAB",
+      "author_name": "Aleksander Michalak",
+      "author_reviews_count": 68,
+      "author_photos_count": 97,
+      "rating": 4,
+      "text": "Jedzenie przypomina domową kuchnię – takie, jakie można by dostać u włoskiej babci. Proste, klasyczne, dobrze przygotowane i smaczne, ale jednocześnie bez elementu zaskoczenia czy czegoś, co wyróżniałoby je na tle innych miejsc. To solidny…",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsMFZXaFNjRlJqY25rd1lrUmhWbEozWkROaGNGRRAB",
+      "author_name": "Marek Szczecinski",
+      "author_reviews_count": 13,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo solidna włoska restauracja – czuć autentyczny klimat i podejście do kuchni. Dania dobrze doprawione, składniki świeże, a całość spójna i dopracowana.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taV1YyaHdNMmRwU0hVeWIxUlNSR1JVY25OR1kzYxAB",
+      "author_name": "Daria Rynkar",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Od samego wejścia czuć cudowny klimat, obsługa i właściciele to wspaniali ludzie pełni pasji i ciepła! Makaron i deser były przepyszne, aż chciało się więcej❤️ Polecam z całego serca i na pewno wrócę tu niejednokrotnie!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pGQ1dIWmFibHBWV1RNNWFWcHhTSGRsWkhsQlEzYxAB",
+      "author_name": "Aneta Stachowicz",
+      "author_reviews_count": 33,
+      "author_photos_count": 36,
+      "rating": 5,
+      "text": "Burger halluomi to małe 3 burgerki, dobre ale suche ho bez żadnych dodatków - chyba krążek cebuli był",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xSVZqbFRXR1ZhV1hGdlpuZFNWbmN3YXpsbU0zYxAB",
+      "author_name": "Barbara Radek",
+      "author_reviews_count": 213,
+      "author_photos_count": 451,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za 5- gwiazdkową ocenę naszej Restauracji 🌺 …",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjNU5EQkVlbEpSYVRGaWMzaGllQzF1WlRSNlRtYxAB",
+      "author_name": "Piotr Krajewski",
+      "author_reviews_count": 6,
+      "author_photos_count": 198,
+      "rating": 5,
+      "text": "Świetne jedzenie i klimat!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0dFpqTnVWVXhwU0dneFYyUk9WMGszVFZCRE1sRRAB",
+      "author_name": "Wiktoria Kałużna-Sil",
+      "author_reviews_count": 43,
+      "author_photos_count": 17,
+      "rating": 5,
+      "text": "Znakomity makaron i pyszna pizza w przyjemnym, eleganckim wnętrzu. Dobra obsługa. Na pewno wrócę :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxa1ZEVkJURkpvWTNSUmVXWlpiVUkyVFRSVFNVRRAB",
+      "author_name": "Gautama de Mazan",
+      "author_reviews_count": 88,
+      "author_photos_count": 199,
+      "rating": 5,
+      "text": "Bardzo klimatyczne miejsce i świetna kuchnia. Polecam pizzę z truflami, która jest tu nowością",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CNGNERnZVM2xQVUZOWFYwaHpZamR3WTNCNFRIYxAB",
+      "author_name": "Zbigniew Skrzypczak",
+      "author_reviews_count": 116,
+      "author_photos_count": 254,
+      "rating": 5,
+      "text": "Byłem dzisiaj z rodziną na niedzielnym obiedzie, aby przy okazji pokazać Cioci, że w Poznaniu mamy dobre restauracje. Wybór padł przez moją szwagierkę na La Bottega więc wcześniej zarezerwowaliśmy stolik.…",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCdVZVazRlRFZUV2xwcFVqVTRaSFUyUVhsMVJrRRAB",
+      "author_name": "Weronika",
+      "author_reviews_count": 35,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Super miejsce godne polecenia, pyszne calzone i focaccia",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0c1F6ZG9RVXB4UlVzMlZrSjBiM1k0TkcxMmRXYxAB",
+      "author_name": "Emily",
+      "author_reviews_count": 113,
+      "author_photos_count": 70,
+      "rating": 5,
+      "text": "Pyszne owoce morza, wyborne wina, sprawna i uprzejma obsluga lokalu :).",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSURBOHNxcXFBRRAB",
+      "author_name": "Monika Nowicka",
+      "author_reviews_count": 281,
+      "author_photos_count": 238,
+      "rating": 5,
+      "text": "Zniewalająco pyszne jedzenie, profesjonalna obsługa. Prostota dań włoskich w idealnym wydaniu z bardzo dobrej jakości składników.",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205WVMwNXdNM296Y1VkNFF6TkJSR1ZsVHpSdVNWRRAB",
+      "author_name": "Martyna Kupaj",
+      "author_reviews_count": 24,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jedzenie ok. Ale czekaliśmy godzine za jedzeniem w sumie ponad . Wszyscy którzy którzy przyszli po nas juz dawno zjedli . Takze z tego powodu nie polecam .",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zMVJWaDBWemhXUm0xR2RFcHNlVEkzTUdaUlIyYxAB",
+      "author_name": "Malgorzata Bialecka",
+      "author_reviews_count": 54,
+      "author_photos_count": 76,
+      "rating": 5,
+      "text": "Fajna klimatyczna restauracja na spotkanie z przyjaciółmi czy obiad z rodziną. Można porozmawiać. Dobre jedzenie i wino. Sympatyczna obsługa .",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKMFFVUnlkbmRFUTB0MWMxSXlkRk5oYVRjMVdYYxAB",
+      "author_name": "Anna Anna",
+      "author_reviews_count": 342,
+      "author_photos_count": 5136,
+      "rating": 5,
+      "text": "La Bottega to świetna restauracja z naprawdę przepysznym jedzeniem. Odwiedziliśmy ją już trzeci raz i za każdym razem jesteśmy bardzo zadowoleni. Szczególnie polecam eskalopki z cielęciny – były rewelacyjne. Bardzo miła obsługa, przyjemna atmosfera i wysoka jakość dań. Zdecydowanie będziemy tu wracać!",
+      "published_at": "Edytowano 2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214RWFGTlRTM0JZYW5WMWFsZzRPVzVVVFRSbU4yYxAB",
+      "author_name": "reki",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dania wyborne, prawdziwa włoska kuchnia. Obsługa bardzo miła i pomocna, odpowiada na wszystkie pytania. Na pewno będę wracać!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCQlRrSjNkMHc1YTNaUlFrTnFZVk5IWjNWNWJXYxAB",
+      "author_name": "Łukasz Nowicki",
+      "author_reviews_count": 27,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Większe miejsce, niż poprzednio, warto być wcześniej, bo w okolicy ciężko z parkowaniem. Obsluga znakomita, sympatyczna, kompetentna, mają też someliera. Jedzenie bardzo dobre i można bez problemu dzielić rachunek. Trochę głośna muzyka, sle poza tym bez zarzutu.  Bardzo polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKR2RUQmZiRU5xVTE5VFUzQTJUbnB5Y1ZsUmEyYxAB",
+      "author_name": "Bulov Danila",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Byłem tam kilka razy. Niesamowite miejsce, jedna z niewielu z prawdziwym przesłaniem. WŁOSKA RESTAURACJA. Jeśli Wasza kelnerka Nikita lub Angelina, możecie być pewni, że w tym dniu będziecie mieli szczęście. Gorąco polecam! Daję im 10 na 5.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSSVdVWndRMjlUVmtSWlUxTlhiRk4wZG5WMFIyYxAB",
+      "author_name": "Natalia Matelska",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie i przemiła obsługa, czuć tutaj włoski klimat i dania również w pełni to oddają, polecam serdecznie 😊😊…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wWGFVTTRkbGhOYlVWb1NHb3hhVFY1Y0VsNFExRRAB",
+      "author_name": "Pawel Podzorski",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo smaczne i świeże jedzenie. Przepyszny makaron i pizza też. Dawno tak dobrze nie zjadłem. Polecam.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOWE1ISk9ha3RvYjFwdWRFVktMVTA1Wm5ZdFkyYxAB",
+      "author_name": "Krzysztof Borowiak",
+      "author_reviews_count": 192,
+      "author_photos_count": 165,
+      "rating": 5,
+      "text": "Od focaccia, przez bruschetta pomidoro poprzez gnocchi  alla sorrentina, spaghetti allo scoglio, spaghetti alla carbonara i polędwiczki wieprzowe ale sargantino poczułem się jak w Wenecji. Każde danie bardzo pyszne, obsługa medalowa, klimat Włoch. Gorąco polecam!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25adVowMDJNSGhLUzNWSGRtUk9jR2xhTldaSVRsRRAB",
+      "author_name": "Łukasz Jenczak",
+      "author_reviews_count": 30,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pysze jedzienie i miła obsługa.\nZ chęcią wrócę po więcej:)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjd01VMXhYek4xUTJGQlZHSlpPVXBaY210SWFWRRAB",
+      "author_name": "Paweł S",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miła obsługa i znakomite jedzenie, polecam :)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KUE9FeFJNa3BNZEdreU5IUnFPSFZ3TWkxUGNWRRAB",
+      "author_name": "Iga Kaluza",
+      "author_reviews_count": 10,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Wspaniałe miejsce!\nPrzepyszne jedzenie, makaron był po prostu idealny, a każde danie które obok serwowała Pani kelnerka wyglądało wybornie.…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taallUQkZMVkl5ZEVsNGEwUldNVVpKYjFWVWVGRRAB",
+      "author_name": "michalina morska",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "La bottega to miejsce koniecznie warte odwiedzenia, jeżeli chcecie spróbować prawdziwej włoskiej kuchni. Przepyszne jedzenie, desery, klimat, wystrój, zaangażowanie i ciepło właścicieli zasługuje na najwyższą ocenę. Serdecznie polecam ;)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paUk9UTnpZazFEVkVNNVQwa3lXWFpaUjB0NGIyYxAB",
+      "author_name": "Emilia Mlodzik",
+      "author_reviews_count": 13,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pysznie i po włosku w sercu Poznania 🤔…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KaE9XcDFiV0pIV1Y5VFVuQjFTSEZPZW14dFUwRRAB",
+      "author_name": "Sandra Subartowicz",
+      "author_reviews_count": 12,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Świetne miejsce z prawdziwym włoskim klimatem! Jedzenie przepyszne – świeże składniki, doskonale doprawione potrawy i autentyczne smaki, które naprawdę przenoszą do Włoch. Atmosfera w lokalu przytulna i sprzyjająca długim spotkaniom. Zdecydowanie jedno z tych miejsc, do których chce się wracać. Polecam!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pNdFJtVlhhWFE0UmpWalVGZFFkRWhPWkhsS1VIYxAB",
+      "author_name": "Natalia",
+      "author_reviews_count": 2,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Świetne miejsce na spotkanie z rodziną. Obsługa przyjęła nas bardzo ciepło, a dania były przepyszne, zwłaszcza przypadły nam do gustu małże w sosie winno-cytrynowym, bardzo polecam. Pozdrawiamy kelnerkę Weronikę :)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOM1pHdzBXbVJVWWpWWU9FcENiWEpmYkVGaGRrRRAB",
+      "author_name": "Yennaye",
+      "author_reviews_count": 16,
+      "author_photos_count": 23,
+      "rating": 5,
+      "text": "Super pizza, przyjemny klimat z muzyką na żywo. Obsługa na wysokim poziomie, polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205VU9VZzBSR2R0Y1dwVllsaHpPRzFJZEY5Sk5uYxAB",
+      "author_name": "MW R",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Pizza cienka jak papier, mokra rozmemłana, salami na pizzy cienkie jak pergamin, nie do pokrojenia na talerzu, bardzo głośno- hałas, do pełni szczęścia Pan z gitarą i jego wokal, skutecznie zagłuszał możliwość rozmowy. Zaprosiłem będącego…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ST09XUXdVMjB3WlVsNExXUktiMnBHZG5CZmFuYxAB",
+      "author_name": "Maciej Dabrowski",
+      "author_reviews_count": 97,
+      "author_photos_count": 112,
+      "rating": 5,
+      "text": "Miłe zakończenie - spodziewałem się bardzo prostego bistro z kuchnią włoską, a okazało się pełnoprawna restauracja. Obsługiwał nas sommelier (bardzo profesjonalny, cierpliwy, pomocny), dzięki czemu spróbowaliśmy wielu win i wypiliśmy kilka…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKM1RWQlJXa0pRUTBsdU1uVlZSSE5NUjBKdE1IYxAB",
+      "author_name": "Karl A",
+      "author_reviews_count": 90,
+      "author_photos_count": 42,
+      "rating": 3,
+      "text": "Po raz pierwszy miałam okazję zjeść pizzę w tej restauracji i szału nie ma. Porównując z innymi lokalami pizza jest średnia. Ciasto nie spełniło moich oczekiwań.…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CWVNrZE1NSHBZU0dwWFIxZGZSRVpXVGxnMU4xRRAB",
+      "author_name": "Agnieszka c",
+      "author_reviews_count": 10,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Zawsze wracam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSc2F6QXRSalJmVlU1WFVXNVVRalZ5TFdKRVNFRRAB",
+      "author_name": "Nikita Rychkov",
+      "author_reviews_count": 15,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Po raz pierwszy wpadłem tutaj z dziewczyną kilka miesięcy temu i od samego początku zakochaliśmy się w tą restaurację. Piętro kamienicy jako sala naprawdę oddaje włoskim klimatem, dużo zieleni, przyjemne światło. Osobno podkreślę jedzenie.…",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFeVJrSjBOMll6U21vemVYTkxWVFphVWt4UFpYYxAB",
+      "author_name": "Lila",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Restauracja sama w sobie bardzo ładna i przyjemna, natomiast napotkała nas sytuacja w której czekaliśmy na posiłek 2 godziny uważam że jest to żałosne jak na taką wielkość lokalu aby dopuścić do takiej sytuacji. Jestem zawiedziona, ponieważ…",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUGExWnFZVXhtV1RCM2FXbDVVMUpqY0VkeVlsRRAB",
+      "author_name": "Aurora Piccininni",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Autentyczna włoska restauracja z doskonałym jedzeniem! Wszystko było naprawdę doskonałe, od przystawek po desery, a ceny były uczciwe.\nWłoski właściciel był bardzo gościnny.\nGorąco polecam!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKWWJWOW9NMll6UW5kbFZsRmlkelZQZEhkbU0zYxAB",
+      "author_name": "Adam Wadiak",
+      "author_reviews_count": 27,
+      "author_photos_count": 30,
+      "rating": 5,
+      "text": "Zamówiliśmy deser w postaci słynnego tiramisu oraz cappuccino. Tiramisu zdecydowanie warte spróbowania. Krem wyjątkowo dobrej jakości. Kawa wybitna, z wyrazistym smakiem. Obsługa była szybka i profesjonalna, jakością równa rozkoszy na…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVGJERnRXRmwzUms5QmJFWTNiVzk0T1hVd1pVRRAB",
+      "author_name": "Andrzej wiosło",
+      "author_reviews_count": 29,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "bardzo przyjemne klimatyczne miejsce miła obsługa pyszne jedzenie",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oQ2FsUlViMVpRZWpkWWRVZEJUVGhUVHpCSWEwRRAB",
+      "author_name": "Marlena Kot",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za 5- gwiazdkową recenzję.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKVWJDMVBXamsxYm1WWGQyRktjbmcxU25sb1dYYxAB",
+      "author_name": "Serafin Heaven",
+      "author_reviews_count": 12,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Jedzonko bardzo dobre! Obsługa rewelacyjna, mili kelnerzy, pomocni nie trzeba było ich wołać, ani nic widać, że mają oczy dookoła głowy. Dodatkowo bez problemu przygotowano danie spoza karty dla małego dziecka, bez soli.\nNic tylko polecać ! Byliśmy tam pierwszy raz, ale napewno nie ostatni !",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VeU9VSmxTemhaWDJWV2MwMTRiRWRKZGxWcU4xRRAB",
+      "author_name": "Szymon Biedny",
+      "author_reviews_count": 550,
+      "author_photos_count": 498,
+      "rating": 5,
+      "text": "Bardzo dobry makaron .\nSmaczna lazania\nPizza margaritta przepyszna…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21scWQwdFFSR1JJVlRKSlVWZHNObTVKWjJsdGRWRRAB",
+      "author_name": "Maciej Roszak",
+      "author_reviews_count": 2,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za przydzielenie Nam 5- gwiazdkowej opinii.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25acGIxSXRVVGhSYUVaUFJISlRZVEJEWldOaFVVRRAB",
+      "author_name": "Aleksandra szyszka",
+      "author_reviews_count": 0,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cieszymy się, że wizyta w naszej restauracji sprawiła Pani radość 🌹…",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pOcFQzbExSRzR3UW1GMFdYTXRiRVJXZVdwdWMwRRAB",
+      "author_name": "A GH",
+      "author_reviews_count": 74,
+      "author_photos_count": 23,
+      "rating": 5,
+      "text": "Makarony smacznea, a każdy z 4 osobowej rodziny miał inny rodzaj makaronu, tiramisu wyśmienite, porcje względne, obsługa przemiła i bardzo pomocna, czysto. Polecam. Na pewno wrócę dla Tiramisu 😁…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WWVZHdDNNVXBZU3pkbU4xWlhia1I2YVhSbFNVRRAB",
+      "author_name": "Maciej Obrachta",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszna pizza polecam 😍…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201T1kyNXNVMEl5VlhCS2RqYzFXa1l6ZW5kdVFWRRAB",
+      "author_name": "Ksenon",
+      "author_reviews_count": 63,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za pozytywną ocenie naszej Restauracji 🇮🇹…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOVVRtNXBYMWxCTW5waGMweHlhalkyUmxNNWIyYxAB",
+      "author_name": "Bartosz Rabiega",
+      "author_reviews_count": 78,
+      "author_photos_count": 6,
+      "rating": 4,
+      "text": "Obsługa męska na 10/10. Damska na 4. Bardzo głośno - hałas. W całej restauracji nie widziałem ani jednej pizzy... nie zaryzykowałem. Lasagne spoko,  dość spora porcja w przystępnej cenie,  ale bez fajerwerków.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2preE5FUTRSVzlHVEhGWGVGbFBkbU13TTA1VFkzYxAB",
+      "author_name": "Wojtek ER",
+      "author_reviews_count": 67,
+      "author_photos_count": 66,
+      "rating": 5,
+      "text": "Dziękujemy za pozytywną ocenę naszej Restauracji. Będzie Nam miło gościć Państwa ponownie.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkWFgxSjJSVkZoVmxwQ1NUVkdPREYzU210M2JHYxAB",
+      "author_name": "Sk",
+      "author_reviews_count": 21,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Wspaniałe jedzenie. To moja druga wizyta i wszystko było pyszne! Papardelle z wołowiną i borowikami w pikantnym sosie,  gnocchi w kremowym sosem z ndują oraz spaghetti z owocami morza.  Polecam!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsS1dYTTBNREUzVEZKUFVrMW9PRzlGTWtSM1pWRRAB",
+      "author_name": "Anastazja",
+      "author_reviews_count": 66,
+      "author_photos_count": 77,
+      "rating": 5,
+      "text": "Byłam 3ci raz. Za każdym razem jesteśmy zadowoleni. Jedzenie pyszne i autentyczne! Wystrój klimatyczny. Dziękuję jeszcze raz kelnerce (niższa Pani z blond włosami) za pomoc w organizacji przestrzeni do nakarmienia dziecka :)",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwMmRGQkdTSFpGTWpGdlVUSkVYMkpMU205cVIzYxAB",
+      "author_name": "Monika Mackowiak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "To nie jest zwykła kolacja – to prawdziwa kulinarna podróż. Każde danie było dopracowane w najmniejszym szczególe, pełne aromatów i smaku, który zostaje w pamięci na długo. Jedzenie to poezja – dosłownie, każdy kęs zachwycał i sprawiał, że…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Ob2FqSmlkRWMzWjI5TFJWOHpVMnRmWlU1T1JuYxAB",
+      "author_name": "Tomasz Wawrzyńczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za pozytywną ocenę naszej Restauracji 🇮🇹 …",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSSE9ISk1ibGRvZUZkeE9WVlhTMkl6TFdwWWRYYxAB",
+      "author_name": "Hoku",
+      "author_reviews_count": 45,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Wszystko było idealne, łącznie z winem.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCUFRuazBUVGswTm5CWGMxRXhkMng0T0UxS1RWRRAB",
+      "author_name": "Marcin Górski",
+      "author_reviews_count": 0,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za pozytywną ocenę naszej Restauracji 🇮🇹…",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1M2RtUkhUakZoWm1KUGNIWnZUbmx4Tm5KUk4xRRAB",
+      "author_name": "Karolcia karolczak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "❤️",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRMllscEJSbWt4YkRGemVUQktjMEl6WW5Cd01YYxAB",
+      "author_name": "Bożena Radzi",
+      "author_reviews_count": 76,
+      "author_photos_count": 166,
+      "rating": 5,
+      "text": "Wigilia firmowa- z takiej okazjii tu byłam. Jedzenie bardzo dobre. Wina też. Mnie zaskoczył wystrój. Świetne obrazy na ścianach. Mnie najbardziej podobały się te z kotami",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wdFlrTlBVVzF0ZVZoZlFVVnZTR0UzZW5aaFRHYxAB",
+      "author_name": "Travel Er",
+      "author_reviews_count": 103,
+      "author_photos_count": 117,
+      "rating": 5,
+      "text": "Dziękujemy za pozytywną ocenę naszej Restauracji. Będzie Nam miło gościć Państwa ponownie.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMlJUaFFTbEpJWmxoMk1HZEtTQzB6ZGpoUWRtYxAB",
+      "author_name": "leszek",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Rewelacyjne jedzenie, rewelacyjna obsługa i klimat też rewelacyjny! Jedna z najlepszych włoskich restauracji w Poznianiu.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWTVNrOWtkMTl0WXpkbFowaHBNMUpUUlROclZrRRAB",
+      "author_name": "Marianna Panek",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "przepyszne jedzenie, przemiła obsługa i świetny klimat. NAPEWNO WROCIMY. Pan kelner Nikita dbał o nas cały wieczór i naprawdę umilił nam czas😁😁…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaTGRYRXhXV1Z0YkhsR1prOVplWFJ6Wlc5ck1rRRAB",
+      "author_name": "Счастье",
+      "author_reviews_count": 83,
+      "author_photos_count": 183,
+      "rating": 3,
+      "text": "Przyznam szczerze że jak na takie ceny to spodziewałam się czegoś więcej, zwłaszcza, że jest to włoska knajpa a pizza była przypalona. Jedyne co uratowało moją irytację to pyszne desery. Najbardziej pistacjowy mus i blok czekoladowy.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kUVVWbFFSM0ZpTXpkTlFsQnNiMjgwTFdWVFpIYxAB",
+      "author_name": "Maciej „Night Run Nurse” Kryszewski",
+      "author_reviews_count": 365,
+      "author_photos_count": 981,
+      "rating": 5,
+      "text": "W czasie firmowego spotkania wybrałem Eskalopki cielęce pod szynką i tiramisu.\nSamo mięso smaczne ale sos re we la cja, normalnie bym wylizał talerz XD.\nDeser ze zdecydowaną przewagą kremu, osobiście wolałbym więcej biszkoptów.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKa2FVcDRZbXRhUmxFNWEwWlNWR2x0Tm5aU1dVRRAB",
+      "author_name": "Em Em",
+      "author_reviews_count": 28,
+      "author_photos_count": 3,
+      "rating": 2,
+      "text": "Moje oczekiwania byly większe. Poledwica i frytki w tłuszczu na talerzu. Frytki czy tzw lódeczki jak zwał , bardziej jak skwarki wysuszone oblane tłuszczem.... dramat.…",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21VMFFYQlBhM2xJYVV4UGJqSm5SVU5TWkVSdGRXYxAB",
+      "author_name": "Jarek Zdanewicz",
+      "author_reviews_count": 11,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Bardzo przeciętne jedzenie jak na włoską restaurację.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxeWEwaFVPVzV1T0RadlgxUmxlWFpVU1d3dE5uYxAB",
+      "author_name": "Kacper Widerowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedna z najlepszych włoskich restauracji w Poznaniu. Przepyszne jedzenie, prawdziwie włoska atmosfera i przyjaźni właściciele. Polecam tiramisu, które zdecydowanie zasługuje na swoją reputację. Jednak to co w szczególności zasługuje na…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4elVraEZSMDU2YVRZMExWZEtVWFZsTURJeGVYYxAB",
+      "author_name": "Dawid Jaroch",
+      "author_reviews_count": 13,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Świetny włoski klimat w centrum Poznania. Autentyczne, pyszne jedzenie serwowane przez sympatyczną panią Wiktorię, serdecznie polecam!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZMFpIWndhR1JHVVZkRFJFWTVTM1JtV2xBNFJrRRAB",
+      "author_name": "Grzesia Pierdzibąk",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Jedzenie pyszne, lokal bardzo ładny i klimatyczny lecz obsługa trochę nie miła i zachowuje się jakby pracowała za karę.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kwMFp6TkJOV3RCT0c1TU5WZHFVbDgzZDNob1NVRRAB",
+      "author_name": "dario de giorgi",
+      "author_reviews_count": 14,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Spektakularne, jedliśmy bardzo dobrze. Właściciel był bardzo miły i przyjazny. Czuliśmy się jak w domu. Gratulacje!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KVVdUbExhSFJJZUZOU2RqaE1ORWh5V0ZFd2QwRRAB",
+      "author_name": "Matthew",
+      "author_reviews_count": 1,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Najlepsza włoska restauracja w Poznaniu 🥇…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZeFFWaDBUR04wVTJwdloxcHVOa2xLY1ZKeVVrRRAB",
+      "author_name": "Dziamski",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie w przystępnej cenie a obsługa jeszcze lepsza",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWT1FXbFVUVzVvZUZaeU9HSjNZM0JRVjBkV2RIYxAB",
+      "author_name": "Katarzyna Walczyk",
+      "author_reviews_count": 16,
+      "author_photos_count": 40,
+      "rating": 5,
+      "text": "Fantastyczny miejsce!Z włoskim klimatem. 😍😍😍.\nMenu bogate i wyszukane.\nWłaściciele z wielką pasją i radością tworzą przepyszne dania.…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSd1VXZDBVM1Z3VUVKUWExRjZRV0ZtYUVwb2FtYxAB",
+      "author_name": "Weronika Skoczek",
+      "author_reviews_count": 149,
+      "author_photos_count": 345,
+      "rating": 5,
+      "text": "Świetne miejsce z autentyczną włoską kuchnią. Restauracja jest spora, składa się z kilku oddzielnych sal. Obsługa była bardzo kompetentna i przemiła. Na dania (w niedzielę wieczorem) czekaliśmy długo, ale było warto. Zarówno dania główne…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pVeVFUQXlTelpHY2xORFRYaGxSWE5HYm1aVWVHYxAB",
+      "author_name": "Kamil W",
+      "author_reviews_count": 18,
+      "author_photos_count": 55,
+      "rating": 1,
+      "text": "Nie wiem, po co mają ten system rezerwacji. Odwołali mi rezerwację i nawet tego nie zaktualizowali, bo wciąż pokazuje wolne terminy.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4MldUVXdSeTFwVm5GdGFEWmFhR3B0VkdGQ1IxRRAB",
+      "author_name": "Maksymilian Piasecki",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetne jedzenie i bardzo miła atmosfera. Obsługa na najwyższym poziomie — szczególnie pan Tomasz, który ogarniał wszystko szybko, z kulturą i uśmiechem. Chętnie wrócę.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psRE1teHVNRTh3WVdRMFZtcGpZMDAzWjNaUU1VRRAB",
+      "author_name": "Mikołaj Kaczmarek",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna pizza, makarony i desery oraz Nikita, który nas obsługiwał.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xNNFVtZE9Ta1pmWjNwV2RqRndVVGd6ZFVzdFFXYxAB",
+      "author_name": "Konrad Dąbrowa",
+      "author_reviews_count": 88,
+      "author_photos_count": 105,
+      "rating": 5,
+      "text": "Byliśmy w Poznaniu na przecudnej obiado kolacji. Jedzenie wyśmienite. Mogliśmy porozmawiać z właścicielką o kuchni włoskiej i produktach których mogliśmy zakupić . Jest dostępna opcja zakupu( jest sklepik). Dania cudne. Wybraliśmy Gnocchi(…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSUN2NS1MUUtBEAE",
+      "author_name": "anna Jan",
+      "author_reviews_count": 44,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "Wcześniejsza restauracja bardziej mi się podobała niz obecna. W nowej mało miejsca, gwarno, plusem piękny widok z okna.\nJadłam makaron z pesto zielonym i grzybami. Troszkę za słone. Ale smaczne",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWUloxVlpReTE2UjNOeVltMUJXR3RzVUZNd1YwRRAB",
+      "author_name": "Renata Bartoszewska",
+      "author_reviews_count": 119,
+      "author_photos_count": 181,
+      "rating": 5,
+      "text": "Dobra pizza, rewelacyjne gnocci, dobre wino domu do pogadania. Dziwny kelner, który nakrywał do stołu tak, jakbyśmy mu przeszkadzały siedząc przy stoliku - przesuwal napoje, odsuwał czytane karty menu, poprawiał określenia zamówień. Potem…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5WWExQmZVbFI2YWtGMVowdGZXbEZ3UW5OU1kxRRAB",
+      "author_name": "Anna",
+      "author_reviews_count": 24,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Przepyszne włoskie jedzenie. Obsługiwała nas Pani Wiktoria, ciepła i profesjonalna. Dziękujemy",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wallsRmFZakppVGtwR1VtRnFjVEZhUjFGeFJHYxAB",
+      "author_name": "Jakub",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "świetne miejsce na klimatyczny i spokojny wieczór przy włoskiej kuchni! pozdrawiam niesamowicie przemiłą panią, która nas obsłużyła. bardzo rzadko idzie spotkać się z takim zaangażowaniem wobec klienta, co po prostu zapada w pamięć. na pewno kiedyś tu jeszcze wpadnę :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wV1VETkhURXM0U1VKdlRHbHVkMVo0YnpKdVVIYxAB",
+      "author_name": "ZIBI",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wyśmienite jedzenia i obsługa... Szczególnie Szef Alberto  który wychodzi do Gości rozmawia z nimi i tłumaczy jak powstają te wyśmienite Dania... bravissimo👏👏👏…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zMWVVeGhMVzFRU0ZaSWNXZE5XWGd6VUZSWGFFRRAB",
+      "author_name": "Ania Pawelec",
+      "author_reviews_count": 7,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Super obsługa, właściciel chodzi po sali i pyta czy smakuje, super atmosfera poczułam się jakbym była we Włoszech muzyka na żywo, jedzenie wyśmienite\nJestem pierwszy raz w Poznaniu i z całym sercem polecam to miejsce. Alberto dziękujemy ❤️",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aVE5ua3dXRWxzVEhOeFlUZDBkelpEVTA1bmRsRRAB",
+      "author_name": "diabels",
+      "author_reviews_count": 38,
+      "author_photos_count": 17,
+      "rating": 3,
+      "text": "Jedzenie przepyszne, jednak ogromny minus za wprowadzanie psów, który ujada cały czas, a właściciele mają gdzieś wszystkich gości restauracji. Dlatego jest to pierwsza i ostatnia wizyta u Państwa.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21FMmRWSm9XRzFTWVZKVWFHeFRhWEI1VVZab1FtYxAB",
+      "author_name": "Rafał Lange",
+      "author_reviews_count": 237,
+      "author_photos_count": 119,
+      "rating": 5,
+      "text": "Jedzenie adekwatne: dla każdego coś dobrego - próbowałem foccaci i gnocchi z truflami - wszystko super i wróciłbym na więcej. Obsługa była bardzo pomocna, i z zaangażowaniem pomogła w doborze wina. Bardzo fajne. Parkowanie nie jest najłatwiejsze w okolicy, dużo szczęścia potrzeba. Warto zostawić auto gdzieś dalej.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkM1EzUmZNM3A1YnpnelUxSlhWVkUyYlhWNU5HYxAB",
+      "author_name": "Bartosz Szendzielorz",
+      "author_reviews_count": 9,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Restauracja z wyjątkowym klimatem, wyśmienitym jedzeniem i absolutnie GENIALNĄ obsługą. Podróżując po Polsce, odwiedzam wiele restauracji z kuchnią włoską, lecz La Bottega w Poznaniu to restauracja, z której inni powinni brać przykład na…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kNldIVlNiVE5rV21SQlNuWlNhRU5sVjI1amIxRRAB",
+      "author_name": "Rafal Tartanus",
+      "author_reviews_count": 28,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za przydzielenie Nam 5 gwiazdek.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxRVdXZGpNblZYZWxac1dEUmlaV0p1YTI5RU1VRRAB",
+      "author_name": "Sławomir Świątkowski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Po raz kolejny doznaliśmy kulinarnej rozkoszy i po raz kolejny nasze kubki smakowe doznały typowego kulinarnego orgazmu ;) Typową pieszczotę stanowiły serwowane plastry cielęciny w sosie kaparowo-tuńczykowym. Danie główne carapccio z…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205WGMyRm1ZbXBJWjI5Q1J6WnJabmgwUmtGM1dYYxAB",
+      "author_name": "Benjamin Nils Hoffmann",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie, super uprzejma obsługa i miła, relaksująca atmosfera. Fileto di manza było soczyste, jak należy. Nie można się tu pomylić.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCYU0xZHlhRGRVUW1sWE5FNWlUM0pITUU5Vk5rRRAB",
+      "author_name": "Anna Mazur",
+      "author_reviews_count": 35,
+      "author_photos_count": 16,
+      "rating": 5,
+      "text": "Wspaniałe miejsce, świetny klimat kamienicy, czuć włoską duszę :) a jedzenie - coś wspaniałego. Ojjjj kochają tam gotować, widać i czuć to na każdym talerzu. Prawdziwa włoska kuchnia z najlepszych produktów. Bardzo duże porcje. Dorada…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwUlpVcHFOV1p5YzBwSVYxSnVSa3B0WHpKeFZsRRAB",
+      "author_name": "Finger",
+      "author_reviews_count": 2,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "La Bottega to wyjątkowe miejsce tworzą ją wspaniali serdeczni pełni pasji ludzie. Kochają dzielić się tym co dla nich najważniejsze w życiu. Gratuluję wyśmienitych dań. Polecam wszystkim miłośnikom wybitnej kuchni.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tNeGFGUTNSRzFCY3kxVmRtUjRXWEZYTXpsQ2FGRRAB",
+      "author_name": "Nastkaa 03",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pani Kasia cudnowna, przemiła i profesjonalna obsługa z jej strony, na pewno wrócę! Klimat również super i smaczne jedzenie",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKb2R6ZFRZamRZWlhsMU1qUk9SWHB4UlRodVNIYxAB",
+      "author_name": "Irina",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza lasagna i pizza jaką jedlismy. Spędziliśmy u Państwa naszą pierwszą rocznicę ślubu i był to dobry wybór. Piękny widok z okna i klimatyczna muzyka w tle. Dziękujemy i do zobaczenia.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2psbWJqZGhRMEU0U1hOb1RWQjJRVmxCUkhsVlkwRRAB",
+      "author_name": "Lara",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Świetna restauracja, cudowni właściciele. Makaron z owocami morza i Pizza Matilde na długo pozostaną w naszej pamięci. Istnie włoski klimat",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNVpVczFWbm8zTTBWdGMzWnViV1ZOVTJoRExWRRAB",
+      "author_name": "Elizabeth",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy za piękny wieczór przy muzyce na żywo, znakomite jedzenie, najlepsze tiramisu jakie w życiu jedliśmy, przemiła dyskretna obsługa.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5UmMxWTRkVXRJVWpSemJqZDBaa2R1YlRRd2VIYxAB",
+      "author_name": "Emilia Konieczna",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jedzenie dobre, ale po opiniach z internetu spodziewałam się lepszych smaków, buratta na naszej pizzy była kwaśna:( makaron z borowikami smaczny. Obsługa jak dla mnie i moich gości zbyt sztywna i nie miała żadnych interakcji z gościem.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wMmJVVjJjR1V0VG5KUWJtMVVSM2RFTUdWT2NsRRAB",
+      "author_name": "Тетяна Попович",
+      "author_reviews_count": 43,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wizyta w tej restauracji to najlepsza rzecz, jaka mogła nam się przytrafić tego dnia.\nWłoska atmosfera jest czarująca, wnętrze jest odpowiednie, muzyka dobrze…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214RE56RXpTM2QxYVhCS1JsZGxaME41WWt4MVUxRRAB",
+      "author_name": "Kajama",
+      "author_reviews_count": 16,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Rewelacyjna lokalizacja. Wystrój jak w domu.\nBezproblemowa rezerwacja miejsc tak w weekend jak i w tygodniu.\nBardzo miła obsługa kelnerska. Wyczerpujące odpowiedzi na zadawane pytania…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2trMmJuaHhVMmRhTmxRNGRrc3dNVGRYTVZNNFVFRRAB",
+      "author_name": "Adam Sołczak",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Bardzo dobrze usytyowaja restauracja z pieknym widokiem na stare miasto.\nPrzemiła obsługa, która emanuje rodzinna atmosferą, szczególnie humor p. Stanisława nas ujął 🤗…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0QlIxazJlbHBvTlUwNE5uRktiek5LVkRjeFVVRRAB",
+      "author_name": "Wojak",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jestem pod wielkim wrażeniem jaką wiedzą na temat podawanych potraw i win wykazał się kelner pan Stanisław",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xblFXSnVNVGROUzNOZlZtVm1aa0pNVTFOQ2JYYxAB",
+      "author_name": "Majka Hayos",
+      "author_reviews_count": 25,
+      "author_photos_count": 63,
+      "rating": 5,
+      "text": "Wyjątkowe miejsce, pyszny smak z  Włoch czuć w każdym daniu. Jedzenie jest po prostu wyśmienite, świetnie doprawione i dopieszczone w każdym calu  – to autentyczne smaki, które na długo zostają w pamięci. Właściciel przesympatyczny i uroczy…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGVlExcHZjVlpRVVZOUGNYVlBURTFCYlhSTVkyYxAB",
+      "author_name": "Małgorzata Kura",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dawno nie jadłam tak dobrego włoskiego jedzenia przystawki dania główne 🤩a szef kuchni ktory z wami rozmawia daje jeszcze większy klimat, dzięki…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pnNGNXUm9kRTB0YTJSbVpVcElPVW96ZFVVdFRXYxAB",
+      "author_name": "ew li",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam ♥️ pyszne jedzenie i cudowna obsługa 🙂…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwdE9IcHRUVmxOTjAxdmFFMDJPR3hmYzFSc1dWRRAB",
+      "author_name": "fifi b",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super polecam serdecznie",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2twbGVrcDVSek0zY1VWblNYZFZObGQyU1ZkNGQxRRAB",
+      "author_name": "Aga Ce",
+      "author_reviews_count": 58,
+      "author_photos_count": 79,
+      "rating": 5,
+      "text": "Po raz pierwszy w nowej lokalizacji - bardzo przestronnie - kilka sal - wystrój wnętrz podkręca apetyt\nPolecam w szczególności jako starter przepyszny bulion",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WYVpHTnZiVzh0YTI1VVdYUnJhMGRpU1VrM1UyYxAB",
+      "author_name": "Daria О",
+      "author_reviews_count": 10,
+      "author_photos_count": 2,
+      "rating": 3,
+      "text": "Zdecydowaliśmy się na kolację w tym miejscu, słyszeliśmy o nim wiele dobrego, również o pięknej lokalizacji. Rezerwację nie było łatwo zrobić, więc wydawało się, że to znak, iż miejsce jest naprawdę warte odwiedzenia.…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aRFJFdGhTa3hVYW1Oa2RYcDBiMHM1TUVrNGFuYxAB",
+      "author_name": "Tomasz Sternicki",
+      "author_reviews_count": 35,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Smaczne pizze. Dobre dodatki i aromatyczne grzybki.😉…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poTFVGTTNaakl0YWpNd2RGcHRRVTVSWjFkemFVRRAB",
+      "author_name": "Wiktoria Paterczyk",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Piękna restauracja, cudowny klimat i przemiła obsługa. Potrawy są wyśmienite naprawdę przepyszne. Zdecydowanie ponownie tu przyjdę",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25waFNISmxlalpKU21SR1RVSlpSMDUxV0RaS1JFRRAB",
+      "author_name": "Gabriela Karolina Smycz",
+      "author_reviews_count": 18,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie pyszne, tiramisu sztos 👌🏻 Bardzo miła i profesjonalna obsługa…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25vMGVXcFFhMFJpT1dORFIyTmpSR3cyV21saU5sRRAB",
+      "author_name": "masslina",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i prawdziwie włoska atmosfera. Obsługa bardzo miła i pomocna. Na pewno wrócę.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SdlVrSkljbk5mZUZoRFYwNUthMlpRZDBOdGJIYxAB",
+      "author_name": "Karolina Bp",
+      "author_reviews_count": 57,
+      "author_photos_count": 9,
+      "rating": 4,
+      "text": "Problemy organiacyjne - brak kart, brak czarnej herbaty i dlugi czas oczekiwania.\nJedzenie smaczne . Bez szalu",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGME5tRmpVSHBCVmtGTmRsTmpjblEzYTFoQlpIYxAB",
+      "author_name": "Paweł Kłosowicz",
+      "author_reviews_count": 10,
+      "author_photos_count": 32,
+      "rating": 2,
+      "text": "Przy zamawianiu wina zjawił się somalier - młody, niewyraźnie mówiący człowiek. W karcie kilkadziesiąt win ale tych które chciałem zamówić nie ma. Zaproponował inne z tego samego szczepu. Podał je CIEPŁE !!!!…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5a1EyMVRPVlpxTlUxc1RGOVFVV3BEZUVNelpXYxAB",
+      "author_name": "Ryszard Pluciński",
+      "author_reviews_count": 27,
+      "author_photos_count": 161,
+      "rating": 5,
+      "text": "Naprawdę super miejsce",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xndGJUVmhPVjk1Vm5VdFVYRndUVE5DZG1WR1dIYxAB",
+      "author_name": "Andrzej Kuryś",
+      "author_reviews_count": 60,
+      "author_photos_count": 138,
+      "rating": 5,
+      "text": "Ciekawe klimatyczne miejsce z dobrym włoskim jedzeniem",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1cVJIVk9lbnA2WHkxUVREVmZaSFYyTTNKb1NXYxAB",
+      "author_name": "Patryk Radulak",
+      "author_reviews_count": 2,
+      "author_photos_count": 12,
+      "rating": 3,
+      "text": "Lasagne to jednak nie było najwyższych lotów a na pewno nie świeżości. Viteli tonato spoko. Wino domu mogłoby byc lepiej wyselekcjonowane ale było lekkie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSbmNETnNXVVpUTlVOd1QzTlpXbkZQUlRKYU9YYxAB",
+      "author_name": "Ewelina Kosińska",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jestem pod ogromnym wrażeniem jakości i smaku potraw. Przepyszne i idealnie zrobione makarony oraz zaskakujące desery. Polecam zapytać przemiłej obsługi o ewentualne pozycje spoza karty. Specjalne podziękowania dla Pani Wiktorii, która nas obsługiwała.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prM04wZzFkM2s1Umw4ME0xRTRhRzVWZEZCSFpFRRAB",
+      "author_name": "Jarosław Bodnar",
+      "author_reviews_count": 10,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Miejsce na randkę na balkoniku jest idealne! Wspaniałe WŁOSKIE menu, miła obsługa i przesympatyczna Szefowa Kuchni!!! Będziemy tam regularnie wracać.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201NlUycHdXVWxQVVdOdWJITTNPWFEwTkZKS1VYYxAB",
+      "author_name": "Adam Pawlaczyk",
+      "author_reviews_count": 120,
+      "author_photos_count": 285,
+      "rating": 5,
+      "text": "To miejsce to czysta esencja Włoch, gdzie pasję czuć w każdym detalu. Jedzenie jest po prostu wyśmienite – to autentyczne smaki, które na długo zostają w pamięci. Do tego ten niesamowity, ciepły klimat i przemiła obsługa, która sprawia, że każda wizyta jest naprawdę wyjątkowa. Polecam z całego serca!",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1bVYwTmxlRE5QYWxWWlNrSkROSE5tVTBkUk9GRRAB",
+      "author_name": "Antoni Maćkowiak",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedzenie bardzo smaczne.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWVVVYaFViR1ptUVdKeGJubFBMWEYxV2kxeVdIYxAB",
+      "author_name": "Wojciech Harapkiewicz NOWOCZESNA GASTRONOMIA",
+      "author_reviews_count": 37,
+      "author_photos_count": 86,
+      "rating": 5,
+      "text": "Perfekcyjna kuchnia Włoska 👏🏆…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5RGFqWXliV1p1VTFBMU5rVklTWFZqYURrdE5GRRAB",
+      "author_name": "Agnieszka Kal",
+      "author_reviews_count": 8,
+      "author_photos_count": 14,
+      "rating": 5,
+      "text": "Polecam z całego serca .Pyszne Dania z makaronu ,pizza rewelacja a piwo bezalkoholowe Peroni  delikatne .Jedyny malutki minusik za pana co śpiewa zbyt głośno do takiego małego pomieszczenia .I na pewno odwiedzimy balkon . Aga I Sandra",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oQ1RWRlpZazF1ZEZCUGVsSTJaVEoyWHpONlgzYxAB",
+      "author_name": "Ania",
+      "author_reviews_count": 80,
+      "author_photos_count": 33,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, bardzo miła obsługa, polecam",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sT1dXNUVObEZVVmxRdE1ubDRhMGxZUmkxdWFHYxAB",
+      "author_name": "gianmarco zorloni",
+      "author_reviews_count": 6,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Niedawno jedliśmy w La Bottega i było to naprawdę wyjątkowe doświadczenie. Od razu czuć silny wpływ autentycznej kuchni włoskiej: dania przygotowywane z wielką starannością, idealnie przyprawione i pięknie podane. Smaki są prawdziwie…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkb1NuZGFObGxxUmtveWVsUmpiakJYZURobGVsRRAB",
+      "author_name": "Katarzyna Woźniak",
+      "author_reviews_count": 71,
+      "author_photos_count": 86,
+      "rating": 5,
+      "text": "Bardzo fajne i klimatyczne miejsce - lubiłam w starej lokalizacji - lubię i w nowej ❤️ pyszne włoskie jedzenie - super wnętrze i bardzo miła obsługa. Dużym plusem jest możliwość zakupu prawdziwych włoskich produktów na miejscu.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swdFgzUTBNM0ZLVG1oeFFraEhNUzFNZDJwVGQzYxAB",
+      "author_name": "Mikołaj Woźniak",
+      "author_reviews_count": 36,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Restauracja na bardzo wysokim poziomie! Super klimat tworzy muzyka na żywo. Pizza w typowo włoskim wydaniu - bardzo smaczna🙂…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KRGVWZFZjRVpsUkhaWWVqZGxXSGhSTVc5RFMzYxAB",
+      "author_name": "Zimon",
+      "author_reviews_count": 20,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Super polecam pysznie",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25scmEzSnRTVEJ1UzNoWFQwTnVSVTVmYkhBNWJsRRAB",
+      "author_name": "Ramiro Medina",
+      "author_reviews_count": 37,
+      "author_photos_count": 84,
+      "rating": 2,
+      "text": "Jedzenie poniżej standardu. Makaron nasączony olejem, daleki od autentycznej kuchni włoskiej. Niedbały wystrój, tanie papierowe obrusy.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201alZFSjZjM2hSWWkwd1pGZDZOMmxyY21OR1VIYxAB",
+      "author_name": "Tomek S.",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Uwazam ze obsługa jest czymś wyjątkowym, jedzenie się samo broni. Najlepsze tiramisu w mieście. Uważam ze jeśli ktoś chce zjeść na bardzo dobrym poziomie AUTENTYCZNE włoskie jedzenie to nie ma innej racjonalniej opcji niż pójście tutaj. Na…",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGWlUzbDFZV1I2YnpoU2RsUXhlV0pJTmw5NlowRRAB",
+      "author_name": "Iwona K",
+      "author_reviews_count": 15,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Sama nie wiem od czego zacząć, bo tyle rzeczy jest w tej restauracji nie tak. Może zacznę od pozytywu, czyli pana kelnera, który nas obsługiwał, bo on akurat był bardzo sympatyczny i się starał. Natomiast jego koleżanka, która nas przyjęła…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT213eFZFVlFVMDFCTkVreU9YcEZaalJ1UlRJd2FrRRAB",
+      "author_name": "Katarzyna Ćwigoń",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Z sentymentem wracałam zawsze do lokalu jako stały klient, już z czasów lokalizacji przy św. Wojciechu. Jedzenie nigdy mnie nie rozczarowało, ale już drugi raz zawiodłam się na obsłudze. Przyszłam kolejny raz, bo zawsze warto dać drugą…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aU05UbG9NV2x5U0ZGMWQyMUVRek14TldaVlYzYxAB",
+      "author_name": "Basia Jędrzejowska",
+      "author_reviews_count": 76,
+      "author_photos_count": 29,
+      "rating": 5,
+      "text": "Fantastyczne dania i desery, świetna obsługa. Fenomenalny klimat z muzyką śródziemnomorską na żywo.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKb1lVdGtlbXR0T1hCUWEyVjZZVE5MVGtob1VYYxAB",
+      "author_name": "Martin Mila",
+      "author_reviews_count": 165,
+      "author_photos_count": 1177,
+      "rating": 5,
+      "text": "Bardzo dobra pizza i sałatki.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcWJuWldRVWxuVFVaMWNsbHZVMVZPWmw5QlZXYxAB",
+      "author_name": "Bartłomiej Tomaszewski",
+      "author_reviews_count": 14,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Nasz kolejna wizyta...czujemy się jak u świetnych znajomych..jedzenie jak zawsze przepyszne....generalnie nie zmienia się (oczywiście co jakiś czas coś nowego się pojawia:)) w zasadzie od lat ale po co zmieniać cos tak pysznego.....do zobaczenia",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1NUVlJjRmt4Um5samVVcERhREkwZUhreVkzYxAB",
+      "author_name": "Andrea Mosciatti",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Jedna z najlepszych autentycznych włoskich restauracji, w jakiej miałem przyjemność zjeść kolację: świetna atmosfera, fantastyczna obsługa (dzięki Thomas), pyszne jedzenie (najlepsze ryby i makarony, jakie jadłem od dawna, a jestem Włochem...) i naprawdę mili i przyjacielscy właściciele... zdecydowanie polecam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSRmNFaGhhRGxMWnpoTFNuSjVURU52YVhaeU5VRRAB",
+      "author_name": "Jelle Vandesande",
+      "author_reviews_count": 5,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Doskonała obsługa Thomasa!\nPyszne, autentyczne włoskie jedzenie.\nPolecam Saltimboccę i butelkę Primitivo di Manduria.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZeUxWTjNMV0ZGV0U1RVdHMUVUR3BLYlVkUWNrRRAB",
+      "author_name": "Marketa Foltynová",
+      "author_reviews_count": 16,
+      "author_photos_count": 48,
+      "rating": 5,
+      "text": "Pięknie dziękujemy za przyznanie Nam 5- gwiazdkowej opinii. Życzymy miłego dnia 🌺…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSNGJqaFNaWGs1WjFCbFkyUnBWMlJpVEdWVVlXYxAB",
+      "author_name": "salvatore iovino",
+      "author_reviews_count": 11,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Włoska perełka w sercu Poznania!\n\nMieliśmy przyjemność zjeść w Ristorante La Bottega, a doświadczenie było po…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poaVlWSm1ablpLYW5RMVJFZzFiRzg0TkZka1RIYxAB",
+      "author_name": "Małgorzata Jabłońska - Okal",
+      "author_reviews_count": 5,
+      "author_photos_count": 3,
+      "rating": 3,
+      "text": "W lokalu byłam dwa razy i jedzenie nie porywa.  Za taką kwotę można zjeść o wiele lepiej w innych miejscach. Na plus obsługa i wystrój lokalu, który oceniam na 5.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21WWlVtNW5jVTkxTVRGclJsQnllR00yWlUxelFVRRAB",
+      "author_name": "MS 115",
+      "author_reviews_count": 54,
+      "author_photos_count": 174,
+      "rating": 5,
+      "text": "pysznie, świetny klimat i lokalizacja",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25odmRIZE9abTB5U2xCdVZUZEpNMWR6UWprMFpXYxAB",
+      "author_name": "Artur Staniszewski",
+      "author_reviews_count": 17,
+      "author_photos_count": 27,
+      "rating": 5,
+      "text": "Pyszne",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xST1VtSTFibTVwUkUxM1RtNTRVRXcwVmpsS1pWRRAB",
+      "author_name": "Rita Amro",
+      "author_reviews_count": 6,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Zamówiłam spaghetti z owocami morza i było przepyszne! Smakowały mi nawet małże, których zazwyczaj nie jem 😍😍😍…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGUWR6VTRhamhSWlVsaFZYQjFiR3B0V1V0cFRWRRAB",
+      "author_name": "Kamil",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, miła obsługa, rodzinny klimat i wspaniali właściciele. Tą restauracje trzeba odwiedzić będąc w Poznaniu. Polecam i pozdrawiam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT204eVVsUjJNekZDVFhac1VVRmtkMlZ4TVZOVVVVRRAB",
+      "author_name": "Anna Ka",
+      "author_reviews_count": 17,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Fantastyczne miejsce!!! Włoski klimat, sympatyczna obsługa i najważniejsze...przepyszne jedzenie 😋 Makaron z owocami morza i lody pistacjowe wybitne 🥰😁 Do tego wyśmienita kawa, wino i limoncello 🙂 Przemiły wieczór 😊🤩…",
+      "published_at": "Edytowano 10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GaVkySkRha2xIWjNGNUxXSkxTMjFhVEZaVFVYYxAB",
+      "author_name": "Monika Ławniczak",
+      "author_reviews_count": 27,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Bardzo dobra włoska kuchnia w sercu Poznania.   Szczególnie godne polecenia makarony.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xRM2FXdEljMjVSVDBaWFYzVnFaVzlWUkZReU0xRRAB",
+      "author_name": "Karina O.",
+      "author_reviews_count": 16,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Najlepsza wloska restauracja w Polsce I tak przemila obsluga. Polecam z calego serca",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sa2JrUkRTWGgxTVd0WFREWmxOVUZmVW5WUk9WRRAB",
+      "author_name": "Matylda Jesionowska-Lambryczak",
+      "author_reviews_count": 102,
+      "author_photos_count": 145,
+      "rating": 4,
+      "text": "Jedzonko jak i aperol bardzo mi smakowały. Miejsce idealne, aby posiedzieć na spokojnie i posłuchać muzyki na żywo. Czas oczekiwania na jedzenie jak dla mnie trochę za długi, ale doznania kulinarne zrekompensowały wszystko. Chętnie wrócę tu ponownie!",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25JNVpGTTJTM3BpWm5CdmIxbGFORnBuYlZaVloyYxAB",
+      "author_name": "Luana Colosimo",
+      "author_reviews_count": 2,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Mały kawałek Włoch w pięknym Poznaniu\nIch pasja do pracy i jakość umbryjskich składników sprawiają, że serwowane dania pozostają w pamięci na długo.…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25SSllTMUVRWE5ZYlVWaVYwdE9TVEpKVjNoVlZuYxAB",
+      "author_name": "Alessandro Mauri",
+      "author_reviews_count": 1,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wszystko było bardzo dobre. Personel był niezwykle gościnny i przyjazny. Jedzenie było pyszne, porównywalne nawet z najlepszymi włoskimi restauracjami. Miejsce było również bardzo piękne.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sc0xVdFBWMGhJZVZsRU1rWndUMGhMZUV4S1RuYxAB",
+      "author_name": "mcksiaze",
+      "author_reviews_count": 255,
+      "author_photos_count": 213,
+      "rating": 2,
+      "text": "Wydaje mi się że jedno z największych rozczarowań na mapie Poznania. Dzwoniłem celem rezerwacji stolika jednoosobowego kilka godzin wcześniej. Na wejściu został mi wskazany stolik na dole na co nie przystałem więc z łaski swojej hostka…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21rMmJraFBaR295VjJsalVsUklSa3hxVlRKa2VFRRAB",
+      "author_name": "Pamikotek Pamikotek",
+      "author_reviews_count": 67,
+      "author_photos_count": 90,
+      "rating": 4,
+      "text": "Pizza z salami i gorgonzolą była w porządku, ale uprzedzam, że pikantne salami jest naprawdę pikantne. Kawa naprawdę dobra. Ale wystrój średnio przypadł mi do gustu, a występ muzyczny mocno przeszkadzał w rozmowie.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kcmRqbG5SVGwwTVc5MExUVjNkM1J0ZHpnelluYxAB",
+      "author_name": "Lukasz Lozinski",
+      "author_reviews_count": 17,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Jedzenie bardzo dobre, makarony wprost niebo w .... A deser , najwyższych lotów",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWSFp5MHdlSFF4UjE5Qk0ycFpNRWhpTmtWVFkyYxAB",
+      "author_name": "ostropolski",
+      "author_reviews_count": 55,
+      "author_photos_count": 26,
+      "rating": 2,
+      "text": "Tragedii nie ma dlatego dwie gwiazdki, lecz uczucia mieszane. Ceny to kosmos, obsługa średnia moim zdaniem, pracują jak za karę a gości mało, za takie ceny spodziewałem się czegoś większego. Ja, odradzam to miejsce, wystrój również mi się nie podobał.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sU1YxRmtjM2hUUTBkWFdFZHhZMjlXYmtFMmJrRRAB",
+      "author_name": "Łucja Klara",
+      "author_reviews_count": 12,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Niesamowite tiramisu! Najlepsze co jadłam ❤️",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkaGFVd3RWbFJuU2xKdGIwNUZjR3hJVWxWTFRXYxAB",
+      "author_name": "Aleksandra Kaproń",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Obsługa bardzo nie uprzejma, nie życzą smacznego. Pizza bardzo sucha, bardzo twarda",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GRVdtVkpZVlpNTmxwSmRqbHliV0Z4Ymprd1EwRRAB",
+      "author_name": "Bogdan Gutaj",
+      "author_reviews_count": 12,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Bardzo miła obsługa, klimat też całkiem sympatyczny, ale jedzenie to absolutnie nic nadzwyczajnego (danie za prawie 90 zł składające się z sałaty, paru grubszych frytek i jakiś 4 szt. trudnych do pokrojenia placków mięsnych (eskalopki z…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoeVEzRmpWa3QzZUd0RVpVRlFNVXM1TlZVeVVuYxAB",
+      "author_name": "Magdalena Surdyka",
+      "author_reviews_count": 20,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Fajne włoskie jedzenie i dobre wina, ale na szczególną pochwałę zasługuje Pan kelner, który niewątpliwie zna się na winach, fajnie opowiada i dobrze doradza, bardzo miłe zeskoczenie kompetencjami tego Pana :) poleca i chętnie wrócę :)",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wTFozSTJhVkZDUlUwNVZtTlVReTFQTmxoWFNsRRAB",
+      "author_name": "Krystian Merlak",
+      "author_reviews_count": 17,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Przepyszny stek, duży wybór świetnych włoskich win, uroczy lokal i przemiła obsługa zarówno po stronie właścicieli jak i kelnerów.…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aUVZYSkVibGhYVlhGVFFpMVhSVzlwY1hkdU5rRRAB",
+      "author_name": "Pier paolo Tomaselli",
+      "author_reviews_count": 218,
+      "author_photos_count": 89,
+      "rating": 5,
+      "text": "Makarony i pizza, których nie da się porównać z niczym innym we Włoszech... Na pewno wrócę.",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aM1VtVmtlbFpKT0RaUmVGTXhlV05xY1dvNFlsRRAB",
+      "author_name": "Basia Ponaratt",
+      "author_reviews_count": 8,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "pyszne!! napewno wrócę. klimat, jedzenie i atmosfera 10/10",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWcmQyOVNhRWhCYTAxQlYySXRlSE5FTkRSUFQyYxAB",
+      "author_name": "Radosław Szumiński",
+      "author_reviews_count": 69,
+      "author_photos_count": 274,
+      "rating": 5,
+      "text": "Wyjątkowa restauracja, jedzenie przepyszne! To prawdziwi mistrzowie w swoim fachu, wszystko doskonale podane, świeże i aromatyczne. Nie pamiętam kiedy ostatnio jadłem tak dobrą pizzę! Polecam i to bardzo! ❤️",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsMWIwTjNWR1pZYzE4MmN6Rm9ObkJsU0VGQ09XYxAB",
+      "author_name": "Marcin",
+      "author_reviews_count": 108,
+      "author_photos_count": 31,
+      "rating": 5,
+      "text": "Ciekawe miejsce z włoską kuchnią na mapie Poznania, świetne tiramisu",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SYWVHNTVVVFpRVkY5Zk1USnlZbFJRUVhNdFpHYxAB",
+      "author_name": "Laura",
+      "author_reviews_count": 61,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "pyszne włoskie jedzenie, bardzo miła obsługa, a ten jeden stoliczek na balkonie jest po prostu przeuroczy - idealne miejsce na wieczorną randkę, można się poczuć jak we Włoszech ❤️",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oRGNrcEdjMXBVZGxCVldtZDZVM0pmVG1WMlgwRRAB",
+      "author_name": "Basia Leśna",
+      "author_reviews_count": 97,
+      "author_photos_count": 11,
+      "rating": 4,
+      "text": "Dobre włoskie jedzenie. Ogromny plus za możliwość wymiany makaronu na bezglutenowy.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wMVMwOU1ibVZVTFRGaU55MHlNRGw0TldWRGVrRRAB",
+      "author_name": "Filip Klofta",
+      "author_reviews_count": 117,
+      "author_photos_count": 65,
+      "rating": 5,
+      "text": "Bardzo dobra pizza. Miła obsługa, super klimat, muzyka na żywo.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNU1sWTJUMGhqVDBwWWJqazFNRlZRTlZaYVUxRRAB",
+      "author_name": "Joanna",
+      "author_reviews_count": 287,
+      "author_photos_count": 246,
+      "rating": 4,
+      "text": "Rozumiem że był ruch i kolejne rezerwacje na stoli, ale żeby zabierać ludziom talerze w trakcie kiedy jedzą posiłek - po to żeby zwolnić stolik jest poniżej wszelkiej krytyki.…",
+      "published_at": "Edytowano 11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CWVYzWmFkRWhNVTFCWWNVWklVMU55TTJKMVRVRRAB",
+      "author_name": "Abdelghani HADJ AISSA",
+      "author_reviews_count": 2,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Najlepsze włoskie doświadczenie w Poznaniu 🇮🇹🍝🍕…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUVJUTktjMlpwVUY5Vk5FRnBkbkJNUVdRNWJXYxAB",
+      "author_name": "Fred George",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wybitna restauracja pod względem obsługi i jedzenia. Obsługiwał nas dzisiaj młody chłopak, pełny uśmiechu i dobrych rad, jego koleżanka z sali również chętna do każdej pomocy. Scoglio NIESAMOWITE.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xwb2VtSnFkelo0WVVWeVIxVlpRbTl4ZWs1ME5IYxAB",
+      "author_name": "Natalia Nowak-Mazurek",
+      "author_reviews_count": 77,
+      "author_photos_count": 33,
+      "rating": 5,
+      "text": "Absolutnie fenomenalne miejsce.\nJedzenie jest przepyszne, serwują najlepsze owoce morza w Poznaniu, polecam skusić się na małże.…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4Zk4zWlpUbTVxTlVWa2FsVkJaR1pyU1U5elYyYxAB",
+      "author_name": "Brian Kelly",
+      "author_reviews_count": 4,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Jedzenie było absolutnie pyszne. Na przystawkę zamówiliśmy małże, duże porcje w sosie czosnkowo-białym winie. Sos był tak pyszny, że mogłabym go wypić. Na danie główne zamówiliśmy stek, a ja spaghetti z owocami morza, oba idealnie…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKRExYUjBlRnBHT0d3M2VEbFNRVkJXWlV4U2VuYxAB",
+      "author_name": "yyuuliaa Hromeichuk",
+      "author_reviews_count": 2,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Byłam tu pierwszy raz, bardzo mi się podobało, obsługa bardzo miła, kelner pomógł mi wybrać wino. Makaron, który zamówiłam, był pyszny, na zamówienie czekałam krótko, atmosfera świetna, zwłaszcza na balkonie 😍 Na pewno wrócę ❤️…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2prMVZuRkZPVFJpZVd0eFRVWXpZMWhFWjBSWU1tYxAB",
+      "author_name": "Karolina Karabowicz",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wszystkie zamówione makarony i pizzę były pyszne. Bardzo miła obsługa. 💖…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toSmREbE9ZM1ZUVDJOT1dFbHlTRTVTV1VNM1ZGRRAB",
+      "author_name": "Aleksandra Kamińska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniałe jedzenie, super klimat jak we Włoszech ❤️polecam z całego serca 😃☺️…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pZdGRWRnpkakp1VUVGVWJrbEdUSHBaT0RGWmFsRRAB",
+      "author_name": "Magdalena Ratajczak",
+      "author_reviews_count": 26,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cudownie 😻 przepyszne dania, od razu widać że wykonane z sercem! Połączenie smaków poezja , trudno zdecydować się co skosztować ! Trudno oprzeć się aby nie wykraść czegoś Rodzince z talerza 🫣 Polecam baaaardzo 🥰…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWblEzZFNiekpSVlVWdFRVcHlWemRPU3pocFNtYxAB",
+      "author_name": "Karolina Westfal-Krzyżańska",
+      "author_reviews_count": 11,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "La bottega to nie tylko restauracja. To miejsce pełne pasji i pełni smaków. Przez chwilę można poczuć się jak na prawdziwej włoskiej uczcie. Każde danie wyśmienite, gnocchi z gorgonzolą i pistacjami to uczta dla podniebienia a tiramisu…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oc2VEZ3habmRYU25ONlVrVlhhM1ZEWlhSTFoxRRAB",
+      "author_name": "Karol Partyka",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dziękujemy, za pozytywne ocenienie naszej restauracji 🇮🇹…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kc2NDMHlTVXRaU0Zwd2JtNWlkRFF4VnpKRldrRRAB",
+      "author_name": "Małgorzata Jasiukiewicz",
+      "author_reviews_count": 21,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Ogółem - bardzo miłe miejsce, jedzenie pyszne, jedynie zastanawia mnie jedno - dlaczego we włoskiej knajpie, gdzie w kilku miesiącach wyeksponowana jest wizualnie bardzo szeroka oferta win, nie dostaliśmy karty win? Pozdrawiam i życzę rychłego przeszkolenia załogi:)",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSV1VVRkRTVlo0ZVhJMmJqVkVURnBOWDNNNFVYYxAB",
+      "author_name": "Sarah Rożnowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Z całego serca polecam to miejsce. Jedzenie przepyszne, miejsce klimatyczne a właściciele przesympatyczni!! ☺️\nNa pewno tam wrócę 😄…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pFeVFsWjNVVGxSUjJWNlJXMUNORlZWUkdGQk5XYxAB",
+      "author_name": "Dominika Gospodarowicz",
+      "author_reviews_count": 4,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Absolutnie wyjątkowe miejsce!\nCudowne włoskie jedzenie na najwyższym poziomie – każde danie to uczta dla podniebienia i prawdziwa podróż do słonecznej Italii. Klimat restauracji jest…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pCRmVYbFpNRUp4VVhsUVNWODFVRnBLV2xOV2VXYxAB",
+      "author_name": "Kominy Systemowe",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepysznie!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sbWNXazFlVzVCTmpCd2JWUndRazlrV0VaR2VFRRAB",
+      "author_name": "Zuzanna Palinska",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, ogromne porcje, świetna obsługa, cudowni właściciele! Polecam!!!",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GV2RGRm1WWEZ2U21KMVdFc3RhVGMwY3pCT2NFRRAB",
+      "author_name": "Sandra Horała",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Rewelacyjne miejsce, z klasą i klimatem ❤️ Czuć, że właściciele wkładają tam całe swoje serce. Pyszne jedzenie i nieziemskie Tiramisu 🌸…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKSVNsZFNRVWRvWnpSYVgxbFNOMHRST1RaeWRtYxAB",
+      "author_name": "Agata Mejka",
+      "author_reviews_count": 3,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wspaniale miejsce! Przepyszne jedzenie przenoszące do Włoch, czuć składniki wysokiej jakości ✨ To tiramisu będzie mi się  śnić po nocach, najlepsze jakie kiedykolwiek jadłam 👌🏻 Przemiła obsługa i sympatyczni właściciele. Na pewno wrócę ☺️…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKS1ZuWlhkVEJhUVVkTlpEVkNWUzFFV0VsblMxRRAB",
+      "author_name": "Alicja Pałkowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Wspaniałe miejsce ❤️",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KSmFGSTVha3BKYUZscVZHdDBZa1ZvU0V4YVZGRRAB",
+      "author_name": "Karolina Matuszewska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Smaczne jedzenie i miła atmosfera",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ZemNFOUJYemd3TWtkU056aDNjM1ZxY0doaWJIYxAB",
+      "author_name": "Agata Skrzypczak",
+      "author_reviews_count": 23,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super atmosfera. Przytulnie",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wU2JsRnJZalJqTVVkVWVXdEJaalV5TTJSamFIYxAB",
+      "author_name": "Paulina Gierszewicz",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Dziękujemy za pozytywną ocenę naszej Restauracji 🌺…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GbGNuVTNNMEpHVW5BNE9FaHJkRWhHU1VveVdsRRAB",
+      "author_name": "Sprężynowy Zatrzask",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 4,
+      "text": "świetna, bardzo miła obsługa! 😄 jedzenie też pyszne! jedyny problem mam do pizzy - byłem w lokalu 2 razy w różnym czasie, więc zakładam, że nie jest to jednorazowy problem - pizza mogłaby być o wiele mniej tłusta, w dodatku ciasto lubi opadać przy podnoszeniu. w samym smaku jednak też jest dobra…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VMUDRfZWFwejllemVnEAE",
+      "author_name": "Mona Lu",
+      "author_reviews_count": 152,
+      "author_photos_count": 865,
+      "rating": 5,
+      "text": "Serdecznie dziękujemy za pozytywną opinię 🇮🇹…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

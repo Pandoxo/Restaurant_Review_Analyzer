@@ -40,7 +40,7 @@ MAX_REVIEWS_PER_RESTAURANT = 1500  # safety cap
 
 # ── Analysis Thresholds ───────────────────────────────────────
 # Suspicion scoring weights
-WEIGHT_STAFF_NAME_ONLY = 0.30
+WEIGHT_STAFF_MENTIONED = 0.40
 WEIGHT_IN_BURST = 0.25
 WEIGHT_SHALLOW_REVIEW = 0.20
 WEIGHT_LOW_REVIEWER_HISTORY = 0.15

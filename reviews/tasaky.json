@@ -1,0 +1,1482 @@
+{
+  "restaurant": {
+    "name": "TASAKY",
+    "type": "Fine Dining",
+    "address": "Za Bramką 1, 61-842 Poznań",
+    "price_range": "60–160 zł",
+    "total_reviews": 2056,
+    "avg_rating": 4.6
+  },
+  "reviews": [
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pSd01XeDZjeTF0YUd0NlFtUlpaSEJmZDFwUFJrRRAB",
+      "author_name": "Jacek Maćkowiak",
+      "author_reviews_count": 17,
+      "author_photos_count": 13,
+      "rating": 5,
+      "text": "Jedzenie znakomite. Zamówiłem bakłażana jako przystawkę oraz policzki jako danie główne. Wszystko wyborne, nie ma się do czego przyczepić. Towarzysze kolacji również zadowoleni.",
+      "published_at": "4 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1bGJIaDJTR3RzZDNac1psVTJkRlpLVTJoM1IzYxAB",
+      "author_name": "Dave Blackgrove",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Doskonały posiłek i świetna obsługa. Policzki wołowe były niesamowite!",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2preFNsTm1ZMlpWTVhaSWRuWlNZVjgxVVVGZlNYYxAB",
+      "author_name": "Ad Ferrar",
+      "author_reviews_count": 26,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Wow, to jest genialne. Absolutnie pyszne jedzenie i wspaniała obsługa. Specjalne podziękowania dla Shaidi, która naprawdę się nami zaopiekowała.",
+      "published_at": "6 dni temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0VlluSk1WM2ROVFUxdk9YZGZTRlpwVDNObWFrRRAB",
+      "author_name": "Piotr Gwiazda",
+      "author_reviews_count": 34,
+      "author_photos_count": 13,
+      "rating": 3,
+      "text": "Są plusy, są minusy. Ale fani prawdziwych dań azjatyckich z pewnością nie mają tu czego szukać (np. ryż fatalny!).",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CcWRsUlJaMmg0UWxveGEzZGZUMEkxY0hKZlVsRRAB",
+      "author_name": "Wacław Dominiak",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miejscówka\n\"Azja\"w dobrym wydaniu.\nDostosowana do polskiego podniebienia.",
+      "published_at": "tydzień temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jeVEyMVhaRXhMU1RSVmJ6TkxRMWhwVm14U1NVRRAB",
+      "author_name": "hoodini",
+      "author_reviews_count": 209,
+      "author_photos_count": 42,
+      "rating": 5,
+      "text": "Pyszne jedzenie. Wrócę tu. Na pewno. Polecam",
+      "published_at": "3 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paaE1HeGFiWGxXWjNoYVVWbHVZamRmZURKclVuYxAB",
+      "author_name": "Jakub",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam, świetne jedzenie i obsługa",
+      "published_at": "4 tygodnie temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT213NVlqQlZiMlZpVEVKS1JXOUhVa3Q1ZGtWVGVFRRAB",
+      "author_name": "Adam Kdr",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Fajne miejsce, bardzo pyszne jedzenie.\nMoże trochę za sztywno, ale każdy lubi co innego. Polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWMGJTMURhM2ROUkhGVFRIQnJWWGhEWjNsUVpFRRAB",
+      "author_name": "Nadine Hourseides",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Wczoraj jedliśmy w Tasaky i byliśmy zszokowani fatalną obsługą. Zostaliśmy uprzejmie przywitani, ale doszło do nieporozumienia z naszym zamówieniem wina. Kilkakrotnie przeprosiliśmy i chociaż kelner usunął z rachunku niewłaściwe wino, od tego momentu byliśmy praktycznie ignorowani, a obsługa najwyraźniej długo na nas narzekała. Naprawdę czekaliśmy na ten wieczór, ale to tylko połowa przyjemności, gdy nie czujesz się mile widziany. Mimo to jedzenie było pyszne, zwłaszcza sałatka z wołowiną (Lombok), która była absolutnie fantastyczna. Szkoda, że ​​reszta była tak fatalna. Zdecydowanie nie wrócimy i odradzamy wizytę.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOMWVGTnNObTlXWjJoRk5sUTFTRVp4YldKVU4xRRAB",
+      "author_name": "dkooo",
+      "author_reviews_count": 6,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Jedzenie instagramowe i prezentujące się ładnie, ale w smaku byliśmy zawiedzeni. Liczyliśmy na bardziej autentyczne smaki Azji a wszystko było mdłe. Broniły się drinki, świeży sok z pomarańczy i desery, główne dania i przystawki rozczarowały",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oaFVHNU9UemRyZDI5b1ptSlBWRU10Y2xBelZrRRAB",
+      "author_name": "Małgorzata Swornowska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Chciałabym podzielić się z Państwem opinią o dzisiejszym posiłku w tej restauracji.\nZamówiłam Pad Thai i niestety nie było to danie zbliżone do tej nazwy.\nBrak tofu, jajka i sklejony pocięty, rozgotowany makaron. Grzecznie zwróciłam na to uwagę kelnerowi, przyjął to do wiadomości, ale żadnych przeprosin nie usłyszałam.\nSzkoda, że taka restauracja nie dba o jakość proponowanych azjatyckich przysmaków.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOS2RYUkJlVk5hTW1RMlpFVnRkbVZZZGtrd1YzYxAB",
+      "author_name": "Tomasz Królikowski",
+      "author_reviews_count": 83,
+      "author_photos_count": 147,
+      "rating": 4,
+      "text": "Nie mogę powiedzieć że restauracja jest zła ale:\n1. Obsługa taka jakby smutna\n2. Kurczak teryaki - liczyłem, że kurczak będzie miał chrupiącą skórkę. Niestety nie  miał\n3. Bułeczki bao - naszym zdaniem ciasto na bułeczki było niedogotowane\n4. Aby pójść do toalety trzeba brac klucz przy kasie - jak w PRLu\n\nPrzy tym poziomie cenowym spodziewałem się czegoś lepszego\nNa plus drinki.\n\nTragedii nie było ale raczej nie wrócimy..",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBeGQyMUxSM0Z5Y0dNME1XeERVRjlqVW1RNVgzYxAB",
+      "author_name": "keraj06",
+      "author_reviews_count": 221,
+      "author_photos_count": 504,
+      "rating": 5,
+      "text": "Restauracja fajnie urządzona obsługa profesjonalna jedzenie na wysokim poziomie ! Polecam",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tKS1VsSmtTVkZtUkVoRGNXVk1XVU5QTVhGWmFXYxAB",
+      "author_name": "Jana Franke",
+      "author_reviews_count": 55,
+      "author_photos_count": 57,
+      "rating": 5,
+      "text": "Zdecydowanie warto zarezerwować stolik (na wieczór)! Chcieliśmy wpaść spontanicznie, ale powiedziano nam, że wszystkie stoliki są zarezerwowane. Wyszliśmy więc i postanowiliśmy rozejrzeć się przed wejściem, szukając innego miejsca na posiłek. Kelner wyszedł i zaproponował nam dwa stoliki na ograniczony czas :). Fantastycznie!!! Jedzenie było naprawdę wyśmienite, obsługa szybka i miła, a atmosfera cudowna, przytulna i zachęcająca. Gorąco polecam, ale jak już wspomniałem, najlepiej zarezerwować z wyprzedzeniem.",
+      "published_at": "miesiąc temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GMVpERkNOR0p5YkZJeVRuVnFTM05UWmpaMFltYxAB",
+      "author_name": "mags",
+      "author_reviews_count": 253,
+      "author_photos_count": 919,
+      "rating": 5,
+      "text": "Nasza wizyta odbyła się po kilku latach od pierwszej. Miejsce jest zadbane, nie widać upływu czasu. Obsługa była bardzo przyjemna - miła, uśmiechnięta i bez nadęcia. Co do jedzenia, przystawki smaczne ale kurczak teriyaki oraz lemoniady były jeszcze lepsze, ogromny plus za wersję bezglutenową.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taeWEwMTJPSFJXZUV4RVpXMVVNMGRrYVZKRmMzYxAB",
+      "author_name": "Jola W",
+      "author_reviews_count": 151,
+      "author_photos_count": 651,
+      "rating": 5,
+      "text": "Restauracja lokalizacją nie powala i nie zachęca do wejścia. Umiejscowiona w budynku wielkiego parkingu i przy urzędzie nie jest klimatyczna. Za to jedzenie i obsługa, bajka. Wszystko czego spróbowaliśmy było przepyszne, pani Kelnerka przemiła i z dużą wiedzą na temat menu. Polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21wSVZVbHlSa1JSYWs1UGEwWlFiRGhyWWpoclVFRRAB",
+      "author_name": "Josephine Dettmer",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam: słodka tajska lemoniada z bazylią i tofu seak z makaronem soba – niesamowicie pyszne!\n\nCurry i pad thai również są niesamowicie smaczne.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214UlZqSTJRa2xXT1VWdFdTMU9XRGxqVEVaWWIzYxAB",
+      "author_name": "tomasz antkowiak",
+      "author_reviews_count": 12,
+      "author_photos_count": 5,
+      "rating": 4,
+      "text": "Klimat mało azjatycki. Niestety widać trochę upływ czasu. Byliśmy w okolicach godz 14. Ruch spory. Niestety zauważalny brak sprzątania bo pod stołem znajdowały się resztki jedzenia a na stole trafiły się włosy. Kadra w 100% męska więc może to brak damskiej ręki 🧐\nObsługa super pomocna. Doradziła i pomogła w wyborze dań. Lemoniada obłęd :-) przystawki super ale porcje bardzo małe. Danie główne pas thai mega super duża porcja, dużo mięsa. Tuńczyk natomiast przesuszony. Ryz bardzo mocno posklejany ale być może taki właśnie miał być.\nOgólna ocena dobra ale raczej na jedną wizytę.\nKoszt dwóch osób dwie przystawki i dwa Dania główne oraz lemoniady 2 - 350zl. Trochę dużo tak mi się wydaje.",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWd01qaEpjM0JLWjNkVlNYQXpPVXhHVVc1ckxVRRAB",
+      "author_name": "Agi",
+      "author_reviews_count": 35,
+      "author_photos_count": 104,
+      "rating": 5,
+      "text": "Byłam w restauracji już kolejny raz i za każdym razem wszystko na plus.Obsługa kelnerska zadbała o wszystko. Lokal jest bardzo przyjazny nie ma ścisku można swobodnie porozmawiać.Dania bardzo smaczne, idealnie doprawione, ładnie podane, aromatyczne, czuć starania kucharza. Na pewno wrócimy :)",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMFdESkRlRU4xZUZOWWMzVkZSbHBCVEZscVEyYxAB",
+      "author_name": "Pawel Budzynski",
+      "author_reviews_count": 53,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Ogolnie nic dodac nic ujac 👍🏼",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tWclZIb3hjRXRLVFZFMWFVaG5WbUptZVRWaFgxRRAB",
+      "author_name": "Radosław Ignaszczak",
+      "author_reviews_count": 17,
+      "author_photos_count": 11,
+      "rating": 5,
+      "text": "Bardzo dobry pad thai z kurczakiem. Deser równie smaczny. Polecam!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21ZNGVXNUtTa3QyYVRCcU1EZHhla3AyTmpCbE5uYxAB",
+      "author_name": "lukasz krakowiak",
+      "author_reviews_count": 19,
+      "author_photos_count": 2,
+      "rating": 3,
+      "text": "Jak dla mnie smaki średnie, małe porcje i ceny wygórowane , kelner nie znał składu drinka który był promowany tego dnia na fcb i na ich tablicy jako drink dnia , dania podane w umiarkowanym czasie jednak smak nie był niczym szczególnym co by skłoniło mnie do powrotu w to miejsce",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xWWFpFdDFVMHczTVVSMVpIWm1aMjh6VkdaV2FWRRAB",
+      "author_name": "Emilia",
+      "author_reviews_count": 9,
+      "author_photos_count": 3,
+      "rating": 4,
+      "text": "Serdecznie polecam tą restaurację!\nObsługa na najwyższym poziomie, uprzejma, uśmiechnięta i pomocna, już dawno się nie spotkałam z tak profesjonalnymi kelnerami. Jedzenie było bardzo dobre, udon z kurczakiem przepyszny, sos był bardzo smaczny i sam makaron również bardzo dobrej jakości. Desery również były przepyszne oraz pięknie podane. Jedyne danie które nie przypadło nam do gustu to policzki wołowe, żałowaliśmy tego wyboru, chociaż mięso bylo bardzo dobrej jakości. Niemniej jest to świetna restrauracja i na pewno jeszcze nie raz wrócimy!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSbVNHbFNhazVJTkZKRlpuUlhjbGRYWlZseFdFRRAB",
+      "author_name": "Julia Nowak",
+      "author_reviews_count": 8,
+      "author_photos_count": 14,
+      "rating": 3,
+      "text": "Zamówiłam ramen który niestety był bardzo słony… obsługa miła. Minusem jest brak toalety w restauracji..",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2podU1VUnlaek5UU0dkMFNVaGtTVTV6ZG5VeFRWRRAB",
+      "author_name": "Sławek Ortyl",
+      "author_reviews_count": 51,
+      "author_photos_count": 729,
+      "rating": 5,
+      "text": "Bardzo dobry Ramen i lemoniada przepyszna.Bardzo polecam",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tScVJUWXpMWE5SWnpaQ2NrTTJXWGcxVm5wUVRXYxAB",
+      "author_name": "Katarzyna Kaminska",
+      "author_reviews_count": 14,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Z całego serca polecam tę restaurację!\nBardzo smaczne potrawy oraz przemiła obsługa a sam lokal jest niezwykle dobrze urządzony pod względem estetyki dla oczu.\nNo a spełnieniem naszego wieczoru była urocza i pięknie uśmiechnięta właścicielka!\n\nJeszcze nigdy nie byłam w takim miejscu!",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxcFRUaFpWV055VEd4SWFEaDZNMHhXVVdRd1JFRRAB",
+      "author_name": "Maciej Sołtys",
+      "author_reviews_count": 23,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Pyszny pad thai i lemoniada z marakuja i woda kokosową",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SU05XUk5ZVlI1Um5JdGRuYzJjM1pTUVhsek1WRRAB",
+      "author_name": "Konrad Bojarski",
+      "author_reviews_count": 355,
+      "author_photos_count": 346,
+      "rating": 4,
+      "text": "Dobre jedzenie, ale cena za wysoka",
+      "published_at": "2 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxNFJIbGlPRzl6TVRjemFHZHlaMGMwYWtKa2FsRRAB",
+      "author_name": "Paulina I",
+      "author_reviews_count": 77,
+      "author_photos_count": 14,
+      "rating": 4,
+      "text": "Jedzenie było smaczne, ale w tej cenie spodziewałam się jednak czegoś bardziej wykwintnego. Zamówiłam udon z wołowiną był w porządku, ale niestety mnie nie zachwycił. Po prostu poprawne danie, bez efektu „wow”.\n\nByć może inne pozycje z menu są ciekawsze, ale po tym doświadczeniu nie jestem pewna, czy wrócę ponownie.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214TWRuVTFRM0JUVUY5b1EyVnVkRTFpVmt3NGJHYxAB",
+      "author_name": "Marcin Józefiak",
+      "author_reviews_count": 23,
+      "author_photos_count": 98,
+      "rating": 5,
+      "text": "Pyszne jedzenie:) Przy stoliku trzeba czekać ok 40 min na przygotowanie.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200dFEyTTFZWE5CT1d0UmNVOUZZbDlhVVZNNVlYYxAB",
+      "author_name": "Aneta",
+      "author_reviews_count": 46,
+      "author_photos_count": 11,
+      "rating": 4,
+      "text": "Bardzo przyjemne miejsce. Obsługa zaangażowana, jedzenie świeże i smaczne, szkoda że ramen tylko jeden do wyboru i to baaaardzo ostry.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUQ4dGFDUTZRRRAB",
+      "author_name": "bb soon",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Tasaki to nie tylko restauracja, to kulinarna podróż, która nigdy nie rozczarowuje. Jeśli jesteś w Poznaniu i kochasz kuchnię azjatycką, to miejsce po prostu trzeba odwiedzić",
+      "published_at": "Edytowano 3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t3eVMydHNVbmRQVjNjMmJqTkRSblJ5UlhWeVIxRRAB",
+      "author_name": "Marzena Wysocka",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "„Przepyszne jedzenie, pełne aromatu i świeżości. Jedno z lepszych miejsc z kuchnią azjatycką!”\nSuper klimat! Polecam 😊",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xaS2RHVTRlV2RpYUhOQlpGcFNXR3B3UTJVNFFXYxAB",
+      "author_name": "Sebastian Lagal",
+      "author_reviews_count": 24,
+      "author_photos_count": 19,
+      "rating": 5,
+      "text": "Wycieczka do Tasaky to niesamowita przygoda kulinarna. Każde danie dopracowane w najmniejszym szczególe. Pierożki Dim Sum nie mają sobie równych, jednak \"wisienką na torcie\" są desery. Fondat z lodami lub Sernik Yuzu należy uznać za top deserów restauracyjnych. Na pewno wrócimy jeszcze nieraz.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0a00ycFFaRm8yT0c1VE5GaDJaR0pRVUhacVlsRRAB",
+      "author_name": "Magda Gołębiewicz",
+      "author_reviews_count": 24,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Wspaniale!!! Aktualnie dla mnie nr 1 kuchnia azjatycka w Polsce 😊!!!\nPolecam !!!",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5elYwcDBSSFJoVG5SRloxSTRNMngwU2xORmVGRRAB",
+      "author_name": "Анна Казакова",
+      "author_reviews_count": 12,
+      "author_photos_count": 18,
+      "rating": 4,
+      "text": "Chciałabym podzielić się swoją opinią o restauracji **Tasaky**. Podczas wizyty przynieśliśmy ze sobą świeczkę i poprosiłam, aby moja 13-letnia córka została symbolicznie powitana z okazji urodzin przy podaniu deseru. Niestety, deser został postawiony bez żadnych słów, bez uśmiechu i bez jakiejkolwiek formy gratulacji. Cała sytuacja odbyła się bardzo cicho i bez zaangażowania, co było dla nas rozczarowujące. Oczekiwałam choćby krótkiego „Sto lat” lub prostego „Wszystkiego najlepszego”.\n\nJeśli chodzi o jedzenie – wszystkie dania były smaczne, z wyjątkiem zupy ramen, która była wyraźnie gorzka. Mam nadzieję, że w przyszłości obsługa będzie bardziej uważna w takich momentach, które dla gości są wyjątkowe.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xSMFMycGpWVmhCUjE5VGNGWTVVWFF0U1hGNVVHYxAB",
+      "author_name": "Ewa Zaród",
+      "author_reviews_count": 16,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Bardzo klimatyczne miejsce. Zdecydowałam się na opisywany w komentarzach \"koreański tatar\" i był w porządku, choć może faktycznie brakuje mu czegoś bardziej zdecydowanego. Chips był ekstra, estetyka podania też ponadprzeciętna. Tym, co jednak absolutnie skradło moje serce i na co warto wracać, był stek z tuńczyka w sezamie. Super balans smaków, to zdecydowanie ten efekt wow, o których kilku komentujących przede mną wspominało. Lemoniada imbirowa też przepyszna. Zdecydowanie miejsce godne polecenia.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xJd1RWUkpiMWwxVWtNd2NYZFJaVWx0Y0ZKWVduYxAB",
+      "author_name": "Wiktoria Kordylewska",
+      "author_reviews_count": 91,
+      "author_photos_count": 70,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie i miła obsługa  :)",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT200M05saEJWbU13WWtSSGEwVTFNbVJVWHpRMFdYYxAB",
+      "author_name": "Tomasz",
+      "author_reviews_count": 207,
+      "author_photos_count": 17,
+      "rating": 3,
+      "text": "Jedzenie było naprawdę smaczne i bardzo ładnie podane.\nObsługa OK, chociaż raczej mało obecna… kolejnego piwa nie nalewamy do tego samego pokala 🙈.\nToaleta -wstyd.\nRozumiem, że jest to toaleta wspólna, jednak to nadal Państwa wizytówka.",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pacFdVNVlPR1ZWTkhBekxVUnJhMjFUV0VVdFpIYxAB",
+      "author_name": "# Fools",
+      "author_reviews_count": 5,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Rewelacja od początku do końca miło pięknie.  Jedzenie rewelacja, obsługa na najwyższym poziomie byliśmy pod wrażeniem polecam",
+      "published_at": "3 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pBdFJISkRWazlpTFhSMVZFNUhaWFJrYjBRMVFVRRAB",
+      "author_name": "R Ch",
+      "author_reviews_count": 5,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "Zamówienie z dostawą. Zamówione dania zapakowane fatalnie.  Zupy dotarły w postaci suchej - zdjęcie w załączeniu. Cała zawartość płynna - poza opakowaniem. Opakowania z drugimi daniami otwarte. To nie wina dostawcy, tylko sposobu pakowania. Zamówione dania w smaku przeciętne, a jak za taką cenę, to znacznie poniżej przeciętnej. Zdecydowanie odradzam.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUM1eF9TWl9nRRAB",
+      "author_name": "Mochii San",
+      "author_reviews_count": 5,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Nie muszę chyba nic mówić o tym, jak piękne jest to miejsce. Możecie zobaczyć zdjęcia. Świetnie urządzone wnętrze, smaczne i pyszne dania. Miła obsługa.",
+      "published_at": "Edytowano 4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKMlgxTllWRU5mVFc1SGIwOHhSbXRrV1hKcVUzYxAB",
+      "author_name": "Krzysztof Blajszczak",
+      "author_reviews_count": 75,
+      "author_photos_count": 282,
+      "rating": 5,
+      "text": "Bardzo fajny klimatyczny lokal z bardzo dobrym jedzeniem. Obsługa przemiła. Czysto, smacznie. Polecam i pewnie tu jeszcze zawitam 👍😁",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xkWFJHOXlXbk13UmtsNWNVdE9MV1pXTVcxNWFHYxAB",
+      "author_name": "Alyona Aleksandrova",
+      "author_reviews_count": 110,
+      "author_photos_count": 131,
+      "rating": 1,
+      "text": "Bardzo mi się tam podobało, kiedy tam byłam – było przytulnie, przytulnie i pysznie – ale dostałam poważnego zatrucia pokarmowego! Jestem absolutnie pewna, że ​​to jedyne miejsce, gdzie z mężem jedliśmy różne dania, a ja nadal czuję się okropnie. Jestem szczerze zaskoczona, że ​​w takim miejscu można się tak zatruć.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xsVVZFZDFWR1ZGUVhBNVNVMXNUM0ZXYzA5dFdtYxAB",
+      "author_name": "Kinga Xxx",
+      "author_reviews_count": 5,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Pyszna kaczka po pekińsku i wybitny stek z tofu 😋",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tvMVdWaGpURWRQTVRaMmNGUlRNbTFzWVRKT2NrRRAB",
+      "author_name": "Alina Nesterenko",
+      "author_reviews_count": 7,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Jestem zachwycona! Obsługa oraz podane jedzenie na bardzo wysokim poziomie.\nPolecam!",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGdlFuSkRNWE5CU25RM1ZHNXZhM3BmVEc1MFRFRRAB",
+      "author_name": "Karolina Derc",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie, ciekawe menu, pięknie podane dania. Lemoniada imbirowa  wybitna 🍹 Największy plus - obsługa. Pani kelnerka bardzo profesjonalna, z własnej inicjatywy zorganizowała dla nas świeczkę na deserze z okazji urodzin, o których wspomniałam prosząc o wazon na kwiaty. Dziękuję Pani, to był bardzo miły gest ❤️",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21oaWJ6TkVNWGx2VjI5emFGQTBaM2RWUXpsclpIYxAB",
+      "author_name": "Michał Wereta",
+      "author_reviews_count": 22,
+      "author_photos_count": 35,
+      "rating": 5,
+      "text": "Jedzie obsługa i jedzenie  klasa💪💪💪. Daje mocne 10+",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT20xTlMydHJkVEZ3TkdOSk1ISndUVEZITTAxd1ExRRAB",
+      "author_name": "Mariusz Wisniewski",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jeżeli mam być szczery dania  bardzo przeciętne, ceny przesadzone, podsumowując da się zjeść, lecz dru raz tego miejsca nie odwiedzę",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xBMVdtSk5jbEI0U0UxSlFWa3lhRGczTkhwVFduYxAB",
+      "author_name": "Beata Piekarska",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kolejna wizyta wspaniałą,  Panowie obsługujący z ogromnym poczuciem humoru jedziecie przepyszne",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0NE5rbEZjbEJTY2poaFRVZFJTbVo2WXpaVU1YYxAB",
+      "author_name": "Emilka Pawelska",
+      "author_reviews_count": 27,
+      "author_photos_count": 21,
+      "rating": 3,
+      "text": "Obsługa choć miła i uśmiechnięta, miała duże trudności ze zmotywowaniem się do sprzątania stolików. Długo też czekaliśmy na obsługę. Klimat… zależy od gustu. Mi bardziej przypominał kantynę lub stołówkę, niż restaurację z takimi cenami.\nJedzenie pozostawiło mieszane wrażenie. Kimchi pyszne, naprawdę dobre. Stek z tofu był idealnie miękki w środku i chrupiący na zewnątrz. Niestety Soba było zbyt słone. Bao też nie było najlepsze, już przemokłe na starcie. Panierka odpadająca z krewetki.\nW Poznaniu naprawdę można zjeść znacznie lepsze azjatyckie jedzenie, w przystępniejszych cenach.",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tST2RtcDVUekZLVTNwVlkxaFJkbk40VFVScWQxRRAB",
+      "author_name": "Michał Rzeczkowski",
+      "author_reviews_count": 26,
+      "author_photos_count": 3,
+      "rating": 5,
+      "text": "Polecam",
+      "published_at": "4 miesiące temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Sbk5EbFpjUzFaYkZsRVFUUkxTekY1V0VWRFRsRRAB",
+      "author_name": "Beata Modrzejewska - Kordonek",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Mega dobra restauracja! Pyszne jedzenie, świetna jakość i super klimat. Wszystko świeże, idealnie doprawione, a obsługa bardzo miła. Zdecydowanie miejsce, do którego chce się wracać – polecam z całego serca! 🍽️",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGeE5UbFVha2c0VkdGV01HbEtZVXhJWTFwTGMwRRAB",
+      "author_name": "Mr White",
+      "author_reviews_count": 30,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Wizyta okazała się doświadczeniem niezwykle wyrafinowanym i pozostawiła po sobie niezatarte wspomnienia. Największym zachwytem był znakomity koreański tatar Yuk Hoe. Choć w życiu próbowałem wielu jego interpretacji, to tutaj harmonia składników, głębia smaku oraz finezyjna struktura tworzą kompozycję prawdziwie arcymistrzowską. Miejsce godne najwyższej rekomendacji, gorąco polecam! 🔥🔥",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21jMllsVXhPRWRpY0VOQlp6Vm5NVlJsTTNReVMxRRAB",
+      "author_name": "Віка Сомик",
+      "author_reviews_count": 5,
+      "author_photos_count": 28,
+      "rating": 5,
+      "text": "Obsługa jest bardzo przyjazna, pomocna i pomocna.\nMoja rekomendacja.\nUlepszyłbym jednak prezentację, na przykład dodając drewniane łyżki i porcje śmietanki kokosowej jako dodatek do zupy tomka.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tnNWVtZGFUbmxPUzIxbGNIQXlOa0ZoZFVaRGFrRRAB",
+      "author_name": "Łukasz Grzybowski",
+      "author_reviews_count": 32,
+      "author_photos_count": 89,
+      "rating": 4,
+      "text": "Podoba mi się stylistyka lokalu, a jedzenie było na bardzo dobrym poziomie, choć zabrakło efektu „wow”. Żadne z dań nie zapadło na tyle w pamięć, bym mógł polecić to miejsce z pełnym przekonaniem. Tatar, pad thai i bao były bardzo dobre, jednak miałem wrażenie, że każdemu z nich czegoś delikatnie brakuje. W tataki nic bym nie zmienił. Obsługa miła i uprzejma. Na minus herbata — zbyt mała ilość suszu w stosunku do wody sprawiła, że była bez wyrazu. Najsłabszym punktem jest toaleta, która nie przystaje do lokalu aspirującego do takiego poziomu, choć rozumiem, że może to być ograniczenie samego budynku. Ogólnie solidne miejsce.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGb09GUnplbmx2ZFRVd1NXVkNSM0JLZVRSWlozYxAB",
+      "author_name": "Natalia",
+      "author_reviews_count": 42,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie i napoje , miła obsługa .",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GTVoxcEtabUkwWkVGdGNFeFZRelp1U0dkS2JGRRAB",
+      "author_name": "Agnieszka Ostrowska",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam gorąco! Jedzenie przepyszne. Każda osoba z obsługi była bardzo miła i kompetentna. Świetne miejsce na wspólny wypad.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkRUxUQnZlbXBxZHpsYWVFdE5UMXBwTm1KdVZFRRAB",
+      "author_name": "Ewa Matuszak",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Polecam tą restaurację z całego serducha ❤️ przepyszne jedzonko, przemiła obsługa która doradzi i podpowie jak ma człowiek wątpliwości co wybrać i z czego składa się danie lub drink. Koktajle i desery w których się zakochałam!!!!! Klimat restauracji fantastyczny!!! Jeden jedyny minus niestety…… za mały brzuch żeby spróbować więcej tych pyszności 😅😅😅😅 jeszcze wrócimy OBIECUJĘ 😍",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4NWJIWnFlVFpYYTFwTlVVMWFXWEpWTVdrd1FXYxAB",
+      "author_name": "Martin Zajac",
+      "author_reviews_count": 95,
+      "author_photos_count": 165,
+      "rating": 1,
+      "text": "Obsługa była w porządku, lokal całkiem przyjemny, nowy, ale jedzenie było naprawdę rozczarowujące, małe porcje i niezbyt dobry smak jak na tę cenę.\n\nEdycja: Największym problemem był tutaj smak. Porcje były naprawdę żałosne w porównaniu z innymi azjatyckimi restauracjami w podobnej cenie. Nie polecam tu jeść osobom lubiącym dobre azjatyckie jedzenie.",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT210TllrZDNURXRwWVdKUlluQnFkVmR0YzFFemEyYxAB",
+      "author_name": "Natalia Kominek",
+      "author_reviews_count": 432,
+      "author_photos_count": 1291,
+      "rating": 5,
+      "text": "Fantastyczna restauracja azjatycka! Jedzenie absolutnie zachwyca – świeże składniki, idealnie zbalansowane smaki i pięknie podane dania. Obsługa bardzo miła, pomocna i uśmiechnięta, a czas oczekiwania krótki. Klimatyczne wnętrze sprawia, że chce się tu wracać. Zdecydowanie jedno z najlepszych miejsc tego typu w okolicy – gorąco polecam!",
+      "published_at": "5 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NNVEwaDNYMHhQUVhFMGVFeFBSMmRMYUcxRGJFRRAB",
+      "author_name": "Olha Kushnir",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzonko, smaczne drinki, mili i uśmiechnięci kelnerzy, co może być jeszcze lepsze 🥰",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poNFNHeGlaV0ZoZFUxRWIzaHpNVk5vT1dGU09HYxAB",
+      "author_name": "marzena margraf",
+      "author_reviews_count": 11,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Cudowne miejsce, pyszne jedzenie . Kaczka cudo, desery i drinki kapitalne . Polecam z czystym sumieniem . Niesamowity klimat , nastrojowa muzyka .",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tRd1ZtVmZXVzAwTjFaTk5FWnlZV2REZG1KSVMzYxAB",
+      "author_name": "Monika Stachowska",
+      "author_reviews_count": 9,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Obłędne jedzenie przepyszne drinki\nA deser niebooo",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aeE5UbE1kV05qUmt0dFNucFJjRlU0Y1U0elpsRRAB",
+      "author_name": "Piotr Lipiński",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie w dobrym miejscu i z dobra obslugą",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2sxWU5tTlplSGgzZG5SaFgyMDBkVGt6TTJSbFkzYxAB",
+      "author_name": "JACK PEREZ",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Znakomite jedzenie miła i empatyczna obsługa",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25GQ2FtbEJlV1JUU1dsb1REbFlkVkJ3ZEZWbVMwRRAB",
+      "author_name": "Uladzislau Barysevich",
+      "author_reviews_count": 27,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Zamówiliśmy bułeczki bao, no i za te pieniądze oczekujesz bardziej wyrafinowanych smaków niż trzyskładnikowe danie: bułeczka, kimchi oraz wołowina. Trywialny smak, nic tutaj więcej nie dodasz, jakby kucharz złożył sobie kanapkę z tego, co miał pod ręką, żeby nie umrzeć z głodu. W budkach bardziej się starają i dobierają dodatki.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2taeVYwWlRiSGhFU0ZGbVdEWlBUM0JaY0hGUGIxRRAB",
+      "author_name": "Patryk Stepniewski",
+      "author_reviews_count": 23,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Super jedzenie\nNajlepszy deser pistacjowy jaki jadłem ever!\nBardzo miła obsługa! Polecam",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205RlR6QnVheTF3VldkRGEycFRSa010YTBaVE1YYxAB",
+      "author_name": "Lukas Montana",
+      "author_reviews_count": 149,
+      "author_photos_count": 153,
+      "rating": 5,
+      "text": "IDEALNE‼️🌶️🪆💃🏽🦜🔥🥳🌴🎸🍺🤣🏄‍♂️🌵🍲👍❤️‍🔥🥁",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Gd09FRlZOVzlXTnpkbmIzSkhaVms0UlRkM2QwRRAB",
+      "author_name": "Ania Jóźwik",
+      "author_reviews_count": 311,
+      "author_photos_count": 475,
+      "rating": 5,
+      "text": "Wybraliśmy tasaky ze względu na elegancki wystrój i dobre oceny. Mieliśmy zarezerwowany stolik. Bardzo miła i pomocna obsługa, przyjemna atmosfera oraz dobre dania. Jeden z lepszych deserów jakie jadłam! Ceny lekko zawężone zważywszy na lokalizację i atmosferę. Dalam ocenę bardzo dobrą, aczkolwiek uważam, że da się zjeść bardzo zbliżone jakościowo dania w lepszej cenie, w tej samej okolicy.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sQ2RFaHlXbEpwYXpWVVpqSkpWRGxGYzBaVU4wRRAB",
+      "author_name": "Piotr „Piciu”",
+      "author_reviews_count": 560,
+      "author_photos_count": 887,
+      "rating": 5,
+      "text": "Po dłuższej przerwie wróciłem do TASAKY. Jedzenie było takie, jakie je zapamiętałem: bardzo dobre i do tego przepiękne. Klimat miejsca i obsługa są również na najwyższym poziomie. Bardzo mocno polecam!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w4eFZ6WTNkV3hoTWpCaE5HUm1lbkJpZGtsNGRXYxAB",
+      "author_name": "Wiktoria Ł",
+      "author_reviews_count": 10,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Wystrój sali minimalistyczny, obsługa bardzo miła i profesjonalna,jedzenie przepyszne! Szczerze polecam",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t0T05YbzViVlpoTUhWRmR6WTVUR3RsVWkxamJHYxAB",
+      "author_name": "Dawid Rogowski",
+      "author_reviews_count": 4,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Byłem tu już kolejny raz z rodziną i jak zwykle, po prostu pysznie. TASAKY trzyma świetny poziom niezależnie od dnia. Jedzenie jest świeże, dobrze doprawione i podane z dbałością o szczegóły. Każde danie, które zamawialiśmy, było trafione w punkt. Obsługa miła, uważna i szybka, a samo miejsce ma bardzo przyjemny klimat, idealny zarówno na rodzinny obiad, jak i spokojną kolację.\nŚwietnym atutem jest otwarta kuchnia — kucharze pracują z ogromną kulturą i profesjonalizmem, co bardzo podnosi jakość całej wizyty.\nZdecydowanie jedno z naszych ulubionych miejsc w Poznaniu — polecam z pełnym przekonaniem!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25ocmJFMUpUVXBOUldsa2FtUXdYMVJ4YURCa2RuYxAB",
+      "author_name": "Agnieszka Kozłowska",
+      "author_reviews_count": 8,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Klimatycznie ,smacznie .Polecam:)",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SMFZrVkhWRkZTZUhaTU5XWjNabGhWVUhGRUxVRRAB",
+      "author_name": "Tong Tong",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Kawa przepyszna, aromatyczna i świeżo mielona.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2poTVpIcEhhM28zYTNSUFNIQlNaemRYTVRSRFVrRRAB",
+      "author_name": "Mikołaj Siemiątkowski",
+      "author_reviews_count": 25,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Fantastyczne doświadczenie! Lokalizacja jest świetna, z łatwo dostępnym parkingiem. Obsługa miła i sprawna, a jedzenie - rewelacyjne. Serdecznie polecam to miejsce każdemu!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChZDSUhNMG9nS0VJQ0FnSURZdDZqT1hnEAE",
+      "author_name": "Robert Rawecki",
+      "author_reviews_count": 201,
+      "author_photos_count": 434,
+      "rating": 5,
+      "text": "Pyszne, ładnie podane dania. Uprzejma, sympatyczna obsługa. Przepyszne mango lassi. Warto wcześniej zarezerwować telefonicznie stolik, ponieważ w popularnych godzinach może być problem z wolnym miejscem. Po pysznym daniu głównym koniecznie należy skusić się na deser. Fondant i sernik limonkowy po prostu wymiatają i nie ma w tym słowa przesady. Polecam :)\n\nEDYCJA:\nPo kolejnej wizycie stwierdzam, że jedzenie bardzo dobre, może nie tak dobre jak poprzednio, ale smacznie i bardzo ładnie podane.\nNatomiast ceny odjechały od jakości.\nWygląda na to, że zrobimy sobie dłuższą przerwę.\nLubię ta restaurację i dlatego nie obcinam jeszcze gwiadki, ale jeśli przy kolejnej wizycie nie wzrośnie jakość adekwatnie do obecnych cen albo nie spadną ceny, to pewnie to zrobię. Potrafię zapłacić więcej niz w cenniku Tasaky, ale musi to mieć uzasadnienie",
+      "published_at": "Edytowano 6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21GMVpuTkZiMlZLYmtsVWFGWjFOVTlqY2t0aVdXYxAB",
+      "author_name": "Edgar Otálora",
+      "author_reviews_count": 269,
+      "author_photos_count": 1367,
+      "rating": 4,
+      "text": "Wczoraj wieczorem miło spędziliśmy czas w tej restauracji. Przy stoliku było 8 osób.\nNapoje były dobre, jedzenie też. Myślę, że obsługa powinna być trochę bardziej przyjazna. Niestety naleśniki z kaczki były zbyt suche i twarde. Deser był pyszny!!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25Oc2FrNW5jWFZVZUdKelIxSm1NakIyVDA5UWRVRRAB",
+      "author_name": "Agnieszka Gmail",
+      "author_reviews_count": 11,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Mega smaczne miejsce, wszystko pyszne: policzki wołowe i kaczka po pekińsku przepyszne - trzeba spróbować 👍\nNa plus też bardzo miła i profesjonalna obsługa…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WelQyaFpiVUZtV1ZWNU9GbGZaa2xXWVVsTU1sRRAB",
+      "author_name": "Edyta Ćwik",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, polecam!!!",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xKeVNrOW9ZMWg0VGtRNWFEVTJlRmt0V25sTVFsRRAB",
+      "author_name": "Aleksandra Ćwik",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i świetna obsługa! 😍…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25OelZuSlRPV3B3ZDJvd1YzbE9jRVZ2YW1wWmMwRRAB",
+      "author_name": "Zbigniew Bręczewski",
+      "author_reviews_count": 7,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Dobre jedzenie. , Miła i pomocna obsługa . Polecam.",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xObGFVNTJWMjg0VVRST01FVnJXamxmYUhsNVJXYxAB",
+      "author_name": "Szymon Lenard",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Jedzenie przepyszne, wygodne siedzenia, przepiękne wykończenie z ciepłym oświetleniem. Pierwszy raz spróbowałem kaczki i się nie zawiodłem, będę po nią tam wracał. Moja dziewczynka wzięła udon widoczny na zdjęciu, jako fanka i koneser…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kak56RXlhRzB0TWtaaWJuQkxSa05TWWkxdGQzYxAB",
+      "author_name": "Nadia Rysakowa-Dolczewska",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie i bardzo miła obsługa 😊…",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25adVVsSnFlWGhCVmtSTE1WcDNiM28wYlhoNE5HYxAB",
+      "author_name": "Zuza Czajka",
+      "author_reviews_count": 55,
+      "author_photos_count": 4,
+      "rating": 5,
+      "text": "Przeeepyszne jedzenie i miła obsługa",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2kxU1VYWlZZWGRGV1dONWFuSlphMDV6VHpjdGVVRRAB",
+      "author_name": "Marti Marti",
+      "author_reviews_count": 29,
+      "author_photos_count": 0,
+      "rating": 2,
+      "text": "Jedzenie dobre ale brak możliwoście skorzystania z toalety",
+      "published_at": "6 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205ME9YTk1WV2QzVURGeGRtVlViVmR3VmpKaVMzYxAB",
+      "author_name": "Geert Hermans",
+      "author_reviews_count": 50,
+      "author_photos_count": 42,
+      "rating": 5,
+      "text": "Doskonała kuchnia azjatycka fusion. Wszystko fachowo przygotowane i podane.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xONlJsZ3lNRXhJZG1GNVIwNXlTbk5FUWpkVllXYxAB",
+      "author_name": "Dagmara Mendelska",
+      "author_reviews_count": 4,
+      "author_photos_count": 2,
+      "rating": 5,
+      "text": "Wizyta w tej restauracji była prawdziwą przyjemnością, zarówno pod względem kulinarnym, jak i estetycznym. Wnętrze lokalu urzeka eleganckim, subtelnie orientalnym wystrojem, który wprowadza gości w atmosferę spokoju i harmonii.…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tGRWFteG9OVlV3VjJ4ZldrYzRPSFJTUVdoaGNsRRAB",
+      "author_name": "Piotr Jankowski",
+      "author_reviews_count": 807,
+      "author_photos_count": 1020,
+      "rating": 4,
+      "text": "Red Curry bardzo słone. Bardzo dobre mięsko. Niestety nie było w pełni czuć aromatu kaffiru i trawy cytrynowej przez sól.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkRlpEWnpUMWxtVmtsaVJEVkhVVFk1T0dvd1dIYxAB",
+      "author_name": "Nazar Olinchuk",
+      "author_reviews_count": 31,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Bardzo przyjemne doświadczenie kulinarne!\nSmakowite jedzenie od przystawki po danie główne, fajny klimat i profesjonalna obsługa.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25CMVUwVkpNVW94V0hCbFluZHBNa042Tm1kVGMxRRAB",
+      "author_name": "Konstantin Menzel",
+      "author_reviews_count": 273,
+      "author_photos_count": 458,
+      "rating": 5,
+      "text": "Bardzo dobra azjatycka restauracja z nowoczesnym wystrojem. Pyszne dania, uprzejma obsługa i dobry stosunek jakości do ceny.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2paeVFURXRXRWRHWmxJNFUwbDZTelI0YlVsRWVtYxAB",
+      "author_name": "Philippe COURSIER",
+      "author_reviews_count": 26,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Jak dla mnie najlepszy Asian fusion restauracja w Poznaniu, polecam.",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2toWU5VSTVVVTlJUW1Oa2FEUmpSbE5zZFc1dFRsRRAB",
+      "author_name": "Natalia Coursier EkoParty",
+      "author_reviews_count": 12,
+      "author_photos_count": 8,
+      "rating": 5,
+      "text": "Omg ale bylo pysznie!!! Polecam z calego serca!!!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSWFNGOUxhMjkyVTI5bGRFcEVRbmRsU1hKU01uYxAB",
+      "author_name": "Олександра Погорєлова",
+      "author_reviews_count": 18,
+      "author_photos_count": 14,
+      "rating": 4,
+      "text": "Jedzenie byłoby bardzo smaczne, polecam na randkę, ale obsługa była bardzo nie mila, na początku kiedy weszłam pani podeszła za 15 minut, i zapytała co ja tutaj che, zapytałam czy są wolne miejsca, potem kiedy zamówiłam z koleżanką bento…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT214Qk1sUkJZVk5XTTNOaGRGZHdXUzFUUVdGS2JHYxAB",
+      "author_name": "Kasia Kubiak",
+      "author_reviews_count": 24,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne jedzenie, boskie wino śliwkowe i bardzo miła obsługa. Gorąco polem!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tsZlkzQkhiakJ6ZHpRNVdrSk1kR0V5WWtvM1IzYxAB",
+      "author_name": "Monika Stempniak",
+      "author_reviews_count": 3,
+      "author_photos_count": 5,
+      "rating": 5,
+      "text": "Niedawno miałam okazję wspaniale spędzić czas ze znajomymi z pracy w tej restauracji. Jedzenie przepyszne! Miła i uśmiechnięta obsługa. Super klimat czy na romantyczną kolację czy wypad większą ekipą. Stek z tuńczyka skradł moje serce!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkeVR6RXpibGw0VURsc2MweFVZMVl3TUVrMFdrRRAB",
+      "author_name": "Zuzanna Sloma",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie i cudowny klimat. Miejsce w sam raz na randkę lub kolacje ze znajomymi :)",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21kblRHZDZWMFZrTWpWVFQyVXdlamQwTURKUFYwRRAB",
+      "author_name": "Alina Pielak",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Super miejsc, świetny klimat, pyszne jedzenie!!!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkSllXNXhjbW96Um1SVVNWTlBUaTFqVGpSQ05HYxAB",
+      "author_name": "przemysław s",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie super klimat i wyjątkowo miła obsługa.Serdecznie polecam",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21SdmFVd3RZVXRQTW5OMlkxSjNXUzB0VmtsTVVrRRAB",
+      "author_name": "Jacek Śmierzchalski",
+      "author_reviews_count": 4,
+      "author_photos_count": 1,
+      "rating": 5,
+      "text": "Byłem już kilka razy i za każdym razem staram się wybrać coś innego. Wszystko bardzo smaczne i ładnie podane, ale moimi faworytami są zdecydowanie tataki z tuńczyka, tantanmen ramen no i na deser fondant pistacjowy, ogień! Także polecam!",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25wTWVuWXRlRlV5VUhwVlUwSnFkR2hwZG05UmJsRRAB",
+      "author_name": "Agata Mitura",
+      "author_reviews_count": 5,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Miejsce wyglądało zachęcająco, tym bardziej, że większość stolików była zajęta lub zarezerwowana (sobota wieczór).\nNiestety, jedzenie jak na te ceny pozostawia wiele do życzenia. Jedliśmy pad…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25WTlUwWldOVzlHWldWSlFXbHNVQzFhUTNsVGJsRRAB",
+      "author_name": "Nikodem Chlast",
+      "author_reviews_count": 6,
+      "author_photos_count": 1,
+      "rating": 3,
+      "text": "Pad Thai był nieco przypalony, zamiast chilly była papryka, żadnej ostrości.\nW herbacie niemal nie było herbaty.\nBył nieco fetorek klozetowy.…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5ck1WUm9OVXhWZWtaVVdVZFNjazFUT0VSNldsRRAB",
+      "author_name": "Joanna",
+      "author_reviews_count": 287,
+      "author_photos_count": 246,
+      "rating": 4,
+      "text": "Bardzo miła obsługa, długi czas oczekiwania na podanie jedzenia. Ceny trochę wygórowane.\nŁazienka publiczna w średnim stanie",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOTVVWVldTMjVrWjE4NWFWaEJNVTQwUlcxQ2VVRRAB",
+      "author_name": "Megs",
+      "author_reviews_count": 22,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Byliśmy 1 raz, mieliśmy rezerwację, Pan od wejścia jak zapytałam czy jest miejsce to najpierw wywinął oczami czy mamy wgl rezerwację 🙄 Napoje ok, ale jedzenie mega słabe, wzięliśmy zupę tom yum i 2 pad thaie, w zupie dość mocno czuć…",
+      "published_at": "7 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KRlZuQlpSRGcwTTJWNmVYaHFTVkZwVkRkVVYwRRAB",
+      "author_name": "RuslanS",
+      "author_reviews_count": 66,
+      "author_photos_count": 15,
+      "rating": 4,
+      "text": "Bardzo podobała mi się przestronna jadalnia. Lekkie piwo z beczki było dobre, a obsługa doskonała. Jedzenie jednak nie było tak smaczne, jak inne dania kuchni azjatyckiej, których próbowałem. Ogólnie rzecz biorąc, było to miłe doświadczenie, ale prawdopodobnie nie wybrałbym się tam ponownie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5cE5FcE5aVEZMVW1kS1drdEVVMnBmTjJ3ek1GRRAB",
+      "author_name": "Karolina",
+      "author_reviews_count": 7,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Najlepsza kaczka jaką jadłam. Zresztą smakowało mi wszytko co tam zjadłam. Wracam do tego miejsca regularnie.\nProfesjonalna obsługa, rzadko spotyka się taką.\nBardzo klimatyczne miejsce i pyszne jedzenie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkSWJWZHFRVlpwUmxBelNVWnlkM1ZYTVU1VVJVRRAB",
+      "author_name": "Jarosław Majchrzak",
+      "author_reviews_count": 11,
+      "author_photos_count": 45,
+      "rating": 5,
+      "text": "Mają moją silną rekomendację!!! Po pierwsze to co najważniejsze - smak dań. Zgadzało się wszystko!! Wybrałem poliki w sake - pyszne, delikatne mięso rozpływające się w ustach podane w idealnych rozmiarów plastrach z dodatkami które budowały…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205VGVUSndjM3BXUjAxbVkwUktRV3RCTFdoMlNVRRAB",
+      "author_name": "Ewa B",
+      "author_reviews_count": 18,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Przepyszny udon z owocami morza (troszke w mulach bylo piasku) i wybitny stek z tunczyka.\nTroszke warto podzialac nad usprawnieniem wentylacji.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xVMk9HeHRVR296UXkxTVNIUlJhMFpxV0haV1pXYxAB",
+      "author_name": "Michał Sobkowiak",
+      "author_reviews_count": 5,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przepyszne jedzenie, chłodny elegancki klimat. Obsługa Pana Jakuba na wysokim poziomie.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2w5TVZEaFBNRTFGUkVSWGRFOTFNbGROY25GUU1GRRAB",
+      "author_name": "Emila Mijalska",
+      "author_reviews_count": 5,
+      "author_photos_count": 4,
+      "rating": 1,
+      "text": "W odpowiedzi na pański komentarz odnośnie godziny zamknięcia kuchni-\nW takim razie proszę doinformować obsługę, żeby nie wprowadzała klientów w błąd mówiąc, że kuchnia na pewno nie jest zamykana godzinę przed zamknięciem lokalu…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tSc1RVWjVhVFJuTldkTlZrUnhkRGhYZWt0dFprRRAB",
+      "author_name": "Bartosz K",
+      "author_reviews_count": 75,
+      "author_photos_count": 39,
+      "rating": 5,
+      "text": "Smacznie, przyjemny klimat.",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21sU09YaHBjVEpDZUd3eVZUbENialZQZG1saGJIYxAB",
+      "author_name": "Emilia Mijalska",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 1,
+      "text": "Zdecydowanie nie polecam tej restauracji. Próbowaliśmy dać jej szansę dwukrotnie i za każdym razem spotkaliśmy się z kompletnym brakiem profesjonalizmu i lekceważeniem klientów.…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25RelJqUTFXR1Z4VEdGelZrbzFOemxTV0VSUVUxRRAB",
+      "author_name": "Ryszard Lisiecki",
+      "author_reviews_count": 240,
+      "author_photos_count": 791,
+      "rating": 5,
+      "text": "Pychota, Bardzo Polecam",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s0eWNITTBSRjkxY0dWdVlXaE1lVms0Y0UxRk5XYxAB",
+      "author_name": "Алёна",
+      "author_reviews_count": 5,
+      "author_photos_count": 10,
+      "rating": 5,
+      "text": "Cześć! Uwielbiam to miejsce i zawsze tu zaglądam, kiedy jestem w Poznaniu. Uwielbiam tutejsze jedzenie! Na zdjęciu widać wołowinę udon, pad thai z warzywami i dwa napoje z bazylią.Koniecznie spróbujcie tych napojów z bazylią, są bardzo…",
+      "published_at": "8 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkWmVFVkNXbEJ0Y0RGaVVuWnhZVGt3VVhOek5sRRAB",
+      "author_name": "Dori1703",
+      "author_reviews_count": 33,
+      "author_photos_count": 24,
+      "rating": 3,
+      "text": "Obsługa na 5, jedzenie na 1 - chyba miałam pecha.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT205eFpHaHZkV3ROVHpCdmVFZFZiVWM0WDBaeVkxRRAB",
+      "author_name": "Krzysztof Radziwon",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 3,
+      "text": "Super jedzenie. Pyszny Pad Thai. Ale trafiliśmy na fatalną obsługę.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xoU1RsVXpaelZwTFhadmVUVkxObkZMV201T2VuYxAB",
+      "author_name": "Maciek Soszyński",
+      "author_reviews_count": 23,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Rewelacyjna zupa Tom Kha 😀…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s1QllVdElhMk13Y1hkeWVXaDBUazVGZVdGUGEzYxAB",
+      "author_name": "Michał Drozda",
+      "author_reviews_count": 178,
+      "author_photos_count": 334,
+      "rating": 5,
+      "text": "Bardzo fajna restauracja oferująca smaczne potrawy kuchni azjatyckiej. Byliśmy w sobotę ok 13 i na obiad czekaliśmy mniej więcej 20 minut, a później na deser ok. 10 minut. Akurat tak się złożyło, że w czasie naszych odwiedzin restauracja była niemal pusta.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21OaVRtZFNXR3AwY1dwVVZqTXpVRzkwWXpWV1NYYxAB",
+      "author_name": "Kaptyn",
+      "author_reviews_count": 29,
+      "author_photos_count": 27,
+      "rating": 2,
+      "text": "Mieliśmy okazję skosztować. Tom kha smaczna, kawałki trawy cytrynowej w znacznej ilości trochę przeszkadzają w dokończeniu zupy. Box ze słodko ostrym kurczakiem zwrócony- niestety ilość soli była nie do dźwignięcia. Pad thai ok - poprawny.…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUlJsRkZjVXhETkdKb2FFNW9UVXREWlVaM1IxRRAB",
+      "author_name": "Anna Ignyś",
+      "author_reviews_count": 8,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Przemiła obsługa, zawsze pytam co jest warte polecenia :) Stoliki w niezbyt intymnych odległościach ale podane posiłki wynagradzają komfort pobytu. Porcje smaczne i sycące, nie zmieściliśmy deseru, choć obiecaliśmy zamówić po zjedzeniu lunchu, wrócimy, Polecam 👌…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnM1puVjRXazFtUlhKRFVrcHVNSEZaVmpoNFoyYxAB",
+      "author_name": "Tobias Hauer",
+      "author_reviews_count": 40,
+      "author_photos_count": 18,
+      "rating": 5,
+      "text": "Bardzo dobra restauracja z wyśmienitą kuchnią. Jedzenie jest świeżo przygotowywane, co można zobaczyć na własne oczy dzięki otwartej kuchni.\nObsługa jest bardzo miła i pomocna. Menu jest również dostępne w języku…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25kUExWQnlVWEZUZDNoRVJqSkJRVmRXWXpVeU5GRRAB",
+      "author_name": "Gosia Erka",
+      "author_reviews_count": 9,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Najlepsza knajpa w Poznaniu. Jedzenie, wystrój, obsługa 100%!!!",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "ChdDSUhNMG9nS0VJQ0FnSUNwaDRXNi1RRRAB",
+      "author_name": "Katarzyna Nowaczyk",
+      "author_reviews_count": 646,
+      "author_photos_count": 4557,
+      "rating": 4,
+      "text": "Jedzenie dobre, ale ceny lekko przesadzone!",
+      "published_at": "Edytowano 9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xob1dXczBhSGMxVEhSWk1uTjZibDlrWVU1RGJYYxAB",
+      "author_name": "Bartek Nowakowski",
+      "author_reviews_count": 35,
+      "author_photos_count": 3,
+      "rating": 4,
+      "text": "Jedzenie nie tylko przepyszne, ale też przepięknie podane, zaczynając od ceramiki, przez sztućce, po potrawy i kompozycje. Wszystko co zamówiliśmy było świetne, od przystawek przez dania główne, po wino. Jedyny zgrzyt, za którym odjąłem…",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aGJXUkpSVzlHTVV0YVpqZGpWakZtWDI5UVIxRRAB",
+      "author_name": "Pit Pit",
+      "author_reviews_count": 34,
+      "author_photos_count": 20,
+      "rating": 5,
+      "text": "Super. Udon pierwsza klasa.",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2swd01qQm9jV3RoUjI1NE9FSnVNRzgzVEVKSlZsRRAB",
+      "author_name": "Mateusz Kazmierczak",
+      "author_reviews_count": 202,
+      "author_photos_count": 89,
+      "rating": 1,
+      "text": "Kijowe Przereklamowane Odrazam",
+      "published_at": "9 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNFRFRktVVFJuZG5CV1NrZEdNa2xuTFdwU1kwRRAB",
+      "author_name": "Marta Dominiak",
+      "author_reviews_count": 9,
+      "author_photos_count": 1,
+      "rating": 2,
+      "text": "Niestety nasze 4 osobowe wyjście do restauracji na lunch w sobotnie południe zamieniło się w maraton prawie 3 godzinny z bardzo słabym jedzeniem. Bułeczki bao miały strasznie suche mięso, surówki nieodprawione, bez smaku.…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s4M1pWRnJkMWxLV1c1ZlJWODFhRTU1YW5CWk1XYxAB",
+      "author_name": "Marmelada",
+      "author_reviews_count": 99,
+      "author_photos_count": 52,
+      "rating": 5,
+      "text": "Kelner trochę o nas zapominał.\nJedzenie pyszne, wrócimy;)",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUVZtMDFNalpPWm5wemNFNVFkRkJUTjJ0UVNtYxAB",
+      "author_name": "Tomasz",
+      "author_reviews_count": 1,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Zdecydowanie polceam, miejsce chyba dla kazdego kto lubi spróbowac coś innego, przyjechalismy znad morza, wybralem rybę aby sprawdzić czy faktycznie jest inna niż u nas. Grubo się pomyliłem, w Tasaky jest o niebo lepsza ryba niż nad morzem,…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21KTmNXRmpkRWxuTTNkd2NUY3hjM0pUWmt4b2NYYxAB",
+      "author_name": "Szymon Kocejko",
+      "author_reviews_count": 69,
+      "author_photos_count": 1,
+      "rating": 1,
+      "text": "Nie polecam. Pretensjonalne miejsce, po powrocie do domu miałem nudności",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT201YVJIbERkaTFIUTJFM1ZHVlRVVFk0UlZkZmNsRRAB",
+      "author_name": "Zuza Kaczorowska",
+      "author_reviews_count": 4,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pięknie podane i pyszne dania, obsługa bardzo miła. Na minus puszczane w głośnikach popowe hity zamiast może jakichś wschodnich melodii, skoro siedzimy w tak klimatycznym miejscu;)",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25aNldVSmZRMFZRZUcwMExYQkZjMVJ6YUZSV1EyYxAB",
+      "author_name": "Natasha Klyu",
+      "author_reviews_count": 38,
+      "author_photos_count": 106,
+      "rating": 4,
+      "text": "Drogie i dziwnie podane dania, ale pięknie udekorowane. Bardzo miła atmosfera.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25NelNUaHRRVzlIUlhCRVpEaFJNamx1YkZWd01IYxAB",
+      "author_name": "TheBassooner",
+      "author_reviews_count": 28,
+      "author_photos_count": 7,
+      "rating": 5,
+      "text": "Bardzo dobre jedzenie za rozsądną cenę!",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGUVRUUXdhMGxpZEhOdVJGcHVRWFZ0UzNOdU5WRRAB",
+      "author_name": "Paulina Frąckowiak",
+      "author_reviews_count": 22,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Bardzo dobre jedzonko - kalmar rewelacja , stek z tuńczyka również",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tOV1RHZFVSamgyV2tGdldGRldZMGhGVXpOclVuYxAB",
+      "author_name": "Weronika van Bree",
+      "author_reviews_count": 20,
+      "author_photos_count": 6,
+      "rating": 5,
+      "text": "Świetne doświadczenie. Jedzenie było pyszne, a obsługa świetna, przyjazna i gościnna.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25sRldUUm5PSFY2UW1adGRXODFOV1Z2TmpJeFpYYxAB",
+      "author_name": "Janusz Futer",
+      "author_reviews_count": 175,
+      "author_photos_count": 407,
+      "rating": 5,
+      "text": "Wszystkie dania były wspaniałe tylko krewetki trochę za twarde. Szkoda bo to nie takie trudne danie.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21Wa1ZFUXRTbWN5UmpRdGQwYzRVR1JLU0dkTFlsRRAB",
+      "author_name": "Melona Pepito",
+      "author_reviews_count": 9,
+      "author_photos_count": 12,
+      "rating": 5,
+      "text": "Czym jest Tasaky? Dla Filipinki, która uwielbia jedzenie i mieszka, pracuje i podróżuje po krajach azjatyckich, Tasaky oferuje „azjatyckie jedzenie z nutą nowoczesności” – wszystkie dania, których spróbowałam, były pyszne. Wnętrze jest klasyczne z azjatyckimi akcentami.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xGa01FSlpPVTFSVW1WcFVISnJZamxYUm05SVJrRRAB",
+      "author_name": "Виктория Дальниченко",
+      "author_reviews_count": 15,
+      "author_photos_count": 17,
+      "rating": 2,
+      "text": "Wybraliśmy dania z menu lunchowego i to, co zwykle. To pierwszy raz w Polsce, kiedy wychodzę głodny po zapłaceniu 15 dolarów za danie. Porcje są małe. Drogi fast food. Nie polecam.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2tkRWVrOHlNVWxVTTBvM1MzSlBOMGh3Y2poamNtYxAB",
+      "author_name": "Łukasz Kozłowski",
+      "author_reviews_count": 84,
+      "author_photos_count": 60,
+      "rating": 5,
+      "text": "Pyszne jedzenie, świetna obsługa, miła atmosfera. Naprawdę dobra restauracja w samym sercu Poznania.",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xOaWRWRldRWFl5VW5Rd2FGcE1iRkYyVEd3eFVHYxAB",
+      "author_name": "Anna Lachowiecka",
+      "author_reviews_count": 2,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Obowiązkowy przystanek przy każdej wizycie w Poznaniu.\nDoskonałe jedzenie, zaangażowana obsługa i piękne zdjęcia ;-)\nPolecam przystawki: BUTANIKU, PIEROŻKI DIM SUM, a na główne danie: POLICZKI…",
+      "published_at": "10 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2xnNGJXVlRUalZWU1dWTWEyUkpkSFpMUmpSSFNGRRAB",
+      "author_name": "Saija Hennion",
+      "author_reviews_count": 3,
+      "author_photos_count": 0,
+      "rating": 5,
+      "text": "Pyszne, świeże jedzenie, fajna lokalizacja, świetna muzyka i miła obsługa! Dobry stosunek jakości do ceny.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25KTllsTjJjelozVVc5V2FtMXdOVkJSZUZWbloxRRAB",
+      "author_name": "Krzysztof Malik",
+      "author_reviews_count": 17,
+      "author_photos_count": 15,
+      "rating": 5,
+      "text": "Jedzenie przepyszne. 7 letnie dziecko zjadło wszystko bez marudzenia co jest cudem.\nObsługa bardzo miła. Polecam",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21zeVdWUlBWSEpZYWpCTGFrZFZhemRqYUdGdlVIYxAB",
+      "author_name": "Adam Jarosz",
+      "author_reviews_count": 74,
+      "author_photos_count": 13,
+      "rating": 3,
+      "text": "Miejsce jest faktycznie trochę przereklamowane i ceny trochę przestrzelone. Ramen bardzo dobry, wołowina również, natomiast bułeczki bao to jakiś gnieciuch. Ponadto wszytko bardzo słone",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT25oeGRGQndRMTlzWnpGelJVaExWRzh5ZUhGVWFtYxAB",
+      "author_name": "Jolita Petkienė",
+      "author_reviews_count": 45,
+      "author_photos_count": 126,
+      "rating": 3,
+      "text": "Jedzenie nie było złe, ale nie zrobiło dobrego wrażenia.",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pWdFVXaEJaR1JTVVcxdU5qZE5NVTExWWxWMmFsRRAB",
+      "author_name": "Sasha Smal",
+      "author_reviews_count": 5,
+      "author_photos_count": 9,
+      "rating": 5,
+      "text": "Miejsce na wyjątkowe chwili! Jeśli chcesz mieć serwis na najwyższym poziomie, a do tego jedzenie i klimat, to ta restauracja koniecznie czeka na ciebie💫…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2s5RVRHSjNkMWxDVFhsblVIaFZZMDVWTjNRM1VVRRAB",
+      "author_name": "zofia kuklewska",
+      "author_reviews_count": 19,
+      "author_photos_count": 37,
+      "rating": 5,
+      "text": "Zawsze pyszne, świetnie doprawione, świeże i pięknie podane jedzenie przez miłą obsługę. Polecam",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    },
+    {
+      "review_id": "Ci9DQUlRQUNvZENodHljRjlvT2pjdGMzQnZRMWM0TlRST2FqTnFOV2hGWDAxdmFtYxAB",
+      "author_name": "Maciej Musielak",
+      "author_reviews_count": 630,
+      "author_photos_count": 802,
+      "rating": 3,
+      "text": "Absolutnie przereklamowane miejsce w którym jakość nie jest w stanie dogonić ceny. Jakość dań - ciepłe i podane na czystym talerzu cala para idzie w prezentację, jadałem lepiej u \"chińczyka\" w centrum handlowym. Wystrój - są stoły i krzesła…",
+      "published_at": "11 miesięcy temu",
+      "language": "pl"
+    }
+  ]
+}

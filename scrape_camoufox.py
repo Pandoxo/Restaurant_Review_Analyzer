@@ -160,16 +160,15 @@ def extract_restaurant_info(page, language: str) -> dict:
             if nums:
                 info["total_reviews"] = int(nums[0])
                 
-        if not info["total_reviews"]:
+        if not info.get("total_reviews"):
             # Usually displayed as "(1 234)" or "(1,234 reviews)"
-            review_count_elem = page.locator('div.F7nice span[aria-label]').first
-            if review_count_elem.count() > 0:
-                label = review_count_elem.get_attribute("aria-label") or ""
-                nums = re.findall(r"[\d\s.,]+", label)
-                if nums:
-                    count_str = nums[0].replace(" ", "").replace(".", "").replace(",", "")
-                    if count_str.isdigit():
-                        info["total_reviews"] = int(count_str)
+            for span in page.locator('div.F7nice span').all():
+                txt = span.inner_text().strip()
+                if txt.startswith("(") and txt.endswith(")"):
+                    nums = re.findall(r"\d+", txt.replace(" ", "").replace(".", "").replace(",", ""))
+                    if nums:
+                        info["total_reviews"] = int(nums[0])
+                        break
     except Exception:
         pass
 
