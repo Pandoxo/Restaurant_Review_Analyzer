@@ -192,54 +192,6 @@ def build_staff_name_chart(reviews: list) -> go.Figure:
     return fig
 
 
-def build_name_timeline(reviews: list) -> go.Figure:
-    """Per-name timeline showing when each staff name was mentioned."""
-    name_dates = defaultdict(list)
-    for r in reviews:
-        names = r.get("staff_names", "[]")
-        if isinstance(names, str):
-            try:
-                names = json.loads(names)
-            except json.JSONDecodeError:
-                names = []
-        ts = r.get("published_timestamp")
-        if not ts or not names:
-            continue
-        dt = datetime.fromtimestamp(int(ts))
-        for name in names:
-            name_dates[name].append(dt)
-
-    if not name_dates:
-        return go.Figure(layout=_base_layout("No staff name timeline data"))
-
-    # Sort by total count
-    sorted_names = sorted(name_dates.keys(),
-                          key=lambda n: len(name_dates[n]), reverse=True)[:10]
-
-    fig = go.Figure()
-    palette = ["#6366f1", "#a855f7", "#ec4899", "#f97316", "#eab308",
-               "#22c55e", "#06b6d4", "#8b5cf6", "#f43f5e", "#14b8a6"]
-
-    for i, name in enumerate(sorted_names):
-        dates = name_dates[name]
-        color = palette[i % len(palette)]
-        fig.add_trace(go.Scatter(
-            x=dates,
-            y=[name] * len(dates),
-            mode="markers",
-            name=f"{name} ({len(dates)})",
-            marker=dict(size=8, color=color, opacity=0.8,
-                        line=dict(width=1, color="rgba(255,255,255,0.3)")),
-            hovertemplate=f"{name}<br>%{{x|%b %d, %Y}}<extra></extra>",
-        ))
-
-    layout = _base_layout("📊 Staff Name Mentions Over Time")
-    layout["height"] = max(300, len(sorted_names) * 40 + 100)
-    layout["showlegend"] = True
-    fig.update_layout(**layout)
-
-    return fig
-
 
 def build_sentiment_chart(reviews: list) -> go.Figure:
     """Donut chart of sentiment distribution."""

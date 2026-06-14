@@ -17,7 +17,6 @@ from db import get_db, init_db, get_dashboard_summary, get_analysis_for_restaura
 from charts import (
     build_timeline_chart,
     build_staff_name_chart,
-    build_name_timeline,
     build_sentiment_chart,
     build_suspicion_histogram,
     build_depth_chart,
@@ -160,8 +159,6 @@ def serve_campaign_view():
                     dcc.Tab(label="📊 Overview", value="tab-overview",
                             className="custom-tab", selected_className="custom-tab--selected"),
                     dcc.Tab(label="🍔 Insights", value="tab-insights",
-                            className="custom-tab", selected_className="custom-tab--selected"),
-                    dcc.Tab(label="📅 Timeline", value="tab-timeline",
                             className="custom-tab", selected_className="custom-tab--selected"),
                     dcc.Tab(label="👤 Staff Names", value="tab-names",
                             className="custom-tab", selected_className="custom-tab--selected"),
@@ -397,7 +394,7 @@ def update_stats(place_id):
     Input("main-tabs", "value")
 )
 def toggle_map_visibility(tab):
-    if tab in ["tab-insights", "tab-timeline", "tab-names", "tab-explorer"]:
+    if tab in ["tab-insights", "tab-names", "tab-explorer"]:
         return {"display": "none"}
     return {"flex": "4", "minWidth": "0"}
 
@@ -447,13 +444,8 @@ def render_tab(tab, place_id):
                     dcc.Graph(figure=build_trust_scatter_chart(reviews),
                               config={"displayModeBar": False}),
                 ], className="card"),
-            ], className="charts-grid"),
-        ])
-
-    elif tab == "tab-timeline":
-        return html.Div([
-            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}), className="card", style={"marginBottom": "24px"}),
-            html.Div(dcc.Graph(figure=build_name_timeline(reviews), config={"displayModeBar": False}), className="card")
+            ], className="charts-grid", style={"marginBottom": "24px"}),
+            html.Div(dcc.Graph(figure=build_timeline_chart(reviews), config={"displayModeBar": False}), className="card")
         ], className="tab-pane")
 
     elif tab == "tab-insights":
@@ -467,16 +459,10 @@ def render_tab(tab, place_id):
     elif tab == "tab-names":
         return html.Div([
             html.Div([
-                html.Div([
-                    dcc.Graph(figure=build_staff_name_chart(reviews),
-                              config={"displayModeBar": False}),
-                ], className="card"),
-                html.Div([
-                    dcc.Graph(figure=build_name_timeline(reviews),
-                              config={"displayModeBar": False}),
-                ], className="card"),
-            ], className="charts-grid"),
-        ])
+                dcc.Graph(figure=build_staff_name_chart(reviews),
+                          config={"displayModeBar": False}),
+            ], className="card"),
+        ], className="tab-pane")
 
     elif tab == "tab-explorer":
         return build_review_table(reviews)
