@@ -145,6 +145,8 @@ def serve_layout():
     dcc.Tabs(id="main-tabs", value="tab-overview", children=[
         dcc.Tab(label="📊 Overview", value="tab-overview",
                 className="custom-tab", selected_className="custom-tab--selected"),
+        dcc.Tab(label="🍔 Insights", value="tab-insights",
+                className="custom-tab", selected_className="custom-tab--selected"),
         dcc.Tab(label="📅 Timeline", value="tab-timeline",
                 className="custom-tab", selected_className="custom-tab--selected"),
         dcc.Tab(label="👤 Staff Names", value="tab-names",
