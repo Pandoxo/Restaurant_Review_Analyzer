@@ -103,8 +103,8 @@ def serve_layout():
         html.Div([
             html.Div([
                 html.Div([
-                    html.Div("🍔", style={"fontSize": "2rem", "marginRight": "12px", "display": "inline-block", "verticalAlign": "middle"}),
-                    html.H2("PRR", style={"fontSize": "1.5rem", "fontWeight": "800", "display": "inline-block", "verticalAlign": "middle", "margin": "0", "color": "var(--text-primary)", "letterSpacing": "1px"}),
+                    html.Div("🍔", style={"fontSize": "3rem", "marginRight": "12px", "display": "inline-block", "verticalAlign": "middle"}),
+                    html.H2("Poznań Review Analyzer", style={"fontSize": "1.5rem", "fontWeight": "800", "display": "inline-block", "verticalAlign": "middle", "margin": "0", "color": "var(--text-primary)", "letterSpacing": "1px"}),
                 ], style={"marginBottom": "32px"}),
             ]),
             
